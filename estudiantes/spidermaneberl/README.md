@@ -1,3 +1,3 @@
 Aguante la u 
 
-![materiales](./materiales.jpeg)
+![materiales](./materiales.jpg)
