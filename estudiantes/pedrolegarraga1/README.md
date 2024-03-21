@@ -21,5 +21,5 @@ void setup()  {
   comenzamos con encender una led sin programacion a base del arduino, protoboard y cables duPont
 distinguimos los cables en torno a los colores, todos los negros, verdes y cafes van al ground y los colores azul, rojo naranjo son de poder.
 
-![materiales](./1ledprendida.jpg)
+![materiales](./1ledprendida1.jpg)
 
