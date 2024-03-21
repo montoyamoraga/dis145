@@ -8,3 +8,10 @@ Hello world!
 * resistencias
 * sensor infrarojo
 * cable usb tipo b
+
+```cpp
+// Para encontrar el caracter acento grave buscarlo así o por backtick
+void setup() {
+  int x=0;
+}
+```
