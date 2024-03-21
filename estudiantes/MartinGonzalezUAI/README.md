@@ -7,10 +7,10 @@ HOLA
 ![material6](material6.jpg)
 ![material7](material7.jpg)
 
-*Arduino UNO R3
-*Protoborad
-*Cable USB
-*Cables Dupont
-*Resistencias
-*Sensor de color
-*Botones y potenciometro
+* Arduino UNO R3
+* Protoborad
+* Cable USB
+* Cables Dupont
+* Resistencias
+* Sensor de color
+* Botones y potenciometro
