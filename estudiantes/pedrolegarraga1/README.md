@@ -1,9 +1,10 @@
 ![materiales](./materiales.jpg)
-1.protoboard
-1.cables duPont
-1.botones
-1.kit de resistencias
-1.potenciometro
+
+1. Protoboard
+1. Cables duPont
+1. Botones
+1. Kit de resistencias
+1. Potenciometro
 
 
 :))
