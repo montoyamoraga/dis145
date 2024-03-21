@@ -20,3 +20,12 @@ LINK DE COMANDOS: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatshe
 * Resistencias
 * Sensor de color
 * Botones y potenciometro
+
+```cpp
+// Para encontrar el acento al reves
+// Buscar backtick 
+void setup()
+{
+int x = 0;
+}
+```
