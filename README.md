@@ -10,15 +10,13 @@
 - créditos: TODO
 - semestre: primer semestre 2024
 - profesore: [aarón montoya-moraga](https://github.com/montoyamoraga/)
-- ayudante: TODO
-- estudiantes inscritos: TODO
+- ayudante: [janis sepúlveda]()
+- estudiantes inscritos: 15
 
 ## repositorio
 
 - [clases](./clases/): una subcarpeta por cada clase
-- [solemne-01](./solemne-01/): una subcarpeta por cada entrega de solemne-01
-- [solemne-02](./solemne-02/): una subcarpeta por cada entrega de solemne-02
-- [examen](./examen/): una subcarpeta por cada entrega de examen
+- [estudiantes](./estudiantes/): una subcarpeta por cada estudiante
 
 ## contenidos
 
