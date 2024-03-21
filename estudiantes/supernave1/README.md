@@ -1,2 +1,2 @@
 Estamos dentro
-![materiales](./materiales.jpeg).
+![materiales](./materiales.jpeg)
