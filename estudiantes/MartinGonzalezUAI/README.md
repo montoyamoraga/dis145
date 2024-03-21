@@ -1,2 +1,2 @@
 HOLA 
-![material1](material1)
+![material1](material1.jpg)
