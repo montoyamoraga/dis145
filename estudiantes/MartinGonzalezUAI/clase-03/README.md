@@ -49,5 +49,32 @@ int x = 0;
 - [clase-12](./clase-12)
   > > > > > > > main
 
+
+Con el grupo (Tiznado, Viveros y Gonzalez) intentamos de correr el codigo pero no funciono. 
+
+Codigo: 
+```cpp
+int boton_pin = 2;
+
+int estadoAnterior = LOW;
+
+void setup() 
+{
+  Serial.begin(9600);
+
+  pinMode(boton_pin, INPUT);
+}
+
+void loop() {
+  int estadoActual = digitalRead(boton_pin);
+  
+  if (estadoActual == HIGH && estadoAnterior == LOW) 
+  {
+    Serial.println("HOLA");
+    delay(100);
+  }
+  estadoAnterior = estadoActual;
+}
+```
 ![errorArduino](errorArduino.png)
 
