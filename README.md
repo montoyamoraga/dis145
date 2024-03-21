@@ -10,7 +10,7 @@
 - créditos: TODO
 - semestre: primer semestre 2024
 - profesore: [aarón montoya-moraga](https://github.com/montoyamoraga/)
-- ayudante: [janis sepúlveda]()
+- ayudante: [janis sepúlveda](https://github.com/janisepulveda)
 - estudiantes inscritos: 15
 
 ## repositorio
