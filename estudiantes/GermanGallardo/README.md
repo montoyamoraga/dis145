@@ -7,3 +7,7 @@ afgh
 1. Resistencias
 1. cables
 1. Botones
+```cpp
+void setup() {
+int x=0;
+} 
