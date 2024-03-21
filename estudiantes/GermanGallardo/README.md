@@ -6,4 +6,4 @@ afgh
 1. Protoboard
 1. Resistencias
 1. cables
-   1. Botones
+1. Botones
