@@ -8,3 +8,4 @@
 * Cable USB para conectar Arduino al computador
 * Kit de Resistencias
 * Fotoresistencia
+* Botones
