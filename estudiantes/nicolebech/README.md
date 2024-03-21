@@ -1,2 +1,2 @@
 uwu
-![materiales](./materiales.jpg)
+![materiales](./materiales.jpeg)
