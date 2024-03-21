@@ -17,4 +17,9 @@ void setup() {
   int x=0;
 }
 ```
+naranjo, rojo **poder**
+negro, verde, **tierra**
+azul, amarillo **señales**
+
+**trabajando con spiderman eberl**
 
