@@ -11,3 +11,12 @@ foto de materiales
 * Protoboard
 * Resistencias
 * Sensor de color
+
+
+```cpp
+// para encontrar el caracter acento al revés
+// buscar backtick
+void setup(): {
+  (int x =  0);
+}
+```
