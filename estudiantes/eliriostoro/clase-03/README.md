@@ -12,8 +12,9 @@
 
 ## apuntes
 
-   // para encontrar el caracter acento al reves
-// buscar backtick
+```cpp
 void setup() {
   int x=0;
 }
+```
+
