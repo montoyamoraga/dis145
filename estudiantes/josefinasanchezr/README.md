@@ -1,11 +1,14 @@
-<3
+# índice
 
-![materiales](./materiales.jpeg)
-
-* Arduino UNO R3
-* Cables duPont
-* Protoboard
-* Cable USB para conectar Arduino al computador
-* Kit de Resistencias
-* Fotoresistencia
-* Botones
+- [clase-01](./clase-01)
+- [clase-02](./clase-02)
+- [clase-03](./clase-03)
+- [clase-04](./clase-04)
+- [clase-05](./clase-05)
+- [clase-06](./clase-06)
+- [clase-07](./clase-07)
+- [clase-08](./clase-08)
+- [clase-09](./clase-09)
+- [clase-10](./clase-10)
+- [clase-11](./clase-11)
+- [clase-12](./clase-12)
