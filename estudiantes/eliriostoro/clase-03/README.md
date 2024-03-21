@@ -11,4 +11,9 @@
 5. kit de resistencias
 
 ## apuntes
-   
+
+   // para encontrar el caracter acento al reves
+// buscar backtick
+void setup() {
+  int x=0;
+}
