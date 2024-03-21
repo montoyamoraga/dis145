@@ -49,5 +49,5 @@ int x = 0;
 - [clase-12](./clase-12)
   > > > > > > > main
 
-
+![errorArduino](errorArduino.jpg)
 
