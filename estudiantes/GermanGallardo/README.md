@@ -17,7 +17,6 @@ int x=0;
 
 //2024
 // primer arduino
-// queremos que este codigo prenda y apague la luz
 // por GermanGallardo
 // hecho por Arduino Ide 1.8.18
 const int botonPin = 2;  
