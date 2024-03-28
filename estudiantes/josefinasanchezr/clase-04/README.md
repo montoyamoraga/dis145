@@ -40,7 +40,7 @@ No logré que se distinga el doble click, ya que el codigo confunde cuando uno d
 
 **Simulación Tinkercad:**
 
-
+![simulación02](dobleClick.jpg)
 
 **Código en Arduino:**
 
