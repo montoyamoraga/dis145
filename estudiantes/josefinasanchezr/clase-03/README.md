@@ -9,3 +9,5 @@
 * Kit de Resistencias
 * Fotoresistencia
 * Botones
+
+ENCARGO REALIZADO CON GERMAN GALLARDO (GermanGallardo)
