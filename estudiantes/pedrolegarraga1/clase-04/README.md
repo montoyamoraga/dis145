@@ -22,9 +22,18 @@ dado esto vizualizamos el codigo y el circuito denuevo hasta darnos cuenta de qu
 ![led](./led.png)
 
 ya habiendo cambiado el led de lado dimos play a la simulación y esta funcionó como se puede ver en la imagen.
+
 ![circuito1ledbueno](./circuito1ledbueno.png)
 
-Ya teniendo el ejercicio de la led listo nos pusimos a indagar en algo mas complicado e hicimos un circuito el cual tiene como objetivo que el computador capte cuando el boton este apretado o no.
+ya teniendo el ejercicio de la led listo nos pusimos a indagar en algo mas complicado e hicimos un circuito el cual tiene como objetivo que el computador capte cuando un boton este apretado o no.
+
+para esto comenzamos creando el circuito donde utilizamos un arduino, una resistencia, un botón y por ultimo cables negros (para ground), rojos (para el poder) y amarillos (para definir el boton).
 
 ![circuito1boton](./circuito1botonserialprint.png)
+
+En este caso, luego de crear el circuito comenzamos a programar el sistema haciendo que el arduino capte cuando apretemos el botón y se escriba en la consola "click" cuando la accion ocurra.
+dentro de este codigo esta todo explicado en los comentarios que se encuentran despues del "//"
+
 ![codigo1botonserialprint](./codigo1botonserialprint.png)
+
+Ya con el ejercicio del boton listo, nos avanzamos hacia el ultimo paso el cual sería crear un codigo y circuito con dos botones donde se capte que boton se esta apretando. 
