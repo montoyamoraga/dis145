@@ -20,3 +20,5 @@ Para la realización de nuestra segunda iteración de la realización del mouse 
 
 ![arduinos](./IMG-20240328-WA0028.jpg)
 
+## [Iteración número 3 - Funcionalidades CORE]
+Para la realización de nuestra tercera iteración de la realización del mouse con la placa Arduino UNO R3 procedimos a conectar solo un boton a la protoboard y la placa para también hacer cambios en el código con respecto a la iteración número 1. Como resultado de este ejercicio pudimos ver que logramos la funcionalidad de reconocer el click derecho, el click mantenido y también el doble click; con este último destacamos la malfuncionalidad de que al marcar un click doble, marca también al mismo tiempo un click derecho.
