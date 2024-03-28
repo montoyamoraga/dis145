@@ -16,3 +16,9 @@ luego, en el codigo escribimos el "void loop (la acción) en donde se describe c
 
 ![codigo1led](./codigo1led.png)
 
+por alguna razón el led no se prendia cuando lanzabamos el codigo.
+dado esto vizualizamos el codigo y el circuito denuevo hasta darnos cuenta de que el led estaba del lado correcto ya que estos tiene una pata corta (negativo) y una pata larga (positivo).
+![led](./led.png)
+
+ya habiendo cambiado el led de lado dimos play a la simulación y esta funcionó como se puede ver en la imagen.
+![circuito1ledbueno](./circuito1ledbueno.png)
