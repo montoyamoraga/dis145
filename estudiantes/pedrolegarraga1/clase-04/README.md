@@ -26,5 +26,5 @@ ya habiendo cambiado el led de lado dimos play a la simulación y esta funcionó
 
 Ya teniendo el ejercicio de la led listo nos pusimos a indagar en algo mas complicado e hicimos un circuito el cual tiene como objetivo que el computador capte cuando el boton este apretado o no.
 
-![circuito1boton](./circuito1botonserialprint)
+![circuito1boton](./circuito1botonserialprint.png)
 ![codigo1botonserialprint](./codigo1botonserialprint.png)
