@@ -7,3 +7,8 @@ Buscamos comenzar desde algo simple hacia algo un poco mas complicado por lo que
 
 Para esto utilizamos cables (negros para ground y rojos para poder), una resistencia de 1K(om), ardiuno, y una Led.
 En este caso 
+
+![circuito1ledmalo](./circuito1ledmalo.jpg)
+
+
+![codigo1led](./codigo1led.jpg)
