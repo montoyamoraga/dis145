@@ -38,3 +38,63 @@ void loop()
 }
 
 ```
+
+## Codigo Mouse con Doble Clic
+
+Con mi compañero Mauricio Viveros hicimos este codigo en la clase para que al apretar el clic izquierdo se mande un mensaje al monitor que diga "CLIC IZQUIERDO", y que al apretar el clic derecho se mande un mensaje al monitor que diga "CLIC DERECHO"
+, y que al apretar dos veces el clic izquierdo se mande un mensaje al monitor que diga "DOBLE CLIC IZQUIERDO"
+
+```cpp
+
+int botonIzq = 2; //Definimos el pin del boton Izq
+int botonDer = 4; //Definimos el pin del boton Der
+int estadoAntBotonIzq = LOW; //Almacenamos el estado inicial del boton Izq
+int estadoAntBotonDer = LOW; //Almacenamos el estado inicial del boton Der
+unsigned long tiempoClicBotonIzq = 0; // Almacenamos el tiempo del último clic del boton Izq
+unsigned long tiempoDobleClic = 1000; // Tiempo máximo entre clics para considerarlo un doble clic
+
+void setup()
+{
+  pinMode(botonIzq, INPUT); //Indicamos que el boton Izq es una entrada
+  pinMode(botonDer, INPUT); //Indicamos que el boton Der es una entrada
+  Serial.begin(9600); //Iniciamos comunicacion serial 
+}
+
+void loop()
+{
+  
+  int estadoBotonIzq = digitalRead(botonIzq); //Leemos el nuevo estado del boton Izq
+  int estadoBotonDer = digitalRead(botonDer); //Leemos el nuevo estado del boton Der
+  unsigned long tiempoActual = millis(); // Obtenemos el tiempo actual
+  
+  
+  if(estadoBotonIzq == HIGH && estadoAntBotonIzq == LOW && tiempoActual - tiempoClicBotonIzq > tiempoDobleClic) //Observamos si cambio el estado del boton 1
+  {
+    Serial.println("CLICK IZQUIERDO"); //Mostramos mensaje en el monitor 
+    delay(100); //Retardo para leer el mensaje bien
+  }  
+  
+  if(estadoBotonIzq == HIGH && estadoAntBotonIzq == LOW && tiempoActual - tiempoClicBotonIzq < tiempoDobleClic)
+  {
+    Serial.println("DOBLE CLICK IZQUIERDO"); //Mostramos mensaje en el monitor 
+    delay(100); //Retardo para leer el mensaje bien
+    //Serial.println(tiempoActual);
+    //Serial.println(tiempoClicBotonIzq);
+  }
+  
+  else if(estadoBotonDer == HIGH && estadoAntBotonDer == LOW)//Observamos si cambio el estado del boton Der
+  {
+    Serial.println("CLICK DERECHO"); //Mostramos mensaje en el monitor 
+    delay(100); //Retardo para leer el mensaje bien
+  }
+  
+  estadoAntBotonIzq = estadoBotonIzq; //Actualizamos el estado anterior del boton Izq
+  estadoAntBotonDer = estadoBotonDer; //Actualizamos el estado anterior del boton Izq
+ 
+  if (estadoBotonIzq == HIGH && estadoAntBotonDer == LOW ) 
+  {
+    tiempoClicBotonIzq = tiempoActual; //Actualizamos el tiempo del boton Izq
+  }
+}
+
+```
