@@ -1,15 +1,14 @@
-![materiales1](materiales1.jpg)
-![materiales2](materiales2.jpg)
-![materiales3](materiales3.jpg)
-![materiales4](materiales4.jpg)
-![materiales5](materiales5.jpg)
-![materiales6](materiales6.jpg)
-![materiales7](materiales7.jpg)
+# índice
 
-* Protoboard
-* Cable USB
-* Arduino UNO R3
-* Cables Dupont
-* Sensor de color
-* Potenciometro y boton
-* Resistencias
+- [clase-01](./clase-01)
+- [clase-02](./clase-02)
+- [clase-03](./clase-03)
+- [clase-04](./clase-04)
+- [clase-05](./clase-05)
+- [clase-06](./clase-06)
+- [clase-07](./clase-07)
+- [clase-08](./clase-08)
+- [clase-09](./clase-09)
+- [clase-10](./clase-10)
+- [clase-11](./clase-11)
+- [clase-12](./clase-12)
