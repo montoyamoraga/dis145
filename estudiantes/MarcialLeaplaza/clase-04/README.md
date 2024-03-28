@@ -5,3 +5,6 @@ El usuario BenMakesEverything hizo [su propio mouse](<https://github.com/BenMake
 
 Desarrollé un [código de arduino](./Mouse1/Mouse1.ino) que permite usar potenciometros para fijar coordenadas. 
 Modele el circuito que hace funcionar este codigo en tinkercad.
+
+[Figura1](./Imagenes/tinker1.png)
+
