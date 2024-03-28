@@ -28,13 +28,18 @@ El código permite que se distinga entre click derecho y click izquierdo imprimi
 
 ![simulación01](ClickDerIzq.jpg)
 
+**subir video simulacion
+
 **Código en Arduino:**
 
 [codigo ClickDerIzq](./click_derecho_click_izquierdo1/click_derecho_click_izquierdo1.ino)
 
+### Doble Click
+El código permite que se distinga si la accion pertenece o no a un doble click
 
+**Simulación Tinkercad:**
 
-
+**Código en Arduino:**
 
 
 ## Funcionalidad Extra
