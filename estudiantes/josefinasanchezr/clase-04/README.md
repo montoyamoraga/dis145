@@ -27,7 +27,6 @@ El código permite que se distinga entre click derecho y click izquierdo imprimi
 **Simulación Tinkercad:**
 
 ![simulación01](ClickDerIzq.jpg)
-
 **subir video simulacion
 
 **Código en Arduino:**
@@ -35,9 +34,13 @@ El código permite que se distinga entre click derecho y click izquierdo imprimi
 [codigo ClickDerIzq](./click_derecho_click_izquierdo1/click_derecho_click_izquierdo1.ino)
 
 ### Doble Click
-El código permite que se distinga si la accion pertenece o no a un doble click
+El código permite que se distinga si la accion pertenece o no a un doble click.
+
+No logré que se distinga el doble click, ya que el codigo confunde cuando uno deja el boton apretado con que se generó un doble click porque todo se procesa muy rapido. Me falta agrgar otra variable que permita al coigo entender que primer se apreta una vez el boton, se suelta el boton y luego de un delay corto se vuelve a apreetar el boton generandoa si un correcto doble click.
 
 **Simulación Tinkercad:**
+
+
 
 **Código en Arduino:**
 
