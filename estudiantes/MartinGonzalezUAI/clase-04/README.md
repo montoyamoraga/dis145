@@ -99,4 +99,4 @@ void loop()
 
 ```
 
-![videoMouseArduino](videoMouseArduino.mp4)
+![videoMouseArduino](videoMouseArduino)
