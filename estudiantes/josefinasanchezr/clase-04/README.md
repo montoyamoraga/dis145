@@ -28,6 +28,9 @@ El código permite que se distinga entre click derecho y click izquierdo imprimi
 
 ![simulación01](ClickDerIzq.jpg)
 
+[codigos](./click_derecho_click_izquierdo1/click_derecho_click_izquierdo1.ino)
+
+
 
 
 
