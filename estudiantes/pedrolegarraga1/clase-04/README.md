@@ -23,3 +23,8 @@ dado esto vizualizamos el codigo y el circuito denuevo hasta darnos cuenta de qu
 
 ya habiendo cambiado el led de lado dimos play a la simulación y esta funcionó como se puede ver en la imagen.
 ![circuito1ledbueno](./circuito1ledbueno.png)
+
+Ya teniendo el ejercicio de la led listo nos pusimos a indagar en algo mas complicado e hicimos un circuito el cual tiene como objetivo que el computador capte cuando el boton este apretado o no.
+
+![circuito1boton](./circuito1botonserialprint)
+![codigo1botonserialprint](./codigo1botonserialprint.png)
