@@ -1,4 +1,8 @@
-# clase-04
+# PROYECTO MOUSE
+#### clase-04
 
-# EXPLICACIÓN CÓMO FUNCIONA UN BOTON CON ARDUINO 
+## ¿Qué aprendimos en el proceso?
+#### Tips y datos
+
+### EXPLICACIÓN CÓMO FUNCIONA UN BOTON CON ARDUINO 
 ![boton](./01.jpg)
