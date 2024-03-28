@@ -1,6 +1,6 @@
 # clase-02
 ## Fotografia de arduinos.
-![arduinos](dis145/estudiantes/Samillanc/clase-02/arduinos.jpg) 
+![arduinos](./arduinos.jpg) 
 
 ## Encargo investigación de sensor.
 **Descripción de Sensor de Sonido Arduino:**
