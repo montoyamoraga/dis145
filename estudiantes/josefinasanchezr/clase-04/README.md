@@ -1,4 +1,4 @@
 # clase-04
 
 #EXPLICACIÓN CÓMO FUNCIONA UN BOTON CON ARDUINO 
-![boton](./01.jpeg)
+![boton](./01.jpg)
