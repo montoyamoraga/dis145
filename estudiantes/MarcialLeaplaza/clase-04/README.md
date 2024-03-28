@@ -5,4 +5,4 @@ El usuario BenMakesEverything hizo su propio mouse basandose en el codigo de mrj
 
 Desarrollé un código que permite usar potenciometros para fijar coordenadas. 
 
-[codigo en arduino](./Mouse1/)
+[codigo en arduino](./Mouse1/Mouse1.ino)
