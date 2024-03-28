@@ -1,4 +1,4 @@
-Clase 3
+# Clase 3
 
 ![materiales](materiales.jpeg)
 
