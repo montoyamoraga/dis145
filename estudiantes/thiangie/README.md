@@ -1,22 +1,14 @@
-foto de materiales
+# índice
 
-![materiales](./materiales.jpeg)
-
-* Arduino UNO R3
-* Botones
-* Cables dupont
-* Cable USB
-* Computador
-* Potenciómetro
-* Protoboard
-* Resistencias
-* Sensor de color
-
-
-```cpp
-// para encontrar el caracter acento al revés
-// buscar backtick
-void setup(): {
-  (int x =  0);
-}
-```
+- [clase-01](./clase-01)
+- [clase-02](./clase-02)
+- [clase-03](./clase-03)
+- [clase-04](./clase-04)
+- [clase-05](./clase-05)
+- [clase-06](./clase-06)
+- [clase-07](./clase-07)
+- [clase-08](./clase-08)
+- [clase-09](./clase-09)
+- [clase-10](./clase-10)
+- [clase-11](./clase-11)
+- [clase-12](./clase-12)
