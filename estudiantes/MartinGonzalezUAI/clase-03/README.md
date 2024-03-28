@@ -7,12 +7,7 @@ HOLA EN SUBTITULO
 LINK DE COMANDOS: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ![material1](material1.jpg)
-![material2](material2.jpg)
-![material3](material3.jpg)
-![material4](material4.jpg)
-![material5](material5.jpg)
-![material6](material6.jpg)
-![material7](material7.jpg)
+
 
 - Arduino UNO R3
 - Protoborad
@@ -79,7 +74,7 @@ void loop() {
 ![errorArduino](errorArduino.png)
 
 
-#Codigo Mouse 
+# Codigo Mouse 
 
 Con este codigo podemos apretar un boton y hacer que se mande un mensaje a traves del monitor, en este caso pusimos las palabras "HOLA" y "CHAO" solo para poder comprobar ele efectividad del codigo
 
