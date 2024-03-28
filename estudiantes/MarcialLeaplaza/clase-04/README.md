@@ -12,6 +12,6 @@ Modele el circuito que hace funcionar este codigo en tinkercad.
 
 ![Figura1](./Imagenes/tinker1.png)
 
-Tambien desarrollamos un prototipo fisico.
+Tambien armamos un prototipo fisico.
 
 
