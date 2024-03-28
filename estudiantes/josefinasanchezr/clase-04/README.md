@@ -45,7 +45,7 @@ No logré que se distinga el doble click, ya que el codigo confunde cuando uno d
 
 **Código en Arduino:**
 
-
+[Codigo Doble Click](./codigoDobleClick/codigoDobleClick.ino)
 
 ## Funcionalidad Extra
 
