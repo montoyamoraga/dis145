@@ -76,7 +76,7 @@ void loop() {
 
 # Codigo Mouse 
 
-Con este codigo podemos apretar un boton y hacer que se mande un mensaje a traves del monitor, en este caso pusimos las palabras "HOLA" y "CHAO" solo para poder comprobar ele efectividad del codigo
+Con este codigo podemos apretar un boton y hacer que se mande un mensaje a traves del monitor, en este caso pusimos las palabras "HOLA" y "CHAO" solo para poder comprobar la efectividad del codigo
 
 ```cpp
 
