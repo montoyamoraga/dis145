@@ -23,7 +23,7 @@ _(Tips y datos)_
 El código permite que se distingue entre click derecho y click izquierdo imprimiendo segun corresponde la respuesta en la consola
 
 **Simulación Tinkercad**
-![simulación01](ClickDerIzq.jpg)
+![simulación01](ClickDerIzq .jpg)
 
 
 
