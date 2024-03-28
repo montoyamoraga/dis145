@@ -4,6 +4,7 @@
 - [GermanGallardo](./GermanGallardo/)
 - [isigoycoolea](./isigoycoolea)
 - [josefinasanchezr](./josefinasanchezr/)
+- [MarcialLeaplaza](./MarcialLeaplaza/)
 - [MartinGonzalezUAI](./MartinGonzalezUAI/)
 - [mauricioviverosro](./mauricioviverosro/)
 - [pedrolegarraga1](/pedrolegarraga1/)
