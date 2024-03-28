@@ -51,7 +51,7 @@ int botonDer = 4; //Definimos el pin del boton Der
 int estadoAntBotonIzq = LOW; //Almacenamos el estado inicial del boton Izq
 int estadoAntBotonDer = LOW; //Almacenamos el estado inicial del boton Der
 unsigned long tiempoClicBotonIzq = 0; // Almacenamos el tiempo del último clic del boton Izq
-unsigned long tiempoDobleClic = 1000; // Tiempo máximo entre clics para considerarlo un doble clic
+unsigned long tiempoDobleClic = 500; // Tiempo máximo entre clics para considerarlo un doble clic
 
 void setup()
 {
