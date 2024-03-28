@@ -1,6 +1,6 @@
 # clase-02
 ## Fotografia de arduinos.
-![arduinos](./arduinos.jpg) 
+![arduinos](./1711652369446.jpg) 
 
 ## Encargo investigación de sensor.
 **Descripción de Sensor de Sonido Arduino:**
