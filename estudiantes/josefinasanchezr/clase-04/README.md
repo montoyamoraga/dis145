@@ -19,11 +19,13 @@ _(Tips y datos)_
 
 
 ## Funcionalidad Simple
+_Que el mouse pueda distinguir entre click derecho, click izquierdo y doble click_
+
 ### Click Derecho - Click Izquierdo
 El código permite que se distinga entre click derecho y click izquierdo imprimiendo en la consola según corresponde la respuesta de la accion.
 
 **Simulación Tinkercad**
-![simulación01](ClickDerIzq .jpg)
+![simulación01](ClickDerIzq.jpg)
 
 
 
