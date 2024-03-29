@@ -16,7 +16,11 @@ Para la realización de nuestra segunda iteración de la realización del mouse 
 
 [código Arduino IDE](./c_digo_mouse-1.ino)
 
-![segundo circuito](./IMG_20240328_173503.jpg)
+[circuito tinkercad](./circuit.png)
+
+[esquemático](./schematic.png)
+
+![segunda iteración](./IMG_20240328_173503.jpg)
 
 ![resultados consola](./IMG-20240328-WA0028.jpg)
 
