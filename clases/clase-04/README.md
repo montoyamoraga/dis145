@@ -2,7 +2,7 @@
 
 jueves 28 marzo 2024
 
-tarea: terminar proyecto mouse
+tarea: terminar proyecto mouse antes de medianoche del martes 02 de abril 2024
 
 mediremos estas 6 características en su proyecto:
 
