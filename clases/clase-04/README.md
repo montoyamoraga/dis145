@@ -11,4 +11,4 @@ mediremos estas 6 características en su proyecto:
 3. documentación multimedia: fotos y/o videos del proceso
 4. referencias y fuentes: citas de tutoriales, inspiraciones y códigos usados
 5. funcionalidad simple: que mouse pueda distinguir entre click derecho, click izquierdo y doble click
-6. funcionalidad extra: que tenga un sensor adicional, de color, de potenciómetro, de movimiento, para que sea un mouse expandido especulativo.
+6. funcionalidad extra: que tenga un sensor adicional, de color, de potenciómetro, de movimiento, para que sea un mouse expandido especulativo
