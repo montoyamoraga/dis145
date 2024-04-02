@@ -1,43 +1,14 @@
-# Clase 3
+# índice
 
-![materiales](materiales.jpeg)
-
-1. Arduino
-1. Cable usb arduino
-1. Protoboard
-1. Resistencias
-1. cables
-1. Botones
-
-```cpp
-void setup() {
-int x=0;
-}
-
-//Estoy intentando crear el codigo tengo todos los materiales pero tengo un problema de puerto usb para pasar el codigo arduino
-
-//2024
-// primer arduino
-// por GermanGallardo
-// hecho por Arduino Ide 1.8.18
-const int botonPin = 2;  
-int estadoBoton;         
-int estadoAnterior = LOW; 
-
-void setup() {
-  pinMode(botonPin, INPUT);  
-  Serial.begin(9600);        
-
-void loop() {
-
-  estadoBoton = digitalRead(botonPin);
-
-  
-  if (estadoBoton == HIGH && estadoAnterior == LOW) {
-    
-    Serial.println("Click");
-  }
-
-  
-  estadoAnterior = estadoBoton;
-}
+- [clase-01](./clase-01)
+- [clase-02](./clase-02)
+- [clase-03](./clase-03)
+- [clase-04](./clase-04)
+- [clase-05](./clase-05)
+- [clase-06](./clase-06)
+- [clase-07](./clase-07)
+- [clase-08](./clase-08)
+- [clase-09](./clase-09)
+- [clase-10](./clase-10)
+- [clase-11](./clase-11)
+- [clase-12](./clase-12)
