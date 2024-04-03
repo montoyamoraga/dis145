@@ -6,9 +6,8 @@ _2024-03-28_
 
 
 
-[Codigo Doble Click](./codigoDobleClick/codigoDobleClick.ino)
-
 ## Funcionalidad Extra
+```cpp
 
 //en esta parte del codigo haremos que el ponteciometro funcione como la rudea del mause
 //definimos el pin del potenciometro
