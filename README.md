@@ -39,15 +39,17 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 | [03](clases/clase-03/) | 2024-03-21 | intro                            |
 | [04](clases/clase-04/) | 2024-03-28 | trabajo en clases proyecto marzo |
 | [05](clases/clase-05/) | 2024-04-04 | feedback proyecto marzo          |
-| [06](clases/clase-06/) | 2024-04-11 | intro                            |
-| [07](clases/clase-07/) | 2024-04-18 | intro                            |
-| [08](clases/clase-08/) | 2024-04-25 | intro                            |
-| [09](clases/clase-09/) | 2024-05-02 | intro                            |
-| [10](clases/clase-10/) | 2024-05-09 | intro                            |
-| [11](clases/clase-11/) | 2024-05-16 | intro                            |
-| [12](clases/clase-12/) | 2024-05-23 | intro                            |
-| [13](clases/clase-13/) | 2024-05-30 | intro                            |
-| [14](clases/clase-14/) | 2024-03-01 | intro                            |
+| [06](clases/clase-06/) | 2024-04-11 | TODO                             |
+| [07](clases/clase-07/) | 2024-04-18 | TODO                             |
+| [08](clases/clase-08/) | 2024-04-25 | TODO                             |
+| [09](clases/clase-09/) | 2024-05-02 | TODO                             |
+| semana de receso       | 2024-05-09 | estudiantes no tienen clases     |
+| [10](clases/clase-10/) | 2024-05-16 | no se pueden hacer evaluaciones  |
+| [11](clases/clase-11/) | 2024-05-23 | TODO                             |
+| [12](clases/clase-12/) | 2024-05-30 | TODO                             |
+| [13](clases/clase-13/) | 2024-06-06 | TODO                             |
+| no hay clase?          | 2024-06-13 | TODO                             |
+| [14](clases/clase-14/) | 2024-06-20 | TODO                             |
 
 ## bibliografía
 
