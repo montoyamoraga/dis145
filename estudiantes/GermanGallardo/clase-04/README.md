@@ -7,7 +7,7 @@ _2024-03-28_
 
 
 ## Funcionalidad Extra
-![](https://github.com/GermanGallardo/dis145/blob/main/estudiantes/GermanGallardo/materiales.jpeg)
+![](https://github.com/GermanGallardo/dis145/blob/patch-1/estudiantes/GermanGallardo/clase-04/funcionextra.jpeg)
 ```cpp
 
 //en esta parte del codigo haremos que el ponteciometro funcione como la rudea del mause
