@@ -14,6 +14,8 @@
 
 **Simulacion en Tinkercard**
 
+![Simulación 01](./apuntes_clase5_1.jpg)
+
 **Observaciones**
 * No me funciono al principio porque me faltó poner en le codigo **Serial.print(9600) en el void setup()**
 * Cuando le ponemos más luz al fotoresistor, se imprime "oscuridad" porque se imprimen numeros mayores a 600, por lo tanto el codigo debe ser **if (lecturaFR<600){ Serial.printIn("luz");}**
