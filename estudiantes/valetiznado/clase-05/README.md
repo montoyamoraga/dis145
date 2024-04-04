@@ -58,3 +58,5 @@ void loop()
 unsigned long tiempoAhora
 unsigned long tiempoDelta
 unsigned long tiempoAnterior
+
+Valor foto resistencia 
