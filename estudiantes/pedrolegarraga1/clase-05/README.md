@@ -9,7 +9,7 @@ int,  0-1023 (5V, que tanto puede leer el sensor) numeros enteros "el mas utiliz
 
 ----------------------------------------------------------------------------------------------------------------------------------
 codigo para sensor fotovoltaico:
-
+```cpp
 //creamos variables
 	int pin = A1;
 	int lecturaFotoetc = -1;
@@ -41,12 +41,12 @@ if (lecturaFotoetc<medioFotoR){
 	}
 else {
 }
-
+```
 -------------------------------------------------------------------------------------------------------------------------------------
 
 //tiempo 
 
-
+```cpp
 //creamos variables
 unsigned long tiempoAhora;
 unsigned long timepoDelta;
@@ -66,3 +66,5 @@ if(tiempoAhora-tiempoAnterior>tiempoDelta) {
  //para comparar se utiliza ==, en este caso con solo un =, se transpasa su valor
  } prenderLuzyParlante() 
  }
+
+```
