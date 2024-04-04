@@ -16,11 +16,14 @@ gran aprendizaje
 ![image](https://github.com/Spidermaneberl/dis145/assets/164402625/90de80a2-e440-4e42-8044-5642828e0862)
 
 4-4-2024
-fotos
+apuntes de la clase a mano 
 
 ![image](https://github.com/Spidermaneberl/dis145/assets/164402625/72144d64-3068-447b-93a0-c9880a2fe144)
 
+![image](https://github.com/Spidermaneberl/dis145/assets/164402625/f5c853fa-c835-4609-9827-7b10f2addc97)
 
+
+![image](https://github.com/Spidermaneberl/dis145/assets/164402625/8c52aa96-922c-454b-999c-0442085fef58)
 
 
 
