@@ -14,3 +14,6 @@ Los materiales necesarios para esta clase fueron:
 
 Para esta clase trabajamos con Isidora Goycoolea y Sebastian Millan.
 
+Para ver detalles del encargo:
+https://github.com/montoyamoraga/dis145/tree/main/estudiantes/isigoycoolea/clase-03
+
