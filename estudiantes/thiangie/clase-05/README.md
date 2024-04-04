@@ -78,5 +78,13 @@ void loop {
   prendeLuzyParlante();
 }
 ```
+### Otras cosas vistas
+Marley/Moore: máquinas de estado
+
+Por ejmplo: *¿Cómo se interactúa en un código con el doble click?*
+
+Diagrama:
+![flujo](./no hay click.jpeg)
+
 
 
