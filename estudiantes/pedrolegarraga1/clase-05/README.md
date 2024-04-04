@@ -5,6 +5,7 @@ introduccion a los codigos en arduino y analisis de estos para obtener estrategi
 1. variables (para definir un sensor u etc):
 1. float,  decimales (aproxima)
 1. int,  0-1023 (5V, que tanto puede leer el sensor) numeros enteros "el mas utilizado"
+2. bool, se utiliza como un int pero solo lee 0 y 1
 
 ----------------------------------------------------------------------------------------------------------------------------------
 creamos un codigo para sensor fotovoltaico:
