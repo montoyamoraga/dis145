@@ -1,6 +1,7 @@
 Primera clase usando Github :)
 
-Materiales necesarios para esta clase:
+
+Los materiales necesarios para esta clase fueron:
 - Protoboard
 - Cables duPont
 - Botones
@@ -8,4 +9,8 @@ Materiales necesarios para esta clase:
 - Potenciometro
 
 
+
 ![materiales](./materiales.jpg)
+
+Para esta clase trabajamos con Isidora Goycoolea y Sebastian Millan.
+
