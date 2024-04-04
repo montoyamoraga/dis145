@@ -8,7 +8,7 @@ float tiene capacidad de poner un numero decimal
 ejemplo:
 cuenta de banco esta en int y no en float porque tiende a tener errores.
 
-## estrategias
+### estrategias
 int lecturaFR= -1 
 para saber si esta leyendo la consola
 void loop {
