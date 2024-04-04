@@ -30,7 +30,7 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 
 - TODO
 
-## clases (jueves 3:00PM-7:00pm)
+## clases (jueves 3:30PM-7:00pm)
 
 | clase                  | fecha      | tema                             |
 | :--------------------- | :--------- | :------------------------------- |
