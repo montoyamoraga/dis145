@@ -14,4 +14,6 @@ Modele el circuito que hace funcionar este codigo en tinkercad.
 
 Tambien armamos un prototipo fisico.
 
+![Figura2](./Imagenes/protClase4.jpg)
 
+El prototipo funciono, pero no logramos programar correctamente el doble click.
