@@ -1,14 +1,13 @@
 # clase-05
 
-Filtrar
-
+introduccion a los codigos en arduino y analisis de estos
 
 variables (para definir un sensor u etc):
 float,  decimales (aproxima)
 int,  0-1023 (5V, que tanto puede leer el sensor) numeros enteros "el mas utilizado"
 
 ----------------------------------------------------------------------------------------------------------------------------------
-codigo para sensor fotovoltaico:
+creamos un codigo para sensor fotovoltaico:
 ```cpp
 //creamos variables
 	int pin = A1;
@@ -44,10 +43,10 @@ else {
 ```
 -------------------------------------------------------------------------------------------------------------------------------------
 
-//tiempo 
+Creamos un codigo usando millis
 
 ```cpp
-//creamos variables
+//creamos variables, en este caso "unsigned long" el cual funciona parecido al "int"
 unsigned long tiempoAhora;
 unsigned long timepoDelta;
 unsigned long timepoAnterior;
@@ -64,7 +63,9 @@ void loop {
 if(tiempoAhora-tiempoAnterior>tiempoDelta) {
 	tiempoAnterior = tiempoAhora;
  //para comparar se utiliza ==, en este caso con solo un =, se transpasa su valor
- } prenderLuzyParlante() 
+
+ } prenderLuzyParlante()
+//prenderLezyParlante() tiene que ser una funcion la cual definimos mas arriba pero que no haremos en este codigo (imaginarse que funciona)
  }
 
 ```
