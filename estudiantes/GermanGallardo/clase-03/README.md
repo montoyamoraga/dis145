@@ -1,4 +1,4 @@
-# Clase 3
+# clase-03
 
 ![materiales](materiales.jpeg)
 
@@ -20,24 +20,25 @@ int x=0;
 // primer arduino
 // por GermanGallardo
 // hecho por Arduino Ide 1.8.18
-const int botonPin = 2;  
-int estadoBoton;         
-int estadoAnterior = LOW; 
+const int botonPin = 2;
+int estadoBoton;
+int estadoAnterior = LOW;
 
 void setup() {
-  pinMode(botonPin, INPUT);  
-  Serial.begin(9600);        
+  pinMode(botonPin, INPUT);
+  Serial.begin(9600);
 
 void loop() {
 
   estadoBoton = digitalRead(botonPin);
 
-  
+
   if (estadoBoton == HIGH && estadoAnterior == LOW) {
-    
+
     Serial.println("Click");
   }
 
-  
+
   estadoAnterior = estadoBoton;
 }
+```
