@@ -7,28 +7,34 @@
 
 
 ```cpp
-Int= entero (0-1023)
-Float=  decimales
-in pinFr=a1
-int lecturafotores = -1
-int minFR=1023 peor minimo de fotoresistor
-int maxFr=0; peor maximo del foto resitor
-int medioFr =-1;
-medrioFr=max+min)/2;
-void setup() {
-lecturaFr= analogRead (pin) //es analogico  y lee 
-Serial.println (lectura) //verlo en el serial
-if(lecturaFR<minFR){min fr=lectura;} 
-//delay es mala idea ya que congela
+int pinFr = A1;
+int lecturaFr = -1;
+int minFR = 1023; // peor mínimo del fotoresistor
+int maxFr = 0; // peor máximo del fotoresistor
+int medioFr = -1;
 
-//tiempo
-unsigned long tiempoAhora; 
-unsigned long tiempoDelta;
 void setup() {
-tiempodelta=1000}
+  Serial.begin(9600);
+  medioFr = (maxFr + minFR) / 2;
+}
+
 void loop() {
-tiempoAhora= millis()}
+  lecturaFr = analogRead(pinFr);
+  Serial.println(lecturaFr);
+    if (lecturaFr > 456) {
+      Serial.println("oscuridad");
+    } else if (lecturaFr < 456) {
+      Serial.println("luz");
 
-if(tiempoAhora-tiempoAnterior > teimpo delta) ;
-tiempo anterior=tiempo ahora); 
-prenderluzyparlante();
+ 
+  }
+
+  unsigned long tiempoAhora = millis();
+  static unsigned long tiempoAnterior = 0;
+  unsigned long tiempoDelta = 1000;
+
+  if (tiempoAhora - tiempoAnterior > tiempoDelta) {
+    tiempoAnterior = tiempoAhora;
+  
+    }
+  }
