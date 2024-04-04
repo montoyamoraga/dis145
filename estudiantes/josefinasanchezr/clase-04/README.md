@@ -53,6 +53,8 @@ El codigo intenta recrear la rueda del mouse mediante un potenciometro. Se impri
 **Simulación Tinkercad:**
 ![Potenciometro](./Potenciometro.jpg)
 
+**Código en Arduino:**
+[Codigo Doble Click](./codigoDobleClick/codigoDobleClick.ino)
 
 ## Referencias y Fuentes
 
