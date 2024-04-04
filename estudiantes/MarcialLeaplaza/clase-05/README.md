@@ -76,4 +76,4 @@ Por ejemplo para el click:
 
 empezamos con el estado "no hay click" y se desarrollan los distintos caminos que se pueden tomar cuando se interactua con el boton.
 
-
+![Figura1](./Imagenes/)
