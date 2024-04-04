@@ -25,12 +25,44 @@ apuntes de la clase a mano
 
 ![image](https://github.com/Spidermaneberl/dis145/assets/164402625/8c52aa96-922c-454b-999c-0442085fef58)
 
+-----------------------------------------------------------------------------------------
+
+
+unsigned long tiempoAhora;
+unsigned long tiempoDelta;
+unsigned long tiempoAnterior;
+void setup() {
+  tiempoDelta= 1000
+  tiempoAnterior=0
+}
+
+void loop() {
+  tiempoAhora=millis();
+
+if(tiempoAhora-tiempoAnterior>tiempoDelta){
+  tiempoAnterior=tiempoAhora;
+  prenderluzyparlante
+}
+
+}
 
 
 
 
 
 
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+![image](https://github.com/Spidermaneberl/dis145/assets/164402625/b8c71d62-d959-42e6-96b8-bca9b0d10636)
+
+
+
+
+![image](https://github.com/Spidermaneberl/dis145/assets/164402625/713e3d11-e418-4532-9803-1a42c44f8464)
 
 
 
