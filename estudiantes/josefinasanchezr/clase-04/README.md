@@ -5,7 +5,7 @@ _2024-03-28_
 
 _El objetivo del proyecto es simular mouse mediante arduino y componentes electronicos generando que este distinga entre click derecho, click izquierdo, doble click, y ademas, agregar una funcionalidad extra como el sensor de movimiento que tiene el mouse para que sea un mouse extendido especulativo_
 
-_Por josefinasanchezr_
+_Por josefinasanchezr & GermanGallardo_
 
 _Hecho con simulacion Tinkercard_
 
@@ -48,7 +48,14 @@ No logré que se distinga el doble click, ya que el codigo confunde cuando uno d
 [Codigo Doble Click](./codigoDobleClick/codigoDobleClick.ino)
 
 ## Funcionalidad Extra
+El codigo intenta recrear la rueda del mouse mediante un potenciometro. Se imprime en la consola cuando el Arduino reonoce que la rueda (potenciometro) se gira hacia arriba para subir la pagina del computador y cunado la rueda (potenciometro) se gira hacia abajo para bajar la pagina del computador.
 
+**Simulación Tinkercad:**
+![Potenciometro](./Potenciometro.jpg)
+
+**Código en Arduino:**
+
+[Codigo Rueda Mouse](./potenciometro/potenciometro.ino)
 
 ## Referencias y Fuentes
 
