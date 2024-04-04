@@ -10,3 +10,4 @@ se buscó la referencia de la función millis() de arduino <https://www.arduino.
 
 se ha trabajado en muchos intentos y análisis de cómo hacer funcionar el doble click, ya que se solucionó los click de manera independiente
 
+trabajé con Marcial Leaplaza y Julio San Martín
