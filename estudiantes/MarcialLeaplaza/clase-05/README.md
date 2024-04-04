@@ -68,3 +68,12 @@ void loop() {
 ```
 
 En este caso la funcion se llama rangoTiempo, y lo que hace es restar dos variables, en este caso el tiempo actual con el tiempo anterior.
+
+MEALEY/MOORE: Maquina de estado.
+
+Sirve para organizar un código.
+Por ejemplo para el click:
+
+empezamos con el estado "no hay click" y se desarrollan los distintos caminos que se pueden tomar cuando se interactua con el boton.
+
+
