@@ -50,3 +50,4 @@ void loop()
     Serial.println("OSCURIDAD"); //Mostramos mensaje en el monitor
   }
 }
+[Apuntes clase 5.pdf](https://github.com/valetiznado/dis145/files/14877316/Apuntes.clase.5.pdf)
