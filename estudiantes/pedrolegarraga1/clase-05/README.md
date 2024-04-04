@@ -50,12 +50,19 @@ else {
 //creamos variables
 unsigned long tiempoAhora;
 unsigned long timepoDelta;
+unsigned long timepoAnterior;
 
 void setup {
 tiempoDelta = 1000;
+timepoAnterior = 0;
 
 }
 
 void loop {
 	tiempoAhora = millis();
 
+if(tiempoAhora-tiempoAnterior>tiempoDelta) {
+	tiempoAnterior = tiempoAhora;
+ //para comparar se utiliza ==, en este caso con solo un =, se transpasa su valor
+ } prenderLuzyParlante() 
+ }
