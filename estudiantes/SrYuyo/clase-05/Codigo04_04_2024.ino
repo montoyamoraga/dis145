@@ -46,7 +46,7 @@ void loop() {
 
 bool detectarLuz() {
   int valorLuz = analogRead(fotoresistenciaPin);
-  return valorLuz > 100; // Ajustar este valor según la sensibilidad de la fotoresistencia
+  return valorLuz > 100; // Ajustar este valor según la sensibilidad de la fotoresistencia, editar y sacar el promedio en base al momento
 }
 
 void encenderLeds() {
