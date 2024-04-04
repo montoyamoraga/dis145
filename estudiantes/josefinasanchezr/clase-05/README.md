@@ -5,7 +5,7 @@
 ![Apuntes 01](./apuntes_clase5_1.jpg)
 ![Apuntes 01](./apuntes_clase5_2.jpg)
 ![Apuntes 01](./apuntes_clase5_3.jpg)
-![Apuntes 01](./apuntes_clase5_4.jpg)
+![Apuntes 01](./apuntes_clase05_4.jpg)
 
 ## Ejercicios prácticos
 
