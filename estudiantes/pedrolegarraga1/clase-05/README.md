@@ -1,6 +1,6 @@
 # clase-05
 
-introduccion a los codigos en arduino y analisis de estos
+introduccion a los codigos en arduino y analisis de estos para obtener estrategias que usaremos en un futuro programando
 
 variables (para definir un sensor u etc):
 float,  decimales (aproxima)
@@ -41,6 +41,8 @@ if (lecturaFotoetc<medioFotoR){
 else {
 }
 ```
+
+durante este vimos como dejar un numero 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Creamos un codigo usando millis
@@ -69,3 +71,41 @@ if(tiempoAhora-tiempoAnterior>tiempoDelta) {
  }
 
 ```
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Maquina de estado
+
+objetivo: 
+
+estado inicial: no tengo café
+
+                         -----------> no ;(
+se pregunta: HAY? -------                                        -si---------> compro
+                         -----------> si ---------> tengo dinero? 
+                                                                 -no---------> no compro
+
+
+  luego, para programar podemos hacer lo mismo
+  ej: hay click? no hay click, se vuelve a preguntar
+                 si hay click, se hace lo que uno quiera con el comando if y creando una funcion
+
+```cpp
+//bool funciona como un int pero solo puede leer 0 y 1
+   bool nohayClickReciente = false;
+   bool hayClickReciente = true;
+
+void setup {
+   boton = digitalRead
+void loop
+
+if  = false
+
+```
+
+   {
+   else
+   }
+
+
+sintaxis de if y else en c++
