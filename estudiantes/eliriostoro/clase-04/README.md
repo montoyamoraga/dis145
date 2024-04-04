@@ -56,8 +56,10 @@ unsinged long momento =millis ();
 
 momento/1000 son la cantidad de segundos
 
-##Ejemplo de codigo
+## Ejemplo de codigo
 *fuente:* https://hetpro-store.com/TUTORIALES/arduino-millis/ 
+
+En este ejemplo se hará uso de la función millis, se usará para calcular si ha pasado 1 segundo. Entonces para lograr este propósito se requieren dos variables del tipo u-long para guardar dos eventos de tiempo. La primera variable, tiempo-1, guardará el tiempo antes de ejecutar a la función loop indefinidamente. Posteriormente y en cada iteración de la función loop, se medirá el tiempo transcurrido y se guardará en la variable tiempo-2. Para luego en una sentencia «if» hacer una evaluación. Dicha evaluación permitirá ver si el tiempo-2 (Que se actualiza regularmente) ha superado a el tiempo inicial + 1000 milisegundos más. Esto indicaría que ha pasado 1 segundo de tiempo en el microcontrolador de Arduino.
 
 ```cpp
 unsigned long tiempo1 = 0;
@@ -85,6 +87,10 @@ void loop() {
 
 }
 ```
+
+maquina de estado investigar
+
+bool 1 bit
 
 
 
