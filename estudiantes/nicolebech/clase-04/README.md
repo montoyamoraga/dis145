@@ -5,7 +5,7 @@ Soy en grupo con @isigoycoolea y @Samillanc. Para los encargos de la clase 3 y 4
 
 
 
-Resposteado desde @Samillanc.
+Resposteado desde @Samillanc. Revisar perfil para ver completo y adjuntos 
 
 
 
