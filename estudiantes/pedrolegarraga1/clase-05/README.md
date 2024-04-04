@@ -2,9 +2,9 @@
 
 introduccion a los codigos en arduino y analisis de estos para obtener estrategias que usaremos en un futuro programando
 
-variables (para definir un sensor u etc):
-float,  decimales (aproxima)
-int,  0-1023 (5V, que tanto puede leer el sensor) numeros enteros "el mas utilizado"
+-variables (para definir un sensor u etc):
+-float,  decimales (aproxima)
+-int,  0-1023 (5V, que tanto puede leer el sensor) numeros enteros "el mas utilizado"
 
 ----------------------------------------------------------------------------------------------------------------------------------
 creamos un codigo para sensor fotovoltaico:
