@@ -1,3 +1,5 @@
+# clase-03
+
 Estamos dentro
 
 ![materiales](./materiales.jpeg)
@@ -18,4 +20,4 @@ void setup() {
 }
 ```
 
-Trabaje con pedrolegarraga1
+Trabaje con pedrolegarraga1 <https://github.com/pedrolegarraga1>
