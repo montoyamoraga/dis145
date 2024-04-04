@@ -1,9 +1,9 @@
 # clase-05
-Clase5 
-aprendimos las diferencias entre float e int (float es un numero decimal int entero)
-aprendimos como poder ajustar un foto resistor para que pueda funcionar apesar de estar en distintas condiciones
-aprendimos que delay es una mala idea ya que se congela el arduino y puede producir un atraso en general
-aprendimos la funcion millies en remplazo de delay
+
+1. aprendimos las diferencias entre float e int (float es un numero decimal int entero)
+1. aprendimos como poder ajustar un foto resistor para que pueda funcionar apesar de estar en distintas condiciones
+1. aprendimos que delay es una mala idea ya que se congela el arduino y puede producir un atraso en general
+1. aprendimos la funcion millies en remplazo de delay
 
 
 ```cpp
