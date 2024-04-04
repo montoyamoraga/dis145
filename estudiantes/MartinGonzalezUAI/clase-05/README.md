@@ -111,4 +111,4 @@ void loop()
 
 Aca dejo una imagen del circuito en Tinkercad
 
-![circuito_boton+led](circuito_boton+led.jpg)
+![circuito_boton+led](circuito_boton+led.png)
