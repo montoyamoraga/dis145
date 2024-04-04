@@ -1,5 +1,7 @@
 # clase-05
 
+##Codigo fotoresistor + led
+
 Con mis compañeros Valentina Tiznado y Mauricio Viveros creamos este codigo que enciende un led dependiendo del valor que arroja un fotoresitor.
 
 ```cpp
