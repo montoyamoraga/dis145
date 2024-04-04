@@ -5,7 +5,7 @@ _2024-03-28_
 
 _El objetivo del proyecto es simular mouse mediante arduino y componentes electronicos generando que este distinga entre click derecho, click izquierdo, doble click, y ademas, agregar una funcionalidad extra como el sensor de movimiento que tiene el mouse para que sea un mouse extendido especulativo_
 
-_Por josefinasanchezr_
+_Por josefinasanchezr & GermanGallardo_
 
 _Hecho con simulacion Tinkercard_
 
