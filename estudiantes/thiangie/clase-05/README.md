@@ -1,6 +1,6 @@
 # clase-05
 
-#Apuntes clase 04 de abril 2024
+# Apuntes clase 04 de abril 2024
 
 _Conectar un fotorreceptor_
 
