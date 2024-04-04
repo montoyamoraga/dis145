@@ -14,7 +14,7 @@
 
 **Simulacion en Tinkercard**
 
-![Simulación 01](./apuntes_clase5_1.jpg)
+![Simulación 01](./simulacion_ej01_clase05.png)
 
 **Observaciones**
 * No me funciono al principio porque me faltó poner en le codigo **Serial.print(9600) en el void setup()**
