@@ -8,7 +8,7 @@ _2024-03-28_
 
 ## Funcionalidad Extra
 ![](https://github.com/GermanGallardo/dis145/blob/patch-1/estudiantes/GermanGallardo/clase-04/funcionextra.jpeg)
-[rueda](./https://github.com/GermanGallardo/dis145/blob/patch-1/estudiantes/GermanGallardo/clase-04/funcionextra/funcionextra.ino)
+(./https://github.com/GermanGallardo/dis145/blob/patch-1/estudiantes/GermanGallardo/clase-04/funcionextra/funcionextra.ino)
 
 //en esta parte del codigo haremos que el ponteciometro funcione como la rudea del mause
 //definimos el pin del potenciometro
