@@ -5,7 +5,11 @@
 1. aprendimos que delay es una mala idea ya que se congela el arduino y puede producir un atraso en general
 1. aprendimos la funcion millies en remplazo de delay
 
+**simulación**
+![](./codigo.fotoresistor.jpeg)
 
+**codigo**
+ 
 ```cpp
 int pinFr = A1;
 int lecturaFr = -1;
@@ -38,3 +42,6 @@ void loop() {
   
     }
   }
+
+
+
