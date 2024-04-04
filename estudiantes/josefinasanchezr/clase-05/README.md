@@ -11,7 +11,7 @@
 ### Ejercicio 01
 
 **Codigo:**
-[codigo 01](./codigo_ej01_clase05.ino)
+[codigo 01](./codigo_ej01_clase05/codigo_ej01_clase05.ino)
 
 **Simulacion en Tinkercard**
 
