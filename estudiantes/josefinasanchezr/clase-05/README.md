@@ -23,7 +23,7 @@
 * Cuando le ponemos más luz al fotoresistor, se imprime "oscuridad" porque se imprimen numeros mayores a 600, por lo tanto el codigo debe ser **if (lecturaFR<600){ Serial.printIn("luz");}**
 * El cambio de luz a oscuridad no se etsá haciendo justo en la mitad
 
-### Ejercicio 0
+### Ejercicio 02
 
 **Codigo:**
 
