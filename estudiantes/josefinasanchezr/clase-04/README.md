@@ -48,6 +48,8 @@ No logré que se distinga el doble click, ya que el codigo confunde cuando uno d
 [Codigo Doble Click](./codigoDobleClick/codigoDobleClick.ino)
 
 ## Funcionalidad Extra
+El codigo intenta recrear la rueda del mouse mediante un potenciometro. Se imprime en la consola cuando el Arduino reonoce que la rueda (potenciometro) se gira hacia arriba para subir la pagina del computador y cunado la rueda (potenciometro) se gira hacia abajo para bajar la pagina del computador.
+
 
 
 ## Referencias y Fuentes
