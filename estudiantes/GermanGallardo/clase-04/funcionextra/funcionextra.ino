@@ -1,5 +1,5 @@
-//en esta parte del codigo haremos que el ponteciometro funcione como la rudea del mause
-//definimos el pin del potenciometro
+// en esta parte del codigo haremos que el ponteciometro funcione como la rudea del mouse
+// definimos el pin del potenciometro
 
 const int potPin = A0;
 int valorAnterior = 0; 

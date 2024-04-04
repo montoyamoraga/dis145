@@ -1,6 +1,6 @@
-:D
-![Materiales](./Materiales.jpg)
+# clase-03
 
+![Materiales](./Materiales.jpg)
 
 ## materiales
 
@@ -17,9 +17,9 @@ void setup() {
   int x=0;
 }
 ```
+
 naranjo, rojo **poder**
 negro, verde, **tierra**
 azul, amarillo **señales**
 
-**trabajando con spiderman eberl**
-
+trabajando con Spidermaneberl <https://github.com/Spidermaneberl/>
