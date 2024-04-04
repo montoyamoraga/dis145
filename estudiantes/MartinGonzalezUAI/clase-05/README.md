@@ -1,4 +1,4 @@
-# clase-05
+# clase-05 (04/04/2024)
 
 ## Codigo fotoresistor + led
 
