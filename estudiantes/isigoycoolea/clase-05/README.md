@@ -12,12 +12,7 @@
 
 
 
+  ## [Processo número 1 - Aún no lo ponemos a prueba](https://www.youtube.com/watch?v=Pu6Ks_O12S8)
 
-
-
-
-
-  ## [Iteración número 1 - Intento fallido](https://www.youtube.com/watch?v=0qsdvkh5eXc)
-Para la realización de nuestra primera iteración de la realización del mouse con la placa Arduino R3 procedimos a utilizar la placa arduino R3 conectada a dos sensores de botones junto a resistencias de 10k
 
 ![primer circuito](./IMG_20240328_173424.jpg)
