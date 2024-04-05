@@ -1,3 +1,3 @@
 # clase-05
 _Apuntes de la Clase_
-!(estudiantes/isigoycoolea/clase-05/Apuntos clase 5.pdf)
+!(https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-05/Apuntos%20clase%205.pdf)
