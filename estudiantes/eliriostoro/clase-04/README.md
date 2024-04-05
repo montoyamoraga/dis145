@@ -8,7 +8,7 @@ float tiene capacidad de poner un numero decimal
 ejemplo:
 cuenta de banco esta en int y no en float porque tiende a tener errores.
 
-## estrategias
+### estrategias
 
 int lecturaFR= -1
 para saber si esta leyendo la consola
@@ -55,3 +55,40 @@ para guardar los millis
 unsinged long momento =millis ();
 
 momento/1000 son la cantidad de segundos
+
+## Ejemplo de codigo
+
+_fuente:_ https://hetpro-store.com/TUTORIALES/arduino-millis/
+
+En este ejemplo se hará uso de la función millis, se usará para calcular si ha pasado 1 segundo. Entonces para lograr este propósito se requieren dos variables del tipo u-long para guardar dos eventos de tiempo. La primera variable, tiempo-1, guardará el tiempo antes de ejecutar a la función loop indefinidamente. Posteriormente y en cada iteración de la función loop, se medirá el tiempo transcurrido y se guardará en la variable tiempo-2. Para luego en una sentencia «if» hacer una evaluación. Dicha evaluación permitirá ver si el tiempo-2 (Que se actualiza regularmente) ha superado a el tiempo inicial + 1000 milisegundos más. Esto indicaría que ha pasado 1 segundo de tiempo en el microcontrolador de Arduino.
+
+```cpp
+unsigned long tiempo1 = 0;
+unsigned long tiempo2 = 0;
+unsigned long tiempoSegundos = 0;
+
+void setup() {
+  Serial.begin(9600);
+  tiempo1 = millis();
+
+}
+
+void loop() {
+
+  tiempo2 = millis();
+  if(tiempo2 > (tiempo1+1000)){  //Si ha pasado 1 segundo ejecuta el IF
+    tiempo1 = millis(); //Actualiza el tiempo actual
+    tiempoSegundos = tiempo1/1000;
+    Serial.print("Ha transcurrido: ");
+    Serial.print(tiempoSegundos);
+    Serial.println(" desde que se encendio el Arduino");
+
+  }
+
+
+}
+```
+
+maquina de estado investigar
+
+bool 1 bit
