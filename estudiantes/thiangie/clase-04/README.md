@@ -11,3 +11,5 @@ se buscó la referencia de la función millis() de arduino <https://www.arduino.
 se ha trabajado en muchos intentos y análisis de cómo hacer funcionar el doble click, ya que se solucionó los click de manera independiente
 
 trabajé con Marcial Leaplaza y Julio San Martín
+
+el código mouseDoble fue realizado con la finalidad de intentar utilizar la función millis() (no funcionó)
