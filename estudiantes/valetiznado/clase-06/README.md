@@ -85,3 +85,7 @@ void loop() {
     Serial.write(0);               // send 0 to Processing
   }
   delay(100);                            // Wait 100 milliseconds
+
+  Codigo Processing (Ejemplo N°2): 
+
+  En este caso usamos un codigo nuevo donde instalamos The MidiBus. MIDI es una interfaz digital de instrumentos musicales, donde este protocolo lo que hace es comunicarse cp dispositivos musicales como; teclados, parlantes, sintetizadores, computadores, etc. Igualmente como  vimos hay guitarras que tienen MIDI. Ademas nosotros podemos hacer la señal de contro o tambien podemos enviarlas nosotros.
