@@ -21,6 +21,7 @@ void draw()
 
 Trabajamos con el programa Processing y Arduino IDE, donde debiamos enviar uno de los ejemplos que trae Processing, especificamente con SimpleRead. Donde al apretar un boton debia pasar de un cuadrado negro a uno grus, ocupamos el siguente codigo;
 
+- Codigo Porcessing:
 **
  * Simple Read
  * 
@@ -63,6 +64,7 @@ void draw()
 }
 
 
+- Codigo Arduino:
 
 /*
 
