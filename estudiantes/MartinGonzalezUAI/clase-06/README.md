@@ -158,4 +158,4 @@ void draw() {
 
 ```
 
-Tambien descargamos Virtual Midi de Tobias Eerichsen 
+Tambien descargamos Virtual Midi de Tobias Eerichsen y creamos un bus por donde transita MIDI, es un cable interno en mi computador.
