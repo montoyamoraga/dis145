@@ -90,4 +90,13 @@ void loop() {
 }
 
 Posteriormente, descargamos el código de MidiBus desde la Clase 06 del repositório del profesor con el fin de copiarla en Processing. Antes de cargarla en el programa, instalamos MidiBus por medio del mismo programa.
-Analizamos diferentes controles Midi y también tuvimos la oportunidad de ver uno en clases que tenia el profesor 
+
+Analizamos diferentes controles Midi y también tuvimos la oportunidad de ver uno en clases que tenia el profesor.
+
+''Bus'' una manera de interpretarlo es que es una especie de cable (a modo de ejemplo) por donde pasa información de forma unidireccional.
+
+Por MIDI pueden transistar muchos mensajes pero por canales distintos; toda la informacion llega de manera simúltanea pero se selecciona al inicio del código con '' int Entrada = y '' e '' int Salida = x ''.
+
+Nota máxima de MIDI = 7 bits.
+
+
