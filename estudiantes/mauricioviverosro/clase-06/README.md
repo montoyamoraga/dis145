@@ -99,4 +99,8 @@ Por MIDI pueden transistar muchos mensajes pero por canales distintos; toda la i
 
 Nota máxima de MIDI = 7 bits.
 
+Reemplazo de ''bus = new MidiBus(this, entradaMIDI, salidaMIDI);'', por esto ''bus = new MidiBus(new java.lang.Object(), entradaMIDI, salidaMIDI);''
+
+
+
 
