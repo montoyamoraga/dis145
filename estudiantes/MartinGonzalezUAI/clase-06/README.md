@@ -4,6 +4,8 @@
 
 Con mis compañeros Valentina Tiznado y Mauricio Viveros utilizamos un codigo de los ejemplos de processing que nos permite cambiar el color de negro a gris de un cuadrado mostrado en la pantalla a traves de un boton que esta conectado a una placa arduino.
 
+```cpp
+
 /**
  * Simple Read
  * 
@@ -69,4 +71,6 @@ void loop() {
 }
 
 */
+
+```
 
