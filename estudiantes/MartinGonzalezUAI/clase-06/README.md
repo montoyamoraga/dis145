@@ -101,7 +101,7 @@ void loop() {
 bus: cable bidireccional
 -1: la entrada da lo mismo
 
-Por ultimo, usamos el codigo entregado por el profe para enviar y recibir qie sirven para emitir sonidos a traves del computador.
+Tambien usamos el codigo entregado por el profe para enviar y recibir qie sirven para emitir sonidos a traves del computador.
 
 ```cpp
 
@@ -157,3 +157,5 @@ void draw() {
 }
 
 ```
+
+Tambien descargamos Virtual Midi de Tobias Eerichsen 
