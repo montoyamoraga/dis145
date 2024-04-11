@@ -28,3 +28,7 @@ Emitir y recibir MIDI
 Usamos una version modificada del codigo integrado MidiBus => Basic
 
 El codigo tenia un error, probablemente porque el codigo se hizo en una version anterior de processing. Encontramos la solucion aquí <https://github.com/sparks/themidibus>
+
+SDK para LoopMidi: <https://www.tobias-erichsen.de/software/virtualmidi.html>
+
+
