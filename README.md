@@ -37,7 +37,7 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 | [03](clases/clase-03/) | 2024-03-21 | repaso Arduino, introducción a GitHub y Markdown |
 | [04](clases/clase-04/) | 2024-03-28 | trabajo en clases proyecto marzo                 |
 | [05](clases/clase-05/) | 2024-04-04 | filtrado, millis() y feedback proyecto marzo     |
-| [06](clases/clase-06/) | 2024-04-11 | TODO                                             |
+| [06](clases/clase-06/) | 2024-04-11 | comunicación serial con Processing               |
 | [07](clases/clase-07/) | 2024-04-18 | TODO                                             |
 | [08](clases/clase-08/) | 2024-04-25 | TODO                                             |
 | [09](clases/clase-09/) | 2024-05-02 | TODO                                             |
