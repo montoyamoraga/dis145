@@ -101,6 +101,5 @@ Nota máxima de MIDI = 7 bits.
 
 Reemplazo de ''bus = new MidiBus(this, entradaMIDI, salidaMIDI);'', por esto ''bus = new MidiBus(new java.lang.Object(), entradaMIDI, salidaMIDI);''
 
-
-
+El profesor al final nos terminó demostrando la manera de instalar un driver de Tobias Erichsen ''LoopMIDI'' para luego pasarlo a processing (sólo sirve para windows).
 
