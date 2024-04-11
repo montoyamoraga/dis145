@@ -1,5 +1,7 @@
 # clase-01
 
+jueves 07 marzo 2024
+
 introducción al equipo docente
 
 este curso es dictado por profesore Aarón Montoya y asistido por la ayudante Janis Sepúlveda.

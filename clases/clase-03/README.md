@@ -1,3 +1,5 @@
-# clase-05
+# clase-03
 
-jueves 11 abril 2024
+jueves 21 marzo 2024
+
+introducción a GitHub y Markdown
