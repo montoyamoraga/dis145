@@ -88,3 +88,6 @@ void loop() {
   }
   delay(100);                            // Wait 100 milliseconds
 }
+
+Posteriormente, descargamos el código de MidiBus desde la Clase 06 del repositório del profesor con el fin de copiarla en Processing. Antes de cargarla en el programa, instalamos MidiBus por medio del mismo programa.
+Analizamos diferentes controles Midi y también tuvimos la oportunidad de ver uno en clases que tenia el profesor 
