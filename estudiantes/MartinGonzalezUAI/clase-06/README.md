@@ -78,7 +78,7 @@ void loop() {
 
 Codigo de arduino: 
 
-``cpp
+```cpp
 
 // Wiring / Arduino Code
 // Code for sensing a switch status and writing the value to the serial port.
