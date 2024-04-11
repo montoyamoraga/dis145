@@ -6,6 +6,8 @@ hoy vamos a estudiar cómo lograr comunicación serial con Processing, y sobre l
 
 hoy bajamos la biblioteca MidiBus para hacer sonido con nuestros computadores.
 
+referencia: mucho de este material ya fue desarrollado para un curso que dicté en sinestesia.cc, disponible en <https://github.com/sinestesiacc/2023-2-programa-medios-interactivos/>
+
 ## instalación de bibliotecas
 
 en esta clase usaremos estas dos bibliotecas:
