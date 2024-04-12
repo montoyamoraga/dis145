@@ -1,4 +1,5 @@
 APUNTES: (11/abril)
+
 Integrantes: Martin Gonzales, Mauricio Viveros y Valentina Tiznado
 
 Serialwrite: envia mensajes que no llegan a la consola, hay que recibirlos
@@ -88,4 +89,56 @@ void loop() {
 
   Codigo Processing (Ejemplo N°2): 
 
-  En este caso usamos un codigo nuevo donde instalamos The MidiBus. MIDI es una interfaz digital de instrumentos musicales, donde este protocolo lo que hace es comunicarse cp dispositivos musicales como; teclados, parlantes, sintetizadores, computadores, etc. Igualmente como  vimos hay guitarras que tienen MIDI. Ademas nosotros podemos hacer la señal de contro o tambien podemos enviarlas nosotros.
+  En este caso usamos un codigo nuevo donde instalamos The MidiBus. MIDI es una interfaz digital de instrumentos musicales, donde este protocolo lo que hace es comunicarse cp dispositivos musicales como; teclados, parlantes, sintetizadores, computadores, etc. Igualmente como  vimos hay guitarras que tienen MIDI. Ademas nosotros podemos hacer la señal de contro o tambien podemos enviarlas nosotros. El cable "MIDI" que se llama DIN se utiliza para enviar mensajes MIDI. MIDI por dentro es serial, para programar este a mano se hace a 115.200. MIDI es un medio para asociar mensajes y enviarlos a un medio que toma esta señal. MIDI es para hacer que muchos instrumentos suenen al mismo tiempo, se pueden procesar varios mensajes en canales distintos. Cuando es MIDI de enviar el numero va en negativo. La notaMIDI % 128 lo que hace es
+
+  // ej_34_midi_enviar
+// por montoyamoraga
+// para Academia Sinestesia
+// Programa de Medios Interactivos 2023
+// v0.0.2 mayo 2023
+// hecho con Processing 4.2.0
+// ejemplo traducido y basado
+// de The MidiBus => Basic
+
+// importar biblioteca
+import themidibus.*;
+
+// crear instancia de MidiBus
+MidiBus bus;
+
+int entradaMIDI = -1;
+int salidaMIDI = 2;
+
+int canalMIDI = 0;
+int notaMIDI = 0;
+int velocidadMIDI = 20;
+
+void setup() {
+
+  size(200, 200);
+
+  frameRate(1);
+
+  // listar todos las midibus
+  MidiBus.list();
+
+  bus = new MidiBus(this, entradaMIDI, salidaMIDI);
+
+  textAlign(CENTER, CENTER);
+  fill(0);
+}
+
+void draw() {
+
+  background(255, 255, 0);
+  text("enviar", width/2, height/2);
+
+  // enviar nota MIDI
+  bus.sendNoteOn(canalMIDI, notaMIDI, velocidadMIDI);
+  
+  // actualizar nota MIDI
+  notaMIDI = notaMIDI + 1;
+  
+  notaMIDI = notaMIDI % 128;
+}
+
