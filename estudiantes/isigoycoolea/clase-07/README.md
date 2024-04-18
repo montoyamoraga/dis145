@@ -29,16 +29,17 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 ***APUNTES***
   
 *aritmética auto*
-![Alt text]()
+![Alt text](aritmeticaAuto.png)
 
 *acercaDe*
-![Alt text]()
+![Alt text](acercaDe.png)
 
 *auto.cpp*
-![Alt text]()
+![Alt text](auto.cpp.png)
 
 *auto.h*
 ![Alt text]()
 
 *sumaResta*
 ![Alt text](sumaResta)
+![Alt text](sumaResta2.png)
