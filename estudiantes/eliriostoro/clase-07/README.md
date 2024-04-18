@@ -13,7 +13,7 @@ sumar3(intx0, int x1, int x2) {
 espacio para anotarlo
 
 
-###Ejercicio aritmetica
+### Ejercicio aritmetica
 
 ```cpp
 
