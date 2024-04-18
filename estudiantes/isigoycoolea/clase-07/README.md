@@ -26,7 +26,7 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 - return
 - else
 
--APUNTES-
+= APUNTES 
 *aritmética auto*
 
 *acercaDe*
