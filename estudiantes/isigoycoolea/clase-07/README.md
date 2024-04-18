@@ -11,21 +11,21 @@
 
 # Códigos en arduíno 
 Durante la clase aprendimos ciertos códigos específicos con distintas funciones, como:
--Void setup ()
--Void loop ()
--Void
--#include
--Int
--Auto: :...()
--this.
--if
--class
--boolean
--float
--int
--return
--else
--
+- Void setup ()
+- Void loop ()
+- Void
+- #include
+- Int
+- Auto: :...()
+- this.
+- if
+- class
+- boolean
+- float
+- int
+- return
+- else
+
 *aritmética auto*
 
 *acercaDe*
