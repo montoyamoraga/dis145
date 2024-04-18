@@ -30,7 +30,10 @@ Si bien podemos atribuir una función a void, como en el ejemplo del código del
            Auto: :Auto() {
            
            }
-           
+
+Revisamos los proyectos de Laureen Lee McCarthy, algunos como: Anti-Daydreaming Scarf (bufanda que en los momentos en que estamos con otra persona nos hace prestarle atención) , Happiness Hat (gorro para hacer sonreir), etc.
+
+
 
            
 
