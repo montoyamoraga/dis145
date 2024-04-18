@@ -45,7 +45,7 @@ Revisamos los proyectos de Laureen Lee McCarthy, algunos como: Anti-Daydreaming 
  --
  Dentro de los temas en los cuales no me gustaría basarme en el proyecto, estan: ropa (moda), alimentos, instrumentos musicales, computación, mobiliario, etc.
  
- Finalmente, si bien no tengo un proyecto completamente definido, si sé el tema en el cual me gustaría desempeñarme: automotriz (mecánico o electrónico).
+ Finalmente, si bien no tengo un proyecto completamente definido, si sé el tema en el cual me gustaría desempeñarme: automotriz (mecánico o electrónico), dado que si es algo que me llama mucho la atención y en la cuál podría desempeñarme mejor (posiblemente) por el mismo punto.
 
 
            
