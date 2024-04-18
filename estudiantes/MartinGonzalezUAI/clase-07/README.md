@@ -71,9 +71,9 @@ int primo(x0)
 
 Tambien en esta clase aprendimos a utilizar un archivo .h en donde se crea una clase con sus respectivas variable (atributos) y funciones (metodos)
 
-//Dentro de esta clase hay variables(atributos) y funciones(metodos)
-
 ```cpp
+
+//Dentro de esta clase hay variables(atributos) y funciones(metodos)
 
 class Auto 
 {
