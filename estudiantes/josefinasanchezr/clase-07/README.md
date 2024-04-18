@@ -177,3 +177,5 @@ Buscar referentes como:
 
 1) Motor que habre la cotina cuando suena la alarma: https://www.instructables.com/Blind-Opening-Alarm-Clock/
 2) Cuando suena la alarma, un martillo le pega a una camapana: https://www.instructables.com/Rise-and-Shine-Arduino-LDR-Alarm-Clock/
+3) Se dispara agua cuando suena la alarma: https://www.instructables.com/Easy-Water-Gun-Alarm-Clock/ ó https://www.instructables.com/Water-Gun-Alarm-Clock/ ó https://www.instructables.com/Water-Splash-Alarm-Clock-Wake-up-to-water-falling-/
+   
