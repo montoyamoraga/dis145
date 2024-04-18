@@ -39,6 +39,11 @@ https://www.instructables.com/Simple-Arduino-and-HC-SR04-Example/
 
 link github: https://github.com/pedroil/INTLAB2016
 
+## IDEA DE PROYECTO
+registro racing
+me gusta andar en auto :)
+no se si les pasa que se alegran cuando le sacas minutos al waze cuando vas en auto, me gustaria algo mas personalizado, tipo velocidad record en el trayecto hacia la universidad o hiciste un mejor tiempo hoy en comparacion a ayer pa alegrarme el dia
+
 
 
 
