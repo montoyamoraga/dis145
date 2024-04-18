@@ -71,3 +71,6 @@ ya para finalizar
 cada uno indagó por github buscando librerias y analizandolas
 en mi caso encontré 3 librerias interesantes las cuales fueron codigos para programar sensores IR como por ejemplo un control remoto, un mouse bluetooth y un joystick
 
+"extra de la clase"
+hablamos con el profesor sobre los proyectos finales
+en mi caso haré con un sensor de movimiento y Leds un aparato para señalizar en bicicleta u otro metodo de movilización sin sacar las manos del volante.
