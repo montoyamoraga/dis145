@@ -37,7 +37,7 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 ![Alt text](auto.cpp.png)
 
 
-![Alt text](classAuto.png)
+![Alt text](clasAuto.png)
 
 
 ![Alt text](sumaResta)
