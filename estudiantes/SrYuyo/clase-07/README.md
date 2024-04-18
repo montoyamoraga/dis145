@@ -53,3 +53,10 @@ Referencias:
 <https://arduino.cl/operadores-aritmeticos-en-arduino/>
 <https://universidadeuropea.com/blog/programacion-orientada-objetos/#:~:text=La%20programaci%C3%B3n%20orientada%20a%20objetos%20es%20un%20modelo%20de%20programaci%C3%B3n,l%C3%B3gica%20necesaria%20para%20esa%20manipulaci%C3%B3n.>
 <https://learn.adafruit.com/>
+
+-------------------------------------------------------------------------
+
+
+
+
+
