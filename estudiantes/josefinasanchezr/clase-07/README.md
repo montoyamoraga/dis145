@@ -175,4 +175,5 @@ Buscar referentes como:
 * Alarm clock diy
 * Instructables.com
 
-
+1) Motor que habre la corina cuando suena la alarma: https://www.instructables.com/Blind-Opening-Alarm-Clock/
+2) 
