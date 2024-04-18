@@ -30,6 +30,11 @@ Si bien podemos atribuir una función a void, como en el ejemplo del código del
            Auto: :Auto() {
            
            }
+-----
+Busqueda de proyectos de arduino, buscando referentes de Arduino en Github; entre ellos el siguiente:
+https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino
+
+Análisis del avance en general del curso (sus respectivas etapas).
 
 Revisamos los proyectos de Laureen Lee McCarthy, algunos como: Anti-Daydreaming Scarf (bufanda que en los momentos en que estamos con otra persona nos hace prestarle atención) , Happiness Hat (gorro para hacer sonreir), etc.
 
