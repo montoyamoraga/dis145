@@ -125,3 +125,6 @@ Auto::acelerar()
 
 ```
 
+
+Por ultimo, busque ideas del proyecto del semestre, y llegue a un proyecto relacionado con los tatuajes. A mi me gusta tatuar y cuando me quiero autotatuar el brazo se me complica porque pierdo el uso de una mano para poder tensar la piel y tataur mejor. Con esto se me ocurrio crear un dispositivo que me tense la piel con un potenciometro en la medida que yo encuentre optima para poder autotatuarme solo con una mano.
+
