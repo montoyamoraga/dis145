@@ -1,4 +1,6 @@
-# clase-07
+# Clase-07 18/04/2024
+
+```cpp
 
 //18-04-2024
 //Hecho por Martin Gonzalez
@@ -64,3 +66,5 @@ int primo(x0)
     }
   }
 }
+
+```
