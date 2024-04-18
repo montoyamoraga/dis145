@@ -3,6 +3,7 @@
 ## APUNTES:
 
  Programacion hecha con objetos: es una estrategia de programacion.
+ 
  Librarys se escriben en archivos .h y .cpp
 
 **.h**
