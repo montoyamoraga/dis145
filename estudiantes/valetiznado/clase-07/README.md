@@ -133,3 +133,5 @@ void loop() {
 
 Programas compatibles: Arduino y CircuiPython
 Uso: Sensor de proximidad de distancias cortas (en el caso de distancias largas se recomienda usar sensor de distancia SHARP IR,). Sensor facil de usar con un microcontrolador que tenga capacidad de i2c (que un sensor tenga capacidad de i2c siginifica que  significa que puede comunicarse utilizando el protocolo de comunicación I2C (Inter-Integrated Circuit). I2C es un protocolo de comunicación serial que permite la comunicación entre varios dispositivos conectados en un bus de dos cables, uno para la transmisión de datos (SDA) y otro para la señal de reloj (SCL))
+
+Proyecto: Solucionar la problematica de que por ejemplo en la universidad cuesta mucho encontrar estacionamiento, por lo que mi idea es que un sensor detecte el movimiento de algun auto que esta en movimiento y la llegada de este mismo, por eso la idea es que esta informacion que llega mediante un sensor de arduino, despues de envie a algun dispositivo (idealmente una app) como por ejemplo que llegue de forma inalambrica a otro computador. Esta idea no es definitiva pero por el momento me parece interesante de investigar.
