@@ -43,13 +43,16 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 - ***Nicole Bechan:***
 - ***Sebastián Millán:***
 
-![Alt text](aritmeticaAuto.png)
+![Alt text](1.jpg)
 
 
-![Alt text](acercaDe.png)
+![Alt text](2.jpg)
 
 
-![Alt text](auto.cpp.png)
+![Alt text](3.jpg)
 
 
-![Alt text](clasAuto.png)
+![Alt text](4.jpg)
+
+
+![Alt text](5.jpg)
