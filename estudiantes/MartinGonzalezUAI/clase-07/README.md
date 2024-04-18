@@ -22,7 +22,7 @@ int restar(int x0, int x1, int x2, int x3)
 
 //Funcion para sacar valor absoluto 
 
-int vAbs(int x0)
+int valAbs(int x0)
 {
   if(x0 < 0)
   {
