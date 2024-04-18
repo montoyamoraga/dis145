@@ -42,6 +42,11 @@ Análisis del avance en general del curso (sus respectivas etapas).
 Revisamos los proyectos de Laureen Lee McCarthy, algunos como: Anti-Daydreaming Scarf (bufanda que en los momentos en que estamos con otra persona nos hace prestarle atención) , Happiness Hat (gorro para hacer sonreir), etc.
 
 
+ --
+ Dentro de los temas en los cuales no me gustaría basarme en el proyecto, estan: ropa (moda), alimentos, instrumentos musicales, computación, mobiliario, etc.
+ 
+ Finalmente, si bien no tengo un proyecto completamente definido, si sé el tema en el cual me gustaría desempeñarme: automotriz (mecánico o electrónico).
+
 
            
 
