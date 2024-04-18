@@ -32,10 +32,13 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 ![Alt text]()
 
 *acercaDe*
+![Alt text]()
 
 *auto.cpp*
+![Alt text]()
 
 *auto.h*
+![Alt text]()
 
 *sumaResta*
-
+![Alt text](sumaResta)
