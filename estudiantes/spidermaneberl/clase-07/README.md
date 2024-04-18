@@ -1,3 +1,12 @@
+Proyecto personal
+
+-.-.-.-.-.-.-.-.-.-.-.
+
+
+
+
+
+
 # clase-07
 
 class auto {
@@ -16,3 +25,5 @@ void acelerar();
 void frenar();
 void encender();
 void apagar();
+// no lo termine
+
