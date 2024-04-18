@@ -17,3 +17,9 @@ alCuadrado alCuadrado (int x0 )
  int multiplicar = (x0 * x0){
  return multiplicar}
 aprendimos a utilizar y crear la funcion auto
+
+## Referentes
+
+https://www.printables.com/es/model/73080-habit-tracker-20-led-arduino-habit-tracker/files
+https://www.youtube.com/watch?v=CrN2XlmAmn8
+https://www.youtube.com/watch?v=HKpqeWySwsw
