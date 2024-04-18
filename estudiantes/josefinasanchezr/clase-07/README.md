@@ -175,5 +175,5 @@ Buscar referentes como:
 * Alarm clock diy
 * Instructables.com
 
-1) Motor que habre la corina cuando suena la alarma: https://www.instructables.com/Blind-Opening-Alarm-Clock/
-2) 
+1) Motor que habre la cotina cuando suena la alarma: https://www.instructables.com/Blind-Opening-Alarm-Clock/
+2) Cuando suena la alarma, un martillo le pega a una camapana: https://www.instructables.com/Rise-and-Shine-Arduino-LDR-Alarm-Clock/
