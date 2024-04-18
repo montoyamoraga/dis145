@@ -25,3 +25,5 @@ Revise en la documentacion de arduino el archivo 'arduino.h'. Me gusto mucho lee
 ## Idea para proyecto.
 
 Controlar mi proyecto de programacion en grasshopper con una interfase externa que reemplaze al RCP.
+
+Crear Lightsabers a travez de un panel de control.
