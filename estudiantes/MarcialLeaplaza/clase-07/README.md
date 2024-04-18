@@ -21,3 +21,7 @@ Dentro de una clase pueden haber atributos y metodos, que funcionan como varaiab
 La clase sirve para declarar que metodos y atributos se pueden usar dentro de la misma, sin embargo no se construyen dentro de esta.
 
 Revise en la documentacion de arduino el archivo 'arduino.h'. Me gusto mucho leerlo.
+
+## Idea para proyecto.
+
+Controlar mi proyecto de programacion en grasshopper con una interfase externa que reemplaze al RCP.
