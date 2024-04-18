@@ -24,7 +24,7 @@ float multiplicar4(float x0, float x1, float x2, float x3) {
 los .h y .cpp nos permite crea clases
 }
 
-### ejercicio buscar una biblioteca y entedera
+### ejercicio buscar una biblioteca y entenderla
 un buen lugar para buescar es https://www.adafruit.com/
 apatencen sensores con sus bibliotecas respectivas
 Sensors / Cameras:MEMENTO - Python Programmable DIY Camera - Bare Board
