@@ -68,3 +68,60 @@ int primo(x0)
 }
 
 ```
+
+Tambien en esta clase aprendimos a utilizar un archivo .h en donde se crea una clase con sus respectivas variable (atributos) y funciones (metodos)
+
+//Dentro de esta clase hay variables(atributos) y funciones(metodos)
+
+```cpp
+
+class Auto 
+{
+  //Atributos
+
+  boolean estaEncendido;
+  //0.0 esta vacio y 1.0 esta lleno
+  float combustible;
+  int velocidad;
+
+  //Metodos
+  Auto();
+
+  void acelerar();
+  void frenar();
+  void encender();
+  void apagar();
+};
+
+```
+
+
+Sumado a esto aprendimos a utilizar un archivo .cpp doned vamos a ¿controlar? las variables y las funciones
+
+```cpp
+
+#include "Auto.h"
+
+Auto::Auto()
+{
+  velocidad = 0;
+  combustible = 1.0;
+}
+
+Auto::frenar()
+{
+  velocidad = 0;
+}
+
+Auto::acelerar()
+{
+  velocidad++;
+
+  if(velocidad > 50)
+  {
+    velocidad = 50;
+  }
+}
+
+```
+
