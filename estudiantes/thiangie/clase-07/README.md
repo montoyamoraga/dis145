@@ -1,5 +1,10 @@
 # clase-07
 
+Referentes que se han dado durante la clase
+Raúl Zurita: poeta que hablaba sobre la sensibilidad de las palabras.
+Lauren Lee McCarthy: creó p5 para que las personas pudiesen expresarse plásticamente por medio de la web.
+Renata Gaui: hysterical wearable
+
 ## Explicación portafolio y trabajo
 Se realizará de manera individual con completa autoría. Si se realiza partiendo desde una base se tiene que citar de manera correspondiente para dar crédito correspondiente, ya que nunca se parte de cero en nada.
 También se puede incluir más cosas a un proyecto ya realizado, por medio de un fork.
@@ -30,3 +35,14 @@ Si se utiliza el siguiente código
 ```
 Se utilizan #ifdef y #ifndef para identificar si se han definido los elementos necesarios para permitir que el código se de bien.
 En el caso que no lo esté, lo define.
+
+# Investigación
+## Adafruit_CircuitPlayground
+La placa _Circuit playground_ es una familia de microcontroladores con LEDs, botones, sensores. 
+[Link explicativo] (https://code.org/maker/circuitplayground)
+
+Circuit playground ha trabajado con arduino (tiene un código _fix_ para poder codificar por este medio). Sin embargo, es más dirigido hacia python.
+[Adafruit de Circuit Playground] (https://github.com/adafruit/Adafruit_CircuitPlayground)
+
+
+
