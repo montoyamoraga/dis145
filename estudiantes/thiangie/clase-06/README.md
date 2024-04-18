@@ -35,6 +35,6 @@ midi SDK: un software development kit
 notaMidi = notaMidi % 128 se crea para limitar el contador hasta la capacidad que tiene midi que es de 0-127.
 
 ### Ejercicio realizado en clases
-
+Se realizó un botón, tanto en Arduino como en Processing.
 
 ### Segundo ejercicio realizado en clases
