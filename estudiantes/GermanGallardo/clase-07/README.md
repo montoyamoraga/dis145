@@ -12,7 +12,7 @@ Directorio denominado examples con varios sketchs de ejemplo que nos ayudará a 
 Adicionalmente puede haber otros archivos menos importantes como el de la licencia y otros
 
 
-###funcion propia: 
+### funcion propia: 
 alCuadrado alCuadrado (int x0 )
  int multiplicar = (x0 * x0){
  return multiplicar}
