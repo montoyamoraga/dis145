@@ -165,3 +165,14 @@ int mult3(int x0, int x1, int x2){
 }
 ```
 
+# Referentes Proyecto
+
+Mi idea: me cuesta mucho despertarme en las mañanas, no me sirve la alarma del telefono, necesito algo que cuando suene la alarma me obligue a despertarme o levantarme de la cama.
+
+Buscar referentes como:
+* Alarm clock especulativa
+* Alarm clock arduino
+* Alarm clock diy
+* Instructables.com
+
+
