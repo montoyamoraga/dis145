@@ -97,16 +97,6 @@ Codigo:  los datos piezoeléctricos entrantes se comparan con un valor de umbral
 	- negative connection of the piezo attached to ground
 	- 1 megohm resistor attached from analog in 0 to ground
 
-  created 25 Mar 2007
-  by David Cuartielles <http://www.0j0.org>
-  modified 30 Aug 2011
-  by Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Knock
-*/
-
 
 // these constants won't change:
 const int ledPin = 13;       // LED connected to digital pin 13
