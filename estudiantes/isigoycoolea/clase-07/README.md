@@ -1,7 +1,7 @@
-# Apuntes clase 07
+# Apuntes clase 07 :electric_plug:
 *Jueves 18 de abril de 2024.*
 
-# Códigos en arduíno 
+# Códigos en arduíno :eye_speech_bubble:
 Durante la clase aprendimos ciertos códigos específicos con distintas funciones, como:
 - Void setup ()
 - Void loop ()
@@ -18,7 +18,7 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 - return
 - else
 
-***APUNTES***
+***APUNTES CLASE*** :100:
   
 ![Alt text](aritmeticaAuto.png)
 
@@ -36,7 +36,7 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 ![Alt text](sumaResta2.png)
 
 
-# Actividad análisis código
+# Actividad análisis código :arrow_down:
 ## Miembros del Grupo:
 - ***Josefina Sánchez***
 - ***Isidora Goycoolea:***
