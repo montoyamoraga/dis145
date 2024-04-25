@@ -4,6 +4,8 @@
 
 Con el siguiente codigo logro que a traves de un potenciometro giren dos servomotores de la misma manera, con el fin de que suban o bajen las varas laterales de igual manera, y que con otro potenciometro gire otro servomotor con el fin de que las varas se cierren o se abran. 
 
+![Tinker_Ensayo](Tinker_Ensayo.png)
+
 ```cpp
 
 #include <Servo.h> 
