@@ -25,7 +25,7 @@ Al momento de tatuar es necesario estirar la piel para que la aguja entre con ma
 
 #Autotatuaje #Dispositivo #Tensor #Piel #Brazo 
 
-
+![Sketch_Proyecto](Sketch_Proyecto.jpg)
 
 
 
