@@ -15,6 +15,8 @@
 +  ~~Sombrero con sistema de iluminación direccional: sombrero con luces LED direccionales que iluminen el camino hacia adelante en situaciones de poca visibilidad.~~
 + Zapatos que regulen la temperatura: zapatos que en situaciones de mucho frío o calor regulen la temperatura según lo que el usuario desee. Pensar en zapatos nike que se abra y se cierre solo sin tener que usar cordones.
 
+
+Finalmente elegí otra idea que no estaba dentro de las iniciales, esta consiste en un vestido o chaqueta de tela lisa, pero que mediante arduino y materiales eléctricos se genera textura arrugándose creando una superficie. 
 ## Encargo 1
 1. Materiales que tengo: arduíno, cables, herramientas de costura.
 2. Materiales que me faltan: telas, servomotores, sensores de presión o flexión, batería o fuente de alimentación portátil, soldadura.
