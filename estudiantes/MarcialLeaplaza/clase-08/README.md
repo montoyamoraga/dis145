@@ -23,9 +23,11 @@ Materiales que ya tengo:
 ``
 Controlador MIDI
 ``
+
 ``
 Computador
 ``
+
 ``
 Grasshopper para controlar
 ``
@@ -35,6 +37,7 @@ Materiales que tengo que conseguir:
 ``
 Cable para conectar mi controlador al computador.
 ``
+
 ``
 Plug-ins que me permitan usar grasshopper como MIDI output.
 ``
