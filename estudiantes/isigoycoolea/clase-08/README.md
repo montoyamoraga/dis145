@@ -6,11 +6,11 @@
 :+1: *Categorías que SI me gustaría basarme*: arte y creatividad, salud, ayuda para alguien, más que nada cualquier tipo de proyecto con un fin que tenga sentido para mí.
 
 ## Posibles ideas: 
-+ Guantes de traducción de señas: guantes con sensores de flexión y acelerómetros que traduzcan el lenguaje de señas en texto o voz.
-+ Cinturón vibratorio para la navegación: cinturón con motores de vibración que indiquen la dirección a seguir en la navegación, como un GPS wearable.
-+ Zapatos, polera o chaqueta con sensores de postura: con sensores que detecten la postura y proporcionen retroalimentación para mejorar la postura o que te obliguen  estar derecho.
-+ Pulsera de seguridad personal: pulsera con un botón de pánico que, al presionarlo, envíe una señal de alerta a contactos de emergencia, como por ejemplo para mi abuela que no ve mucho asi que si se cae o le pasa algo presiona el boton.
-+ Dispensador de comida para mascotas que se active en horarios programados.
-+ Chaqueta de clima controlado: con sensores de temperatura y humedad que ajusten automáticamente la ventilación y la calefacción integradas.
-+ Sombrero con sistema de iluminación direccional: sombrero con luces LED direccionales que iluminen el camino hacia adelante en situaciones de poca visibilidad.
-+ Zapatos que regulen la temperatura: zapatos que en situaciones de mucho frío o calor regulen la temperatura según lo que el usuario desee.
++ Guantes de traducción de señas: guantes con sensores de flexión y acelerómetros que traduzcan el lenguaje de señas en texto o voz. Llevarlo a través de unos 3 signos que usuamos habitualmente, como un ejemplo esta 
++  ~~Cinturón vibratorio para la navegación: cinturón con motores de vibración que indiquen la dirección a seguir en la navegación, como un GPS wearable.~~
++ Zapatos, polera o chaqueta con sensores de postura: con sensores que detecten la postura y proporcionen retroalimentación para mejorar la postura o que te obliguen  estar derecho. Llevarlo hacia el tema de datos personales, que guarde mis datos (ejemplos que en x hora mi postura fue de x grados y así...) cosa que guarde mi propia información.
++ Pulsera de seguridad personal: pulsera con un botón de pánico que, al presionarlo, envíe una señal de alerta a contactos de emergencia, como por ejemplo para mi abuela que no ve mucho asi que si se cae o le pasa algo presiona el boton.Dirigirlo hacia que la pulsera se de cuenta del golpe/impacto y notifique a arduíno.
++  ~~Dispensador de comida para mascotas que se active en horarios programados.~~
++  ~~Chaqueta de clima controlado: con sensores de temperatura y humedad que ajusten automáticamente la ventilación y la calefacción integradas.~~
++  ~~Sombrero con sistema de iluminación direccional: sombrero con luces LED direccionales que iluminen el camino hacia adelante en situaciones de poca visibilidad.~~
++ Zapatos que regulen la temperatura: zapatos que en situaciones de mucho frío o calor regulen la temperatura según lo que el usuario desee. Pensar en zapatos nike que se abra y se cierre solo sin tener que usar cordones.
