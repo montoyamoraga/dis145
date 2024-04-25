@@ -17,6 +17,6 @@
    
 ## Tu proyecto explicado en 1 párrafo
 
-Buscar la mejora de la postura a través de sensores puestos en una polera
+Buscar la mejora de la postura a través de sensores puestos en una faja de espalda
 que detecten cuando tu espalda esta encorvada y cause una vibración
 para retomar la postura correcta
