@@ -15,3 +15,7 @@
 
 tu proyecto explicado con 5 "hashtags", como referencia tomar los proyectos de https://www.media.mit.edu/research/?filter=groups_centers_initiatives
 #music #humandynamics #art #entertainment #human-computer interaction 
+
+
+# notas
+https://www.youtube.com/watch?v=TGYO1WcT5ys
