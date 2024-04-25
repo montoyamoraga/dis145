@@ -16,8 +16,8 @@
 + Zapatos que regulen la temperatura: zapatos que en situaciones de mucho frío o calor regulen la temperatura según lo que el usuario desee. Pensar en zapatos nike que se abra y se cierre solo sin tener que usar cordones.
 
 
-Finalmente elegí otra idea que no estaba dentro de las iniciales, esta consiste en un vestido o chaqueta de tela lisa, pero que mediante arduino y materiales eléctricos se genera textura arrugándose creando una superficie. 
-## Encargo 1
+:shirt:Finalmente elegí otra idea que no estaba dentro de las iniciales, esta consiste en un vestido o chaqueta de tela lisa, pero que mediante arduino y materiales eléctricos se genera textura arrugándose creando una superficie. 
+## Encargo 1 :cupid:
 1. Materiales que tengo: arduíno, cables, herramientas de costura.
 2. Materiales que me faltan: telas, servomotores, sensores de presión o flexión, batería o fuente de alimentación portátil, soldadura.
 3. Mi proyecto explicado en 1 frase: "Prenda usable lisa que se arrugue creando diferentes texturas"
