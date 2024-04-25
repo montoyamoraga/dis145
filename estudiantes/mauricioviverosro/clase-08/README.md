@@ -7,7 +7,7 @@ Lista preliminar de materiales que ya tienes
 - Cables.
 - Resistencia 10k ohmios.
 
-lista de materiales que tienes que conseguir
+Lista de materiales que tienes que conseguir
 - Pantalla tipo PDLC.
 - 2 Baterías AA.
 - Solid state relay ó HW482.
