@@ -10,7 +10,7 @@
 ## Materiales a conseguir 
 
 - 3 motores
-- Arduino UNO
+- 1 Arduino UNO
 - Madera para hacer mecanismos
 
 ## Proyecto en una frase
