@@ -60,4 +60,6 @@ Para ello primero debo crear un environment variable, para lo cual debo ir a set
 
 Cuando copié el path que le da valor al environment, lo copia automaticamente con comillas ("), por lo que tuve que borrarlas manualmente.
 
+Mandrill viene con un codigo de previews que no parece funcionar siguiendo los pasos del README, la verdad es que el readme deja bastante que desear. Los readme son muy imprtantes!!!
 
+Mi problema actualmente es que Mandrill parece no funcionar aun despues de haber seguido los pasos del README.
