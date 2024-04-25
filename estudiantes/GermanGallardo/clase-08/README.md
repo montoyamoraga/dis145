@@ -18,12 +18,6 @@
    
 ## Tu proyecto explicado en 1 párrafo
 
-Busca reforzar los buenos habitos a travez del sistema 
-de recompensa de los individuos, al momento de hacer la acción 
-planeada se prendera una pantalla led con un mensaje positivo
-y sonara una canciónplacentera lo cual provocara que 
-el individuo quiera repetir la acción.
-
-Además de esto  habran cuatro luces y cada una 
-significara un habito, al completarse uno se prendera la luz
-al prenderse las cuatro en la panatalla led dirá habitos completados
+Buscar la mejora de la postura a traves de sensores puestos en una polera
+que detecten cuando tu espalda este encorbada y cause una vibración
+para retomar la postura correcta
