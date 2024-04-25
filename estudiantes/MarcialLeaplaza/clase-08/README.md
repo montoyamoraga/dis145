@@ -29,10 +29,12 @@ Computador
 ``
 Grasshopper para controlar
 ``
-``
+
 Materiales que tengo que conseguir:
 ``
 Cable para conectar mi controlador al computador.
+``
+``
 Plug-ins que me permitan usar grasshopper como MIDI output.
 ``
 ## Proyecto explicado en una frase:
