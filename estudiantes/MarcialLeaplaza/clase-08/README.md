@@ -11,3 +11,5 @@ Encontre un thread en grasshopper3d [aquí](<https://www.grasshopper3d.com/group
 No resulto tan util ya que en este caso lo que se quiere lograr es generar inputs desde rhino, traducirlo a MIDI y con eso hacer musica. En mi caso es al revez, ya que yo deseo que rhino sea el output, no el input.
 
 en este [video](<https://www.youtube.com/watch?v=WYcriR227Dg>) se ve bien lo que quiero lograr.
+
+Lamentablemente el video es de hace 14 años y no hay info adicional sobre el plug-in o la forma en la que logro conectar todo.
