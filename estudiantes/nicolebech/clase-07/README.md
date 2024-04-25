@@ -84,4 +84,42 @@ Auto();
 
 
 
+
+
+
+## Segunda parte de clase 
+En la última parte de la clase tuvimos como tarea analizar una biblioteca a elección. para esto trabajamos en grupo. A continuación se adjunta lo que hicimos:
+Reposteado de : @isigoycoolea
+
+# Actividad análisis código :arrow_down:
+## Miembros del Grupo:
+- ***Josefina Sánchez***
+- ***Isidora Goycoolea:***
+- ***Nicole Bechan:***
+- ***Sebastián Millán:***
+
+![Alt text](1.jpg)
+
+
+![Alt text](2.jpg)
+
+
+![Alt text](3.jpg)
+
+
+![Alt text](4.jpg)
+
+
+![Alt text](5.jpg)
+
+
+
+
+
+
+
+
+
+
+
 Finalmente, en cuanto al proyecto personal este se encuentra en proceso de definición. Hasta el momento estuve indagando en sensores y materiales que quiero utilizar y me gustaría trabjar con un módulo lector RFID Rc522. Aun en proceso la idea final.
