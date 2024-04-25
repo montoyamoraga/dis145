@@ -46,7 +46,9 @@ Para ello necesito usar MIDI en grasshopper y ver como usar el controlador como 
 
 Encontre un foro en grasshopper3d [aquí](<https://www.grasshopper3d.com/group/ghowl/forum/topics/physical-sliders?page=4>).
 
-No resulto tan util ya que en este caso lo que se quiere lograr es generar inputs desde rhino, traducirlo a MIDI y con eso hacer musica. En mi caso es al revez, ya que yo deseo que rhino sea el output, no el input.
+En el foro encontre un primer plugin. No resulto tan util ya que en este caso lo que se quiere lograr es generar inputs desde rhino, traducirlo a MIDI y con eso hacer musica. En mi caso es al revez, ya que yo deseo que rhino sea el output, no el input.
+
+El segundo plugin que encontre es mas util, ya que este si permite que grasshopper sea el output. El plugin lo puedes encontrar [aqui](<https://www.grasshopper3d.com/forum/topics/mandrill-midi-realtime-bridge-for-grasshopper>)
 
 en este [video](<https://www.youtube.com/watch?v=WYcriR227Dg>) se ve bien lo que quiero lograr.
 
