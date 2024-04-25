@@ -14,7 +14,7 @@ int division2(int x0, int x1) {                  // defino la funcion division e
 }
 ```
 
-Además aprendimos a trabajar en distintas carpetas de un mismo archivo para ordenar y facilitar el trabajo. Utilizamos la extensión .h y .cpp que se explican a continuación. Para efectos de este ejercicio se ejemplificó con el funcionamiento de un auto
+Además aprendimos a trabajar en distintas carpetas de un mismo archivo para ordenar y facilitar el trabajo. Utilizamos la extensión .h y .cpp que se explican a continuación. Para efectos de este ejercicio se ejemplificó con el funcionamiento de un auto y se definieron variables acorde a esto.
 
 
 **Explicación archivo Auto.cpp**
