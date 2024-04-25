@@ -8,6 +8,6 @@ Para ello necesito usar MIDI en grasshopper y ver como usar el controlador como 
 
 Encontre un thread en grasshopper3d [aquí](<https://www.grasshopper3d.com/group/ghowl/forum/topics/physical-sliders?page=4>).
 
-''
-lajfnawlnfnlawkr
-''
+``
+Hola tia
+``
