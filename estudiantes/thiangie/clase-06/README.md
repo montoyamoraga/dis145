@@ -80,3 +80,4 @@ void draw()
   rect(50, 50, 100, 100);
 }
 ```
+[Video del ejercicio realizado en clases en el monitor serial](https://youtube.com/shorts/4m4IfpOvMSw?feature=share)
