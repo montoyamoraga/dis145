@@ -31,6 +31,7 @@ Grasshopper para controlar
 ``
 
 Materiales que tengo que conseguir:
+
 ``
 Cable para conectar mi controlador al computador.
 ``
