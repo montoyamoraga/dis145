@@ -12,14 +12,17 @@ Directorio denominado examples con varios sketchs de ejemplo que nos ayudará a 
 Adicionalmente puede haber otros archivos menos importantes como el de la licencia y otros
 
 
+
+## Referentes
+
+me gustaria poder hacer un prototipo el cual pueda hacer que pueda hacer un seguimientos de habitos positivos o bien provocarlos 
+1- https://www.printables.com/es/model/73080-habit-tracker-20-led-arduino-habit-tracker/files
+1- https://www.youtube.com/watch?v=CrN2XlmAmn8
+1- https://www.youtube.com/watch?v=HKpqeWySwsw
+
 ### funcion propia: 
+```cpp
 alCuadrado alCuadrado (int x0 )
  int multiplicar = (x0 * x0){
  return multiplicar}
 aprendimos a utilizar y crear la funcion auto
-
-## Referentes
-
-1- https://www.printables.com/es/model/73080-habit-tracker-20-led-arduino-habit-tracker/files
-1- https://www.youtube.com/watch?v=CrN2XlmAmn8
-1- https://www.youtube.com/watch?v=HKpqeWySwsw
