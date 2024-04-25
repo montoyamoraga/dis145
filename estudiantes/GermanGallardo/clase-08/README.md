@@ -1,5 +1,5 @@
 # clase-08
-## lista preliminar de materiales
+## Lista preliminar de materiales
 1. Led
 2. Arduino
 3. Cable arduino
@@ -14,7 +14,7 @@
 4. Botón
 
  ## Tu proyecto explicado en 1 frase
-   Apoyo de la formación de habitos positivos
+   Apoyo en la formación de habitos positivos de manera didactica
    
 ## Tu proyecto explicado en 1 párrafo
 
