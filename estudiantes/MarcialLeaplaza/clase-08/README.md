@@ -13,3 +13,5 @@ No resulto tan util ya que en este caso lo que se quiere lograr es generar input
 en este [video](<https://www.youtube.com/watch?v=WYcriR227Dg>) se ve bien lo que quiero lograr.
 
 Lamentablemente el video es de hace 14 años y no hay info adicional sobre el plug-in o la forma en la que logro conectar todo.
+
+Hasta ahora el mejor forum que pude encontrar fue [este](<https://discourse.mcneel.com/t/midi-controllers/78554>).
