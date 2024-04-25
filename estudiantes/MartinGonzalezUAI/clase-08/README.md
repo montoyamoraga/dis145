@@ -9,7 +9,7 @@
 
 ## Materiales a conseguir 
 
-- 3 Motores
+- 3 Servomotores
 - 1 Arduino UNO
 - Crear mecanismos con madera y/o impresion 3d
 
