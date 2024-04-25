@@ -17,9 +17,9 @@ Adicionalmente puede haber otros archivos menos importantes como el de la licenc
 ## Referentes
 
 me gustaria poder hacer un prototipo el cual pueda hacer que pueda hacer un seguimientos de habitos positivos o bien provocarlos 
-1- https://www.printables.com/es/model/73080-habit-tracker-20-led-arduino-habit-tracker/files
-1- https://www.youtube.com/watch?v=CrN2XlmAmn8
-1- https://www.youtube.com/watch?v=HKpqeWySwsw
+1. https://www.printables.com/es/model/73080-habit-tracker-20-led-arduino-habit-tracker/files
+1. https://www.youtube.com/watch?v=CrN2XlmAmn8
+1. https://www.youtube.com/watch?v=HKpqeWySwsw
 
 ### funcion propia: 
 ```cpp
