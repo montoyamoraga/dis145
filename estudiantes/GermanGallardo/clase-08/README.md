@@ -8,10 +8,9 @@
 
  ## Lista de materiales que conseguir
    
-1. Parlante
-2. Pantalla led
-3. Sensores
-4. Botón
+1. faja de espalda
+1. Sensor Ultrasónico HC SR04
+1. Motor de vibrador
 
  ## Tu proyecto explicado en 1 frase
    Apoyo en la formación de hábitos positivos de manera didáctica
