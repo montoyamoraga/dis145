@@ -19,10 +19,16 @@ Hasta ahora el mejor forum que pude encontrar fue [este](<https://discourse.mcne
 ## To do list + Descripcion de proyecto:
 
 Materiales que ya tengo:
+
 ``
-Controlador MIDI.
-Computador.
-Grasshopper para controlar.
+Controlador MIDI
+``
+``
+Computador
+``
+``
+Grasshopper para controlar
+``
 ``
 Materiales que tengo que conseguir:
 ``
