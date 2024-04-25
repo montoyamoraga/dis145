@@ -16,11 +16,8 @@
 + Zapatos que regulen la temperatura: zapatos que en situaciones de mucho frío o calor regulen la temperatura según lo que el usuario desee. Pensar en zapatos nike que se abra y se cierre solo sin tener que usar cordones.
 
 ## Encargo 1
-Arduíno, cables, 
-ista preliminar de materiales que ya tienes
-Telas,
-lista de materiales que tienes que conseguir
-tu proyecto explicado en 1 frase
-tu proyecto explicado en 1 párrafo
-tu proyecto explicado con 5 "hashtags", como referencia tomar los proyectos de https://www.media.mit.edu/research/?filter=groups_centers_initiatives
-responder con un emoji aquí abajito cuando lo hayan hecho, etiquetando a todo el equipo docente
+1. Materiales que tengo: arduíno, cables, herramientas de costura.
+2. Materiales que me faltan: telas, servomotores, sensores de presión o flexión, batería o fuente de alimentación portátil, soldadura.
+3. Mi proyecto explicado en 1 frase: "Prenda usable lisa que se arrugue creando diferentes texturas"
+4. Mi proyecto explicado en 1 párrafo: "El proyecto consiste en crear una prenda de moda, ya sea un vestido o una chaqueta, utilizando una tela lisa como lienzo. Integrando servomotores estratégicamente en la prenda y utilizando sensores de presión o flexión para detectar el movimiento del usuario, se logrará controlar la textura de la tela mediante Arduino. El Arduino recibirá la información de los sensores y activará los servomotores para arrugar la tela, creando así una superficie texturizada que cambiará según los movimientos del usuario, fusionando la elegancia de la moda con la innovación tecnológica."
+5. Mi proyecto explicado con 5 "hashtags": #ModaTecnológica #Movimiento #TexturasDinámicas #Vestuario #Interactivo 
