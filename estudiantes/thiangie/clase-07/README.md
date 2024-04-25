@@ -45,9 +45,16 @@ Circuit playground ha trabajado con arduino (tiene un código _fix_ para poder c
 [Adafruit de Circuit Playground](https://github.com/adafruit/Adafruit_CircuitPlayground)
 
 ## Referencias
+[Explicación de Circuit Playground y ejemplo de un wearable con este mismo](https://www.youtube.com/watch?v=wy8igdGP5UM&ab_channel=AdafruitIndustries)
+
+
 [Programar una tira de LEDs RGB en Arduino](https://www.youtube.com/watch?v=BQHMMlEAj3g&ab_channel=PensActius)
 La tira de LEDs es proveniente de Adafruit, que se pueden cortar en zonas de "prepicado" para decidir cuál es la cantidad de LEDs que se necesitará por proyecto.
+
+### Esquema del proyecto en TinkerCAD por @/PensActius en YouTube
 ![Esquema del proyecto en TinkerCAD por @/PensActius en YouTube](ejemploLEDS.png)
+
+
 
 
 
