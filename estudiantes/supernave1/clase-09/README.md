@@ -6,24 +6,17 @@ Con este código buscamos hacer que el servomotor se mueva en un rango de 180 gr
 
 #include <Servo.h> // Incluye la biblioteca del Servo en el codigo
 int pos = 0; // Damos posicion inicial del servo
-
 Servo servo; // Nombramos sero al servomotor
-
 int pausa = 100; //
-
 void setup()
 {
   Serial.begin(9600);
   servo.attach(9, 500, 2500); // servo en el pin digital 9, 500 y 2500 son el ancho
 }
-
 void loop()
-{
-  
-  for (pos = 0; pos <= 180; pos += 1) { // hace que el servo se mueva desde la posición 0 grados hasta 180 grados
-    
+{  
+  for (pos = 0; pos <= 180; pos += 1) { // hace que el servo se mueva desde la posición 0 grados hasta 180 grados  
     servo.write(pos);
-   
     delay(pausa);
     Serial.print("subiendo: ");
     Serial.println(pos);
