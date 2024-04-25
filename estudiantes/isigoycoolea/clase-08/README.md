@@ -14,3 +14,13 @@
 +  ~~Chaqueta de clima controlado: con sensores de temperatura y humedad que ajusten automáticamente la ventilación y la calefacción integradas.~~
 +  ~~Sombrero con sistema de iluminación direccional: sombrero con luces LED direccionales que iluminen el camino hacia adelante en situaciones de poca visibilidad.~~
 + Zapatos que regulen la temperatura: zapatos que en situaciones de mucho frío o calor regulen la temperatura según lo que el usuario desee. Pensar en zapatos nike que se abra y se cierre solo sin tener que usar cordones.
+
+## Encargo 1
+Arduíno, cables, 
+ista preliminar de materiales que ya tienes
+Telas,
+lista de materiales que tienes que conseguir
+tu proyecto explicado en 1 frase
+tu proyecto explicado en 1 párrafo
+tu proyecto explicado con 5 "hashtags", como referencia tomar los proyectos de https://www.media.mit.edu/research/?filter=groups_centers_initiatives
+responder con un emoji aquí abajito cuando lo hayan hecho, etiquetando a todo el equipo docente
