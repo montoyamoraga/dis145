@@ -4,7 +4,6 @@
 Con este código buscamos hacer que el servomotor se mueva en un rango de 180 grados, rango el cual permite tener a un máximo de 3 jugadores, ya que en un futuro va a hacer paradas en el rango, bajo un mínimo de 60 grados de recorrido.
 ￼
 
-
 #include <Servo.h> // Incluye la biblioteca del Servo en el codigo
 int pos = 0; // Damos posicion inicial del servo
 
@@ -36,3 +35,6 @@ void loop()
     Serial.println(pos);
   }
 }
+
+
+
