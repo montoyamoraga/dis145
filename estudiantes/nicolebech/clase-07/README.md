@@ -89,34 +89,7 @@ Auto();
 
 ## Segunda parte de clase 
 En la última parte de la clase tuvimos como tarea analizar una biblioteca a elección. para esto trabajamos en grupo. A continuación se adjunta lo que hicimos:
-Reposteado de : @isigoycoolea
-
-# Actividad análisis código :arrow_down:
-## Miembros del Grupo:
-- ***Josefina Sánchez***
-- ***Isidora Goycoolea:***
-- ***Nicole Bechan:***
-- ***Sebastián Millán:***
-
-![Alt text](1.jpg)
-
-
-![Alt text](2.jpg)
-
-
-![Alt text](3.jpg)
-
-
-![Alt text](4.jpg)
-
-
-![Alt text](5.jpg)
-
-
-
-
-
-
+Reposteado de : @isigoycoolea. Revisar perfil para ver completo y adjuntos (immágenes)
 
 
 
