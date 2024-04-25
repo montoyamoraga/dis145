@@ -11,7 +11,7 @@
 
 - 3 Motores
 - 1 Arduino UNO
-- Madera para hacer mecanismos
+- Crear mecanismos con madera y/o impresion 3d
 
 ## Proyecto en una frase
 
