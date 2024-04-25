@@ -94,5 +94,5 @@ Reposteado de : @isigoycoolea. Revisar perfil para ver completo y adjuntos (imm�
 
 
 
-
+## Proyecto Personal
 Finalmente, en cuanto al proyecto personal este se encuentra en proceso de definición. Hasta el momento estuve indagando en sensores y materiales que quiero utilizar y me gustaría trabjar con un módulo lector RFID Rc522. Aun en proceso la idea final.
