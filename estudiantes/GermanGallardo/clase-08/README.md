@@ -6,17 +6,17 @@
 3. Protoborad
 4. Cables
 
-   ## lista de materiales que conseguir
+ ## Lista de materiales que conseguir
    
 1. Parlante
 2. Pantalla led
 3. Plastico 
 4. Botón
 
- ## tu proyecto explicado en 1 frase
+ ## Tu proyecto explicado en 1 frase
    Apoyo de la formación de habitos positivos
    
-##tu proyecto explicado en 1 párrafo
+## Tu proyecto explicado en 1 párrafo
 
 Busca reforzar los buenos habitos a travez del sistema 
 de recompensa de los individuos, al momento de hacer la acción 
