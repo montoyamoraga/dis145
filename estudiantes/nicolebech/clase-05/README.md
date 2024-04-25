@@ -3,7 +3,7 @@ En esta clase trabajamos en grupo con @isigoycoolea y @Samillanc.
 
 Resposteado desde @isigoycoolea. Revisar perfil para ver completo y adjuntos
 
-Fecha
+Fecha:
 *Jueves 04 de abril de 2024.*
 
 
