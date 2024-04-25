@@ -1,11 +1,11 @@
-# clase-08
+# Clase-08
 :bulb: Busqueda de proyectos de arduino
 
 :-1: ~~Categorías que NO me gustaría basarme~~ ~~: automotriz, música, entretenimiento, computación, etc.
 
 :+1: *Categorías que SI me gustaría basarme*: arte y creatividad, salud, ayuda para alguien, más que nada cualquier tipo de proyecto con un fin que tenga sentido para mí.
 
-# Posibles ideas: 
+## Posibles ideas: 
 + Guantes de traducción de señas: guantes con sensores de flexión y acelerómetros que traduzcan el lenguaje de señas en texto o voz.
 + Cinturón vibratorio para la navegación: cinturón con motores de vibración que indiquen la dirección a seguir en la navegación, como un GPS wearable.
 + Zapatos, polera o chaqueta con sensores de postura: con sensores que detecten la postura y proporcionen retroalimentación para mejorar la postura o que te obliguen  estar derecho.
