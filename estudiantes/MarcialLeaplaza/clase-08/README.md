@@ -43,7 +43,7 @@ Plug-ins que me permitan usar grasshopper como MIDI output.
 ``
 ## Proyecto explicado en una frase:
 
-Panel de control MIDI para grasshopper.
+Panel de control MIDI para crear sables de luz.
 
 ## Proyecto explicado en un parrafo:
 
