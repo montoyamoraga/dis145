@@ -1,9 +1,12 @@
 # Apuntes clase 07 :electric_plug:
-*Jueves 18 de abril de 2024.*
 
-# Códigos en arduíno :eye_speech_bubble:
+_Jueves 18 de abril de 2024._
+
+## Códigos en arduíno :eye_speech_bubble:
+
 Durante la clase aprendimos ciertos códigos específicos con distintas funciones, como:
-- Void setup ()
+
+- void setup ()
 - Void loop ()
 - Void
 - #include
@@ -18,41 +21,34 @@ Durante la clase aprendimos ciertos códigos específicos con distintas funcione
 - return
 - else
 
-***APUNTES CLASE*** :100:
-  
-![Alt text](aritmeticaAuto.png)
+**_APUNTES CLASE_** :100:
 
+![alt text](aritmeticaAuto.png)
 
-![Alt text](acercaDe.png)
+![alt text](acercaDe.png)
 
+![alt text](autocpp.png)
 
-![Alt text](auto.cpp.png)
+![Alt text](classAuto.png)
 
-
-![Alt text](clasAuto.png)
-
-
-![Alt text](sumaResta)
+![Alt text](sumaResta.png)
 ![Alt text](sumaResta2.png)
 
+## Actividad análisis código :arrow_down:
 
-# Actividad análisis código :arrow_down:
-## Miembros del Grupo:
-- ***Josefina Sánchez***
-- ***Isidora Goycoolea:***
-- ***Nicole Bechan:***
-- ***Sebastián Millán:***
+## Miembros del Grupo
+
+- **_Josefina Sánchez_**
+- **_Isidora Goycoolea:_**
+- **_Nicole Bechan:_**
+- **_Sebastián Millán:_**
 
 ![Alt text](1.jpg)
 
-
 ![Alt text](2.jpg)
-
 
 ![Alt text](3.jpg)
 
-
 ![Alt text](4.jpg)
-
 
 ![Alt text](5.jpg)
