@@ -41,6 +41,11 @@ Auto::acelerar() {
   if(velocidad > 50) {
     velocidad + 50:
   }
+```
+
+**Explicación archivo Auto.h**
+
+```
 // Explicacion del tipo de archivo .h
 // Este sirve para declarar que las cosas existen o no existen para el cpp
 
