@@ -17,4 +17,3 @@ Any Way You Want It-Journey
   - Sistema inteligente de monitoreo del estado de los alimentos, que emplea sensores, para determinar la idoneidad de los alimentos para el consumo, su urgencia de consumo y su estado de descomposición. El objeto al proveer información en tiempo real sobre la condición de los alimentos, habilita a los usuarios para tomar decisiones fundamentadas acerca de su consumo, con el potencial de reducir significativamente el desperdicio de alimentos.
 6. Tu proyecto explicado con 5 "hashtags", como referencia tomar los proyectos de https://www.media.mit.edu/research/?filter=groups_centers_initiatives
   - #desing #human-computer interaction #sensors #interfaces #food
-
