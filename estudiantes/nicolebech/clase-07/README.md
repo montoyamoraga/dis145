@@ -11,6 +11,7 @@ int division2(int x0, int x1) {                  // defino la funcion division e
 }
 ```
 
+Además aprendimos a trabajar en distintas carpetas de un mismo archivo para ordenar y facilitar el trabajo. 
 
 **Los apuntes de clase y todos los comentarios se encuentran en la carpeta subida.**
 
