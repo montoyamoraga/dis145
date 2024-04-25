@@ -23,6 +23,7 @@ de recompensa de los individuos, al momento de hacer la acción
 planeada se prendera una pantalla led con un mensaje positivo
 y sonara una canciónplacentera lo cual provocara que 
 el individuo quiera repetir la acción.
+
 Además de esto  habran cuatro luces y cada una 
 significara un habito, al completarse uno se prendera la luz
 al prenderse las cuatro en la panatalla led dirá habitos completados
