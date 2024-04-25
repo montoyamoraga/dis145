@@ -29,7 +29,7 @@ Al momento de tatuar es necesario estirar la piel para que la aguja entre con ma
 
 La dimension de esto de 15cm x 15cm x 10cm, con el fin de poder introducir el brazo entre las dos varas, para que despues el brazo sea apretado, tensionadno asi la piel. 
 
-![Sketch_Proyecto2](Sketch_Proyecto2.jpg)
+![Sketch2_Proyecto](Sketch2_Proyecto.jpg)
 
 
 
