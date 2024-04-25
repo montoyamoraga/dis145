@@ -2,10 +2,10 @@
 
 
 # lista preliminar de materiales que ya tienes
--computador
--cable usb
--botones
--cables
+- computador
+- cable usb
+- botones
+- cables
 # lista de materiales que tienes que conseguir
 -arduino 
 # tu proyecto explicado en 1 frase
