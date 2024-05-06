@@ -39,10 +39,24 @@ En el caso que no lo esté, lo define.
 # Investigación
 ## Adafruit_CircuitPlayground
 La placa _Circuit playground_ es una familia de microcontroladores con LEDs, botones, sensores. 
-[Link explicativo] (https://code.org/maker/circuitplayground)
+[Link explicativo](https://code.org/maker/circuitplayground)
 
 Circuit playground ha trabajado con arduino (tiene un código _fix_ para poder codificar por este medio). Sin embargo, es más dirigido hacia python.
-[Adafruit de Circuit Playground] (https://github.com/adafruit/Adafruit_CircuitPlayground)
+[Adafruit de Circuit Playground](https://github.com/adafruit/Adafruit_CircuitPlayground)
+
+## Referencias
+### Circuit Playground wearable
+[Explicación de Circuit Playground y ejemplo de un wearable con este mismo](https://www.youtube.com/watch?v=wy8igdGP5UM&ab_channel=AdafruitIndustries)
+
+### Tira de LEDs RGB manejado por Arduino
+[Programar una tira de LEDs RGB en Arduino](https://www.youtube.com/watch?v=BQHMMlEAj3g&ab_channel=PensActius)
+La tira de LEDs es proveniente de Adafruit, que se pueden cortar en zonas de "prepicado" para decidir cuál es la cantidad de LEDs que se necesitará por proyecto.
+
+#### Esquema del proyecto en TinkerCAD por @/PensActius en YouTube
+![Esquema del proyecto en TinkerCAD por @/PensActius en YouTube](ejemploLEDS.png)
+
+
+
 
 
 
