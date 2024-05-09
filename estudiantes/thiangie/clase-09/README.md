@@ -121,3 +121,12 @@ void mouseMoved()
 }
 
 ```
+#### Principales problemas
+Después de agregar el texto, aparece constantemente el error de que no están bien puestos los murciélagos ({})
+
+#### Logros
+Sí se puede ejecutar el código y "escuchar" el color rojo al mover el mouse
+
+#### Propósito
+Se escucha el color, ya que la longitud de onda del color rojo es de 400 hz, con una amplitud decente para escuchar y no ensordecer.
+Al mover el mouse, se alteran los Hz y se escuchan dentro de un rango (se debe investigar más a fondo esa parte del código)
