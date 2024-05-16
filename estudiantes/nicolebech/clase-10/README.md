@@ -116,7 +116,7 @@ void draw(){
 
 
 
-Refetentes:
+Referentes:
 
 <https://happycoding.io/tutorials/processing/>
 <https://happycoding.io/tutorials/processing/what-is-programming>
