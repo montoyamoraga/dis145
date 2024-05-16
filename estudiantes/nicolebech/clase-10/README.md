@@ -112,11 +112,17 @@ void draw(){
 ```
 ![image](https://github.com/SrYuyo/dis145/assets/103392227/20aa61f5-9598-4b94-a4d4-b14359ae7bef)
 
+![image](https://github.com/SrYuyo/dis145/assets/103392227/371ad0e9-5794-4fa8-86f8-b69f61fbd716)
+
 
 
 Refetentes:
+
 <https://happycoding.io/tutorials/processing/>
 <https://happycoding.io/tutorials/processing/what-is-programming>
 <http://makitpro.com/index.php/aprende/referencia/ejercicios-de-processing/> (link no seguro?)
 <http://www.tallertecno.com/recursos/Referencia_Processing_con_Imagenes.pdf> (link no seguro?)
 <https://processing.org/reference#control-logical-operators>
+<https://cursos.mcielectronics.cl/2019/06/11/conectando-arduino-a-processing/>
+<https://www.youtube.com/watch?v=EQugLcDoaOQ&ab_channel=ChepeCarlos>
+<https://processing.org/tutorials/gettingstarted>
