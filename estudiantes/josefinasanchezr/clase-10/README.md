@@ -12,7 +12,7 @@
 
 **Que necesito?:**
 * 1 ServoMotor MG90S
-* 1 Fotoresistencia (LDR)
+* 1 Fotoresistencia (LDR) https://mcielectronics.cl/shop/product/sensor-de-luz-ldr-10499/
 * 1 Arduino UNO
 * 1 Protoboard
 * 6 Cables Hembra Macho
