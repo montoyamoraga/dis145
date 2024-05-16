@@ -18,7 +18,7 @@ Seguiré aprendiendo a travez de esta fuente. [RhinoCommon](<https://developer.r
 Antes de esto estuve viendo las clases del profesor [Long Nguyen](<https://www.youtube.com/watch?v=pFCrIzENDn8&t=4709s>).
 
 ![image](https://github.com/MarcialLeaplaza/dis145/assets/165319963/4d7fff8f-0105-4ae2-b527-f88d22262cdb)
-![image1](<>)
+![image1](<estudiantes/MarcialLeaplaza/clase-10/imagenes/CSScript.png>)
 
 - Aprender a leer inputs de MIDI.
 - Traducir los inputs a valores utiles.
