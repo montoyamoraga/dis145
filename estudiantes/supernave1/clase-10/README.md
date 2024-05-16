@@ -6,3 +6,6 @@ El proyecto va acontar con una base, la cual tienen que ser suficientemente gran
 Arriba de la base, va una plataforma para las cartas, conectada directamente al servo. Esta base de las cartas, va a tener un anclaje para enganchar un brazo que va a darle la posición a otro motor el cual va a rodar una rueda de goma para que tenga fricción con las cartas y asi logre empujarlas una a una. El peso del motor hará que la rueda quede con presión, para que quede tocando una carta todo el tiempo.
 
 Aca una imagen de un boceto explicativo.
+
+
+![idea interfaces_1](https://github.com/supernave1/dis145/assets/164402810/7a6b98bc-db20-439e-9126-46a245a368c0)
