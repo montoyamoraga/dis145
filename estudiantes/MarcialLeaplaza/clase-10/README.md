@@ -13,7 +13,7 @@ Por ahora estoy aprendiendo lo basico. Decidí usar C# ya que me permitirá even
 
 Por ahora puedo hacer codigos muy básicos, ya puedo crear y manipular objetos en rhino desde grasshopper usando bloques de C# script.
 
-Seguiré aprendiendo a travez de esta fuennte 
+Seguiré aprendiendo a travez de esta fuente. [RhinoCommon](<https://developer.rhino3d.com/api/rhinocommon/?version=8.x>)
 
 ![image](https://github.com/MarcialLeaplaza/dis145/assets/165319963/4d7fff8f-0105-4ae2-b527-f88d22262cdb)
 
