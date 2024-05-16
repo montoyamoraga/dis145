@@ -9,8 +9,9 @@ ya que no tienen buen equilibrio o se le dificulta bastante. Teniendo en cuenta 
 
 Teniamos claro el proyecto pero no los sensores que se utilizarán, por lo mismo, con la ayuda del profesor indagamos en la web.
 
-Primeramente encontramos un sensor tilt el cual manda una señal segun su inclinación.
+Primeramente encontramos un sensor tilt el cual manda una señal según su inclinación.
 
+imagen adjunta "sensor tilt"
 ![SensorTilt](./SensorTilt.jpg)
 
 el problema con esto fue que este sensor solamente reconoce un umbral de inclinación, por lo mismo no podriamos enviar la señal para que señalice en los dos sentidos.
@@ -18,8 +19,13 @@ el problema con esto fue que este sensor solamente reconoce un umbral de inclina
 siguiendo con la investigacion por la web encontramos un dispositivo llamado giroscopo el cual mide el cambio en el angulo rotacional.
 Este sensor (giroscopio y acelerometro mpu-6050) puede medir el angulo en 3 ejes (x, y, z) pero nosotros solamente necesitamos un eje así que tendriammos el trabajo mucho mas simple. 
 
+imagen adjunta "sensor giroscopo"
 ![SensorGiroscopo](./SensorGiroscopio.jpg)
 
 Teniendo este sensor podriamos programar que si este capta un angulo -x (izquierda) se prenda una cantidad de luces led las cuales hagan una figura de flecha hacia la izquierda y si este capta un angulo +x (derecha) se prenda una flecha de leds hacia el lado opuesto al anterior.
+
+
+Ya teniendo los sensores listos podemos comenzar a jugar con el codigo.
+por lo mismo buscamos librerias que utilizen este sensor para analizarlas y compreender bien sus funciones.
 
 
