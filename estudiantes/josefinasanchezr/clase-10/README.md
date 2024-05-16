@@ -34,6 +34,7 @@ https://www.vistronica.com/blog/post/Arduino-disipador-de-comida-para-tu-perro.h
 
 * Código para sensor evasor de obstáculos:
 
+```cpp
 #include <Servo.h> // Incluí­mos la librerí­a para poder controlar el servo
 Servo servoMotor; // Declaramos la variable para controlar el servo
 int pinReceptor = A1; //Establecemos el pin a leer
@@ -69,4 +70,45 @@ if (sensorVal <= 45 && leerSensor) {
    }
 }
 
+```
+
+https://www.youtube.com/watch?v=ejqWLsCPYpY
+
+* Código para controlar rotacion de servomotor segun cantidad de luz que le llega al sensor:
+
+```cpp
+#include <Servo.h> 
+Servo myservo;    
+
+//Inicializo variable que es la posicion de mi servomotor
+int pos = 0;
+
+
+void setup(){
+
+//Iniciamos monitor serial
+   Serial.begin(9600); 
+//Asignamios pin 9 para controlar el servomotor
+   myservo.attach(9);
+}
+
+
+void loop(){
+
+//Declaramos la variable ldr que lee el valor del pin analogico A0 donde esta conectado el sensor
+  int ldr= analogRead(A0);
+
+//Se calcula la posicion del servo
+  pos=(1023-ldr)/4;
+
+//Imprime la posicion en el monitor serial
+  Serial.println(pos);     
+
+//Posicion se escribe sobre el servo                          
+  myservo.write(pos);
+
+//Delay para q cambie de posicion
+  delay(15);
+}
+```
 
