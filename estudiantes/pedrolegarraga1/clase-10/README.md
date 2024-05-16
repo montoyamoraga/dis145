@@ -18,7 +18,7 @@ el problema con esto fue que este sensor solamente reconoce un umbral de inclina
 siguiendo con la investigacion por la web encontramos un dispositivo llamado giroscopo el cual mide el cambio en el angulo rotacional.
 Este sensor (giroscopio y acelerometro mpu-6050) puede medir el angulo en 3 ejes (x, y, z) pero nosotros solamente necesitamos un eje así que tendriammos el trabajo mucho mas simple. 
 
-![SensorGiroscopo](./SensorGiroscopo.jpg)
+![SensorGiroscopo](./SensorGiroscopio.jpg)
 
 Teniendo este sensor podriamos programar que si este capta un angulo -x (izquierda) se prenda una cantidad de luces led las cuales hagan una figura de flecha hacia la izquierda y si este capta un angulo +x (derecha) se prenda una flecha de leds hacia el lado opuesto al anterior.
 
