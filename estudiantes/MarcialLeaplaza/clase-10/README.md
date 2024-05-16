@@ -13,7 +13,7 @@ Por ahora estoy aprendiendo lo basico. Decidí usar C# ya que me permitirá even
 
 Por ahora puedo hacer codigos muy básicos, ya puedo crear y manipular objetos en rhino desde grasshopper usando bloques de C# script.
 
-![Figura1]()
+![Figura1](estudiantes/MarcialLeaplaza/clase-10/imagenes/C#Script.png)
 
 - Aprender a leer inputs de MIDI.
 - Traducir los inputs a valores utiles.
