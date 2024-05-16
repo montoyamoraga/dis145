@@ -8,6 +8,10 @@ El mecanismo consta de 2 piñones y 2 cremalleras para el movimiento horizontal 
 
 ![Inventor](Inventor.png)
 
+## Correccion Estilo Codigo
+
+En esta clase tambien me encargue de arregalar el estilo de mi codigo, deje los comentarios arriba de cada linea del codigo, y corregi los nombres de las variables eliminando el guion bajo,y aplique metodo camello
+
 ```cpp
 
 //Codigo creado por Martin Gonzalez Marin
