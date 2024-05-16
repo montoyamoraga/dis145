@@ -114,6 +114,7 @@ void draw(){
 
 ![image](https://github.com/SrYuyo/dis145/assets/103392227/371ad0e9-5794-4fa8-86f8-b69f61fbd716)
 
+Ahora biene el definir la interfaz de como se relaciona el usuario con el objeto/producto. Ver si de procesing se puede pasar a pantallas led pequeñas para poder iterar.
 
 
 Referentes:
@@ -126,3 +127,4 @@ Referentes:
 <https://cursos.mcielectronics.cl/2019/06/11/conectando-arduino-a-processing/>
 <https://www.youtube.com/watch?v=EQugLcDoaOQ&ab_channel=ChepeCarlos>
 <https://processing.org/tutorials/gettingstarted>
+<https://processing.org/tutorials/>
