@@ -2,7 +2,7 @@
 
 Pearl Jam - Even Flow
 
-Trabajo orientado hacia procesing, con talde tener una comunicación entre el dispositivo y la placa. Tener una idea de que se deberia arojar por pantalla, con esto se tiene una boción.
+Trabajo orientado hacia procesing, con tal de tener una comunicación entre el dispositivo y la placa. Tener una idea de que se deberia arojar por pantalla, con esto se tiene una boción.
 
 Un codigo interesante para entender no solo el lenguaje Java en si, si no que procesing es el del siguiente ejemplo sacado de las referencias. En el ejemplo una pelota rebota al llegar al borde del scketch dibujado, pero el rebote toma el centro y cuando el centro llega en algún momento a alguno de los bordes, lo cual esta determinado en los condicionales. Ahora bien el codigo Java sigue una logica similar a otros lenguajes orientados a objetos, los que organizan el diseño de software en torno a objetos o datos, en lugar de usar lógica y funciones.
 
