@@ -10,6 +10,9 @@ ya que no tienen buen equilibrio o se le dificulta bastante. Teniendo en cuenta 
 Teniamos claro el proyecto pero no los sensores que se utilizarán, por lo mismo, con la ayuda del profesor indagamos en la web.
 
 Primeramente encontramos un sensor tilt el cual manda una señal segun su inclinación.
+
+![SensorTilt](./SensorTilt.jpg)
+
 el problema con esto fue que este sensor solamente reconoce un umbral de inclinación, por lo mismo no podriamos enviar la señal para que señalice en los dos sentidos.
 
 siguiendo con la investigacion por la web encontramos un dispositivo llamado giroscopo el cual mide el cambio en el angulo rotacional.
