@@ -3,6 +3,10 @@
 ## CONCIENTIZACIÓN FUMADORES
 
 ![01](./01.jpg)
+![01](./02.jpg)
+![01](./03.jpg)
+![01](./04.jpg)
+![01](./05.jpg)
 
 **En que consiste?:** es una escultura interactiva que cuenta con una fotoresistencia en la punta del cigarro, la cual envia una señal a un Arduino UNO cuando percibe una X cantidad de luz y el Arduino envia otra señal a un servo motor para que se mueva y se abran las compuertas que retienen las pelotitas que caen dentro de la cara de la escultura. De esta manera, se refleja que mientras mas fumamos, mas daño nos hace. 
 
