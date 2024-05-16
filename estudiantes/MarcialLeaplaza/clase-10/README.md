@@ -9,6 +9,12 @@ Necesito conseguir un controlaodr MIDI para poder conectarlo a mi computadora y 
 
 Necesito conseguir una forma de comunicar a grasshopper con el controlador.
 
+Por ahora estoy aprendiendo lo basico. Decidí usar C# ya que me permitirá eventualmente crear mi propio plugin para grasshopper para usa controladores MIDI en grasshopper.
+
+Por ahora puedo hacer codigos muy básicos, ya puedo crear y manipular objetos en rhino desde grasshopper usando bloques de C# script.
+
+
+
 - Aprender a leer inputs de MIDI.
 - Traducir los inputs a valores utiles.
 - Asignar esos valores a un grasshopper.
