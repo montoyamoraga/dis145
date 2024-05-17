@@ -1,4 +1,4 @@
-:arrow_right: # clase-10
+# clase-10
 Estaba complicada y bloqueada con la idea anterior :warning: , así que decidí cambiarla completamente. :new: Para mi nuevo proyecto imitaré el sistema de una cámara fotográfica, principalmente del sistema llamado Phinhole Camera. Esto consiste en una cámara estenopeica que es un tipo de cámara fotográfica sin lente. Se forma por una caja cerrada a la luz, que solo tiene un pequeño orificio llamado estenopo. La luz entra por este orificio y proyecta una imagen invertida en el interior de la cámara sobre un material fotosensible, como papel fotográfico o una película. El pequeño tamaño del orificio permite que la luz se enfoque sin necesidad de una lente, creando una imagen nítida aunque con menos brillo. Este tipo de cámara es simple pero efectiva para capturar imágenes.:hearts:
 
 # Cámara Estenopeica :camera:
