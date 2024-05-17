@@ -1,7 +1,7 @@
-# clase-10
-Estaba complicada y bloqueada con la idea anterior, así que decidí cambiarla completamente. Para mi nuevo proyecto imitaré el sistema de una cámara fotográfica, principalmente del sistema llamado Phinhole Camera. Esto consiste en una cámara estenopeica que es un tipo de cámara fotográfica sin lente. Se forma por una caja cerrada a la luz, que solo tiene un pequeño orificio llamado estenopo. La luz entra por este orificio y proyecta una imagen invertida en el interior de la cámara sobre un material fotosensible, como papel fotográfico o una película. El pequeño tamaño del orificio permite que la luz se enfoque sin necesidad de una lente, creando una imagen nítida aunque con menos brillo. Este tipo de cámara es simple pero efectiva para capturar imágenes.
+:arrow_right: # clase-10
+Estaba complicada y bloqueada con la idea anterior :warning: , así que decidí cambiarla completamente. :new: Para mi nuevo proyecto imitaré el sistema de una cámara fotográfica, principalmente del sistema llamado Phinhole Camera. Esto consiste en una cámara estenopeica que es un tipo de cámara fotográfica sin lente. Se forma por una caja cerrada a la luz, que solo tiene un pequeño orificio llamado estenopo. La luz entra por este orificio y proyecta una imagen invertida en el interior de la cámara sobre un material fotosensible, como papel fotográfico o una película. El pequeño tamaño del orificio permite que la luz se enfoque sin necesidad de una lente, creando una imagen nítida aunque con menos brillo. Este tipo de cámara es simple pero efectiva para capturar imágenes.:hearts:
 
-# Cámara Estenopeica
+# Cámara Estenopeica :camera:
 Mi idea es imitar este sistema de funcionamiento, con 
 
 El funcionamiento de la cámara estenopeica se basa en principios básicos de la óptica. Aquí te explico el paso a paso de cómo funciona:
@@ -33,7 +33,7 @@ Para imitar el funcionamiento de una cámara estenopeica usando Arduino, combina
 - Cables de conexión
 - Protoboard
 
-### Pasos para crear la cámara estenopeica simulada
+### Pasos para crear la cámara estenopeica simulada :mag_right:
 
 1. **Construcción del sensor de luz**:
    - Crera una matriz de fotodiodos o LDRs en una protoboard. Cada fotodiodo o LDR representará un píxel de la imagen.
@@ -45,7 +45,7 @@ Para imitar el funcionamiento de una cámara estenopeica usando Arduino, combina
 3. **Escribir el código en Arduino**:
    - Escribir el código para leer los valores de luz de cada sensor y mostrarlos en la pantalla.
 
-### Ejemplo de código
+### Ejemplo de código :computer:
 
 Este código asume una matriz de 3x3 LDRs conectados a los pines analógicos A0 a A8 del Arduino y una pantalla LCD para mostrar los valores.
 
@@ -96,7 +96,7 @@ void loop() {
 }
 ```
 
-### Explicación del código
+### Explicación del código :battery:
 1. **Inicialización de la pantalla LCD**:
    - Se configura la pantalla LCD usando la librería `LiquidCrystal`.
 
