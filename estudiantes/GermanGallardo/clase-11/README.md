@@ -23,7 +23,7 @@ void setup() {
   pinMode(motorPin, OUTPUT);
 
 
-  Serial.begin(9600);   // Inicialización de la comunicación serial 
+  Serial.begin(9600);   // Inicio de comunicación serial 
 }
 
 void loop() {
