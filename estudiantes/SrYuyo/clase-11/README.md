@@ -100,6 +100,11 @@ void serialEvent(Serial p){
 }  
 ```
 
+Teniendo esto en cuenta se pued eapreciar que la conección es sencilla, pero que sse deben tener en cuenta las variables de los sensores a utilizar para el dispositivo. Además las varaibles que captan los datos deben filtrase, para así poder visualizarlos y manipularlos de mejor manera en la interfaz.
+
+Para un siguiente avance se deben de tener la conección de los sensores en el arduino y que estos manden una señal a processing o el computador y que por este mismo se genere una respuesta. Además se debe fijar el como sera la interfaz, es decir si se mantendra la misma idea original presentada o habra alguna variacción según se vaya dando.
+
+Se debe tener un modelo 3d para el dispositivo y tener una posible distribución de los componentes.
 
 Referencias:
 
