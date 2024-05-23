@@ -1,5 +1,8 @@
 # clase-11
-
+Logre conseguir mi sensor de movimiento (Sensor HC-SR04) ahora estoy investigando como ocupar correctamente el codigo 
+DistanciaSerial: Obtiene la distancia en centímetros y lo envía por el hardware serial (puede visualizar las mediciones desde el monitor serial del IDE Arduino)
+Proximidad: Sensor HC-SR04 como un sensor discreto, a partir de una distancia como umbral definimos si existe presencia o no de un objeto cercano, dependiendo si la distancia es mayor o menor al umbral, activamos o apagamos una salida digital(LED)
+ codigo
 const int trigPin = 9;  // Pin de señal del sensor de proximidad (Trig)
 const int echoPin = 10; // Pin de señal del sensor de proximidad (Echo)
 const int motorPin = 6; // Pin del motor vibrador
