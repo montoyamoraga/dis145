@@ -25,3 +25,6 @@ void loop() {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
+
+  ![image](https://github.com/GermanGallardo/dis145/assets/164402341/67713a81-cd58-4f9d-9d26-d463b97063ad)
+
