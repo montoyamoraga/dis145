@@ -15,12 +15,14 @@ https://arduino.cl/producto/arduino-uno-r4-wifi/
 Diodo Led RGB 5mm
 https://articulo.mercadolibre.cl/MLC-1729399308-diodo-led-rgb-5mm-catodo-comun-superbrillantes-25-unidades-_JM?variation=179329896027
 
-##proceso:
+## proceso:
 se intento modelar por tinkercad y wokwik pero no tenian este sensor. se busco mas info respecto al sensor 
 max9814 (ANALOGO) probablemente tenga que soldarlo.
 
 ejemplos de codigo con el sensor:
+
 ´´´
+
 const int sampleWindow = 50; // Sample window width in mS (50 mS = 20Hz)
 unsigned int sample;
 
@@ -78,6 +80,7 @@ void loop()
 
   
   }
+  
   ´´´
   
 
