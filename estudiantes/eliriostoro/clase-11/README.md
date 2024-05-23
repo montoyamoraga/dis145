@@ -82,5 +82,9 @@ void loop()
   }
   
 ```
+
+#### imagen de referencia
+![sensor de sonido](https://github.com/eliriostoro/dis145/assets/95258783/e7c93240-52cd-45b2-b214-1f2ec7809552)
+
   
 
