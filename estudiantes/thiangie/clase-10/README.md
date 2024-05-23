@@ -194,5 +194,6 @@ class Caracter {
 ```
 ### Resultado visual
 
-![Video del funcionamiento del código](https://github.com/estudiantes/thiangie/clase-10/funcionamientoCodigo.mov "funcionamientoCodigo")
+https://github.com/thiangie/dis145/assets/100184098/9f90d314-0ce1-4aac-ba13-41356fedb5ea
+
 
