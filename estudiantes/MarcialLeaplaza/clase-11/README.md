@@ -5,7 +5,7 @@ Me prestaron un KEYSTEP midi <3
 
 Finalmente pude leer inputs midi en mi computador por primera vez.
 
-Para esto use un sample code de microsoft que permite encontrar y leer unputs de u midi device.
+Para esto use un [sample code](<https://learn.microsoft.com/en-us/samples/microsoft/windows-universal-samples/midi/>) de microsoft que permite encontrar y leer unputs de un midi device.
 
 <img width="1280" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/cc3b3398-bc87-4228-b3b3-6f176543b553">
 
