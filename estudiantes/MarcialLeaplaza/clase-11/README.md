@@ -13,3 +13,5 @@ Lo que sigue es adaptar este codigo a un c# script de grasshopper. Para ello ten
 
 En este caso el programa abre una ventana con una interfas muy basica, la cual tiene tres pestañas, cada una controlada por un archivo de codigo distinto, los cuales se llaman "scenarios".
 
+Para continuar debo aprender a crear plugins desde c# para grasshopper, por lo que me referire a los videos tutoriales de Long Nguyen
+
