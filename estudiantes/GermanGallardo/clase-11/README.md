@@ -1,4 +1,7 @@
 # clase-11
+Para ocompletar mi proyecto necesitar ese dos componentes escensiales el cual será el Sensor HC-SR04 y El moto vibratorio .
+el Sensor HC-SR04 es detectar la distancia que estara el componente de el cuello y asi si se supera de la distancia establecida vibrara el motor
+
 Logre conseguir mi sensor de movimiento (Sensor HC-SR04) ahora estoy investigando como ocupar correctamente el codigo 
 DistanciaSerial: Obtiene la distancia en centímetros y lo envía por el hardware serial (puede visualizar las mediciones desde el monitor serial del IDE Arduino)
 Proximidad: Sensor HC-SR04 como un sensor discreto, a partir de una distancia como umbral definimos si existe presencia o no de un objeto cercano, dependiendo si la distancia es mayor o menor al umbral, activamos o apagamos una salida digital(LED)
