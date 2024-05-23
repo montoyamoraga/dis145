@@ -19,9 +19,9 @@ https://articulo.mercadolibre.cl/MLC-1729399308-diodo-led-rgb-5mm-catodo-comun-s
 se intento modelar por tinkercad y wokwik pero no tenian este sensor. se busco mas info respecto al sensor 
 max9814 (ANALOGO) probablemente tenga que soldarlo.
 
-ejemplos de codigo con el sensor:
+#### ejemplos de codigo con el sensor:
 
-´´´
+```
 
 const int sampleWindow = 50; // Sample window width in mS (50 mS = 20Hz)
 unsigned int sample;
@@ -81,6 +81,6 @@ void loop()
   
   }
   
-  ´´´
+```
   
 
