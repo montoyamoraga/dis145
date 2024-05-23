@@ -13,18 +13,17 @@ const int trigPin = 9;  // Pin de señal del sensor de proximidad (Trig)
 const int echoPin = 10; // Pin de señal del sensor de proximidad (Echo)
 const int motorPin = 6; // Pin del motor vibrador
 
-// Variables para medición de distancia
-long duration;
-int distance;
 
+long duration; // Variable
+int distance; // Variables
 void setup() {
   // Inicialización de los pines
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(motorPin, OUTPUT);
 
-  // Inicialización de la comunicación serial para depuración
-  Serial.begin(9600);
+
+  Serial.begin(9600);   // Inicialización de la comunicación serial 
 }
 
 void loop() {
