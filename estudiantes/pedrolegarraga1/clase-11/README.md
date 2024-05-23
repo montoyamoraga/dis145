@@ -33,3 +33,5 @@ ahora nos quedaria comenzar a testear el sensor y los codigos aumentando los art
 por ejemplo partir usando solo el sensor y que el computador lea el angulo
 añadirle de a poco complicaciones como puede ser encender una luz
 
+tutorial: https://www.instructables.com/MPU-6050-Tutorial-How-to-Program-MPU-6050-With-Ard/
+
