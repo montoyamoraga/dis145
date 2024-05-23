@@ -3,7 +3,7 @@
 
  ![Captura de pantalla 2024-05-23 172129](https://github.com/Spidermaneberl/dis145/assets/164402625/907f95ed-087e-4f72-a54c-bfb4626d728d)
 
-- el profe y Janis me ayudaron a usar ver de que forma buscar la info en Touch design, ¡gracias!
+- el profe y Janis me ayudaron a ver de que forma buscar la info en Touch design, ¡gracias!
 
 - buscar CHO
 # ¿el sonido de donde viene?
