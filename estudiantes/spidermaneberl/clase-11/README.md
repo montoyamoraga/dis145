@@ -11,3 +11,10 @@
 
   # -> como tarea personal 
     - lograr aprender como unir la coneccion de botones, teclado, etc (como interfaz) hacia el control del sonido que tambien se relaciona con unas imagenes bien locas
+
+
+
+# musica/imagen
+- Logré conectar(aunque de manera bien basica) lo que mas queria, que era unir un sistema audiovisual, generando un control de la musica mas no del control de las imagenes visual, entonces como tarea es intentar recopilar informacion y poder unir ambos puntos y poder generar un control de aquello.
+# imagen de referencia de audio y visual
+![Captura de pantalla 2024-05-23 185220](https://github.com/Spidermaneberl/dis145/assets/164402625/1b37a9f9-2be5-4ec9-8d00-d6deb37c2e13)
