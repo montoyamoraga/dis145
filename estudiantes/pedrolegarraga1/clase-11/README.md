@@ -21,12 +21,15 @@ por lo mismo calentamos el estaño de los bordes para que caiga en los agujeros
 
 ya teniendo los sensores soldados comenzamos a meternos en el codigo
 para esto buscamos un tutorial en donde se utiliza la medida de los angulos con el giroscopio
-antes de iniciar con el codigo nos piden descargar tres librerias las cuales, en la busqueda, descubrimos que eran muy antiguas igual que el tutorial escogido
+antes de iniciar con el codigo nos piden descargar tres librerias las cuales, en la busqueda, descubrimos que eran muy antiguas igual que el tutorial escogido anteriormente
 
 nos obligamos a buscar otro turorial 
 para no caer en el mismo problema buscamos tutoriales en ingles y que tuvieran muchas vistas.
 
 ![tituloLibreria6050.png](./tituloLibreria6050.png)
 
-ya con esto encontramos 
+ya con esto encontramos un ejemplo con el que sabemos que no vamos a tener muchos problemas
+ahora nos quedaria comenzar a testear el sensor y los codigos aumentando los artefactos que le queramos conectar 
+por ejemplo partir usando solo el sensor y que el computador lea el angulo
+añadirle de a poco complicaciones como puede ser encender una luz
 
