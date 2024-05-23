@@ -23,6 +23,9 @@ Antes de esto estuve viendo las clases del profesor [Long Nguyen](<https://www.y
 
 Para leer los inputs de midi encontre este [codigo](<https://stackoverflow.com/questions/1991159/getting-signals-from-a-midi-port-in-c-sharp>), Tiene una breve explicacion pero necesito saber bien como funciona. Segun el autor solo funciona para mensajes cortos y dice que se puede volver mas complejo si tratamos de hacer streaming, lo que me preocupa ya que podria ser un desafio necesario de superar para mi proyecto, espero que grasshopper me facilite esta parte del proyecto.
 
+Este condigo usa lo que se llama una Callbach funtion, lo cual es una funcion que usa como argumento a otra funcion, en este caso para encargarse de los mensages en MIDI.
+
+Encontre un [video](<https://www.youtube.com/watch?v=wKEyzLfvJH8&list=PLT1oacQFeNK5Q5LVx82_Rv_7fH4X5lYp9>) guia para aprender a leer e interpretar midi en c#.
 - Traducir los inputs a valores utiles.
 - Asignar esos valores a un grasshopper.
 
