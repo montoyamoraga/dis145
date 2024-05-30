@@ -142,7 +142,7 @@ void loop() {
   }
 
   if(valor >= 514 && valor <= 684) {
-    // color verde
+    // color cyan
     digitalWrite(ledRojo, LOW);
     digitalWrite(ledVerde, HIGH);
     digitalWrite(ledAzul, HIGH);
@@ -165,20 +165,19 @@ void loop() {
     delay(1000);
   } 
 
-/*
-  // color blanco
-  digitalWrite(ledRojo, HIGH);
-  digitalWrite(ledVerde, HIGH);
-  digitalWrite(ledAzul, HIGH);
-  delay(1000);
-
-*/
-
 }
 ```
 ### Video de cómo funciona físicamente
 
-
 https://github.com/thiangie/dis145/assets/100184098/35074195-5898-4d95-8c18-4512b9b27ddb
 
+## Añadir un segundo potenciómetro
+El segundo potenciómetro tiene como finalidad hacer que cambiar los Hz de un buzzer, que según color ya tiene asignado ciertos valores.
+
+1. Color Rojo: 400 - 484
+2. Color amarillo: 508 - 526
+3. Color verde: 527 - 606
+4. Color cyan: 607 - 630
+5. Color azul: 631 - 668
+6. Color magenta: 669 - 789
 
