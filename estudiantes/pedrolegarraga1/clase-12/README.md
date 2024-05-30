@@ -39,6 +39,7 @@ void setup()
 
 //estas lineas se utilizan para orientar el sensor, por ejemplo si lo queremos utilziar vertical u horizontal
 //por el momento no necesitamos cambiar el offset, podemos utilizar el predeterminado
+
   // If you want, you can set accelerometer offsets
   // mpu.setAccelOffsetX();
   // mpu.setAccelOffsetY();
