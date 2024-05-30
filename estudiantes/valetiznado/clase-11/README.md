@@ -1,4 +1,4 @@
-
+APUNTES: (23/mayo)
 
 Proyecto Arduino - Smart Parking Lot System
 
@@ -16,7 +16,7 @@ En esta clase deje el controlador descargado en el computador, pero no pude actu
 Los siguientes ejemplos son de gran ayuda ya que me permiten tener una guia para saber como configurar mi tarjeta de desarrollo ESP32, si bien en los apuntes de esta clase son un poco breves, es porque la gran mayoria del tiempo estuve trabajando con Arduino y e instalando el controlador para este mismo, considero que fue una de las clases con mas avance para mi proyecto ya que se pudieron concretar varios puntos importantes del proyecto
 
 
-Codigo ESP32 
+**Codigo ESP32 **
 
 #include <WiFi.h>
 
