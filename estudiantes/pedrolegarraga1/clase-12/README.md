@@ -5,7 +5,7 @@ la clase anterior encontramos un muy buen ejemplo para comenzar a utilizar el se
 ejemplo: https://www.instructables.com/MPU-6050-Tutorial-How-to-Program-MPU-6050-With-Ard/
 
 en este nos muestran como conectar el sensor y nos dan varios ejemplos 
-nosotros comenzamos con el ejemplo de giroscopio en donde simplemente utilizamos el sensor el cual nos manda señales al monitor serial del computador
+nosotros comenzamos con el ejemplo de *giroscopio* en donde simplemente utilizamos el sensor el cual nos manda señales al monitor serial del computador
 
 analizamos el codigo que nos dieron
 para utilizar el codigo tuvimos que descargar una libreria nueva "mpu6050.h"
@@ -18,6 +18,15 @@ aparte de los problemas que tuvimos conectado el arduino al computador para pode
 nos dimos cuenta de que en el codigo al iniciar el monitor serial nos pedian que este leyera en un tipo de signo (115200) por lo que nosotros teniamos arduino en una opcion diferente
 no fue muy terrible ya que cambiamos rapidamente a 115600 baud y nos comenzó a arrojar numeros
 
+luego de tener el codigo funcionando, nos dimos cuenta de que los numeros no cambiaban acorde a lo que queriamos
+cuando dejabamos el sensor los numeros quedaban bajos y cuando lo moviamos estos se alzaban y se hacian mucho mayores pero al dejar el sensor quieto volvian a numeros bajos
+
+![GyroscopeSM](./GyroscopeSM.png)    ![GyroscopeMovimiento](./GyroscopeMovimiento.png)
+
+teniendo esto claro nos dimos cuenta de que este no utilizaba los angulos sino que solo el movimiento
+por lo mismo dejamos el codigo de giroscopio de un lado ya que no nos sirve y buscamos un ejemplo de *acelerometro* el cual viene incluido en el mismo sensor
+
+ejemplo simple de *acelerometro*
 
 
 ```cpp
