@@ -77,6 +77,13 @@ void loop() {
 
 ```
 
+### Video de cómo funciona el código físicamente
+
+
+https://github.com/thiangie/dis145/assets/100184098/c0d1d4d2-7643-4120-aa21-fa6d8bbe3eaf
+
+
+
 ## Controlar un led RGB con un potenciómetro
 ``` C++
 /* 30 de mayo, 2024
@@ -169,4 +176,9 @@ void loop() {
 
 }
 ```
+### Video de cómo funciona físicamente
+
+
+https://github.com/thiangie/dis145/assets/100184098/35074195-5898-4d95-8c18-4512b9b27ddb
+
 
