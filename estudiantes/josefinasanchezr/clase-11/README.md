@@ -74,3 +74,11 @@ Simulación Física con código y prueba de nmeros para el umbral
 https://github.com/josefinasanchezr/dis145/assets/164403301/3eb8ba45-73b0-41d7-930f-3d6d600e15ce
 
 
+Cambio en el codigo para que el ServoMotor se mueva en 180 grados y la compuerta funcione...
+
+Simulacion Prototipo Compuerta en 180 grados
+
+https://github.com/josefinasanchezr/dis145/assets/164403301/e05ee1bf-31f7-47ba-9394-df2ed1c4f59e
+
+
+
