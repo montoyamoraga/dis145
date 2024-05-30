@@ -5,7 +5,7 @@ Simulación Código definitivo LDR & ServoMotor
 https://github.com/josefinasanchezr/dis145/assets/164403301/dacb009c-9ac1-4289-b083-5e8045f943be
 
 ```cpp
-// 2024-30-05
+// 2024-27-06
 // Código que activa movimiento de motor servo con el valor del sensor de luz LDR
 // por josefinasanchezr
 // hecho con Arduino IDE 1.8.19
