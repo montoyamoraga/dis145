@@ -16,5 +16,5 @@ Pretendo presentar físicamente y hecho a mano una maqueta de cartón para demos
 ![Conexiones en Arduino (1)](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-11/protoboard)
 ![Conexiones en Arduino (1)](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-11/resistencias)
 
-# Página referencial:
-[How to Use OV7670 Camera with Arduino and a Tiny Screen](https://circuitjournal.com/arduino-ov7670-10fps)
+# Página de Github referencial:
+[https://github.com/indrekluuk/LiveOV7670)
