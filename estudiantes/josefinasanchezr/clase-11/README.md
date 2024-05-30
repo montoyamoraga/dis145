@@ -68,3 +68,9 @@ El umbral de luz cuando la linterna esta a menos de 5 cm del sensor es entre 950
 
 
 
+
+Simulación Física con código y prueba de nmeros para el umbral
+
+https://github.com/josefinasanchezr/dis145/assets/164403301/3eb8ba45-73b0-41d7-930f-3d6d600e15ce
+
+
