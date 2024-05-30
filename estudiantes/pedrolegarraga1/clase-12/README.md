@@ -144,3 +144,7 @@ pusimos a funcionar el codigo nuevo con el sensor y nos dimos cuenta de que enco
 el monitor serial ahora nos arroja numeros que cambian segun el angulo dell sensor
 
 ![AccHorizontal](./AccHorizontal.pgn)  ![SensorHorizontal](./SensorHorizontal.jpg) 
+
+![SensorVerticalX](./AccVerticalX.pgn)  ![SensorHorizontal](./SensorVerticalX.jpg) 
+
+![AccHorizontal](./AccVerticalY.pgn)  ![SensorHorizontal](./SensorVerticalY.jpg) 
