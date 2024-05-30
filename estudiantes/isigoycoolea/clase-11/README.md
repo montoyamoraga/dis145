@@ -18,3 +18,5 @@ Pretendo presentar físicamente y hecho a mano una maqueta de cartón para demos
 
 # Página de Github referencial:
 [https://github.com/indrekluuk/LiveOV7670)
+# Página de tutorial 
+https://circuitjournal.com/arduino-ov7670-10fps
