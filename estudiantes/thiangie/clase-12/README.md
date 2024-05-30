@@ -78,7 +78,7 @@ void loop() {
 ```
 
 ## Controlar un led RGB con un potenciómetro
-```
+``` C++
 /* 30 de mayo, 2024
 clase 12
 thiare gonzalez
