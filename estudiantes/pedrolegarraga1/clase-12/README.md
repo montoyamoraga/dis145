@@ -12,7 +12,6 @@ para utilizar el codigo tuvimos que descargar una libreria nueva "mpu6050.h"
 luego vimos a la rapida cada linea pero con conciencia y aprendimos para que servia cada una
 aparte de los problemas que tuvimos conectado el arduino al computador para poder enviar el codigo a este y utilizarlo nos vimos con el problema de que el monitor serial nos daba valores muy extraños 
 
-
 ![ProblemaSerialMonitor](./ProblemaSerialMonitor.png)
 
 nos dimos cuenta de que en el codigo al iniciar el monitor serial nos pedian que este leyera en un tipo de signo (115200) por lo que nosotros teniamos arduino en una opcion diferente
@@ -26,9 +25,7 @@ cuando dejabamos el sensor los numeros quedaban bajos y cuando lo moviamos estos
 teniendo esto claro nos dimos cuenta de que este no utilizaba los angulos sino que solo el movimiento
 por lo mismo dejamos el codigo de giroscopio de un lado ya que no nos sirve y buscamos un ejemplo de *acelerometro* el cual viene incluido en el mismo sensor
 
-ejemplo simple de *acelerometro*
-
-
+codigo analizado "ejemplo simple de *acelerometro*"
 ```cpp
 
 //este ejemplo lo sacamos del github de Jarzebski
@@ -140,3 +137,10 @@ void loop()
 }
 
 ```
+
+ya teniendo este codigo en el cual explicamos con //comentarios, lo que hace cada linea
+pusimos a funcionar el codigo nuevo con el sensor y nos dimos cuenta de que encontramos lo que necesitabamos
+
+el monitor serial ahora nos arroja numeros que cambian segun el angulo dell sensor
+
+![AccHorizontal](./AccHorizontal.pgn)  ![SensorHorizontal](./SensorHorizontal.jpg) 
