@@ -121,7 +121,9 @@ void loop(){
 
 
 ￼
-Cuando me sale Connecting debo apagar mi Hotspot (wifi) y volver a prenderlo
+Cuando me sale Connecting debo apagar mi Hotspot (wifi) y volver a prenderlo.
+
+Pasos a seguir;
 
 - [x] Sensor conectado a Arduino
 - [x] Procesar estos datos
@@ -138,7 +140,7 @@ Cuando buscamos la dirección y le agregamos :80 lo que estamos haciendo es que 
 
 Igualmente lo que se hizo despues fue agregar el sensor ultrasónico HC-SR04 al mismo código que estábamos trabajando, para esto trabaje con la información de la siguiente pagina; https://projecthub.arduino.cc/Isaac100/getting-started-with-the-hc-sr04-ultrasonic-sensor-7cabe1
 
-Código HC-SR04 (continuación)
+**Código HC-SR04 (continuación)**
 
 //Conexión de los pines Trig y Echo
 
@@ -176,5 +178,5 @@ delay(100);
 } 
 
 
-Otra de las paginas con las que se trabajo en la clase fue la siguiente: https://randomnerdtutorials.com/esp32-client-server-wi-fi/
+**Otra de las paginas con las que se trabajo en la clase fue la siguiente:** https://randomnerdtutorials.com/esp32-client-server-wi-fi/
   
