@@ -1,4 +1,4 @@
-<img width="1147" alt="Captura de Pantalla 2024-05-29 a la(s) 15 51 50" src="https://github.com/valetiznado/dis145/assets/164402604/a188232a-dfdc-48a0-aaef-873a1c22d15c">APUNTES: (23/mayo)
+
 
 Proyecto Arduino - Smart Parking Lot System
 
