@@ -21,4 +21,4 @@ Pretendo presentar físicamente y hecho a mano una maqueta de cartón para demos
 # Página de tutorial 
 https://circuitjournal.com/arduino-ov7670-10fps
 # Código Inicial
-![Código]()
+![Código](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-11/C%C3%B3digo.png)
