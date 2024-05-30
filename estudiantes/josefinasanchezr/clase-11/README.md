@@ -46,8 +46,8 @@ void loop() {
 
 // Si el nivel de luz supera el umbral (luzActiva(500))
   if (nivelLuz > umbralLuz) { 
-// Gira el servo a 90 grados
-    miServo.write(90); 
+// Gira el servo a 180 grados
+    miServo.write(180); 
   } else {
 // Vuelve el servo a la posición 0 grados
     miServo.write(0); 
