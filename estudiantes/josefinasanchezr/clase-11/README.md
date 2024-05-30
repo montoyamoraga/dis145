@@ -58,3 +58,13 @@ void loop() {
 }
 
 ```
+
+Los valores del LDR son: 
+ 0 = oscuridad
+ 1023 = máxima luz
+
+El umbral de luz dentro de la sala es entre 0 y 900 aproximadamente
+El umbral de luz cuando la linterna esta a menos de 5 cm del sensor es entre 950 y 1023
+
+
+
