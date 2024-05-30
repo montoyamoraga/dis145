@@ -11,7 +11,7 @@ Para esto se va a considerar lo siguiente:
 
 ## Conexión de un led RGB a Arduino
 Importante tener en cuenta que cada led RGB está conectado a un pin analógico de arduino
-```
+``` C++
 /* 30 de mayo, 2024
 clase 12
 thiare gonzalez
