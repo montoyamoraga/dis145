@@ -61,6 +61,7 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 | [12](clases/clase-12/) | 2024-05-30 | pre-entrega proyecto final, prototipo funcional     |
 | [13](clases/clase-13/) | 2024-06-06 | mejoras en clase y planificación recta final        |
 | [14](clases/clase-14/) | 2024-06-13 | práctica de presentación y ayuda de a pares         |
+| jueves feriado         | 2024-06-20 | no hay clases                                       |
 | [15](clases/clase-15/) | 2024-06-20 | presentaciones de trabajos finales y autoevaluación |
 
 ## bibliografía
