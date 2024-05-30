@@ -181,3 +181,109 @@ El segundo potenciómetro tiene como finalidad hacer que cambiar los Hz de un bu
 5. Color azul: 631 - 668
 6. Color magenta: 669 - 789
 
+## Actualización de código para que imprima el valor del estado del potenciómetro una sola vez
+``` C++
+/* 30 de mayo, 2024
+clase 12
+thiare gonzalez
+versión 1
+conectar led rgb a un arduino uno
+*/
+
+// definir los leds asociado a cada pin en el arduino
+#define ledRojo 11
+#define ledVerde 10
+#define ledAzul 9
+
+// patita del potenciometro
+int pinPot = A0;
+// valor de lectura el potenciómetro
+long valorPot;
+
+int valorMin = 0;
+int valorMax = 1023;
+
+int divisiones = 6;
+int tamanoDivision;
+
+int estadoActual;
+int estadoAnterior;
+
+int tiempoPausa = 500;
+
+
+void setup() {
+  // registrar los leds del led rgb como salida
+  pinMode(ledRojo, OUTPUT);
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledAzul, OUTPUT);
+  // registrar el potenciómetor como entrada
+  pinMode(valorPot, INPUT);
+  Serial.begin(9600);
+
+  // revisar map(valor, 0, 1023, 0, 5);
+  tamanoDivision = 1023 / (divisiones - 1);
+}
+
+void loop() {
+
+  // leer y refrescar valor actual
+  valorPot = analogRead(pinPot);
+
+  // antes de refrescar el estadoActual
+  // tomamos su valor y lo almacenamos
+  // en estadoAnterior
+  estadoAnterior = estadoActual;
+
+  if (valorPot < 1 * valorMax / divisiones) {
+    // color rojo
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 0;
+  } else if (valorPot < 2 * valorMax / divisiones) {
+    // color amarillo
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 1;
+  } else if (valorPot < 3 * valorMax / divisiones) {
+    // color verde
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 2;
+  } else if (valorPot < 4 * valorMax / divisiones) {
+    // color cyan
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 3;
+  } else if (valorPot < 5 * valorMax / divisiones) {
+    // color azul
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 4;
+  } else {
+    // color magenta
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 5;
+  }
+
+  // ahora podemos comparar estadoActual y estadoAnterior
+
+  if (estadoAnterior != estadoActual) {
+    Serial.print("nuevo estado: ");
+    Serial.println(estadoActual);
+  }
+}
+```
