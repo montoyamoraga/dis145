@@ -15,7 +15,7 @@ aparte de los problemas que tuvimos conectado el arduino al computador para pode
 
 ![ProblemaSerialMonitor](./ProblemaSerialMonitor.png)
 
-nos dimos cuenta de que en el codigo al iniciar el monitor serial nos pedian que este leyera en un tipo de signo (115600) por lo que nosotros teniamos arduino en una opcion diferente
+nos dimos cuenta de que en el codigo al iniciar el monitor serial nos pedian que este leyera en un tipo de signo (115200) por lo que nosotros teniamos arduino en una opcion diferente
 no fue muy terrible ya que cambiamos rapidamente a 115600 baud y nos comenzó a arrojar numeros
 
 
