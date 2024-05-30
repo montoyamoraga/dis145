@@ -1,5 +1,21 @@
 # clase-12
 
+durante esta clase nos metimos al 100% en comenzar y analizar el codigo que necesitaremos para el proyecto
+la clase anterior encontramos un muy buen ejemplo para comenzar a utilizar el sensor de giroscopio y accelerometro
+ejemplo: https://www.instructables.com/MPU-6050-Tutorial-How-to-Program-MPU-6050-With-Ard/
+
+en este nos muestran como conectar el sensor y nos dan varios ejemplos 
+nosotros comenzamos con el ejemplo de giroscopio en donde simplemente utilizamos el sensor el cual nos manda señales al monitor serial del computador
+
+analizamos el codigo que nos dieron
+para utilizar el codigo tuvimos que descargar una libreria nueva "mpu6050.h"
+luego vimos a la rapida cada linea pero con conciencia y aprendimos para que servia cada una
+aparte de los problemas que tuvimos conectado el arduino al computador para poder enviar el codigo a este y utilizarlo nos vimos con el problema de que el monitor serial nos daba valores muy extraños 
+
+*foto 115600baud*
+
+nos dimos cuenta de que en el codigo al iniciar el monitor serial nos pedian que este leyera en un tipo de signo (115600) por lo que nosotros teniamos arduino en una opcion diferente
+no fue muy terrible ya que cambiamos rapidamente a 115600 baud y nos comenzó a arrojar numeros
 
 
 
