@@ -21,7 +21,7 @@ const int ldrPin = A0;
 // Pin digital al que está conectado el servo
 const int servoPin = 9; 
 // Umbral de luz para activar el servo 
-const int umbralLuz = 500; 
+const int umbralLuz = 950; 
 
 // Crea un objeto de tipo Servo
 Servo miServo; 
