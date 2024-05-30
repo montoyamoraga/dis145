@@ -141,10 +141,13 @@ void loop()
 ya teniendo este codigo en el cual explicamos con //comentarios, lo que hace cada linea
 pusimos a funcionar el codigo nuevo con el sensor y nos dimos cuenta de que encontramos lo que necesitabamos
 
-el monitor serial ahora nos arroja numeros que cambian segun el angulo dell sensor
+el monitor serial ahora nos arroja numeros que cambian segun el angulo del sensor como podemos ver
 
+SENSOR HORIZONTAL
 ![AccHorizontal](./AccHorizontal.png)  ![SensorHorizontal](./SensorHorizontal.jpg) 
 
+SENSOR VERTICAL EN X
 ![SensorVerticalX](./AccVerticalX.png)  ![SensorHorizontal](./SensorVerticalX.jpg) 
 
+SENSOR VERTICAL EN Y
 ![AccHorizontal](./AccVerticalY.png)  ![SensorHorizontal](./SensorVerticalY.jpg) 
