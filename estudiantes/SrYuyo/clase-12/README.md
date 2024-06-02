@@ -1,4 +1,4 @@
-# clase-12
+![image](https://github.com/SrYuyo/dis145/assets/103392227/813cb6c8-d856-454f-9892-04c478008f99)# clase-12
 
 **AC/DC - You Shook Me All Night Long**
 
@@ -474,5 +474,32 @@ float getFilteredValue(float *arr, int length) {
 ```
 
 En este código, se almacenan las últimas 5 lecturas de humedad y temperatura en arreglos y se calcula el promedio de estos valores para obtener el valor filtrado. Este enfoque proporciona una manera simple de suavizar las lecturas y reducir el ruido en los datos.
+
+
+Referencias:
+
+<https://learn.adafruit.com/dht>
+<https://learn.adafruit.com/modern-replacements-for-dht11-dht22-sensors>
+<https://learn.adafruit.com/gas-sensor-comparison>
+<https://learn.sparkfun.com/tutorials/rht03-dht22-humidity-and-temperature-sensor-hookup-guide>
+<https://www.instructables.com/How-to-Detect-Concentration-of-Gas-by-Using-MQ2-Se/>
+<https://www.instructables.com/MQ2-Shield-on-pcDuino/>
+<https://www.instructables.com/IOT123-I2C-MQ2-BRICK/>
+<https://www.instructables.com/How-to-use-MQ2-Gas-Sensor-Arduino-Tutorial/>
+
+![image](https://github.com/SrYuyo/dis145/assets/103392227/9ab00bb2-3d3f-4fff-b4ff-e0c978a3e850)
+
+![image](https://github.com/SrYuyo/dis145/assets/103392227/1514e83d-4066-4162-a398-ec15bc371a05)
+
+![image](https://github.com/SrYuyo/dis145/assets/103392227/07b629ac-d4c6-4adc-ac4f-90a48ab5415c)
+
+![image](https://github.com/SrYuyo/dis145/assets/103392227/f5aa2569-764f-4484-afa2-031bb5b74715)
+
+![image](https://github.com/SrYuyo/dis145/assets/103392227/73da6a6f-71ad-4d74-8dbd-2be888f59c43)
+
+
+
+
+
 
 
