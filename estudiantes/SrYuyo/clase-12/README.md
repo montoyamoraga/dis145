@@ -1,5 +1,7 @@
 # clase-12
 
+**AC/DC - You Shook Me All Night Long**
+
 
 Presentación de la iteraciones del codigo para el proyecto del ramo. Todas los codigos fueron realizados mediante una placa arduino unoR3 V 2.3.2. 
 
@@ -125,9 +127,352 @@ int porcentaje_gas(float rs_ro_ratio, float *pcurve){
 }
 ```
 
-Combinación entre ambos codigos:
+Combinación entre ambos códigos V1:
 
 ```cpp
+#include <DHT.h>
 
+#define DHTPIN 8 // Pin de datos del sensor
+#define DHTTYPE DHT22 // Tipo de sensor DHT22
+
+#define MQ1 (0)     // Entrada analógica para el sensor
+#define RL_VALOR (5)     // Valor de la resistencia de carga en kilo ohms
+#define RAL (9.83)  // Resistencia del sensor en el aire limpio / RO, resistencia de sensibilidad
+#define GAS_LP (0)
+
+DHT dht(DHTPIN, DHTTYPE);
+
+String inputstring = ""; // Cadena recibida desde el PC
+float LPCurve[3] = {2.3, 0.21, -0.47};
+float Ro = 10;
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+  Serial.println("Iniciando ...");
+
+  // Configuración del sensor
+  Serial.print("Calibrando...\n");
+  Ro = Calibracion(MQ1); // Calibrando el sensor.
+  Serial.print("Calibración finalizada...\n");
+  Serial.print("Ro=");
+  Serial.print(Ro);
+  Serial.print("kohm");
+  Serial.print("\n");
+}
+
+void loop() {
+  delay(2000);
+
+  // Lectura de humedad y temperatura
+  float humidity = dht.readHumidity();
+  float temperature = dht.readTemperature();
+
+  if (isnan(humidity) || isnan(temperature)) {
+    Serial.println("Error"); // Si hay problemas en la lectura
+    return;
+  }
+
+  Serial.print("Humedad: ");
+  Serial.print(humidity);
+  Serial.print("% Temperatura: ");
+  Serial.print(temperature);
+  Serial.println("°C");
+
+  // Lectura de gas
+  Serial.print("LP:");
+  Serial.print(porcentaje_gas(lecturaMQ(MQ1) / Ro, GAS_LP));
+  Serial.print(" ppm");
+  Serial.print("    ");
+  Serial.print("\n");
+
+  delay(200); // Sacar??
+}
+
+float calc_res(int raw_adc) {
+  return (((float)RL_VALOR * (1023 - raw_adc) / raw_adc));
+}
+
+float Calibracion(float mq_pin) {
+  int i;
+  float val = 0;
+  for (i = 0; i < 50; i++) { // Tomar múltiples muestras
+    val += calc_res(analogRead(mq_pin));
+    delay(500);
+  }
+  val = val / 50; // Calcular el valor medio
+  val = val / RAL;
+  return val;
+}
+
+float lecturaMQ(int mq_pin) {
+  int i;
+  float rs = 0;
+  for (i = 0; i < 5; i++) {
+    rs += calc_res(analogRead(mq_pin));
+    delay(50);
+  }
+  rs = rs / 5;
+  return rs;
+}
+
+int porcentaje_gas(float rs_ro_ratio, int gas_id) {
+  if (gas_id == GAS_LP) {
+    return porcentaje_gas(rs_ro_ratio, LPCurve);
+  }
+  return 0;
+}
+
+int porcentaje_gas(float rs_ro_ratio, float *pcurve) {
+  return (pow(10, (((log(rs_ro_ratio) - pcurve[1]) / pcurve[2]) + pcurve[0])));
+}
 
 ```
+
+Combinación entre ambos códigos V2:
+```cpp
+#include <DHT.h>
+
+#define DHTPIN 8 // Pin de datos del sensor
+#define DHTTYPE DHT22 // Tipo de sensor DHT22
+
+#define MQ1 (0)     // Entrada analógica para el sensor
+#define RL_VALOR (5)     // Valor de la resistencia de carga en kilo ohms
+#define RAL (9.83)  // Resistencia del sensor en el aire limpio / RO, resistencia de sensibilidad
+#define GAS_LP (0)
+
+DHT dht(DHTPIN, DHTTYPE);
+
+String inputstring = ""; // Cadena recibida desde el PC
+float LPCurve[3] = {2.3, 0.21, -0.47};
+float Ro = 10;
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+  Serial.println("Iniciando ...");
+
+  // Configuración del sensor
+  Serial.print("Calibrando...\n");
+  Ro = Calibracion(MQ1); // Calibrando el sensor.
+  if (Ro == 0) {
+    Serial.println("Error en la calibración del sensor de gas.");
+    while (true); // Detener el programa si hay un error crítico
+  }
+  Serial.print("Calibración finalizada...\n");
+  Serial.print("Ro=");
+  Serial.print(Ro);
+  Serial.print("kohm");
+  Serial.print("\n");
+}
+
+void loop() {
+  delay(2000);
+
+  // Lectura de humedad y temperatura
+  float humidity = dht.readHumidity();
+  float temperature = dht.readTemperature();
+
+  if (isnan(humidity) || isnan(temperature)) {
+    Serial.println("Error en la lectura del sensor DHT22.");
+    return;
+  }
+
+  Serial.print("Humedad: ");
+  Serial.print(humidity);
+  Serial.print("% Temperatura: ");
+  Serial.print(temperature);
+  Serial.println("°C");
+
+  // Lectura de gas
+  Serial.print("LP:");
+  float rs_ro_ratio = lecturaMQ(MQ1) / Ro;
+  if (isnan(rs_ro_ratio)) {
+    Serial.println("Error en la lectura del sensor de gas MQ-2.");
+    return;
+  }
+  Serial.print(porcentaje_gas(rs_ro_ratio, GAS_LP));
+  Serial.print(" ppm");
+  Serial.print("    ");
+  Serial.print("\n");
+
+  delay(200); // Sacar??
+}
+
+float calc_res(int raw_adc) {
+  return (((float)RL_VALOR * (1023 - raw_adc) / raw_adc));
+}
+
+float Calibracion(float mq_pin) {
+  int i;
+  float val = 0;
+  for (i = 0; i < 50; i++) { // Tomar múltiples muestras
+    val += calc_res(analogRead(mq_pin));
+    delay(500);
+  }
+  val = val / 50; // Calcular el valor medio
+  val = val / RAL;
+  return val;
+}
+
+float lecturaMQ(int mq_pin) {
+  int i;
+  float rs = 0;
+  for (i = 0; i < 5; i++) {
+    rs += calc_res(analogRead(mq_pin));
+    delay(50);
+  }
+  rs = rs / 5;
+  return rs;
+}
+
+int porcentaje_gas(float rs_ro_ratio, int gas_id) {
+  if (gas_id == GAS_LP) {
+    return porcentaje_gas(rs_ro_ratio, LPCurve);
+  }
+  return 0;
+}
+
+int porcentaje_gas(float rs_ro_ratio, float *pcurve) {
+  return (pow(10, (((log(rs_ro_ratio) - pcurve[1]) / pcurve[2]) + pcurve[0])));
+}
+
+````
+
+En este código, se han agregado verificaciones de errores después de cada lectura de sensor. Si se detecta un error en la lectura del sensor DHT22 o MQ-2, se imprime un mensaje de error en el puerto serie. Si hay un error crítico durante la calibración del sensor MQ-2, el programa se detiene con un bucle infinito while(true).
+
+
+Combinación entre ambos códigos V3:
+
+```cpp
+#include <DHT.h>
+
+#define DHTPIN 8 // Pin de datos del sensor
+#define DHTTYPE DHT22 // Tipo de sensor DHT22
+
+#define MQ1 (0)     // Entrada analógica para el sensor
+#define RL_VALOR (5)     // Valor de la resistencia de carga en kilo ohms
+#define RAL (9.83)  // Resistencia del sensor en el aire limpio / RO, resistencia de sensibilidad
+#define GAS_LP (0)
+
+DHT dht(DHTPIN, DHTTYPE);
+
+String inputstring = ""; // Cadena recibida desde el PC
+float LPCurve[3] = {2.3, 0.21, -0.47};
+float Ro = 10;
+
+float humidityArray[5] = {0}; // Arreglo para almacenar las últimas 5 lecturas de humedad
+float temperatureArray[5] = {0}; // Arreglo para almacenar las últimas 5 lecturas de temperatura
+int arrayIndex = 0; // Índice actual del arreglo
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+  Serial.println("Iniciando ...");
+
+  // Configuración del sensor
+  Serial.print("Calibrando...\n");
+  Ro = Calibracion(MQ1); // Calibrando el sensor.
+  if (Ro == 0) {
+    Serial.println("Error en la calibración del sensor de gas.");
+    while (true); // Detener el programa si hay un error crítico
+  }
+  Serial.print("Calibración finalizada...\n");
+  Serial.print("Ro=");
+  Serial.print(Ro);
+  Serial.print("kohm");
+  Serial.print("\n");
+}
+
+void loop() {
+  delay(2000);
+
+  // Lectura de humedad y temperatura
+  float humidity = dht.readHumidity();
+  float temperature = dht.readTemperature();
+
+  if (isnan(humidity) || isnan(temperature)) {
+    Serial.println("Error en la lectura del sensor DHT22.");
+    return;
+  }
+
+  // Filtrado de datos
+  humidityArray[arrayIndex] = humidity;
+  temperatureArray[arrayIndex] = temperature;
+  arrayIndex = (arrayIndex + 1) % 5;
+
+  float filteredHumidity = getFilteredValue(humidityArray, 5);
+  float filteredTemperature = getFilteredValue(temperatureArray, 5);
+
+  Serial.print("Humedad: ");
+  Serial.print(filteredHumidity);
+  Serial.print("% Temperatura: ");
+  Serial.print(filteredTemperature);
+  Serial.println("°C");
+
+  // Lectura de gas
+  Serial.print("LP:");
+  float rs_ro_ratio = lecturaMQ(MQ1) / Ro;
+  if (isnan(rs_ro_ratio)) {
+    Serial.println("Error en la lectura del sensor de gas MQ-2.");
+    return;
+  }
+  Serial.print(porcentaje_gas(rs_ro_ratio, GAS_LP));
+  Serial.print(" ppm");
+  Serial.print("    ");
+  Serial.print("\n");
+
+  delay(200); // Sacar??
+}
+
+float calc_res(int raw_adc) {
+  return (((float)RL_VALOR * (1023 - raw_adc) / raw_adc));
+}
+
+float Calibracion(float mq_pin) {
+  int i;
+  float val = 0;
+  for (i = 0; i < 50; i++) { // Tomar múltiples muestras
+    val += calc_res(analogRead(mq_pin));
+    delay(500);
+  }
+  val = val / 50; // Calcular el valor medio
+  val = val / RAL;
+  return val;
+}
+
+float lecturaMQ(int mq_pin) {
+  int i;
+  float rs = 0;
+  for (i = 0; i < 5; i++) {
+    rs += calc_res(analogRead(mq_pin));
+    delay(50);
+  }
+  rs = rs / 5;
+  return rs;
+}
+
+int porcentaje_gas(float rs_ro_ratio, int gas_id) {
+  if (gas_id == GAS_LP) {
+    return porcentaje_gas(rs_ro_ratio, LPCurve);
+  }
+  return 0;
+}
+
+int porcentaje_gas(float rs_ro_ratio, float *pcurve) {
+  return (pow(10, (((log(rs_ro_ratio) - pcurve[1]) / pcurve[2]) + pcurve[0])));
+}
+
+float getFilteredValue(float *arr, int length) {
+  float sum = 0;
+  for (int i = 0; i < length; i++) {
+    sum += arr[i];
+  }
+  return sum / length;
+}
+
+```
+
+En este código, se almacenan las últimas 5 lecturas de humedad y temperatura en arreglos y se calcula el promedio de estos valores para obtener el valor filtrado. Este enfoque proporciona una manera simple de suavizar las lecturas y reducir el ruido en los datos.
+
+
