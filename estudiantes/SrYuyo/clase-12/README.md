@@ -1,4 +1,4 @@
-![image](https://github.com/SrYuyo/dis145/assets/103392227/813cb6c8-d856-454f-9892-04c478008f99)# clase-12
+# clase-12
 
 **AC/DC - You Shook Me All Night Long**
 
@@ -496,7 +496,6 @@ Referencias:
 ![image](https://github.com/SrYuyo/dis145/assets/103392227/f5aa2569-764f-4484-afa2-031bb5b74715)
 
 ![image](https://github.com/SrYuyo/dis145/assets/103392227/73da6a6f-71ad-4d74-8dbd-2be888f59c43)
-
 
 
 
