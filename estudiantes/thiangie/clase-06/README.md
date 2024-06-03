@@ -38,7 +38,7 @@ notaMidi = notaMidi % 128 se crea para limitar el contador hasta la capacidad qu
 Se realizó un botón, tanto en Arduino como en Processing.
 Este permitió que si se apretara un botón con su respectivo código en Arduino, se dibujara un Canva en Processing con distintos colores.
 
-```
+``` C++
 /**
  * Simple Read
  * 
