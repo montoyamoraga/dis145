@@ -2,7 +2,7 @@
 Fecha: 06/06/2024
 
 
-# Misión 01) 
+# Misión 01:
 - Hacer funcionar el lector comprado
 - Estado = Logrado✅
 
