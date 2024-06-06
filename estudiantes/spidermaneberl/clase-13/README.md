@@ -12,7 +12,7 @@ a
 
 
 
-#  Checklist del dia 
+#  Checklist del dia ✅/✳️
 -  subir avance
 -  cargar musica guardada mia
 -  controlar imagen -> musica 
