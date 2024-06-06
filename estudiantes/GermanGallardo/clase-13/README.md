@@ -11,3 +11,5 @@ El Código planeado en las clases pasadas logro funcionar, eso si el motor vibra
 ## Prototipo 1
 Se logro lo de poner las luces, verde cuando estas cerca y no suena y rojo cuando estas lejos y suena
 ![image](https://github.com/GermanGallardo/dis145/assets/164402341/f372f517-3cf1-4ea0-8473-c15d3e85bf29)
+
+https://github.com/GermanGallardo/dis145/blob/main/estudiantes/GermanGallardo/clase-13/video.mp4
