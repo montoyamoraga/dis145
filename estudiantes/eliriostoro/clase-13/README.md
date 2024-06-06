@@ -80,8 +80,9 @@ void setColor(int red, int green, int blue) {
 
 
 ```
+## CODIGO FINAL HASTA EL DIA 06-06-2024
 
----> problemas para obtener el color amarillo, debo regular bien el como analizar los datos obtenidos
+---> problemas para obtener el color amarillo, debo regular bien el como analizar los datos obtenidos por parte del sensor, el profe dio un ejemplo de como leer datos asi
 
 ```
 const int microfono = A0; // Pin del sensor de micrófono
