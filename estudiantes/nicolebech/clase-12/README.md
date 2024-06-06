@@ -17,31 +17,27 @@ Sensor utilizado: Módulo de RFID-RC522
 <img width="855" alt="Captura de pantalla 2024-06-06 a la(s) 18 17 59" src="https://github.com/nicolebech/dis145/assets/164402586/5b1cae81-15b7-4f4b-a4ba-4da21042d45d">
 
 
-```
-#include <SPI.h>          // Incluye la biblioteca SPI para comunicación SPI
-#include <MFRC522.h>      // Incluye la biblioteca MFRC522 para el lector RFID
+```cpp
+#include <SPI.h>
+#include <MFRC522.h>
 
-#define RST_PIN 9         // Pin de reset, configurable según el layout típico de pines
-#define SS_PIN 10         // Pin de selección de esclavo (SS), configurable según el layout típico de pines
+#define RST_PIN         9          // Pin de reset, configurable
+#define SS_PIN          10         // Pin de selección de esclavo (SS), configurable
 
-MFRC522 mfrc522(SS_PIN, RST_PIN);  // Crea una instancia del lector MFRC522
+MFRC522 mfrc522(SS_PIN, RST_PIN);  // Crear instancia del lector MFRC522
 
-```
-```
 void setup() {
-    Serial.begin(9600);  // Inicializa la comunicación serial con el PC a 9600 baudios
-    while (!Serial);     // Espera hasta que se abra el puerto serial (añadido para Arduinos basados en ATMEGA32U4)
-    SPI.begin();         // Inicializa el bus SPI
-    mfrc522.PCD_Init();  // Inicializa el lector MFRC522
-    delay(4);            // Retraso opcional. Algunas placas necesitan más tiempo después de la inicialización para estar listas
+    Serial.begin(9600);        // Inicializa la comunicación serial con el PC
+    while (!Serial);           // Espera hasta que se abra el puerto serial (para Arduinos basados en ATMEGA32U4)
+    SPI.begin();               // Inicializa el bus SPI
+    mfrc522.PCD_Init();        // Inicializa el lector MFRC522
+    delay(4);                  // Retraso opcional para dar tiempo al lector a estar listo
     mfrc522.PCD_DumpVersionToSerial();  // Muestra detalles del lector MFRC522
     Serial.println(F("Escanea una tarjeta para ver UID, SAK, tipo y bloques de datos..."));
 }
-```
-```
+
 void loop() {
-    // Reinicia el bucle si no hay una nueva tarjeta presente en el sensor/lector.
-    // Esto ahorra todo el proceso cuando está inactivo.
+    // Reinicia el bucle si no hay una nueva tarjeta presente en el sensor/lector
     if (!mfrc522.PICC_IsNewCardPresent()) {
         return;
     }
@@ -51,8 +47,7 @@ void loop() {
         return;
     }
 
-    // Muestra información de depuración sobre la tarjeta; PICC_HaltA() se llama automáticamente
+    // Muestra información de depuración sobre la tarjeta
     mfrc522.PICC_DumpToSerial(&(mfrc522.uid));
 }
-```
 
