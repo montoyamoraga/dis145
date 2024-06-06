@@ -1,4 +1,5 @@
 # Clase 13 06/06/2024
+Tengo que avanzar mucho ya que la clase pasada no vine y no me quiero atrasar mas.
 
 # Crear una lista y asignarle variables.
 
