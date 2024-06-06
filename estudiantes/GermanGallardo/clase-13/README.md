@@ -5,3 +5,4 @@
 1. Aprender como  prenderlo y apagarlo con sensor infrarojo
 1. Escribir codigo
 1. Empezar a probar cambios en el codígo
+1. Replantearse funcion
