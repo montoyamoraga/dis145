@@ -5,9 +5,11 @@
   - 3.- Tercero, entender y poder llevar a cabo un control de la imagen que se vea proyectado y que eso varie en la musica
     
 #  Video 
-a
-a
-a
+
+
+
+https://github.com/Spidermaneberl/dis145/assets/164402625/e174083a-5e39-44fb-b509-0bb0bc525db0
+
 
 
 
