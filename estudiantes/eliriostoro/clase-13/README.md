@@ -2,8 +2,11 @@
 solucionado el tema de arduino :) . se solda el sensor de sonido
 ![image](https://github.com/eliriostoro/dis145/assets/95258783/40c1996f-d422-4b6b-8ec4-9761a938e342)
  y se intenta hacer el circuito
+
+ 
  ![image](https://github.com/eliriostoro/dis145/assets/95258783/ecf7a9f0-3b22-4759-8bba-b66759807de3)
- lamentablemente me doi cuenta que necesito cables macho hembra.
+ 
+ lamentablemente me doy cuenta que necesito cables macho hembra.
 
  ----> los compre, llegan mañana 07/06/2024
 
@@ -124,6 +127,8 @@ void setColor(int red, int green, int blue) {
 ![image](https://github.com/eliriostoro/dis145/assets/95258783/17b75833-f44b-4f2f-ad22-99d69b365272)
 
 #### video mostrando el codigo:
+
+https://github.com/eliriostoro/dis145/assets/95258783/af84ec9f-5ece-495b-bdeb-af8a827d0093
 
 
 
