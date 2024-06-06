@@ -1,6 +1,6 @@
-##Clase 13 06/06/2024
+# Clase 13 06/06/2024
 
-##Crear una lista y asignarle variables.
+# Crear una lista y asignarle variables.
 
 Mientras intennto conectar el teclado a grasshopper, tambien tengo que desarrollar un método para que el teclado sepa que slider editar.
 
