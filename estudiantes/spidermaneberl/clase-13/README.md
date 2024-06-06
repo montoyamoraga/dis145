@@ -15,6 +15,6 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/8dcf7c37-b02c-46a8-b4b
 
 
 #  Checklist del dia ✅/✳️
--  subir avance
+-  subir avance (video) ✅
 -  crear musica y ver como cargarla
 -  controlar imagen -> musica 
