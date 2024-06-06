@@ -12,6 +12,13 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/8dcf7c37-b02c-46a8-b4b
 
 #  El intento de hacer musica
 -  hasta ahora solamenete han salido (mediante SUNO) canciones que no son de mi agrado pero si funciona
+    -  ejemplos:
+    
+
+https://github.com/Spidermaneberl/dis145/assets/164402625/81bb2c7c-d7d8-4554-95c8-4567882ece16
+https://github.com/Spidermaneberl/dis145/assets/164402625/70351ba2-ad8c-4d4d-8ad2-06d34e32ec54
+
+
 
 #  Checklist del dia ✅/✳️/❌
 -  subir avance (video) ✅
