@@ -26,6 +26,8 @@ Sensor utilizado: Módulo de RFID-RC522
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Crea una instancia del lector MFRC522
 
+```
+```
 void setup() {
     Serial.begin(9600);  // Inicializa la comunicación serial con el PC a 9600 baudios
     while (!Serial);     // Espera hasta que se abra el puerto serial (añadido para Arduinos basados en ATMEGA32U4)
@@ -35,7 +37,8 @@ void setup() {
     mfrc522.PCD_DumpVersionToSerial();  // Muestra detalles del lector MFRC522
     Serial.println(F("Escanea una tarjeta para ver UID, SAK, tipo y bloques de datos..."));
 }
-
+```
+```
 void loop() {
     // Reinicia el bucle si no hay una nueva tarjeta presente en el sensor/lector.
     // Esto ahorra todo el proceso cuando está inactivo.
