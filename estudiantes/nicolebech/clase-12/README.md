@@ -16,10 +16,12 @@ https://github.com/nicolebech/dis145/assets/164402586/02a4d33e-dac5-46bf-b56d-46
 Sensor utilizado: Módulo de RFID-RC522
 <img width="855" alt="Captura de pantalla 2024-06-06 a la(s) 18 17 59" src="https://github.com/nicolebech/dis145/assets/164402586/5b1cae81-15b7-4f4b-a4ba-4da21042d45d">
 
+Código Ejemplo para prueba de Lector RFID-RC522
 
 ```cpp
-#include <SPI.h>
-#include <MFRC522.h>
+#include <SPI.h>                   // Incluye la biblioteca SPI para comunicación SPI
+#include <MFRC522.h>               // Incluye la biblioteca MFRC522 para el lector RFID
+
 
 #define RST_PIN         9          // Pin de reset, configurable
 #define SS_PIN          10         // Pin de selección de esclavo (SS), configurable
