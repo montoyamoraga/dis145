@@ -11,9 +11,9 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/8dcf7c37-b02c-46a8-b4b
 -  grabacion que muestra el funcionamiento de musica importada a TD, desde spotify 
 
 #  El intento de hacer musica
--  hasta ahora solamenete han salid, mediante SUNO, canciones que no son de mi agrado
+-  hasta ahora solamenete han salido (mediante SUNO) canciones que no son de mi agrado pero si funciona
 
-#  Checklist del dia ✅/✳️
+#  Checklist del dia ✅/✳️/❌
 -  subir avance (video) ✅
--  crear musica y ver como cargarla
--  controlar imagen -> musica 
+-  crear musica y ver como cargarla ✳️✅ Logre crear musica y ya se como cargarala, sin embargo no me gustaron los resultados 
+-  controlar imagen -> musica ❌ no alcance, debo verlo en la semana 
