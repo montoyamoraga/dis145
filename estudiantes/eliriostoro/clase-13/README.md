@@ -1,4 +1,4 @@
-#clase 13
+# clase 13
 solucionado el tema de arduino :) . se solda el sensor de sonido
 ![image](https://github.com/eliriostoro/dis145/assets/95258783/40c1996f-d422-4b6b-8ec4-9761a938e342)
  y se intenta hacer el circuito
