@@ -1,3 +1,5 @@
+//Avance del proyecto durante la clase: 
+
 Finalmente, terminé de hacer el código en arduino, usando de base el siguiente: https://gist.github.com/renatoargh/818874b8d1d37b5c2abc.
 
 Aparentemente, el código en cuánto a estructura puede ser igual, pero no hice un ‘’copy paste’’ ya que me encargué de buscar en google cada uno de los pasos 
