@@ -15,6 +15,9 @@ Se logro lo de poner las luces, verde cuando estas cerca y no suena y rojo cuand
 
 
 https://github.com/GermanGallardo/dis145/assets/164402341/433da728-f60a-4bec-9b7e-55a1c5660fe7
+## Idea
+![image](https://github.com/GermanGallardo/dis145/assets/164402341/82e029db-dcf3-455c-b487-87e88e76d913)
+
 ## Codigo
  ```cpp
 
