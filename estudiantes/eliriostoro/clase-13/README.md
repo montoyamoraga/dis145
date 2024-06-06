@@ -18,5 +18,65 @@ solucionado el tema de arduino :) . se solda el sensor de sonido
 
 #### codigo
 
+```
+const int microfono = A0; // Pin del sensor de micrófono
+const int rojo = 9;  // Pin rojo
+const int verde = 10; // Pin verde
+const int azul = 11;  // Pin azul
+
+void setup() {
+  pinMode(microfono, INPUT);
+  pinMode(rojo, OUTPUT);
+  pinMode(verde, OUTPUT);
+  pinMode(azul, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int micValue = analogRead(microfono);
+
+//los micValue estan en veremos cuando sean probados en la vida real
+
+  if (micValue < 200) {
+    setColor(0, 0, 255); // azul ruido bajo
+  } else if (micValue < 400) {
+    setColorsetColor(0, 255, 0); // verde ruido medio
+  } else {
+    setColor(255, 0, 0); // Rojo ruido alto
+  }
+  
+  Serial.println(micValue);
+  delay(100); 
+}
+
+void setColor(int red, int green, int blue) {
+  analogWrite(rojo, red);
+  analogWrite(verde, green);
+  analogWrite(azul, blue);
+}
+
+```
+
+### cosas que podría necesitar:
+
+
+```
+
+  setColor(255, 0, 0);  // red
+  delay(1000);
+  setColor(0, 255, 0);  // green
+  delay(1000);
+  setColor(0, 0, 255);  // blue
+  delay(1000);
+  setColor(255, 255, 0);  // yellow
+  delay(1000);  
+  setColor(80, 0, 80);  // purple
+  delay(1000);
+  setColor(0, 255, 255);  // aqua
+  delay(1000);
+
+
+```
+
 
 
