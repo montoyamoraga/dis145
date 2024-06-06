@@ -15,13 +15,25 @@ Luego de revisar los trabajos de mis compañeros organice como voy a trabajar en
 
 - 15:45 -> Revisión trabajos de compañeros
 - 16:15 -> Organización de la clase
-- 16:30 -> Corte laser de los mecanismos
+- 16:30 -> Corte láser de los mecanismos
 - 18:00 -> Diseño nuevo mecanismo 
 
 ## Corte Laser
 
-Luego de organizar la clase, fui a cortar los mecanismos con corte laser. Se muestran a continuación:
+Luego de organizar la clase, fui a cortar los mecanismos con corte láser. Se muestran a continuación:
 
 ![piñonYCremallera](piñonYCremallera.jpg)
 
 ![mecanismos](mecanismos.jpg)
+
+
+
+## Diseño Nuevo Mecanismo
+
+Después de hacer el corte láser, me dedique a diseñar el nuevo mecanismo, y me di cuenta d eque si quiero que quede firme necesito más piñones y más cremalleras. Estoy quedandome pegado ya que necesito que este mecanismo me permita movimiento shorizontales y verticales, pero aun no logro que se haga el movimiento vertical, idealmente con el mismo motor.
+
+
+![mecanismo1](mecanismo1.png)
+![mecanismo2](mecanismo2.png)
+![mecanismo3](mecanismo3.png)
+
