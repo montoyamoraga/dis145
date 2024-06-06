@@ -10,3 +10,5 @@ Para esto debo crear una lista que inmediatamente agregue todos los sliders en f
 Esto debo lograrlo al mismo tiempo en un nuevo plugn para grasshopper.
 
 Para ello descarque una extension en visual studio 2022 llamada Grasshopper Assembly for Rhino 3D, la cual sera de gran ayuda para crear un plugin que cualquiera pueda usar.
+
+Lamentablemente tengo que irme antes ya que tengo kinesiologo.
