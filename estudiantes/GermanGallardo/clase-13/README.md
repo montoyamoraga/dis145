@@ -5,7 +5,7 @@
 1. Aprender como  prenderlo y apagarlo con sensor infrarojo
 1. Escribir codigo
 1. Empezar a probar cambios en el codígo
-1. Replantearse funcion
+1. Replantearse Objetivo de proyecto
 ## Avances
 El Código planeado en las clases pasadas logro funcionar, eso si el motor vibrados fue remplazado por facilidad, solo debí reemplazar el buzzer por lo del motor en el Código y logro funcionar, está tomando forma el proyecto, ahora ya teniendo el Código casi listo debo tomar decisiones de la meterialidad para el funcionamiento, se me ocurre una cajita hecha a 3d que sea instalable en las sillas en vez de ser un weable quieron poner dos luces led una verde y una roja, ambas luces significaran que esta prendido el dispositivo la verde signifcaras que estas bien sentado y la roja que no 
 ## Prototipo 1
