@@ -22,6 +22,6 @@ Luego de revisar los trabajos de mis compañeros organice como voy a trabajar en
 
 Luego de organizar la clase, fui a cortar los mecanismos con corte laser. Se muestran a continuación:
 
-![piñonYCremallera](piñonYCremallera.png)
+![piñonYCremallera](piñonYCremallera.jpg)
 
-![mecanismos](mecanismos.png)
+![mecanismos](mecanismos.jpg)
