@@ -8,7 +8,7 @@
 
 
 
-grabacion que muestra el funcionamiento de musica importada a TD, desde spotify 
+
 https://github.com/Spidermaneberl/dis145/assets/164402625/8dcf7c37-b02c-46a8-b4b3-f08c130722e5
 
 
