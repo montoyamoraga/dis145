@@ -13,10 +13,10 @@ Con esto optimizo la cantidad de mecanismos que tengo que hacer. En mi idea ante
 
 Luego de revisar los trabajos de mis compañeros organice como voy a trabajar en mi proyecto en el resto de la clase.
 
-15:45 -> Revisión trabajos de compañeros
-16:15 -> Organización de la clase
-16:30 -> Corte laser de los mecanismos
-18:00 -> Diseño nuevo mecanismo 
+- 15:45 -> Revisión trabajos de compañeros
+- 16:15 -> Organización de la clase
+- 16:30 -> Corte laser de los mecanismos
+- 18:00 -> Diseño nuevo mecanismo 
 
 ## Corte Laser
 
