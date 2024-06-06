@@ -8,13 +8,13 @@
 
 
 
-https://github.com/Spidermaneberl/dis145/assets/164402625/e174083a-5e39-44fb-b509-0bb0bc525db0
-
+grabacion que muestra el funcionamiento de musica importada a TD, desde spotify 
+https://github.com/Spidermaneberl/dis145/assets/164402625/8dcf7c37-b02c-46a8-b4b3-f08c130722e5
 
 
 
 
 #  Checklist del dia ✅/✳️
 -  subir avance
--  cargar musica guardada mia
+-  crear musica y ver como cargarla
 -  controlar imagen -> musica 
