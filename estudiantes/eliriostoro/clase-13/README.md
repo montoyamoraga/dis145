@@ -78,5 +78,54 @@ void setColor(int red, int green, int blue) {
 
 ```
 
+---> problemas para obtener el color amarillo, debo regular bien el como analizar los datos obtenidos
+
+```
+const int microfono = A0; // Pin del sensor de micrófono
+const int rojo = 9;  // Pin rojo
+const int verde = 10; // Pin verde
+const int azul = 11;  // Pin azul
+
+void setup() {
+  pinMode(microfono, INPUT);
+  pinMode(rojo, OUTPUT);
+  pinMode(verde, OUTPUT);
+  pinMode(azul, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int micValue = analogRead(microfono);
+
+//los micValue estan en veremos cuando sean probados en la vida real
+
+  if (micValue < 520) {
+    setColor(0, 0, 225); // verde ruido bajo este es siosi 
+  } 
+  else if (micValue < 600) {
+    setColor(225, 255, 0); // amarillo ruido medio
+  } 
+  else {
+    setColor(255, 0, 0); // Rojo ruido alto siosi rojo
+  }
+  
+  Serial.println(micValue);
+  delay(100); 
+}
+
+void setColor(int red, int green, int blue) {
+  analogWrite(rojo, red);
+  analogWrite(verde, green);
+  analogWrite(azul, blue);
+}
+
+```
+
+![image](https://github.com/eliriostoro/dis145/assets/95258783/17b75833-f44b-4f2f-ad22-99d69b365272)
+
+#### video mostrando el codigo:
+
+
+
 
 
