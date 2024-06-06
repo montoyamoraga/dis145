@@ -1,8 +1,8 @@
 # planificación
 
--comprender un codigo mas complicado (añadirle un LED y prenderlo con un grado de angulación)
--documentar el proceso
--subirlo a gitHub
+* comprender un codigo mas complicado (añadirle un LED y prenderlo con un grado de angulación)
+* documentar el proceso
+* subirlo a gitHub
 
 # ejemplos descubrir el funcionamiento de led + mpu6050
 
