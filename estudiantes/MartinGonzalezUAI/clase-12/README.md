@@ -1,4 +1,4 @@
-# Clase-10 (30/05/2024)
+# Clase-12 (30/05/2024)
 
 ## Corrección Sistema de Piñon y Cremallera
 
