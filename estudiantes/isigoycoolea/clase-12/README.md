@@ -8,3 +8,4 @@ Hice unas pruebas con MDF de la cámara base dónde meteré las conexiones. Hice
 * Avance físico	 :x:
 
 Para empez
+![Conexiones en Arduino (1)](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-11/arduino)
