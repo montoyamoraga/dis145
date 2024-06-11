@@ -130,43 +130,45 @@ void loop() {
   Serial.print("  ");
   Serial.print("Axis Y = ");
   Serial.println(data.Y);
+
+//AXIS "Y"
   //led n1
   if (data.Y < 180) {  //gesture : down
     Serial.print("gesture 1");
     digitalWrite(13, LOW);
   }
-
-//AXIS "Y"
   if (data.Y > 180) {  //gesture : up
     digitalWrite(13, HIGH);
     Serial.print("gesture 2");
 
+```
+
+Ya teniendo una Led funcionando quizimos probar con dos Led las cuales se prendieran a diferente grado de inclinación.  
+Como pueden ver creamos dos gestures más pero que se caracterizan por estar programadas a la inversa de las anteriores.  
+
+
+```
     //led n2
       if (data.Y > 80 ) {  //gesture : down
     Serial.print("gesture 1");
     digitalWrite(10, LOW);
+
   }
   if (data.Y < 80) {  //gesture : up
     digitalWrite(10, HIGH);
     Serial.print("gesture 2");
+
+ if (data.Y < 80) {  //gesture : up
+    digitalWrite(10, HIGH);
+    Serial.print("gesture 2");
   }
-```
 
 ```
-//AXIS "Y" n2
-  }
-  //if (data.X > 155) {//gesture : left
-  //Serial.print("gesture 3");
-  //}
-  //if (data.X < 80) {//gesture : right
-  //Serial.print("gesture 4");
-  // }
-  //if (data.X > 100 && data.X < 170 && data.Y > 80 && data.Y < 130) { //gesture : little bit down
-  // Serial.print("gesture 5");
-  // }
-}
 
-```
+Lamentablemente por falta de tiempo no logramos hacer que estas funcionen.  
+por lo mismo este será el desafío de la siguiente clase...
+
+Clase n14!
 
 
 
