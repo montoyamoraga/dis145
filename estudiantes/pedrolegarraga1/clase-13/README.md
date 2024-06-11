@@ -27,6 +27,12 @@ por ejemplo si el sensor mpu 6050 esta angulado hacia la izquierda y marca más 
 marcaría gesture 1 y se le asignaría una accion con el comando "if"
 con estos comandos se pueden prender y apagar luces 
 
+
+Monitor Serial:
+
+![MonitorSerialClase13](https://github.com/pedrolegarraga1/dis145/assets/164402475/d62377b1-730d-4362-b157-ccaebff0deae)
+
+Codigo Arduino:
 ```cpp
 #include "Wire.h"       
 #include "I2Cdev.h"     
@@ -146,9 +152,12 @@ void loop() {
 https://github.com/pedrolegarraga1/dis145/assets/164402475/c848e963-7ad7-4bde-8546-aa696bdecb42
 
 
+# más allá de la planificación
+
 
 Ya teniendo una Led funcionando quizimos probar con dos Led las cuales se prendieran a diferente grado de inclinación.  
-Como pueden ver creamos dos gestures más pero que se caracterizan por estar programadas con los grados de inclinación a la inversa de las anteriores.  
+Como pueden ver creamos dos gestures más las cuales van al final del codigo anterior.  Estas
+se caracterizan por estar programadas con los grados de inclinación a la inversa de las anteriores para que el sensor prenda una luz led hacia un lado y otra hacia el lado contrario.  
 
 
 ```cpp
@@ -169,8 +178,8 @@ Como pueden ver creamos dos gestures más pero que se caracterizan por estar pro
 
 ```
 
-Lamentablemente por falta de tiempo no logramos hacer que estas funcionen.  
-por lo mismo este será el desafío de la siguiente clase...
+Lamentablemente por falta de tiempo no logramos hacer que estas funcionen pero dejamos .  
+por lo mismo este será el desafío de la siguiente clase!
 
 Clase n14!
 
