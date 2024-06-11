@@ -86,7 +86,10 @@ void loop()
 # metiendonos dentro del codigo
 
 Luego de conocer el codigo y saber que hace cada linea, nos pusimos a modificarlo un poco.  
-Iniciamos cambiandole el numero al Serial.begin dado que era mas facil trabajar con 115200 baun para que así el monitor serial pudiera leer los datos que nos entrega el sensor.
+Iniciamos cambiandole el numero al Serial.begin dado que era mas facil trabajar con 115200 baud para que así el monitor serial pudiera leer los datos que nos entrega el sensor.  
+Luego, nos dimos cuenta de que solo necesitariamos trabajar con un axis (en este caso fue Y) asi que eliminamos las demas gestures que utilizaban los axis X. Esto mismo lo podemos ver en el apartado //AXIS "Y"
+
+Ya con el codigo modificado lo verificamos y subimos al arduino para así ver como funciona.
 
 
 ```cpp
@@ -107,6 +110,7 @@ struct MyData {
 MyData data;
 
 void setup() {
+//CAMBIO DE BAUD
   Serial.begin(115200);
   Wire.begin();
   mpu.initialize();
@@ -131,6 +135,8 @@ void loop() {
     Serial.print("gesture 1");
     digitalWrite(13, LOW);
   }
+
+//AXIS "Y"
   if (data.Y > 180) {  //gesture : up
     digitalWrite(13, HIGH);
     Serial.print("gesture 2");
@@ -144,6 +150,10 @@ void loop() {
     digitalWrite(10, HIGH);
     Serial.print("gesture 2");
   }
+```
+
+```
+//AXIS "Y" n2
   }
   //if (data.X > 155) {//gesture : left
   //Serial.print("gesture 3");
