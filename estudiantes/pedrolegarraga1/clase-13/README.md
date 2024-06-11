@@ -142,6 +142,8 @@ void loop() {
     Serial.print("gesture 2");
 
 ```
+https://github.com/pedrolegarraga1/dis145/blob/main/estudiantes/pedrolegarraga1/clase-13/videoEjMPU1led.mp4
+
 
 Ya teniendo una Led funcionando quizimos probar con dos Led las cuales se prendieran a diferente grado de inclinación.  
 Como pueden ver creamos dos gestures más pero que se caracterizan por estar programadas con los grados de inclinación a la inversa de las anteriores.  
