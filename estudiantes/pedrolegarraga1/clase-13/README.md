@@ -147,7 +147,7 @@ Ya teniendo una Led funcionando quizimos probar con dos Led las cuales se prendi
 Como pueden ver creamos dos gestures más pero que se caracterizan por estar programadas a la inversa de las anteriores.  
 
 
-```
+```cpp
     //led n2
       if (data.Y > 80 ) {  //gesture : down
     Serial.print("gesture 1");
