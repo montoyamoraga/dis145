@@ -85,7 +85,7 @@ void loop()
 
 # metiendonos dentro del codigo
 
-Luego de conocer el codigo y saber que hace cada linea, nos pusimos a modificarlo un poco.
+Luego de conocer el codigo y saber que hace cada linea, nos pusimos a modificarlo un poco.  
 Iniciamos cambiandole el numero al Serial.begin dado que era mas facil trabajar con 115200 baun para que así el monitor serial pudiera leer los datos que nos entrega el sensor.
 
 
