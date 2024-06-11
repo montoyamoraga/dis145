@@ -178,7 +178,12 @@ se caracterizan por estar programadas con los grados de inclinación a la invers
 
 ```
 
-Lamentablemente por falta de tiempo no logramos hacer que estas funcionen pero dejamos .  
+Lamentablemente por falta de tiempo no logramos hacer que estas funcionen pero dejamos el circuito anvanzado.
+
+
+![circuito2LedMPU](https://github.com/pedrolegarraga1/dis145/assets/164402475/db46e6a0-391e-4362-a511-4f5caaa052d8)
+
+
 por lo mismo este será el desafío de la siguiente clase!
 
 Clase n14!
