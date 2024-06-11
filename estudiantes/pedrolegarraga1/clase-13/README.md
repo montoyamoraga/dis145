@@ -142,7 +142,9 @@ void loop() {
     Serial.print("gesture 2");
 
 ```
- ![videoEjMPU1led]([videoEjMPU1led.mp4](https://github.com/pedrolegarraga1/dis145/blob/main/estudiantes/pedrolegarraga1/clase-13/videoEjMPU1led.mp4))
+
+https://github.com/pedrolegarraga1/dis145/assets/164402475/c848e963-7ad7-4bde-8546-aa696bdecb42
+
 
 
 Ya teniendo una Led funcionando quizimos probar con dos Led las cuales se prendieran a diferente grado de inclinación.  
