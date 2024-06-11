@@ -144,7 +144,7 @@ void loop() {
 ```
 
 Ya teniendo una Led funcionando quizimos probar con dos Led las cuales se prendieran a diferente grado de inclinación.  
-Como pueden ver creamos dos gestures más pero que se caracterizan por estar programadas a la inversa de las anteriores.  
+Como pueden ver creamos dos gestures más pero que se caracterizan por estar programadas con los grados de inclinación a la inversa de las anteriores.  
 
 
 ```cpp
