@@ -4,7 +4,7 @@
 Se va a transmitir los valores de un potenciómetro conectado a un Arduino Mega
 #### Código en Arduino
 
-```
+``` C++
 // variable donde se almacenarán los datos del potenciometro
 int valor;
 
@@ -34,7 +34,7 @@ void loop() {
 ```
 #### Código en processing
 Se va a hacer que muestre los valores del potenciometro de Arduino
-```
+``` C++
 import processing.serial.*;
 
 Serial myPort;
