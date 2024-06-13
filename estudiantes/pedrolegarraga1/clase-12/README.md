@@ -25,7 +25,7 @@ cuando dejabamos el sensor los numeros quedaban bajos y cuando lo moviamos estos
 teniendo esto claro nos dimos cuenta de que este no utilizaba los angulos sino que solo el movimiento
 por lo mismo dejamos el codigo de giroscopio de un lado ya que no nos sirve y buscamos un ejemplo de *acelerometro* el cual viene incluido en el mismo sensor
 
-codigo analizado "ejemplo simple de *acelerometro*"
+# codigo analizado "ejemplo simple de *acelerometro*"
 ```cpp
 
 //este ejemplo lo sacamos del github de Jarzebski
@@ -143,11 +143,11 @@ pusimos a funcionar el codigo nuevo con el sensor y nos dimos cuenta de que enco
 
 el monitor serial ahora nos arroja numeros que cambian segun el angulo del sensor como podemos ver
 
-SENSOR HORIZONTAL
+# SENSOR HORIZONTAL
 ![AccHorizontal](./AccHorizontal.png)  ![SensorHorizontal](./SensorHorizontal.jpg) 
 
-SENSOR VERTICAL EN X
+# SENSOR VERTICAL EN X
 ![SensorVerticalX](./AccVerticalX.png)  ![SensorHorizontal](./SensorVerticalX.jpg) 
 
-SENSOR VERTICAL EN Y
+# SENSOR VERTICAL EN Y
 ![AccHorizontal](./AccVerticalY.png)  ![SensorHorizontal](./SensorVerticalY.jpg) 
