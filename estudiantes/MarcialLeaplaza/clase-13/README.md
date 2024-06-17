@@ -23,7 +23,7 @@ Esto se debe principalente a algo llamado Software Develoment Kit (SDK).
 
 El problema que tuve fue que el SDK de mi version de rhino es demasiado antigua y no es compatible con niungun template que haya podido encotrar en internet. 
 
-
+<img width="572" alt="SDK_info" src="https://github.com/montoyamoraga/dis145/assets/165319963/b3164fa6-d850-49a8-8781-f703c526f49f">
 
 Finalmente la solucion fue descargar una version de prueba de rhino 8 (la version mas reciente posible) y de ahora en adelante trabajar en esta version.
 
