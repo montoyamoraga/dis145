@@ -12,3 +12,19 @@ Esto debo lograrlo al mismo tiempo en un nuevo plugn para grasshopper.
 Para ello descarque una extension en visual studio 2022 llamada Grasshopper Assembly for Rhino 3D, la cual sera de gran ayuda para crear un plugin que cualquiera pueda usar.
 
 Lamentablemente tengo que irme antes ya que tengo kinesiologo.
+
+##Cambiar a clase 14****
+
+Luego del kinesiologo trate de crear mi primer plugin, este paso es muy necesario ya que es la prueba de que podre pasar un condigo en c# del Visual Studio al GrassHopper, lamentablemente las cosas no salieron del todo bien, ya que en mi primer intento descubrí que usar una version crackeada de rhino no es la mejor idea a la hora de crear nuevas herramientas.
+
+Esto se debe principalente a algo llamado Software Develoment Kit (SDK).
+
+El problema que tuve fue que el SDK de mi version de rhino es demasiado antigua y no es compatible con niungun template que haya podido encotrar en internet. 
+
+
+
+Finalmente la solucion fue descargar una version de prueba de rhino 8 (la version mas reciente posible) y de ahora en adelante trabajar en esta version.
+
+Afortunadamente la mayoria de mis codigos de Grasshopper son compatibles con el grasshopper de rhino 8, excepto por algunos codigos que incluyen plugins que no son compatibles con el nuevo SDK.
+
+
