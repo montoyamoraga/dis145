@@ -29,4 +29,11 @@ Finalmente la solucion fue descargar una version de prueba de rhino 8 (la versio
 
 Afortunadamente la mayoria de mis codigos de Grasshopper son compatibles con el grasshopper de rhino 8, excepto por algunos codigos que incluyen plugins que no son compatibles con el nuevo SDK.
 
+Aprovechando, tambien creo que sera importante recordar que los plugins que haga para rhino 8 deben estar en el freamework .Net4.8.
+
+Luego de todo este lío, finalmente cree mi primer componente en rhino 8, el cual no hace absolutamente nada, solo existe, igual que yo.
+
+<img width="605" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/b7b83210-8028-4235-8080-25a13fefeb91">
+
+
 
