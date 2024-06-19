@@ -33,6 +33,20 @@ Todo unido quedaría así:
 
 <img width="830" alt="Captura de Pantalla 2024-06-06 a la(s) 18 35 06" src="https://github.com/supernave1/dis145/assets/164402810/1e0f6725-9aed-40ba-95c0-5d1ca4efb12d">
 
+## Impresión 3d
+
+Con el modelo ya terminado, queda hacer el archivo de corte para imprimir, el cual se exporta como STl desde rhino, para flashprint, el cual procesa el archivo y te entrega un archivo gx, este mediante un pendrive va directo a la impresora.
+
+<img width="1147" alt="Captura de Pantalla 2024-06-17 a la(s) 18 31 00" src="https://github.com/supernave1/dis145/assets/164402810/3ba3ee41-8a19-470e-9a41-3cfc8444b3dc">
+
+Con una impresora Aventurer 3, mi archivo se demora 8 horas y 39 minutos en imprimirse, y en total se ocupan 54 gramos de filamento.
+
+Este archivo lo guarde en un pendrive y lo descargue en la impresora, esperemos que salga bien!! 
+
+https://github.com/supernave1/dis145/assets/164402810/49fa39c2-6523-4c69-8a71-b8af9b583772
+
+
+
 ## Proxima clase
 
 Para la proxima clase traere todo esto impreso en 3d, lo que me permitira ver si realmente funciona, y poder configurar el motor para que vaya lanzando una por una las cartas.
