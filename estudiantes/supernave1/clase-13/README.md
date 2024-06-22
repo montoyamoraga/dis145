@@ -52,3 +52,76 @@ https://github.com/supernave1/dis145/assets/164402810/49fa39c2-6523-4c69-8a71-b8
 Para la proxima clase traere todo esto impreso en 3d, lo que me permitira ver si realmente funciona, y poder configurar el motor para que vaya lanzando una por una las cartas.
 
 Desarrollare una base con espacio para esconder el hardware utilizado en el proyecto, la cual dara espacio al servo motor para girar lo ya modelado.
+
+
+# clase-14
+
+Fui a buscar las impresiones, las cuales una de ellas fallo. La base para las cartas no se imprimio hasta arriba, por lo que no se imprimeron los soportes para el brazo. De suerte habia otra impresora  disponible, por lo que pude mandar el archivo a impirmir nuevamente. Espero que esta vez pueda salir bien.
+
+![Photoroom_20240622_55613 p  m](https://github.com/supernave1/dis145/assets/164402810/3ac7db0a-0a07-4ac4-8bd3-3de815fcc84e)
+
+
+https://github.com/supernave1/dis145/assets/164402810/ef08a14c-8ad8-4117-b62e-3834c9416e2d
+
+
+El brazo para el motor, salio perfecto, lo unico es que me equivoque en las medidas del diametro, por lo que en un principio no cabia, por lo que corte el brazo en un punto para que se pueda abrir, queda muy bien fijado el motor ya instalado.
+
+
+![Photoroom_20240622_60433 p  m](https://github.com/supernave1/dis145/assets/164402810/05f2dbbb-d1f8-48f7-a42a-c9afccaba8b3)
+
+
+![Photoroom_20240622_55558 p  m](https://github.com/supernave1/dis145/assets/164402810/059436b9-ba68-4e80-bf88-ac031e168b8c)
+
+
+Una vez en mi casa, arme todo, y con la base mal impresa busque solucionar de forma casera el problema. Le pegue con silicona caliente una llave allen lo suficientemente pequeña para que pase por el hoyito del brazo y funcione como eje. Quedo muy practico, lo que me va a permitir poder hacer las pruebas neceserias para ver si realmente funciona mi proyecto.
+
+![Photoroom_20240622_21309 p  m](https://github.com/supernave1/dis145/assets/164402810/cbd3ad5a-e51b-4f8a-b074-66b9e3ed31d3)
+
+Este video muestra como el brazo tiene la libertad para moverse para arriba o para abajo.
+
+
+https://github.com/supernave1/dis145/assets/164402810/63796b4e-6623-4962-9c2d-7c2e64389f1e
+
+Bastante feliz con como va agarrando forma el proyecto, me gusto el funcionamiento, ahora veremos si tiene algun problema el motor bajo este sistema.
+
+## Pruebas
+
+Lamentablemente,con todo el sistema armado, descubri un problema bien grande. El motor no tiene la suficiente fuerza para lograr girar cuando la rueda esta apoyada en las cartas, es decir, no es capaz de girar apoyado en su propio peso, lo que es grave ya que en eso consiste el sistema para tirar cada carta.
+
+
+https://github.com/supernave1/dis145/assets/164402810/1262fa51-34c9-459a-b636-45ed64313352
+
+Para comprobar esto, le voy a sacar el elastico a la rueda a ver si sin el roce que provoca el elastico, es capaz de girar.
+
+
+https://github.com/supernave1/dis145/assets/164402810/cf092965-ae95-4417-b5ad-3edbee3abd5c
+
+El motor con la rueda sin elastico si es capaz de girar sopportando su propio peso, pero con el roce que le hace el elastico no es capaz. :(
+
+Le pondre unas tiras de silicona caliente a la rueda de un lado al otro, para que asi tenga mas espacio para girar que con el elastico, quizas que con esto, el motor logre agarrar la suficiente fuerza para que siga girando y logre empujar las cartas.
+
+
+![Photoroom_20240622_52708 p  m](https://github.com/supernave1/dis145/assets/164402810/b4c91c6e-0541-4665-84e0-5ddc47e61985)
+
+Esperemos que funcione!!
+
+https://github.com/supernave1/dis145/assets/164402810/d016ed0e-1410-401c-8b1b-9cf70a2b1b54
+
+Aunque mejora un poco, sigue siendo inutil para lo que queremos lograr. Voy a investigar sobre motores mas pequeños y quizas proporcionalmente mas fuertes, que sean capaces de girar soportando su propio peso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
