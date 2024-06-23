@@ -15,4 +15,14 @@ No me confié en un 100% y a modo de prevención utilicé un computador antiguo 
 No hubo problemas con la batería ni tampoco con el código ya que cargó sin problemas, pero si con el funcionamiento del motor paso a paso ya que el eje de este no rotaba practicamente nada, sino que por 
 el encendido de las bobinas el motor vibraba o bien giraba solo un poco el eje de este. Pensé que podía ser que la batería estuviera descargada así que con un voltímetro corroboré que estuviera en óptimas 
 condiciones, lo cual fue así. Luego revisé las conexiones de los cables entre los diferentes componentes, estaba todo perfecto también. Después, revisé el código y la verdad tampoco había algo que solu-
-cionar a mi parecer. He estado buscando información al respecto, no es algo que particularmente me haya pasado, sino que es un problema común por lo que investigué; 
+cionar a mi parecer. He estado buscando información al respecto, no es algo que particularmente me haya pasado a mi, sino que es un problema común por lo que investigué en videos como los siguientes: 
+
+### https://www.youtube.com/watch?v=lrC1hSQ1oWM
+### https://www.youtube.com/watch?v=WoPYHDA32Zk
+
+Hasta ahora, continúo investigando pero sigo sin saber como resolverlo, he corroborado directamente con el voltímetro cada pin del motor para descartar que haya alguna falla en este pero no hay nada fuera
+de lo normal.
+
+En paralelo, utilicé una persiana como referencia para diseñar una pieza en 3D que sirviera de soporte para el motor y por otra parte de tracción para que este haga rotar el eje de dicha persiana y pueda
+hacer que suba y baje.
+
