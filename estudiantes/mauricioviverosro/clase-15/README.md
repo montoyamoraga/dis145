@@ -8,7 +8,7 @@ dudas, aprender o inspirarse para llevar a cabo nuevas ideas o proyectos según 
 En conjunto con lo anterior, llevamos a la clase un kit de arduino en donde se nos introdujo el tema y nos dieron a conocer de forma breve su lenguaje (mediante el software ''Arduino'') así como el formato de trabajo de estos componentes, así también 
 cómo pueden ser y han sido el inicio de grandes proyectos en todo el mundo. 
 
--> IMÁGEN KIT ARDUINO.
+![Materiales](./materiales.jpg)
 
 ### Desafíos grupales en arduino:  
 
