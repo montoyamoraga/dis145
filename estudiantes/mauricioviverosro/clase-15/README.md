@@ -75,7 +75,7 @@ Si bien ya tenía el código, todas las conexiones físicas listas, menos una: l
 
 Mientras intentaba conseguir una batería de acuerdo con los requerimientos del Motor (12V y 1.7 Ah), intenté hacerlo con baterías de 9V, dos pilas unidas tipo AA, pero ninguna opción me sirvió, el motor no hacía absolutamente nada.
 
-En paralelo, aproveche de avanzar en el diseño 3D de la base del proyecto: 
+En paralelo, aproveché de avanzar en el diseño 3D de la base del proyecto: 
 ![diseño3d](./diseño3d.png)
 
 Terminé por conseguir una batería de 12V y 32 Ah, un amperaje muy superior al requerido por el motor (1.7 Ah), fue por esto que antes de utilizarla investigué sobre posibles consecuencias a modo de prevención y luego de conversar con una persona que ya tenía conocimiento previo acerca de estos motores y alimentación el cual tiene una tienda de electrónica, me mencionó que no tendría problemas. Realicé la prueba, y a modo de prueba lo hice con un computador que ya no usaba y no con el que utilizo a diario; conecté la batería y encendió tanto el driver L298N como el motor paso a paso.
