@@ -80,6 +80,8 @@ Terminé por conseguir una batería de 12V y 32 Ah, un amperaje muy superior al 
 
 Si bien encienden los componentes, tengo un problema ya que al inclinar el joystick de lado a lado el motor paso a paso se mueve muy poco y se mantiene vibrando, buscando referencias del problema me encontré con casos similares, ya he revisado con un voltímetro el motor para verificar que esté en optimas condiciones y lo está, así tambien la batería externa, las conexiones y el código también.
 
+Referentes con el mismo problema: https://www.youtube.com/watch?v=WoPYHDA32Zk y https://www.youtube.com/watch?v=VdkpPHIioUo&t=206s .
+
 -> Último código.
 -> Imágen
 -> Video
