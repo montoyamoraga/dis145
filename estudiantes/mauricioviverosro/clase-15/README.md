@@ -70,10 +70,10 @@ Reuní casi todos los materiales necesarios y comencé desarrollando el código 
 https://gist.github.com/renatoargh/818874b8d1d37b5c2abc.
 https://www.youtube.com/watch?v=nfhIIkJ-Ze0
 
-#### código desarollado:
+#### Código desarollado:
 ![Proyecto_final](./Proyecto_final.ino)
 
-Si bien tenía el código desarollado, todas las conexiones físicas listas, menos una: la batería, material vital para poner a prueba el proyecto.
+Si bien ya tenía el código, todas las conexiones físicas listas, menos una: la batería, material vital para poner a prueba el proyecto.
 
 Mientras intentaba conseguir una batería de acuerdo con los requerimientos del Motor (12V y 1.7 Ah), intenté hacerlo con baterías de 9V, dos pilas unidas tipo AA, pero ninguna opción me sirvió, el motor no hacía absolutamente nada.
 
