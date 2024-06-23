@@ -1,6 +1,6 @@
 # ENTREGA FINAL
 
-## Recorrido y progreso primeras clases:
+### Recorrido y progreso primeras clases:
 Durante este curso comenzamos inicialmente con la introducción de todo lo que es GitHub y MarkDown, en donde en primer lugar y de forma particular, conocí el sitio web y su metodología de trabajo la cual anteriormente
 desconocía por completo. Comencé por aprender poco a poco acerca de la forma de redactar, navegar por el curso y por cada uno de los usuarios (estudiantes) que son parte de este, lo cual es una buena forma de resolver 
 dudas, aprender o inspirarse para llevar a cabo nuevas ideas o proyectos según sea el caso.
