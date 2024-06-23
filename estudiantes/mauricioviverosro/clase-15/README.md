@@ -85,7 +85,7 @@ Terminé por conseguir una batería de 12V y 32 Ah, un amperaje muy superior al 
 Si bien encienden los componentes, tengo un problema ya que al inclinar el joystick de lado a lado el motor paso a paso se mueve muy poco y se mantiene vibrando, buscando referencias del problema me encontré con casos similares, ya he revisado con un voltímetro el motor para verificar que esté en optimas condiciones y lo está, así tambien la batería externa y las conexiones pero el código posiblemente no ya que al modificar los valores
 del delay en Void loop el comportamiento del eje del motor varía, es probable que el valor que yo le indico no sea el indicado y ese sea el problema.
 
-![videoMouseArduino](./videoMouseArduino.mp4)
+![videoproyectofinal1](./videoproyectofinal1.mp4)
 
 Referentes con el mismo problema: https://www.youtube.com/watch?v=WoPYHDA32Zk y https://www.youtube.com/watch?v=VdkpPHIioUo&t=206s .
 
