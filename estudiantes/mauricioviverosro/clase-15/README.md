@@ -71,7 +71,7 @@ https://gist.github.com/renatoargh/818874b8d1d37b5c2abc.
 https://www.youtube.com/watch?v=nfhIIkJ-Ze0
 
 #### código desarollado:
-     // Pines driver L298N
+// Pines driver L298N
 const int CON1 = 2;
 const int CON2 = 3;
 const int CON3 = 4;
