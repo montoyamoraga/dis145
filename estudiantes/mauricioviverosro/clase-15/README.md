@@ -78,7 +78,8 @@ Mientras intentaba conseguir una batería de acuerdo con los requerimientos del 
 
 Terminé por conseguir una batería de 12V y 32 Ah, un amperaje muy superior al requerido por el motor (1.7 Ah), fue por esto que antes de utilizarla investigué sobre posibles consecuencias a modo de prevención y luego de conversar con una persona que ya tenía conocimiento previo acerca de estos motores y alimentación el cual tiene una tienda de electrónica, me mencionó que no tendría problemas. Realicé la prueba, y a modo de prueba lo hice con un computador que ya no usaba y no con el que utilizo a diario; conecté la batería y encendió tanto el driver L298N como el motor paso a paso.
 
-Si bien encienden los componentes, tengo un problema ya que al inclinar el joystick de lado a lado el motor paso a paso se mueve muy poco y se mantiene vibrando, buscando referencias del problema me encontré con casos similares, ya he revisado con un voltímetro el motor para verificar que esté en optimas condiciones y lo está, así tambien la batería externa, las conexiones y el código también.
+Si bien encienden los componentes, tengo un problema ya que al inclinar el joystick de lado a lado el motor paso a paso se mueve muy poco y se mantiene vibrando, buscando referencias del problema me encontré con casos similares, ya he revisado con un voltímetro el motor para verificar que esté en optimas condiciones y lo está, así tambien la batería externa y las conexiones pero el código posiblemente no ya que al modificar los valores
+del delay en Void loop el comportamiento del eje del motor varía, es probable que el valor que yo le indico no sea el indicado y ese sea el problema.
 
 Referentes con el mismo problema: https://www.youtube.com/watch?v=WoPYHDA32Zk y https://www.youtube.com/watch?v=VdkpPHIioUo&t=206s .
 
