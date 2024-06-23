@@ -1,6 +1,6 @@
 # ENTREGA FINAL
 
-## Recorrido y progreso clase a clase:
+## Recorrido y progreso primeras clases:
 Durante este curso comenzamos inicialmente con la introducción de todo lo que es GitHub y MarkDown, en donde en primer lugar y de forma particular, conocí el sitio web y su metodología de trabajo la cual anteriormente
 desconocía por completo. Comencé por aprender poco a poco acerca de la forma de redactar, navegar por el curso y por cada uno de los usuarios (estudiantes) que son parte de este, lo cual es una buena forma de resolver 
 dudas, aprender o inspirarse para llevar a cabo nuevas ideas o proyectos según sea el caso.
@@ -44,13 +44,15 @@ Inicialmente, pensé en hacer el proyecto de la forma más accequible posible pe
 
 Acotación: La pantalla PDLC mencionada, tiene la particularidad de dejar de forma opaca un vidrio transparente, la idea era que ésta atenuase la luz mediante la captación de esta por un fotoresistor, según una intensidad determinada.
 
-A modo de acercarme en la mayor medida posible al concepto de lo que quería realizar, cambié el proyecto por un sistema mecánico el cual puede abrir y cerrar una cortina o persiana.
+A modo de acercarme en la mayor medida posible al concepto de lo que quería realizar, cambié el proyecto por un sistema mecánico el cual puede abrir y cerrar una cortina o persiana, esto también podría resultarme más fácil dado que como sección habían más proyectos mecánicos por lo que podríamos apoyarnos entre todos.
  
 Los referentes en los que me basé fueron los siguientes: 
 https://www.youtube.com/watch?v=y3mY5tSrZ9Q
 https://www.circuits-diy.com/stepper-motor-using-l298n-driver-arduino-tutorial/ 
 https://mcielectronics.cl/shop/product/modulo-joystick-para-arduino/ 
 https://www.youtube.com/watch?app=desktop&v=locew337i4M
+
+-> Foto referencial proyecto
 
 Requería de los siguientes materiales:
 
@@ -62,10 +64,20 @@ Requería de los siguientes materiales:
 - Software.
 - Confeccion 3D Base.
 - Cable USB.
+- Batería.
 
-Reuní todos los materiales necesarios y comencé desarrollando el código basándome en los siguientes referentes: 
+Reuní casi todos los materiales necesarios y comencé desarrollando el código basándome en los siguientes referentes: 
 https://gist.github.com/renatoargh/818874b8d1d37b5c2abc.
 https://www.youtube.com/watch?v=nfhIIkJ-Ze0
+
+---> Colocar código.
+
+Si bien tenía el código desarollado, todas las conexiones físicas listas, menos una, la alimentación externa, material vital para poner a prueba el proyecto: la batería.
+
+
+
+
+
 
 
 
