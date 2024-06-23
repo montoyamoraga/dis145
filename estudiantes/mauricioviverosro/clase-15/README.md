@@ -17,7 +17,7 @@ responder a ciertas funciones que le fuesemos a designar, como por ejemplo que m
 izquierdo'' o ''doble click izquierdo''. Empleamos la definición de cada botón del mouse; asignándole un valor digital de nuestra placa Arduino UNO a cada botón del mouse, luego almacenando sus estados 
 iniciales y posteriormente desarrollamos el código correspondiente en Void Setup y Void Loop, programando esto de acuerdo al objetivo explicado anteriormente.
 
--> video
+![videoMouseArduino](./videoMouseArduino.mp4)
 
 Luego del desafío mencionado, continuamos con otros dos de forma grupal, el primero constaba de crear un código que permitiera encender un led según el valor que captara un fotoresisto y el segundo de que se encendiera un
 led si se presiona dos veces un botón.
