@@ -19,7 +19,7 @@ iniciales y posteriormente desarrollamos el código correspondiente en Void Setu
 
 ![videoMouseArduino](./videoMouseArduino.mp4)
 
-Luego del desafío mencionado, continuamos con otros dos de forma grupal, el primero constaba de crear un código que permitiera encender un led según el valor que captara un fotoresisto y el segundo de que se encendiera un
+Luego del desafío mencionado, continuamos con otros dos de forma grupal, el primero constaba de crear un código que permitiera encender un led según el valor que captara un fotoresistor y el segundo de que se encendiera un
 led si se presiona dos veces un botón.
 En el primer caso, luego de definir los valores digitales del led y los análogos del fotoresistor, desarrollar el código correspondiente para Void Setup y Void Loop, se asignaron mensajes de respuesta según lo captado por
 el fotoresistor, como por ejemplo: ''Luz'', ''Oscuridad'', ''Máximo es'' y ''Mínimo es'', funcionó con éxito.
