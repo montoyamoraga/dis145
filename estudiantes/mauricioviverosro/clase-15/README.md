@@ -52,8 +52,6 @@ https://www.circuits-diy.com/stepper-motor-using-l298n-driver-arduino-tutorial/
 https://mcielectronics.cl/shop/product/modulo-joystick-para-arduino/ 
 https://www.youtube.com/watch?app=desktop&v=locew337i4M
 
--> Foto referencial proyecto
-
 Requería de los siguientes materiales:
 
 - Arduino UNO.
@@ -88,10 +86,6 @@ Si bien encienden los componentes, tengo un problema ya que al inclinar el joyst
 del delay en Void loop el comportamiento del eje del motor varía, es probable que el valor que yo le indico no sea el indicado y ese sea el problema.
 
 Referentes con el mismo problema: https://www.youtube.com/watch?v=WoPYHDA32Zk y https://www.youtube.com/watch?v=VdkpPHIioUo&t=206s .
-
--> Último código.
--> Imágen
--> Video
 
 
 
