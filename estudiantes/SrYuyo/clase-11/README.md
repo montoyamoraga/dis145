@@ -1,18 +1,20 @@
 # clase-11
 Say Hello 2 Heaven - Temple Of The Dog
 
-Ya hay una idea de como sera el codigo de arduino, los sensores que se utilizara para poder tener un input, el como crear un posible output con procesing. AHora se vera en como tener la conexión correcta entre ambos. 
+Ya hay una idea de como será el código de arduino, los sensores que se utilizara para poder tener un input, el como crear un posible output con procesamiento. Ahora se verá como tener la conexión correcta entre ambos. 
 
-Para el codigo de arduino tenemos:
+Para el código de arduino tenemos:
+
 
 ```c
-//versión para tener una conexión entre arduino y procesing, con tal de encender un led mediante un sketch de procesing, además la conección es
-//Tanto de arduino hacia processing como de proccesing a arduino
+//Versión para tener una conexión entre arduino y processing, con tal de encender un led mediante un sketch de processing, además la conección es
+//Tanto de arduino hacia processing como de processing a arduino
 //Codigo origen de Chepecarlos y editado por SrYuyo
 //Placa arduino uno R3
 //Versión arduino 2.3.2
 
-//declaramos la variables a utilizar, led, boton y estado de boton
+
+//Declaramos la variables a utilizar, led, boton y estado de boton.
 int led_1=13;
 int boton=8;
 bool estadoBoton=false;
@@ -78,9 +80,10 @@ void draw(){
   circle(200, 300, 300);
 }
 
-//limitamos el uso del mouse, para que sea exclusivamente en el mismo circulo, definimos utilizado un radio fijo.
-//el radio peude dejarse expresado en una variable, es decir que el radio no se tenga que estara cambiando constantemente.
+//limitamos el uso del mouse, para que sea exclusivamente en el mismo círculo, definimos utilizado un radio fijo.
+//el radio puede dejarse expresado en una variable, es decir que el radio no se tenga que estará cambiando constantemente.
 //además si se hace click se deja 'H' para encender el led
+
 void mousePressed(){
   colorcirculo = color(255, 0, 0);
   float distancia= dist(mouseX, mouseY, 200, 300);
@@ -110,13 +113,13 @@ void serialEvent(Serial p){
 }  
 ```
 
-Teniendo esto en cuenta se puede apreciar que la conexión es sencilla, pero que se deben tener en cuenta las variables de los sensores a utilizar para el dispositivo. Además las varaibles que captan los datos deben filtrase, para así poder visualizarlos y manipularlos de mejor manera en la interfaz. Evitar que estos estan en algún bucle o no se puedan visualizar.
+Teniendo esto en cuenta se puede apreciar que la conexión es sencilla, pero que se deben tener en cuenta las variables de los sensores a utilizar para el dispositivo. Además las variables que captan los datos deben filtrarse, para así poder visualizarlos y manipularlos de mejor manera en la interfaz. Evitar que estos estén en algún bucle o no se puedan visualizar.
 
-Para un siguiente avance se deben de tener la conexión de los sensores en el arduino y que estos manden una señal a processing o el computador y que por este mismo se genere una respuesta. Además se debe fijar el como sera la interfaz, es decir si se mantendra la misma idea original presentada o habra alguna variacción según se vaya dando.
+Para un siguiente avance se deben de tener la conexión de los sensores en el arduino y que éstos manden una señal a procesamiento o el computador y que por este mismo se genere una respuesta. Además se debe fijar el como será la interfaz, es decir si se mantendrá la misma idea original presentada o habrá alguna variación según se vaya dando.
 
 Se debe tener un modelo 3d para el dispositivo y tener una posible distribución de los componentes.
 
-Referencias:
+# Referencias:
 
 <https://www.arduino.cc/education/visualization-with-arduino-and-processing/>
 <https://learn.littlebirdelectronics.com.au/guides/connect-arduino-to-processing>
