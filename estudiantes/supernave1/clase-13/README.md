@@ -120,6 +120,26 @@ Encontre el mismo motor, solo que no he logrado encontrar un lugar en Chile que 
 https://www.youtube.com/watch?v=ZZ8EuwA4-gs&ab_channel=JOAQUINARDILA
 
 
+## Cambios
+
+Al no tener los materiales necesarios, hare pruebas con lo que tengo a mano. Intentare cambiar el motor dc por un servo, el cual tiene mas torque pero no la velocidad. 
+
+Primero hare rotar el servo en 180°
+
+https://github.com/supernave1/dis145/assets/164402810/8d3a6d69-8c2d-4d1a-9662-693411853711
+
+Me da esperanzas de que puede funcionar, ahora lo pondre en el brazo para verlo en su posicion real, quizas funicona!!
+
+![IMG_1937 Chico](https://github.com/supernave1/dis145/assets/164402810/0a19aca0-b677-4e50-9900-4892a86e03ea)
+
+Se ve bien conectado, combina con el azul del brazo jaja, espero que fucnione. Voy a hacer la primera prueba, con una rotacion de 180°.
+
+https://github.com/supernave1/dis145/assets/164402810/81e4d9fd-df02-41b1-af67-a46ec8f854b3
+
+Estuvo muy cerca de lanzar la carta, le falta mas rotacion, voy a intentar hacer que gire mas de 180°, ya que ahi si alcanzaria, algo bueno del servo, es que vuelve a la posicion inicial, lo cual hara que la carta debajo de la lanzada quede en buena posicion y no bote mas de una.
+
+
+
 
 
 
