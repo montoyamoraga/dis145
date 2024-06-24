@@ -8,7 +8,11 @@ Dado esta problemática, se me ha ocurrido crear un dispositivo que permita tens
 
 Los matareiales necesarios para el desarrollo del dispositivo son:
 
-- 
+- Placa Arduino UNO
+- Cables
+- Motor paso a paso
+- Engranajes de fabricación propia
+- Potenciometro 10K
 
 ## Imagenes y Videos Explicativos
 
