@@ -9,10 +9,18 @@ Dado esta problemática, se me ha ocurrido crear un dispositivo que permita tens
 Los matareiales necesarios para el desarrollo del dispositivo son:
 
 - Placa Arduino UNO
+- Protoboard
 - Cables
 - Motor paso a paso
 - Engranajes de fabricación propia
 - Potenciometro 10K
+
+El proceso de fabricación a grandes rasgos consiste en:
+
+1. Bosquejar dispositivo
+2. Probar engranajes
+3. Crear código
+4. Prototipar dispositivo
 
 ## Imagenes y Videos Explicativos
 
