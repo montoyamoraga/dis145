@@ -109,6 +109,15 @@ https://github.com/supernave1/dis145/assets/164402810/d016ed0e-1410-401c-8b1b-9c
 
 Aunque mejora un poco, sigue siendo inutil para lo que queremos lograr. Voy a investigar sobre motores mas pequeños y quizas proporcionalmente mas fuertes, que sean capaces de girar soportando su propio peso.
 
+## Investigación
+
+Encontre un video que es muy parecido a lo que quiero hacer, solo que cambia la forma en que gira la base, haciendola sin un servo motor. Se puede ver que ocupa un motor mas chico el cual si es capaz de girar apoyandose en su propio peso, lo cual da esperanzas. Incluso se puede ver que le pone un elastico para darle mas presion lo que muestra que aguanta mas de su peso.
+
+https://www.youtube.com/watch?v=dx9-wwSQbUE&ab_channel=MrInnovative
+
+Encontre el mismo motor, solo que no he logrado encontrar un lugar en Chile que lo venda, solo por lugares de exportacion, como Temu y Aliexpress. Parece que la tienda Hubot lo tiene, asique mañana llamare para ver si lo tienen disponible y con entrega inmediata.
+
+https://www.youtube.com/watch?v=ZZ8EuwA4-gs&ab_channel=JOAQUINARDILA
 
 
 
