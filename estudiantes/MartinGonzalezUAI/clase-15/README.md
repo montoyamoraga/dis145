@@ -42,22 +42,26 @@ https://github.com/MartinGonzalezUAI/dis145/assets/164402523/3774dbff-2dc2-4174-
 
 Semana 8 (25 de abril)
 
-Se decidió cual seria el proyecto a realizar. Se investigaron los materiales necesarios para su desarrollo, los cuales algunos ya los tenía y otros los tenia que conseguir y/o comprar. Por último de deficinieron los objetivos del proyecto.
-
+Se decidió cual seria el proyecto a realizar. Se investigaron los materiales necesarios para su desarrollo, los cuales algunos ya los tenía y otros los tenia que conseguir y/o comprar. Se bosquejo el prototipo y por último se definieron los objetivos del proyecto.
 Semana 9 (2 de mayo) 
 
+Se analizaron los caminos abandonados y se inicio con el código a utilizar.
 
 Semana 10 (16 de mayo) 
 
+Se corrigio el estilo del código. Se ordenaron los comentarios y los nombres de las variables.
 
 Semana 11 (23 de mayo) 
 
+Se probaron los mecanismos mostrados anteriormente. 
 
 Semana 12 (30 de mayo) 
 
+Se corrigio el sistema de piñones diseñado en la semana anterior. 
 
 Semana 13 (6 de junio) 
 
+Se revisaron los proyectos de mis compañeros para poder sacar información útil que nos pueda ayudar en nuestro proyecto.
 
 ## Fuentes y Citas
 
