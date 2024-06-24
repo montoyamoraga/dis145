@@ -73,3 +73,19 @@ void serialEvent(Serial myPort) {
 
 ```
 
+# Comentarios y observaciones
+
+En esta clase no tuve un avance muy grande, pues estuve ayudando a otros compañeros (@eliriostoro y @thiangie). Aún así hay algunas cosas importantes que destacar o comentar. Por ejemplo, soldar los pines de un sensor cuando este no los trae por defecto. Como guía utilice un vídeo tutorial y vi el como soldo con estaño @supernave1 y la documentación que este tuvo. Es importante que cada pin quede con no mucha soldadura, pues se genera corto y no debe tener poca soldadura, pues este será endeble o puede que no haga contacto. Por eso es importante dejar los pines como se muestra en la foto y utilizar pasta para soldar en los componentes.
+
+![image](https://github.com/SrYuyo/dis145/assets/103392227/f743a8d2-8130-4109-8138-8c73871fe0bf)
+
+![image](https://github.com/SrYuyo/dis145/assets/103392227/b525464b-2c38-41fe-8a48-50be2b678b4d)
+
+Video tutorial: <https://www.youtube.com/watch?v=dhnkp762hfQ&pp=ygUVc29sZGFyIHBpbmVzIGEgc2Vuc29y>
+
+Página referencia: <https://hacedores.com/13-problemas-de-soldadura-de-pcbs/>
+
+Siguiendo con la ayuda y de las cosas que pude observar es que el código de thiangie está bien hecho y trate de ver el porque un buzzer no estaba funcionando. Lamentablemente iteramos de varias formas para ver si el buzzer podía emitir algún simple sonido con distintos códigos, cosa que sí hacía. Lamentablemente thiangie me comentó que tenía problemas con la misma protoboard y que por eso no había ningún sonido. 
+
+Ahora bien, una sugerencia es tener en cuenta el siguiente video para poder personalizar el sonido y otros links de posible interés.<https://www.youtube.com/watch?v=j1XrXFMtjWQ&ab_channel=FranciscoRamirez>
+<https://www.pinguytaz.net/index.php/2021/09/21/musica-con-un-arduinoesp32-y-un-buzzer/>
