@@ -46,23 +46,18 @@ Se decidió cual seria el proyecto a realizar. Se investigaron los materiales ne
 
 Semana 9 (2 de mayo) 
 
-No hubo avances significativos (semana de pausa)
 
 Semana 10 (16 de mayo) 
 
-Se compraron una tarjeta de desarrollo ESP32 y dos sensores HC-SR04. Se decidió usar Arduino UNO R4 mínima por su potencia y tolerancia de voltaje.
 
 Semana 11 (23 de mayo) 
 
-Se descargaron controladores y se configuró Arduino IDE para ESP32. Se instaló el gestor de placas y se visualizó el código en Arduino.
 
 Semana 12 (30 de mayo) 
 
-Se entendió la comunicación servidor-cliente con ESP32. Se avanzó en los códigos para conectar el sensor a Arduino y procesar los datos en ESP32.
 
 Semana 13 (6 de junio) 
 
-Se revisaron trabajos de compañeros y se investigó la transmisión inalámbrica al computador. Se finalizó el código del sensor y se cambió ESP32 por Arduino Nano 33 IoT.
 
 ## Fuentes y Citas
 
