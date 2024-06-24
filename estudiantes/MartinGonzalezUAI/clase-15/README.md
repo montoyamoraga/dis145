@@ -6,14 +6,14 @@ El proyecto nace de una necesidad al momento de autotatuarse. Al tatuar, es nece
 
 Dado esta problemática, se me ha ocurrido crear un dispositivo que permita tensar la piel.
 
-Los matareiales necesarios para el desarrollo del dispositivo son:
+Los matariales necesarios para el desarrollo del dispositivo son:
 
 - Placa Arduino UNO
 - Protoboard
 - Cables
 - Motor paso a paso
 - Engranajes de fabricación propia
-- Potenciometro 10K
+- Potenciómetro 10K
 
 El proceso de fabricación a grandes rasgos consiste en:
 
@@ -22,15 +22,15 @@ El proceso de fabricación a grandes rasgos consiste en:
 3. Crear código
 4. Prototipar dispositivo
 
-## Imagenes y Videos Explicativos
+## Imágenes y Videos Explicativos
 
-Imagenes del bosquejo del dispositivo
+Imágenes del bosquejo del dispositivo
 
 ![bosquejo1](bosquejo1.jpg)
 
 ![bosquejo2](bosquejo2.jpg)
 
-Imagenes y Videos de los engranajes 
+Imágenes y Videos de los engranajes 
 
 ![engranajes1](engranajes1.jpg)
 
