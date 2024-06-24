@@ -7,10 +7,10 @@ Para el codigo de arduino tenemos:
 
 ```c
 //versión para tener una conexión entre arduino y procesing, con tal de encender un led mediante un sketch de procesing, además la conección es
-// tanto de arduino hacia processing como de proccesing a arduino
+//Tanto de arduino hacia processing como de proccesing a arduino
 //Codigo origen de Chepecarlos y editado por SrYuyo
-//placa arduino uno R3
-//versión arduino 2.3.2
+//Placa arduino uno R3
+//Versión arduino 2.3.2
 
 //declaramos la variables a utilizar, led, boton y estado de boton
 int led_1=13;
