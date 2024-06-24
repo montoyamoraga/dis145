@@ -27,13 +27,16 @@ El proceso de fabricación a grandes rasgos consiste en:
 Imagenes del bosquejo del dispositivo
 
 ![bosquejo1](bosquejo1.jpg)
+
 ![bosquejo2](bosquejo2.jpg)
 
 Imagenes y Videos de los engranajes 
 
 ![engranajes1](engranajes1.jpg)
+
 ![engranajes2](engranajes2.jpg)
-![engranajes3](engranajes3.mp4)
+
+https://github.com/MartinGonzalezUAI/dis145/assets/164402523/3774dbff-2dc2-4174-b46e-383c2dbd6b6a
 
 ## Línea Temporal
 
