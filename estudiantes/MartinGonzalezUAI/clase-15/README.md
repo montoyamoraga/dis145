@@ -65,4 +65,6 @@ Se revisaron los proyectos de mis compañeros para poder sacar información úti
 
 ## Fuentes y Citas
 
+El desarrollo de todo el proyecto es de trabajo personal. 
+
 ## Conclusiones de investigación
