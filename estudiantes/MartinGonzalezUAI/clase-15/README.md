@@ -6,7 +6,9 @@ El proyecto nace de una necesidad al momento de autotatuarse. Al tatuar, es nece
 
 Dado esta problemática, se me ha ocurrido crear un dispositivo que permita tensar la piel.
 
-El dispositivo estaria formado por un motor paso a paso, engranajes 
+Los matareiales necesarios para el desarrollo del dispositivo son:
+
+- 
 
 ## Imagenes y Videos Explicativos
 
