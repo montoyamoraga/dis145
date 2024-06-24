@@ -46,7 +46,7 @@ Semana 8 (25 de abril)
 - Se investigaron los materiales necesarios para su desarrollo, los cuales algunos ya los tenía y otros los tenia que conseguir y/o comprar.
 - Se bosquejo el prototipo
 - Se definieron los objetivos del proyecto.
-- 
+  
 Semana 9 (2 de mayo) 
 
 - Se analizaron los caminos abandonados y se inicio con el código a utilizar.
