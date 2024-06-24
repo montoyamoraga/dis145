@@ -9,8 +9,8 @@ y la razón de porqué está escrito así, la función que representa cada una d
 del código que realicé yo, era setStep), ‘’forward’’ y ‘’backward’’, quiero decir que de cierta forma me fui a la raíz del código para entender su lógica y 
 saber lo que estoy haciendo y porqué de esa forma.
 
-Traje todos los materiales que requería excepto uno, que es la batería externa de 12V, por lo que no puedo probar el código y testear el prototipo de 
-forma definitiva, por lo que es escencial para la próxima clase contar con ello y corroborar que el código funcione perfectamente.
+Traje todos los materiales que requería excepto uno, que es la batería externa de 12V, por lo que no puedo probar el código y testear el prototipo de forma
+definitiva, por lo que es escencial para la próxima clase contar con ello y corroborar que el código funcione perfectamente.
 
 Dejé todo conectado en cuanto al trabajo físico (a excepcion de la batería externa), esto contempla: joystick, Stepper Motor, Driver L298N, Arduino UNO. Por
 ahora descarté el uso de la protoboard como pensaba hacerlo en un principio ya que no encuentro que sea necesario utilizarla a pesar de que mis referentes si
