@@ -24,6 +24,17 @@ El proceso de fabricación a grandes rasgos consiste en:
 
 ## Imagenes y Videos Explicativos
 
+Imagenes del bosquejo del dispositivo
+
+![bosquejo1](bosquejo1.jpg)
+![bosquejo2](bosquejo2.jpg)
+
+Imagenes y Videos de los engranajes 
+
+![engranajes1](engranajes1.jpg)
+![engranajes2](engranajes2.jpg)
+![engranajes3](engranajes3.mp4)
+
 ## Línea Temporal
 
 ## Fuentes y Citas
