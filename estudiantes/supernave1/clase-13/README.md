@@ -109,6 +109,35 @@ https://github.com/supernave1/dis145/assets/164402810/d016ed0e-1410-401c-8b1b-9c
 
 Aunque mejora un poco, sigue siendo inutil para lo que queremos lograr. Voy a investigar sobre motores mas pequeños y quizas proporcionalmente mas fuertes, que sean capaces de girar soportando su propio peso.
 
+## Investigación
+
+Encontre un video que es muy parecido a lo que quiero hacer, solo que cambia la forma en que gira la base, haciendola sin un servo motor. Se puede ver que ocupa un motor mas chico el cual si es capaz de girar apoyandose en su propio peso, lo cual da esperanzas. Incluso se puede ver que le pone un elastico para darle mas presion lo que muestra que aguanta mas de su peso.
+
+https://www.youtube.com/watch?v=dx9-wwSQbUE&ab_channel=MrInnovative
+
+Encontre el mismo motor, solo que no he logrado encontrar un lugar en Chile que lo venda, solo por lugares de exportacion, como Temu y Aliexpress. Parece que la tienda Hubot lo tiene, asique mañana llamare para ver si lo tienen disponible y con entrega inmediata.
+
+https://www.youtube.com/watch?v=ZZ8EuwA4-gs&ab_channel=JOAQUINARDILA
+
+
+## Cambios
+
+Al no tener los materiales necesarios, hare pruebas con lo que tengo a mano. Intentare cambiar el motor dc por un servo, el cual tiene mas torque pero no la velocidad. 
+
+Primero hare rotar el servo en 180°
+
+https://github.com/supernave1/dis145/assets/164402810/8d3a6d69-8c2d-4d1a-9662-693411853711
+
+Me da esperanzas de que puede funcionar, ahora lo pondre en el brazo para verlo en su posicion real, quizas funicona!!
+
+![IMG_1937 Chico](https://github.com/supernave1/dis145/assets/164402810/0a19aca0-b677-4e50-9900-4892a86e03ea)
+
+Se ve bien conectado, combina con el azul del brazo jaja, espero que fucnione. Voy a hacer la primera prueba, con una rotacion de 180°.
+
+https://github.com/supernave1/dis145/assets/164402810/81e4d9fd-df02-41b1-af67-a46ec8f854b3
+
+Estuvo muy cerca de lanzar la carta, le falta mas rotacion, voy a intentar hacer que gire mas de 180°, ya que ahi si alcanzaria, algo bueno del servo, es que vuelve a la posicion inicial, lo cual hara que la carta debajo de la lanzada quede en buena posicion y no bote mas de una.
+
 
 
 
