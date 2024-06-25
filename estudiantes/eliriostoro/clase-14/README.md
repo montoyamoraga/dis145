@@ -23,7 +23,9 @@
   **Logrado**
 
   ##### Codigo:
-  const int microfono = A0; // Pin del sensor de micrófono
+
+```
+const int microfono = A0; // Pin del sensor de micrófono
 const int rojo = 9;  // Pin rojo
 const int verde = 10; // Pin verde
 const int azul = 11;  // Pin azul
@@ -71,12 +73,11 @@ void setColor(int rojoValor, int verdeValor, int azulValor) {
   analogWrite(verde, verdeValor);
   analogWrite(azul, azulValor);
 }
+```
 
 
-
-
-* Ver si es factible agregar un interruptor
 * Comentar codigo
+  
 * Comparar calidad de trabajo con compañeros
  
 
