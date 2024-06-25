@@ -8,7 +8,12 @@
 
 ### Proceso:
 
-#### * Identificar el funcionamiento del sensor:
+####  Identificar el funcionamiento del sensor:
+ **recordatorio:**
+ 
+* naranjo, rojo **poder**
+* negro, verde, **tierra**
+* azul, amarillo **señales**
 
 * Poder formar el color rojo (Problematica clase anterior)
 * Ver si es factible agregar un interruptor
