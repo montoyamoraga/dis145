@@ -18,8 +18,8 @@ void setup() {
 }
 ```
 
-*naranjo, rojo **poder**
-*negro, verde, **tierra**
-*azul, amarillo **señales**
+* naranjo, rojo **poder**
+* negro, verde, **tierra**
+* azul, amarillo **señales**
 
 trabajando con Spidermaneberl <https://github.com/Spidermaneberl/>
