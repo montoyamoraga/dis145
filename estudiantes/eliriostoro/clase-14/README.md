@@ -76,7 +76,7 @@ void setColor(int rojoValor, int verdeValor, int azulValor) {
 ```
 
 
-* Comentar codigo
+#### Comentar codigo
 
 ```
 // 2024-25-06
@@ -155,13 +155,13 @@ void setColor(int rojoValor, int verdeValor, int azulValor) {
 
 ```
   
-* Comparar calidad de trabajo con compañeros
+#### Comparar calidad de trabajo con compañeros
 
   **LISTO**
 
   ### PENDIENTE A HACER:
-  *Poner el led a los lentes, no se si podre soldar las cosas, ya que no sé pero le estoy pidiendo ayuda a Julio.
-  *Hacer presentación en github para el jueves
+  * Poner el led a los lentes, no se si podre soldar las cosas, ya que no sé pero le estoy pidiendo ayuda a Julio.
+  * Hacer presentación en github para el jueves
   
  
 
