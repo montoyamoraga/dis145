@@ -46,11 +46,24 @@ Imágenes sacadas de la página "https://circuitjournal.com/arduino-OV7670-to-pc
 > Terminé desarrollando la cámara web.
 
 
+
+
 2. Comencé con el proceso de diseño, intenté hacer la cámara con corte láser de este estilo
-![cámara woodsum](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-11/resistencias) PONER IMAGEN DE WOODSUM
+![cámara woodsum](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/c%C3%A1mara%20woodsum.jpg) 
 ![Proceso en MDF](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-12/proceso%20en%20mdf%201.jpeg)
 pero me dí cuenta que como no iba a usar una pantalla sino que la imágen se visualizara al computador era más lógico diseñarlo al estilo de cámara web y con impresión 3D
 ![foto computador impresión 3D](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-11/resistencias) PONER IMAGEN DE FOTO COMPUTADOR IMPRESIÓN 3D
+
+
+Iteraciones de la cámara: 
+camara 1
+https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/camara%201.jpeg
+
+camara 2
+https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/camara%202.jpeg
+
+camara 2.1
+https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/camara%202.1.jpeg
 
 3. Dejé muy para el final el código porque pensaba lo tenía listo para llegar y usar, pero me dí cuenta que como cambie el arduíno a arduíno nano el código me mando muchos errores que aún sigo sin entenderlos.
 
