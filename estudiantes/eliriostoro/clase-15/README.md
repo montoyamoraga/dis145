@@ -23,8 +23,8 @@
 
   
 - Código:
-  ```
-  // 2024-25-06
+```
+// 2024-25-06
 // Código que permite detectar, mediante un sensor de sonido, que tan desagradble es el entorno
 // por eliriostoro
 // hecho con Arduino UNO
@@ -97,7 +97,8 @@ void setColor(int rojoValor, int verdeValor, int azulValor) {
   analogWrite(verde, verdeValor);
   analogWrite(azul, azulValor);
 }
- ```
+
+```
 
 
 
@@ -121,8 +122,8 @@ void setColor(int rojoValor, int verdeValor, int azulValor) {
       
     
   * Que cosas funcionaron:
-    -El led otorga los colores segun el ruido
-    -Codigo
+    - El led otorga los colores segun el ruido
+    - Codigo
 
     
   * Problemas:
