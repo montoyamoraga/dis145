@@ -1,4 +1,3 @@
-# CÁMARA WEB :video_camera:
 # **Entrega Final**
 
 ## CÁMARA WEB :video_camera:
