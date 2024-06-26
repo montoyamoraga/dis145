@@ -12,12 +12,6 @@ _Docente: Aaron Montoya_
 
 _Ayudante: Janis Sepulveda_
 
-Exámen Diseño y construcción de Interfaces  
-Universidad Adolfo Ibañez  
-S1-2024  
-Docente: Aaron Montoya  
-Ayudante: Janis Sepulveda
-
 
 ### Presentación :wave:
 
