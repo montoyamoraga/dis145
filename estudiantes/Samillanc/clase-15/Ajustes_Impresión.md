@@ -1,6 +1,6 @@
 ## Ajustes Impresión 3D
 ```markdown
-### Cuerpo
+# Cuerpo
 - Altura de capa: 0.3mm
 - Número de líneas: 4
 - Relleno: 20%
@@ -10,7 +10,7 @@
 - Ángulo de voladizo del soporte: 30 grados
 - Tiempo de impresión: +/- 11 horas
 
-### Engranaje del motor paso a paso
+# Engranaje del motor paso a paso
 - Altura de capa: 0.3mm
 - Número de líneas: 4
 - Relleno: 20%
@@ -18,7 +18,7 @@
 - Velocidad: 50mm/s
 - Tiempo de impresión: +/- 0.5 horas
 
-### Tapa
+# Tapa
 - Altura de capa: 0.3mm
 - Número de líneas: 4
 - Relleno: 20%
@@ -26,7 +26,7 @@
 - Velocidad: 50mm/s
 - Tiempo de impresión: +/- 1 horas
 
-### Engranaje circular
+# Engranaje circular
 - Altura de capa: 0.3mm
 - Número de líneas: 4
 - Relleno: 20%
@@ -34,7 +34,7 @@
 - Velocidad: 50mm/s
 - Tiempo de impresión: +/- 4 horas
 
-### Soporte para teléfono
+# Soporte para teléfono
 - Altura de capa: 0.3mm
 - Número de líneas: 4
 - Relleno: 20%
