@@ -52,6 +52,8 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b
 
 - (semana 14) Si bien el avance no fue el ideal, en esta semana logré encontrar una canción, mediante Suno, que me gustara y mucho. Logré ordenar más los bloques del trabajo y entender mas su funcionalidad. 
 - (semana 15) Ya la semana de la presentación me dedique a crear el Github y a limpiar partes del trabajo, agregando colores y pensar en la presentación del proyecto.
+
+
 (demostracion trabajo)
 
 ## fuentes y citas
