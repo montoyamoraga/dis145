@@ -11,6 +11,8 @@ Un plugin el cual permite conectar tu sintetizador MIDI a Rhino 8, a travez de g
 - La idea es tener una experiencia de instalacion buena.
 - Que sea compatible con cualquier dispositivo MIDI conectable al computador.
 
+# Desarrollo
+
 Al principio traté de buscar referencias que me puedan ayudar a encaminar mi proyecto. Encontre muchos codigos en stackoverflow y github, pero no pude hacer funcionar ninguno, excepto un sample code de microsoft que fue la primera conexion que logre entre el compitador y el teclado a travez de C#.
 
 # Profesor Long Nguyen
