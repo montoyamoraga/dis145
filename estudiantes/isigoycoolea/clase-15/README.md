@@ -68,6 +68,8 @@ Dejé muy para el final el código porque pensaba lo tenía listo para llegar y 
 
 ## Código y descripción
 ### Código:
+https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/codigo_1.ino
+![cpdigo.ino](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/codigo_1.ino) 
 
 #include <ArduCAM.h>
 #include <SPI.h>
