@@ -27,6 +27,6 @@
 - Cable rojo del servo -> Fuente de 5V del PCB.
 - Cable marrón del servo -> GND del PCB.
 
-Conexiones del PCB (Placa de Circuito Impreso):
+# Conexiones del PCB (Placa de Circuito Impreso):
 - Fuente de 5V del PCB -> 5V del Arduino.
 - GND del PCB -> GND del Arduino.
