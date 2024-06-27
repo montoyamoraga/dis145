@@ -61,7 +61,8 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b
 - Pao Olea @pao_olea
   
 ⮞Paginas web:
--Info: TOUCHDESIGNER BY DERIVATIVE
--Musica: Suno
+- Info: TOUCHDESIGNER BY DERIVATIVE
+- Musica: Suno
 
 ## conclusion 
+⮞
