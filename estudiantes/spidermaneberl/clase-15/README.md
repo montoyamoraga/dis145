@@ -7,7 +7,7 @@ El proyecto busca la unión del usuario sobre la música con una representación
 
 (imagen representación trabajo final)
 
-⫸A continuación, se muestra en un pequeño extracto el resultado audiovisual realizado en TouchDesigner:
+⮞A continuación, se muestra en un pequeño extracto el resultado audiovisual realizado en TouchDesigner:
 
 https://github.com/Spidermaneberl/dis145/assets/164402625/f8f946b8-cc5f-4fa6-b244-07a442daa2f9
 
