@@ -35,6 +35,7 @@ El dispositivo está hecho para ayudar a los usuarios a desarrollar y mantener e
 ## Codigo
 ```cpp
 
+
 // Define los pines del sensor de ultrasonidos
 const int trigPin = 9;
 const int echoPin = 10;
@@ -45,7 +46,7 @@ const int buzzerPin = 5;
 
 
 // Define la distancia límite en cm
-const int distanciaLimite = 5;
+const int distanciaLimite = 10;
 
 // Variables de tiempo
 unsigned long previousMillis = 0;
@@ -53,8 +54,8 @@ const long interval = 100; // Intervalo de tiempo en milisegundos
 
 void setup() {
    // Configura los pines del sensor y del motor
-     pinMode(2, OUTPUT);
-pinMode(3, OUTPUT);
+   pinMode(2, OUTPUT);
+   pinMode(3, OUTPUT);
    pinMode(trigPin, OUTPUT);
    pinMode(echoPin, INPUT);
    pinMode(buzzerPin, OUTPUT);
@@ -64,6 +65,7 @@ pinMode(3, OUTPUT);
 }
 
 void loop() {
+  
    // Obtiene el tiempo actual
    unsigned long currentMillis = millis();
    
@@ -97,14 +99,14 @@ void loop() {
        
        // Si la distancia es menor que la distancia límite, activa el buzzer
        if (distancia > distanciaLimite) {
-           digitalWrite(buzzerPin, HIGH); // Activa el buzzer
-             digitalWrite (2,0); // Apaga led verde
-             digitalWrite (3,1); //  prende led rojo
+        tone(buzzerPin, 1000); // Activa el buzzer
+        digitalWrite (2,0); // Apaga led verde
+        digitalWrite (3,1); //  prende led rojo
            
        } else {
-           digitalWrite(buzzerPin, LOW); // Desactiva el buzzer
-            digitalWrite (2,1); // Prende led verde
-            digitalWrite (3,0); // Apaga led rojo
+        noTone(buzzerPin); // Activa el buzzer
+        digitalWrite (2,1); // Prende led verde
+        digitalWrite (3,0); // Apaga led rojo
        }
    }
 }
