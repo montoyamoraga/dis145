@@ -3,7 +3,7 @@
 ### Emisión de sonido onda color rojo
 Esta onda se manipula por medio del movimiento del mouse, lo cual se espera que se pueda reproducir con un potenciómetro para poder emular el "caos" de la emoción, que, en este caso, es la rabia.
 
-```
+``` C++
 // mayo 16, 2024
 // thiare gonzalez
 // version 1.5
@@ -70,7 +70,7 @@ Se esperó que se mezclaran, pero un *happy accidente* que logró que se realiza
 
 ### Código
 
-```
+``` C++
 import ddf.minim.*;
 import ddf.minim.ugens.*;
 
