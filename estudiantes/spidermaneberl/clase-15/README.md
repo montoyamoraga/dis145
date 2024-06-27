@@ -14,7 +14,20 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/4170bbd0-6877-4307-931
 ## Proceso/Mi linea temporal 
 ⮞Si hacemos un viaje al pasado, llegamos al inicio del proyecto en el cual existían dudas de por dónde empezar, como hacer y lo más importante para mí lo cual era que me llama la atención hacer.
 
-⮞Referentes..
+⮞Referentes: Daito Manabe
+
+
+
+
+https://github.com/Spidermaneberl/dis145/assets/164402625/4dbf94d9-a75f-499e-b933-b2427a163dbf
+
+
+https://github.com/Spidermaneberl/dis145/assets/164402625/964e59b4-125f-48fd-917e-bebc6cd5a3ed
+
+(videos extraidos de EL Futuro Es Apacionante, Youtube)
+
+
+
 
 ⮞Orden por semanas
 
@@ -64,6 +77,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b
 - Bileam tschepe @elekktronaut
 - Acrylicode @acrylicode
 - Pao Olea @pao_olea
+- El Futuro Es Apasionante de Vodafone @ElFuturoEsApasionante
   
 ⮞Paginas web:
 - Info: TOUCHDESIGNER BY DERIVATIVE
