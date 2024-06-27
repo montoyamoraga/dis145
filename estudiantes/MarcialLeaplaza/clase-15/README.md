@@ -251,3 +251,15 @@ Cuando conectamos el bloque se activa y empieza a funcionar.
 - 4 documentaciones
 - 7 clases
 - 999999999999999 litros de cafe.
+
+# Instrucciones
+
+En caso que quieran usar este plugin, deben tener un computador con windows 10 o superior y Rhino 8 con grasshopper.
+
+Deben descargar la carpeta MidiControllerGH.zip y extraer todos los archivos. tomen todos los archivos y peguenlos en la Component Folder de grasshopper. ES MUY IMPORTANTE QUE LOS ARCHIVOS QUEDEN SUELTOS EN LA COMPONENT FOLDER, NO LOS PEGUEN DENTRO DE OTRA CARPETA.
+
+Para acceder a la component folder pueden ingresar a grasshopper >> Files >> Special Folders >> Component Folder (en el explorador de archivos se llama Library).
+
+Luego deben reiniciar rhino y grasshopper.
+
+Disfruten.
