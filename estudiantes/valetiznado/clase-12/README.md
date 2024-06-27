@@ -4,6 +4,7 @@ Servidor es el que construye la base de datos t el cliente es el que le pregunta
 
 Codigo trabajado en clases:
 
+```cpp
 /*
  WiFi Web Server LED Blink
 
@@ -26,9 +27,9 @@ Codigo trabajado en clases:
  created for arduino 25 Nov 2012
  by Tom Igoe
 
-ported for sparkfun esp32 
+ported for sparkfun esp32
 31.01.2017 by Jan Hendrik Berlin
- 
+
  */
 
 #include <WiFi.h>
@@ -63,7 +64,7 @@ void setup()
     Serial.println("WiFi connected.");
     Serial.println("IP address: ");
     Serial.println(WiFi.localIP());
-    
+
     server.begin();
 
 }
@@ -118,9 +119,8 @@ void loop(){
     Serial.println("Client Disconnected.");
   }
 }
+```
 
-
-￼
 Cuando me sale Connecting debo apagar mi Hotspot (wifi) y volver a prenderlo.
 
 Pasos a seguir;
@@ -129,7 +129,7 @@ Pasos a seguir;
 - [x] Procesar estos datos
 - [x] Y subir estos datos a mi ESP32
 - [ ] Demostrar que somos capaces de usar el computador como cliente para leer los datos que están en el servidor
-￼
+      ￼
 
 Para cargar esto es importante apretar el Serial Monitor
 (Esta dirección IP va a ir cambiando)
@@ -144,39 +144,39 @@ Igualmente lo que se hizo despues fue agregar el sensor ultrasónico HC-SR04 al 
 
 //Conexión de los pines Trig y Echo
 
-const int trigPin = 33; 
+const int trigPin = 33;
 const int echoPin = 32;
-
-
 
 //Declaración de duración y distancia
 
-float duration, distance;  
+float duration, distance;
 
 //Declaración del pin Trig como salida y el Echo como entrada
 
-void setup() { 
-pinMode(trigPin, OUTPUT); 
-pinMode(echoPin, INPUT); 
-Serial.begin(9600); 
-} 
+void setup() {
+pinMode(trigPin, OUTPUT);
+pinMode(echoPin, INPUT);
+Serial.begin(9600);
+}
 
-void loop() { 
-digitalWrite(trigPin, LOW); 
-delayMicroseconds(2); 
-digitalWrite(trigPin, HIGH); 
-delayMicroseconds(10); 
-digitalWrite(trigPin, LOW); 
+void loop() {
+digitalWrite(trigPin, LOW);
+delayMicroseconds(2);
+digitalWrite(trigPin, HIGH);
+delayMicroseconds(10);
+digitalWrite(trigPin, LOW);
 
-duration = pulseIn(echoPin, HIGH); 
+duration = pulseIn(echoPin, HIGH);
 
-distance = (duration*.0343)/2; 
+distance = (duration\*.0343)/2;
 
-Serial.print("Distance: "); 
-Serial.println(distance); 
-delay(100); 
-} 
-
+Serial.print("Distance: ");
+Serial.println(distance);
+delay(100);
+}
 
 **Otra de las paginas con las que se trabajo en la clase fue la siguiente:** https://randomnerdtutorials.com/esp32-client-server-wi-fi/
-  
+
+```
+
+```
