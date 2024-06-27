@@ -10,15 +10,19 @@ Al principio traté de buscar referencias que me puedan ayudar a encaminar mi pr
 
 Fue el que me ayudo a construir el nucleo del proyecto. No hubiera podido construir un plugin sin ayuda de sus clases.
 
-Las clases del profesor Long Nguyen fueron funamentales para 
+Las clases del profesor Long Nguyen fueron funamentales para empezar a entender la estructra que debia tener mi codigo para luego transformarlo en un plugin. Tambien fue vital para poder soltarme y manejarme con mas confianza en Visual Studio, que es donde escribí todo el codigo de mi proyecto. Lo recomiendo muchisimo para cualquiera que quiera experimentar haciendo sus propios componentes en Grasshopper.
 
 # BTT Better than Television
 
-Me ayudo mucho para entender mejor cómo comunicarme con el teclado usando diferentes librerias de C# en el codigo.
+Me ayudo mucho para entender mejor cómo comunicarme con el teclado usando diferentes librerias de C# en el codigo. Su curso me ayudo a encontrar muchas librerias que luego me ayudarían a terinar mi codigo, ademas de enseñarme todo lo basico de MIDI en c#, como las funciones de conexion y de manejo de informacion transmitida.
 
 # @montoyamoraga
 
 Me presto su teclado keystep :)
+Además, me enseño a controlarlo y a ver como transmite informacion a travez del software MIDI Control Center.
+<img width="1279" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/a8955830-2237-4d11-8685-8b9a2052c008">
+
+Lo mas importante es que siempre me ayudo a mantener la cabeza fría y e ayudo a ser prudente con los avances y las referencias que iba encontrando.
 
 # NAudio: 
 
