@@ -1,4 +1,4 @@
-### Log de Errores y Soluciones
+# Log de Errores y Soluciones
 
 ## Errores/Soluciones en la Impresión
 
