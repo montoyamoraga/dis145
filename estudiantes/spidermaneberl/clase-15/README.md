@@ -16,7 +16,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/f8f946b8-cc5f-4fa6-b24
 ⮞Si hacemos un viaje al pasado, llegamos al inicio del proyecto en el cual existían dudas de por dónde empezar, como hacer y lo más importante para mí lo cual era que me llama la atención hacer.
 
 Mi linea temporal:
-- La primera semana
+- En primer 
 - ka
 - la
 - la
