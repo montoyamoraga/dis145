@@ -40,11 +40,9 @@ Por ultimo, en esta semana lo que se hizo fue corregir errores que tenia codigo 
 
 https://github.com/valetiznado/dis145/assets/164402604/80fa6ba0-7031-4f56-a79f-5a93df13c3e8
 
-
-
-
-Componentes:
 ![Sensor_ultrasonico_HCSR04_1](https://github.com/valetiznado/dis145/assets/164402604/e53b6f71-e754-4e22-b022-9bcd0b7dd59a)
+![IMG_0364](https://github.com/valetiznado/dis145/assets/164402604/3440b1ad-8f41-46fe-ade6-1bd7a122cc73)
+![IMG_0363](https://github.com/valetiznado/dis145/assets/164402604/467e6519-2937-4fee-a87f-0cd96b6f53b4)
 
 
 * Fuentes y citas:
