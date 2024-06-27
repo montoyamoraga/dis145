@@ -94,7 +94,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b
 - Musica: Suno
 
 ## Conclusión 
-⮞ En conclusión, el trabajo logro satisfacer lo que yo buscaba en un comienzo lo cual era generar imágenes mediante música, si bien no se logró el control de la música, si se logró concretar un proyecto completo con el uso de TouchDesigner y música externa.
+⮞ En conclusión, el trabajo logro satisfacer lo que yo buscaba en un comienzo lo cual era generar una experiencia con imágenes mediante música, si bien no se logró el control de la música, si se logró concretar un proyecto completo con el uso de TouchDesigner y música externa.
 
 - ¿Qué hice bien?
 Cerrar un proyecto que me tenia muy entusiasmado, lograr entender de forma bastante principiante el funcionamiento de TouchDesigner.
