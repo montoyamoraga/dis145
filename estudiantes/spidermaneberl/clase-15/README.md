@@ -69,7 +69,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b
 - Info: TOUCHDESIGNER BY DERIVATIVE
 - Musica: Suno
 
-## Conclusion 
+## Conclusión 
 ⮞ En conclusión, el trabajo logro satisfacer lo que yo buscaba en un comienzo lo cual era generar imágenes mediante música, si bien no se logró el control de la música, si se logró concretar un proyecto completo con el uso de TouchDesigner y música externa.
 
 - ¿Qué hice bien?
