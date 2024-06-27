@@ -5,18 +5,13 @@ Docente: Aaron Montoya
 Ayudante: Janis Sepulveda
 
 # ¿Qué es el proyecto?
-Es un dispositivo creado para sillas de oficina que ayuda al usuario a mantener una postura erguida 
-el dispositivo está instalado entre el cabezal y el respaldo de la silla(como se mostrara en la imagen 2), el dispositivo funciona mediante un sensor de proximidad El sensor detecta la distancia entre la cuello de la persona y donde esta situado el dispositivo.
-El dispositivos tiene dos modos:
+Es un dispositivo creado para sillas de oficina que ayuda al usuario a mantener una postura erguida el dispositivo está instalado entre el cabezal y el respaldo de la silla(como se mostrará en la imagen 2), el dispositivo funciona mediante un sensor de proximidad El sensor detecta la distancia entre la cuello de la persona y donde esta situado el dispositivo. El dispositivo tiene dos modos:
 
+* Corrección de Postura: Si el usuario adopta una posición encorvada y se aleja del dispositivo, este activa un buzzer que emite un sonido molesto y enciende un LED rojo, para que el usuario corrija su postura.
 
-•	Corrección de Postura: Si el usuario adopta una posición encorvada y se aleja del dispositivo, este activa un buzzer que emite un sonido molesto y enciende un LED rojo, para que el  usuario corrija su postura.
+* Postura Correcta: Cuando el usuario mantiene una postura correcta, el led verde del dispositivo se enciende y el buzzer permanece en silencio.
 
-
-•	Postura Correcta: Cuando el usuario mantiene una postura correcta, el led  verde del dispositivo se enciende y el buzzer permanece en silencio.
-
-
-El dispositivo está hecho  para ayudar a los usuarios a desarrollar y mantener el hábito de una buena postura. 
+El dispositivo está hecho para ayudar a los usuarios a desarrollar y mantener el hábito de una buena postura.
 
 
 ## Lista de Materiales
