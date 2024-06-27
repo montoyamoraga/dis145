@@ -32,7 +32,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/964e59b4-125f-48fd-917
 ⮞Orden por semanas
 
 
-- (semana 11) En primer lugar me dedique a buscar información y crear un proyecto que logre controlar imagenes por el cambio mio de la musica , despues de buscar la informacion adecuada se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
+- (semana 11) En primer lugar me dedique a buscar información y crear un proyecto que logre controlar imágenes por un cambio mío de la música , después de buscar la información adecuada se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
 
 ![image](https://github.com/Spidermaneberl/dis145/assets/164402625/dfbf3d96-b347-48bb-b6aa-142d5ab6e663)
 (Primera imagen de la figura)
@@ -43,15 +43,14 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/964e59b4-125f-48fd-917
 
 
  
-- (semana 12) Logre entender como traer al programa música que no sea la que viene predeterminada y era mediante VB-AUDIO, es así como por fin pude unir música desde Spotify hacia el programa pero aun con siluetas muy simples.
-
+- (semana 12) Logre entender como traer al programa música que no sea la que viene predeterminada y era mediante VB-AUDIO, es así como por fin pude unir música desde Spotify hacia el programa, pero aun con siluetas muy simples
 
 
 https://github.com/Spidermaneberl/dis145/assets/164402625/26df726b-6049-45d5-bba2-9019148c13d9
 
 (video de mi avance hasta ese momento)
 
-- (semana 13) Acá ya existía y se veía un proyecto un poco más formado pero con el problema que buscaba una música mía y entonces saber exportar desde Spotify no era mi solución al parecer.
+- (semana 13) Acá ya existía y se veía un proyecto un poco más formado, pero con el problema que buscaba una música mía y entonces saber exportar desde Spotify no era mi solución al parecer.
 
 https://github.com/Spidermaneberl/dis145/assets/164402625/46d1a27d-f9da-42c4-b30e-fd7e4dba7c40
 
