@@ -242,7 +242,7 @@ Cuando conectamos el bloque se activa y empieza a funcionar.
 
 - A futuro me encantaria poder hacer el plugin compatible con Rhino 7
 - Hacer que el codigo sea mas comprensible y que la gente pueda agregar sus propias funciones al teclado.
-- Mac.
+- Crear una version para Mac.
 
 # Estadisticas de proyecto:
 
