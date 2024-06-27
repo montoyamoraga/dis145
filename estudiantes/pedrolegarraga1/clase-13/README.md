@@ -268,6 +268,10 @@ y nos pusimos a experimentar añadiendole más luces al circuito para asi poder 
 
 ![FlechaLed](https://github.com/pedrolegarraga1/dis145/assets/164402475/87df5afb-15fd-4c77-bdfc-a1c754a766a1)
 
+Hicimos lo mismo con las luces del otro lado y las diferenciamos entre rojas y verdes. Luego de que solucionamos el problema nos dedicamos a dejar presnetable el sistema y que sea aún mas visible.
+
+
+
 # conclusión
 El corazón del proyecto quedó funcionando dado que logramos crear con un sensor MPU6050 (accelerometro y giroscopio), luces led, una protoboard, cables y una placa arduino un proyecto en donde al girar hacia la derecha varias luces se enciendan por un corto tiempo y luego, al girar hacia la izquierda se enciendan las luces del otro lado.  
 
