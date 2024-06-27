@@ -48,8 +48,40 @@ Si bien no lanza las cartas una a una, y no esta del todo sincronizado, funciona
 
 El codigo es bien sencillo, se explicara a continuacion, pero como se dijo anteriormente, el codigo busca sincornizar los movimientos de los servos, para que cuando llegue a una posicion, el otro bote las cartas.
 
+```cpp
+#include <Servo.h>
 
+Servo servo1; // Crea un objeto servo1 para controlar el primer servomotor
+Servo servo2; // Crea un objeto servo2 para controlar el segundo servomotor
 
+void setup() {
+  servo1.attach(9); // Conecta el primer servomotor al pin digital 9
+  servo2.attach(10); // Conecta el segundo servomotor al pin digital 10
+}
+
+void loop() {
+  for (int angle = 0; angle <= 180; angle += 60) {
+    // Rota el primer servomotor a la posición `angle`
+    servo1.write(angle);
+    delay(2000); // Pausa de 2 segundos en la posición del servo1
+    
+    // Rota el segundo servomotor a 180° a su máxima velocidad
+    servo2.write(180);
+    delay(500); // Pausa corta para permitir el movimiento del segundo servomotor
+    
+    // Rota el segundo servomotor de regreso a 0° a su máxima velocidad
+    servo2.write(0);
+    delay(500); // Pausa corta para permitir el movimiento del segundo servomotor
+  }
+}
+```
+
+## Pensando en mejoras
+Alguna de las mejoras para este proyecto podria ser agregarle un boton el cual de inicio al trabajo, y un potenciometro el cual sea capaz de editar la cantidad de personas que necesitan cartas. Y que se pueda definir cuantas cartas para cada uno hay que entregar.
+
+## Conclusiones
+
+Me gusto mucho trabajar en el proyecto, aprendi mucho, no solo sobre componentes elctronicos y programacion, sino que tambien en formas de trabajar, lo que sin duda voy a aplicar en mi futuro. EL hecho de ir documentando los procesos cometidos, sirve mucho para el proyecto, ya que le da desde un inicio una forma y despues con el tiempo un recorrido muy util, lo que siento que fue fundamental para mi proceso de avance.
 
 
 
