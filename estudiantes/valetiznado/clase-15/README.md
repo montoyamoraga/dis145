@@ -36,6 +36,9 @@ Se revisaron trabajos de compañeros y se investigó la transmisión inalámbric
 Semana 14 (13 de junio)
 Por ultimo, en esta semana lo que se hizo fue corregir errores que tenia codigo como; que cuando se configuro el codigo primeramente con el dispositivo ESP32, este arrojaba una direccion IP, pero cuando se programo el nuevo codigo para Arduino Nano 33 IOT este nuevo codigo no arrojaba la dirección IP por lo que tuve que hacer algunos ajustes en esta parte.
 
+![IMG_9688](./IMG_9688.MOV)
+
+
 Componentes:
 
 
