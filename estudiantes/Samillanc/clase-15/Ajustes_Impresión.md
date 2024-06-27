@@ -42,7 +42,7 @@
 - Velocidad: 70mm/s
 - Tiempo de impresión: +/- 1,5 horas
 
-### Disco
+# Disco
 - Altura de capa: 0.3mm
 - Número de líneas: 4
 - Relleno: 20%
