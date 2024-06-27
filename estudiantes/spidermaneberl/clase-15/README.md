@@ -15,11 +15,11 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/4170bbd0-6877-4307-931
 ⮞Si hacemos un viaje al pasado, llegamos al inicio del proyecto en el cual existían dudas de por dónde empezar, como hacer y lo más importante para mí lo cual era que me llama la atención hacer.
 
 Mi linea temporal:
-- En primer lugar me dedique a buscar información, es ahí donde se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
-- ka
-- la
-- la
-- para finalizar...
+- (semana 11)En primer lugar me dedique a buscar información, es ahí donde se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
+- (semana 12)
+- (semana 13)
+- (semana 14)
+- (semana 15)
 
 ## fuentes y citas
 
