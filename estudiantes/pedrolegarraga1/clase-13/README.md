@@ -272,6 +272,10 @@ Hicimos lo mismo con las luces del otro lado y las diferenciamos entre rojas y v
 
 
 
+https://github.com/pedrolegarraga1/dis145/assets/164402475/c21e17ce-21d9-4548-850b-c30d9301fa85
+
+
+
 # conclusión
 El corazón del proyecto quedó funcionando dado que logramos crear con un sensor MPU6050 (accelerometro y giroscopio), luces led, una protoboard, cables y una placa arduino un proyecto en donde al girar hacia la derecha varias luces se enciendan por un corto tiempo y luego, al girar hacia la izquierda se enciendan las luces del otro lado.  
 
