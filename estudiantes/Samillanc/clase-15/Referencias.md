@@ -10,7 +10,7 @@
    Enlace: [YouTube - Photogrammetry 3D Scanner](https://youtu.be/SAgiv4o8rxQ)  
    Descripción: Tutorial detallado sobre cómo construir y utilizar un escáner 3D basado en fotogrametría controlado por Arduino.
 
-3. **Archivos STL y Fuente para Escáner 3D Fotogramétrico**  
+3. **Archivos Fusion360 y Fuente para Escáner 3D Fotogramétrico**  
    Autor: BB Projects  
    Enlace: [BB Projects - Arduino Controlled Photogrammetry 3D-Scanner Files](https://bbprojects.technology/collections/stl-fusion-360-source-files/products/arduino-controlled-photogrammetry-3d-scanner-files)  
    Descripción: Colección de archivos STL y archivos fuente de Fusion 360 para construir un escáner 3D controlado por Arduino.
