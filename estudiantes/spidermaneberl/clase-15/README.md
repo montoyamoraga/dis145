@@ -22,6 +22,9 @@ Mi linea temporal:
 ![image](https://github.com/Spidermaneberl/dis145/assets/164402625/d7f1829b-7472-4b00-8785-60c34b9bd325)
 (Apuntes de como se usaba TD)
 
+
+
+ 
 - (semana 12) Logre entender como traer al programa música que no sea la que viene predeterminada y era mediante VB-AUDIO, es así como por fin pude unir música desde Spotify hacia el programa pero aun con siluetas muy simples.
 
 
