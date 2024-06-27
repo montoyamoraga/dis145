@@ -29,9 +29,9 @@ Imágenes sacadas de la página "https://circuitjournal.com/arduino-OV7670-to-pc
 
 
 ### Referentes :bulb:
- https://circuitjournal.com/arduino-OV7670-to-pc
- https://www.youtube.com/watch?v=pgSvtymcNq4
- https://github.com/hpssjellis/my-examples-of-edge-impulse/blob/main/OV7670-Camera/default-ov767x/rawbytes.ino
+ - https://circuitjournal.com/arduino-OV7670-to-pc
+ - https://www.youtube.com/watch?v=pgSvtymcNq4
+ - https://github.com/hpssjellis/my-examples-of-edge-impulse/blob/main/OV7670-Camera/default-ov767x/rawbytes.ino
 
 ### Documentación
 1. Definición de la idea: Me costó demasiado definir la idea y llevarla a cabo.
