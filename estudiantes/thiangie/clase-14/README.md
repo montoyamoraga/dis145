@@ -1,8 +1,10 @@
 # Traspaso del código de Arduino a Processing
+
+## Primera instancia
 Se comenzó a buscar formas en que Processing pudiese leer los datos enviados desde Arduino para que se pueda mostrar la interfaz creada.
 Este paso se dio, ya que se había logrado que las frecuencias del Buzzer dependiesen de los valores entregados por el primer potenciómetro.
 
-## Código en Arduino
+### Código en Arduino
 El siguiente código permite que se lean los valores de ambos potenciómetros en el puerto serial de Arduino con una coma que los separara de la siguiente forma:
 
 ``` C++
@@ -44,7 +46,7 @@ void loop() {
   delay(100); // tiempo de espera
 }
 ```
-## Código en Processing
+### Código en Processing
 El primer código que se realizó buscaba emular exactamente lo que hacía el Led RGB, presentar seis colores según los valores del potenciómetro: rojo, amarillo, verde, cyan, azul y magenta. Cada color tenía asignado, a su vez, distintas variaciones de frecuencia para emitir un ruido que emulara el sonido de un Buzzer y permitiera darle intensidad a la emoción.
 
 ```C++
@@ -155,3 +157,7 @@ void serialEvent(Serial myPort) {
   }
 }
 ```
+### Video funcionamiento
+
+https://github.com/thiangie/dis145/assets/100184098/23438ae9-6347-4688-9dce-5e453d1c521d
+
