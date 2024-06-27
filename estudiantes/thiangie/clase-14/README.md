@@ -336,7 +336,7 @@ En esta emoción, el segundo potenciométro controla la variación de la frecuen
 Se adaptaron los valores para que el fondo concordara.
 
 ### Emoción de ansiedad
-Basado en el ejemplo 
+Basado en el ejemplo *Triangle strip* de processing
 
 ```C++
 void drawAnxiety() {
@@ -364,7 +364,7 @@ void drawAnxiety() {
 Este código permite demostrar qué tan ansiosa una persona se siente, incrementando ruido y la visual.
 
 ### Sensación de estrés
-Basado en el ejmplo     de processing
+Basado en el ejmplo *Random Gaussian* de processing
 ```C++
 void drawStress() {
   background(0);
@@ -380,7 +380,7 @@ void drawStress() {
 ```
 
 ### Sensación de estar disociando
-Basado en el ejemplo  de processing
+Basado en el ejemplo *Sine* de processing
 ``` C++
 void drawDisociacion() {
   background(0);
@@ -397,7 +397,7 @@ void drawDisociacion() {
 ```
 
 ### Sensación de estar sobrepensando
-Basado en el ejmplo  de processing
+Basado en el ejmplo *Mixture Grid* de processing
 
 ``` C++
 void drawOverthink() {
@@ -434,7 +434,7 @@ void defineLights(){
 ```
 
 ### Sensación de vacío
-Basado en el ejemplo  de processing
+Basado en el ejemplo *Noise wave* de processing
 ```C++
 void drawEmpty() {
   background(40); 
@@ -460,3 +460,5 @@ void drawEmpty() {
   
 }
 ```
+## Futuras proyecciones
+Ingresar texto para diferenciar las emociones
