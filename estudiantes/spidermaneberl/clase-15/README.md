@@ -44,6 +44,14 @@ Mediante Suno, IA dedicada a crear musica, salieron las primeras canciones, pero
 
 
 
+https://github.com/Spidermaneberl/dis145/assets/164402625/b1a24264-0926-4188-aa2f-afe69c87a235
+
+
+https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b6-ae3b070ce80c
+
+
+
+
 - (semana 14)
 - (semana 15)
 
