@@ -1247,3 +1247,9 @@ Ingresar texto para diferenciar las emociones
 ## Conclusiones
 La idea de este proyecto es ayudar a personas a demostrar cómo se sienten, en especial con emociones negativas.
 Ojala se pueda llevar a algo más grande y que ayude a las personas a gestionar sus emociones, traspasarlo a un espectro más grande.
+
+## Citas y videos utilizados
+Manipular texto: https://www.youtube.com/watch?v=VeTNV1On34w&list=PLtyMmy0eKyqFsLPesmz7y4EznkZFJrGuu&index=138&ab_channel=AirRoom
+Manipular caracteres: https://www.youtube.com/watch?v=96HVTZa4-PA&list=PLtyMmy0eKyqFsLPesmz7y4EznkZFJrGuu&index=139&ab_channel=AirRoom
+De aquí se creó la clase utilizada en algún momento.
+
