@@ -948,7 +948,7 @@ void drawEmpty() {
 }
 ```
 ## Código completo
-```C+++
+```C++
 // importar las bibliotecas para que se comunique el arduino con processing a través del monitor serial
 import processing.serial.*;
 
