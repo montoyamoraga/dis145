@@ -2,6 +2,9 @@
 
 Free - All Right Now
 
+![Ecofresh](https://github.com/SrYuyo/dis145/assets/103392227/6fc3125c-3235-4d4b-9ed3-90bdf12590e1)
+
+
 # **ABSTRACT**
 
 El desperdicio de alimentos es un problema global con consecuencias ambientales y económicas significativas. Según la FAO, un tercio de los alimentos producidos para el consumo humano se pierden o desperdician cada año, mayoritariamente en los hogares. Para abordar este problema, se propone un sistema inteligente de monitoreo de alimentos utilizando sensores que detectan su estado y urgencia de consumo. Este dispositivo, que emplea sensores de gas (MQ2) y de humedad y temperatura (DHT11), proporciona información en tiempo real para reducir el desperdicio alimentario, fomentar la economía circular y estimular el compostaje. Además, puede integrarse con aplicaciones móviles para compartir alimentos y gestionar residuos orgánicos.
