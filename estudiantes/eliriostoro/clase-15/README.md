@@ -115,12 +115,6 @@ void setColor(int rojoValor, int verdeValor, int azulValor) {
    
 
           
-### **Uso de fuentes y citas:**
-- Inspiración:
-   * Lentes inteligentes Ray-Ban por la ubicacion de la cámara.
-     https://www.meta.com/us/es/smart-glasses/
-  * Audifonos con cancelación de ruido:
-    https://www.apple.com/cl/shop/product/MTJV3AM/A/airpods-pro?fnode=94c297e8bf1b408c63c6fefff7abee450edb009a2830343812946f298e6781411001363210489592c8eb9c336fa78794d381476b536075303be4bfdcac7079306d72a8a2752d1cac0229dd746bdd0be353386eea661c0de57553c207633a783321de8eefaf72c181e9fa26677c996abe&fs=fh%3D47ce%252B282f
     
      
   
@@ -148,4 +142,14 @@ void setColor(int rojoValor, int verdeValor, int azulValor) {
 
     
   * Influencia del proyecto: Más que la influencia del proyecto en sí, quiero resaltar la dinámica en las clases. Llegué muy asustada la primera clase, sin saber nada de electrónica, con conocimientos muy básicos, y con cada clase fui aprendiendo sin sentirme fuera de lugar por no saber. Todo lo contrario, siempre tenía muchas ganas de aprender, de preguntarle cosas al profesor y a mis compañeros.
+
+
+
+
+### **Uso de fuentes y citas:**
+- Inspiración:
+   * Lentes inteligentes Ray-Ban por la ubicacion de la cámara.
+     https://www.meta.com/us/es/smart-glasses/
+  * Audifonos con cancelación de ruido:
+    https://www.apple.com/cl/shop/product/MTJV3AM/A/airpods-pro?fnode=94c297e8bf1b408c63c6fefff7abee450edb009a2830343812946f298e6781411001363210489592c8eb9c336fa78794d381476b536075303be4bfdcac7079306d72a8a2752d1cac0229dd746bdd0be353386eea661c0de57553c207633a783321de8eefaf72c181e9fa26677c996abe&fs=fh%3D47ce%252B282f
 
