@@ -34,7 +34,10 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/26df726b-6049-45d5-bba
 
 
 
-- (semana 13)
+- (semana 13) Acá ya existía y se veía un proyecto un poco más formado pero con el problema que buscaba una música mía y entonces saber exportar desde Spotify no era mi solución al parecer.
+
+
+
 - (semana 14)
 - (semana 15)
 
