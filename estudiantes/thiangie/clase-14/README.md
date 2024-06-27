@@ -205,3 +205,258 @@ float angle = 0;
 // parámetros para la sensación de VACÍO
 float yoff = 0.0;
 ```
+Set up 
+
+```C++
+void setup() {
+  size(600, 400, P3D); // tamaño de la ventana
+  String portName = Serial.list()[1]; // selección del puerto que se utilizará
+  myPort = new Serial(this, portName, 9600); // inicio de comunicación serial
+  myPort.bufferUntil('\n'); // definir el término de lectura
+
+  minim = new Minim(this);
+  out = minim.getLineOut();
+  osc1 = new Oscil(440, 0.5, Waves.SINE); // primera onda, sinusoidal
+  osc2 = new Oscil(440, 0.5, Waves.TRIANGLE); // segunda onda, triangular
+  osc1.patch(out); // conecta la primera onda al AudioOutput
+  osc2.patch(out); // conecta la segunda onda al AudioOutput
+  
+  // geometría que representa a la ansiedad con parametros de ancho, x, y alto, y
+  x = width/2;
+  y = height/2;
+  
+  // hacer que las figuras geométricas no tengan línea de contorno
+  noStroke();
+  
+  // parámetros de los círculos de la emoción DISOCIACIÓN
+  diameter = height - 10;
+  noStroke();
+  fill(0, 255, 255); // color magenta
+}
+```
+Código de lo que se proyectará en pantalla del computador
+
+``` C++
+void draw() {
+
+  float frecuencia1 = 0;
+  float frecuencia2 = 0;
+
+  if (val1 < 1 * 1023 / 6) { // rojo (rabia)
+    frecuencia1 = map(val2, 0, 1023, 400, 480); // 400-480 Hz; mapeo los valores de frecuencia de la onda
+    frecuencia2 = map(val2, 0, 1023, 120, 960); // 120-960 Hz
+    osc2.setWaveform(Waves.SINE);
+    osc1.setWaveform(Waves.TRIANGLE);
+    drawGradientRojo();
+    
+  } else if (val1 < 2 * 1023 / 6) { // amarillo (ansiedad)
+    background(255, 255, 0);
+    frequency1 = map(val2, 0, 1023, 1000, 2000); // 1000-2000 Hz
+    frequency2 = map(val2, 0, 1023, 1000, 1200); // 1000-1200 Hz
+    background(255, 255, 0); // Fondo amarillo
+    osc2.setWaveform(Waves.SINE);
+    osc1.setWaveform(Waves.TRIANGLE);
+    drawAnxiety();
+    
+  } else if (val1 < 3 * 1023 / 6) { // verde (estrés)
+    background(0, 255, 0);
+    frequency1 = map(val2, 0, 1023, 600, 700); // 600-700 Hz
+    frequency2 = map(val2, 0, 1023, 1200, 1400); // 1200-1400 Hz
+    background(0, 255, 0); // Fondo verde
+    drawStress();
+    
+  } else if (val1 < 4 * 1023 / 6) { // cyan (disociación)
+    background(0, 255, 255);
+    frequency1 = map(val2, 0, 1023, 110, 130); // 110-130 Hz
+    // frequency2 = map(val2, 0, 1023, 700, 900); // 700-900 Hz
+    background(0, 255, 255); // Fondo cyan
+    osc2.setWaveform(Waves.SINE);
+    drawDisociacion();
+    
+  } else if (val1 < 5 * 1023 / 6) { // azul (sobrepensar)
+    background(0, 0, 255);
+    frequency1 = map(val2, 0, 1023, 200, 400); // 200-400 Hz
+    frequency2 = map(val2, 0, 1023, 800, 1000); // 800-1000 Hz
+    background(0, 0, 255); // Fondo azul
+    drawOverthink();
+    
+  } else { // magenta (vacio)
+    frequency1 = map(val2, 0, 1023, 120, 220); // 120-220 Hz
+    // frequency2 = map(val2, 0, 1023, 400, 600); // 400-600 Hz
+    background(255, 0, 255); // Fondo magenta
+    osc2.setWaveform(Waves.SINE);
+    drawEmpty();
+  }
+
+  osc1.setFrequency(frecuencia1); // ajusta la frecuencia de la primera onda
+  osc2.setFrequency(freceuncia2); // ajusta frecuencia de la segunda onda
+}
+
+void serialEvent(Serial myPort) {
+  String inString = myPort.readStringUntil('\n'); // lee la línea hasta su término para pasar a la siguiente
+  if (inString != null) {
+    inString = trim(inString); // eliminar espacios en blanco
+    int[] vals = int(split(inString, ',')); // divide el string entregado por arduino por dos, para considerar los valores de ambos potenciometros
+// esto permite que el código sepa el orden de los valores entregados
+    if (vals.length == 2) { 
+      val1 = vals[0];
+      val2 = vals[1];
+    }
+  }
+}
+```
+
+Creación de las animaciones de cada emoción, basadas en los ejemplos de processing y editados para que funcionen con los parámetros entregados según el valor del segundo potenciometro, ya que este regula la intensidad de cada emoción.
+
+### Emoción de rabia
+Basado en el ejemplo de Gradiente de Processing
+```C++
+void drawGradientRojo() {
+  PImage gradient = createImage(width, height, RGB);
+  float frequency = 0;
+
+  for (int i = -50; i < height + 100; i++) {
+    float angle = 0;
+    frequency += 0.002;
+    for (float j = 0; j < width + 75; j++) {
+      float py = i + sin(radians(angle)) * amplitude;
+      angle += frequency;
+      color c = color(abs(py - i) * 255 / amplitude, 0 - abs(py - i) * 255 / amplitude, j * (0.0 / (width + 50)));
+      for (int filler = 0; filler < fillGap; filler++) {
+        gradient.set(int(j - filler), int(py) - filler, c);
+        gradient.set(int(j), int(py), c);
+        gradient.set(int(j + filler), int(py) + filler, c);
+      }
+    }
+  }
+  set(0, 0, gradient);
+}
+```
+En esta emoción, el segundo potenciométro controla la variación de la frecuencia del sonido.
+Se adaptaron los valores para que el fondo concordara.
+
+### Emoción de ansiedad
+Basado en el ejemplo 
+
+```C++
+void drawAnxiety() {
+  int numPoints = int(map(val2, 0, 1023, 1, 60)); // los valores del segundo potenciometro dejan que crezca la geometría
+  float angle = 0;
+  float angleStep = 180.0/numPoints;
+  
+  fill(0);
+  stroke(255,255,0);
+    
+  beginShape(TRIANGLE_STRIP); 
+  for (int i = 0; i <= numPoints; i++) {
+    float px = x + cos(radians(angle)) * outsideRadius;
+    float py = y + sin(radians(angle)) * outsideRadius;
+    angle += angleStep;
+    vertex(px, py);
+    px = x + cos(radians(angle)) * insideRadius;
+    py = y + sin(radians(angle)) * insideRadius;
+    vertex(px, py); 
+    angle += angleStep;
+  }
+  endShape();
+}
+```
+Este código permite demostrar qué tan ansiosa una persona se siente, incrementando ruido y la visual.
+
+### Sensación de estrés
+Basado en el ejmplo     de processing
+```C++
+void drawStress() {
+  background(0);
+  float val = randomGaussian();
+  float sd = 60;                  // definir una desviación estandar
+  float mean = val2/2;           // definir un valor promedio
+  float x = ( val * sd ) + mean;  // escalar en número gaussiano segun la desviación estandar
+
+  noStroke(); // quitar contorno
+  fill(0, 255, 0); // rellenar el color verde
+  ellipse(x, val2/2, 32, 32); // mapeo del valor y movimiento de la elipse con 
+}
+```
+
+### Sensación de estar disociando
+Basado en el ejemplo  de processing
+``` C++
+void drawDisociacion() {
+  background(0);
+  float d1 = 10 + (sin(angle)* val2/2) + diameter/2;
+  float d2 = 10 + (sin(angle + PI/2) * val2/2) + diameter/2;
+  float d3 = 10 + (sin(angle + PI) * val2/2) + diameter/2;
+  
+  ellipse(0, height/2, d1, d1);
+  ellipse(width/2, height/2, d2, d2);
+  ellipse(width, height/2, d3, d3);
+  
+  angle += 0.02;
+}
+```
+
+### Sensación de estar sobrepensando
+Basado en el ejmplo  de processing
+
+``` C++
+void drawOverthink() {
+  defineLights();
+  background(0);
+  
+  for (int x = 0; x <= width; x += 60) {
+    for (int y = 0; y <= height; y += 60) {
+      pushMatrix();
+      translate(x, y);
+      rotateY(map(val2, 0, width, 0, PI));
+      rotateX(map(val2, 0, height, 0, PI));
+      box(90);
+      popMatrix();
+    }
+  }
+}
+
+// las luces que llegan a las figuras
+void defineLights(){
+  pointLight(10, 100, 200,   // color
+             200, -150, 0); // posicion
+
+  // luz celeste desde el costado
+  directionalLight(0, 102, 255, // color
+                   1, 0, 0);    // The x-, y-, z-axis direction
+
+  // luz azul desde el frente
+  spotLight(10, 19, 109,  // color
+            0, 40, 200,     // posicion
+            0, -0.5, -0.5,  // direccion
+            PI / 2, 2);   
+}
+```
+
+### Sensación de vacío
+Basado en el ejemplo  de processing
+```C++
+void drawEmpty() {
+  background(40); 
+  fill(75);
+  
+  beginShape();
+  float xoff = 0;
+  for (float x = 0; x <= width; x += 10) {
+    // mapear los valores del ruido
+    float y = map(noise(xoff, yoff), 0, 1, 200,val2/2); // ruido 2D
+    // float y = map(noise(xoff), 0, 1, 200,300);    // ruido 1D
+    
+    // setear el vertice
+    vertex(x, y); 
+    // incrementar la dimension x de la onda de ruino
+    xoff += 0.05;
+  }
+  // dimension y de la onda de ruido
+  yoff += 0.01;
+  vertex(width, height);
+  vertex(0, height);
+  endShape(CLOSE);
+  
+}
+```
