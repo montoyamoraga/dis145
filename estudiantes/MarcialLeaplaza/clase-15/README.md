@@ -12,6 +12,10 @@ Fue el que me ayudo a construir el nucleo del proyecto. No hubiera podido constr
 
 Me ayudo mucho para entender mejor cómo comunicarme con el teclado usando diferentes librerias de C# en el codigo.
 
+# @montoyamoraga
+
+Me presto su teclado keystep :)
+
 # NAudio: 
 
 Es la [libreria](< https://github.com/naudio/NAudio>) que termine usando para conectarme al teclado.
