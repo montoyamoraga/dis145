@@ -89,22 +89,24 @@ Para las conclusiones de tu investigación, puedes estructurarlas de la siguient
 #### Lo que hice bien:
 - **Definición del Proyecto:** Se estableció claramente el objetivo de desarrollar un sistema inteligente de monitoreo de alimentos utilizando Arduino y Processing.
 - **Selección de Sensores:** La elección y análisis de sensores como el MQ2 y el DHT11 fue adecuada para medir gases y condiciones ambientales relevantes para el estado de los alimentos.
-- **Integración de Arduino y Processing:** Logré establecer una conexión funcional entre Arduino y Processing, permitiendo la transferencia de datos y el control del sistema.
+- **Integración de Arduino y Processing:** Logré establecer codigos para Arduino y Processing, permitiendo la transferencia de datos y el control del sistema.
 - **Iteraciones y Mejoras:** A través de las semanas, se realizaron iteraciones continuas en el código y la interfaz, lo que mejoró la funcionalidad y la usabilidad del dispositivo.
 
 #### Lo que hice mal:
-- **Pérdida de Clases:** Las ausencias en ciertas semanas afectaron mi progreso y entendimiento del tema, particularmente en el filtrado de datos y visualización en Processing.
+- **Pérdida de Clases:** La perdida de aputnes en ciertas semanas afectaron mi progreso y entendimiento del tema, particularmente en el filtrado de datos y visualización en Processing.
 - **Manejo de Tiempo:** En ocasiones, la gestión del tiempo para la soldadura y montaje de componentes fue insuficiente, lo que afectó el avance del proyecto.
 - **Modelado 3D:** La dificultad para utilizar Rhino afectó la creación de un modelo 3D del dispositivo, lo cual limitó la visualización y planificación espacial del proyecto.
+- **Conexión entre codigos:** La conección entre ambos codigos no se logro al final, a pesar de tener codigos funcionales independientemente. El traspaso de información no se logro acorde al objetivo general. Aún así no es impedimento para lograrlo.
 
 #### Qué cosas funcionaron:
-- **Fusión de Códigos:** La integración exitosa de los códigos de Arduino y Processing permitió una visualización clara de datos y un control efectivo del sistema.
+- **Códigos:** Los códigos de Arduino y Processing permitió una visualización clara de datos y un control efectivo del sistema.
 - **Pruebas y Depuración:** Las pruebas continuas y la depuración del código ayudaron a identificar y corregir errores, mejorando la estabilidad y precisión del dispositivo.
 - **Colaboración:** La colaboración con compañeros (@eliriostoro y @thiangie) fue beneficiosa para compartir conocimientos y resolver desafíos técnicos.
 
 #### Qué cosas no funcionaron:
 - **Modelado 3D:** La dificultad para crear un modelo 3D adecuado afectó la planificación física del dispositivo y la integración de componentes.
 - **Dudas Persistentes:** Aún tengo dudas sobre cómo optimizar la interfaz de usuario en Processing y la integración de más sensores para mejorar la precisión del monitoreo.
+- **Codigos conectados:** El tener ambos codigos en comunicación hubiera permitido tener una visualización de mejor manera de la interfaz que puede tener el posible usuario. Además de que se abre una puerta con nuevos desafios para mi
 
 #### Qué dudas tengo ahora:
 - **Optimización de la Interfaz:** ¿Cómo puedo mejorar la interfaz de usuario en Processing para hacerla más intuitiva y funcional?
