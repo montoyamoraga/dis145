@@ -75,7 +75,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/b1a24264-0926-4188-aa2
 
 https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b6-ae3b070ce80c
 
-- (semana 14) Si bien el avance no fue el ideal, en esta semana logré encontrar una canción, mediante Suno, que me gustara y mucho. Logré ordenar más los bloques del trabajo y entender mas su funcionalidad.
+- (semana 14) Si bien el avance no fue el ideal, en esta semana logré encontrar una canción, mediante Suno, que me gustara y mucho. Logré ordenar más los bloques del trabajo.
   
 - (semana 15) Ya la semana de la presentación me dedique a crear el Github y a limpiar partes del trabajo, agregando colores y pensar en la presentación del proyecto.
 
@@ -102,6 +102,7 @@ Cerrar un proyecto que me tenia muy entusiasmado, lograr entender de forma basta
 - ¿Qué hice mal?
 Gran error principal es no tener la constancia de subir procesos a pesar de si tener avances.
 Querer lograr varios objetivos. Me costó aterrizar la idea a algo concreto.
+Mal orden de los bloques y falta de comenatar cada bloque.
 
 - ¿Qué cosas funcionaron y que no?
 Funcionamiento que la música mueva y genera figuras.
