@@ -193,6 +193,23 @@ namespace Test1
     }
 }
 ```
+# Interfaz
+
+El plugin consta de una pestaña en la barra de herramientas de Grasshopper llamada MIDI. En ella hay una sola subcategoría llamada Tests, ya que esta no es la version final del plugin, con un solo componente, llamado MidiController.
+
+Al insertar el componente dentro del grasshpper veremos el bloque.
+
+<img width="586" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/dd27cbee-426c-476d-bfea-cd2d87e60940">
+
+El bloque en sí no se explica mucho por si solo, por lo que agregue bloques de informacion adicional al poner el cursor sobre los inputs y outputs del bloque.
+
+<img width="644" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/d171ac4f-801c-4271-9633-e8c05fdd542f">
+
+Cuando conectamos el bloque se activa y empieza a funcionar.
+
+<img width="710" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/605f7ab0-8f20-4c11-8565-e7362747c837">
+
+
 
 # Limitaciones
 
