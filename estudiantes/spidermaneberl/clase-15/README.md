@@ -10,5 +10,15 @@ El proyecto busca la unión del usuario sobre la música con una representación
 ⮞A continuación, se muestra en un pequeño extracto el resultado audiovisual realizado en TouchDesigner:
 
 https://github.com/Spidermaneberl/dis145/assets/164402625/f8f946b8-cc5f-4fa6-b244-07a442daa2f9
+##Proceso:
+⮞Si hacemos un viaje al pasado, llegamos al inicio del proyecto en el cual existían dudas de por dónde empezar, como hacer y lo más importante para mí lo cual era que me llama la atención hacer.
+Linea temporal:
+- La primera semana
+- ka
+- la
+- la
+- para finalizar...
 
+##fuentes y citas
 
+##conclusion 
