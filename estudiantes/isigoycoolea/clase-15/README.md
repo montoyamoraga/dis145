@@ -69,7 +69,38 @@ Así que busqué inspiración e hice otro diseño un poco más distitno.
 ![4](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/4.jpeg) 
 
 
-3. Dejé muy para el final el código porque pensaba lo tenía listo para llegar y usar, pero me dí cuenta que como cambie el arduíno a arduíno nano el código me mando muchos errores que aún sigo sin entenderlos.
+3. Dejé muy para el final el código porque pensaba lo tenía listo para llegar y usar, pero me dí cuenta que como cambie el arduíno a arduíno nano el código me mando muchos errores que aún sigo sin entender por qué no funcionó.
+
+# Código y explicación:
+
+## PARTE 1 código liveOV7670
+
+![CÓDIGO 1](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/C%C3%93DIGO%201.png) 
+
+## Explicación:
+```cpp
+// cambia setup.h para alternar entre procesamiento en búfer y procesamiento píxel por píxel
+#include "setup.h"
+
+void setup() {
+  // Esto no es necesario y no tiene efecto para Arduinos basados en ATMEGA.
+  // El WAVGAT Nano tiene una tasa de reloj más lenta por defecto. Queremos restablecerlo a la velocidad máxima.
+  CLKPR = 0x80; // ingresar al modo de cambio de la tasa de reloj
+  CLKPR = 0; // establecer el prescaler a 0. El MCU de WAVGAT lo tiene en 3 por defecto.
+
+  initializeScreenAndCamera(); // inicializa la pantalla y la cámara
+}
+
+void loop() {
+  processFrame(); // procesa un cuadro (frame)
+}
+```
+
+
+
+
+
+
 
 
 
