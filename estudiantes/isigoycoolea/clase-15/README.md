@@ -70,8 +70,8 @@ Pero no me gustó el diseño porque era el típico de las webcam comerciales. As
 
 3. Dejé muy para el final el código porque pensaba lo tenía listo para llegar y usar, pero me dí cuenta que como cambie el arduíno a arduíno nano el código me mando muchos errores que aún sigo sin entender por qué no funciona.
 
-## Código y descripción:
-### Código
+## Código y descripción
+### Código:
 
 #include <ArduCAM.h>
 #include <SPI.h>
@@ -144,7 +144,7 @@ void loop() {
 }
 
 
-### Descripción del Código
+### Descripción:
 
 1. **Inclusión de Bibliotecas y Definiciones de Pines**:
    - Incluye las bibliotecas necesarias para la cámara ArduCAM y la comunicación SPI.
@@ -166,17 +166,12 @@ void loop() {
    - Espera un segundo antes de capturar el siguiente fotograma.
   
  
-
-
-## Que salio mal en el proceso :no_entry_sign:
+## Qué errores tuve: 	:warning:
 No logré adaptar el código a mis necesidades y tampoco logré crear un código que funcionara como debía.
-
-## Qué errores tuve:
 No aproveché las clases previas para avanzar en lo que realmente era más complejo para mi (adaptar el código).
 Dejé todo a última hora y tuve procesos de cosas que ni si quiera usé para el proyecto final. 
 Cambié demasiado de idea, me costó demasiado decidirme.
-> [!TIP]
-> NO DEJEN LO MÁS IMPORTANTE PARA EL FINAL.
+
 
 ## Como quedo finalmente :scream:
 ![1](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/1.jpeg) 
@@ -190,7 +185,11 @@ Cambié demasiado de idea, me costó demasiado decidirme.
 ![10](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/10.jpeg) 
 
 
-## Conclusiones de aprendizaje
+## Conclusiones de aprendizaje :open_book:
+> [!TIP]
+> NO DEJAR LO MÁS IMPORTANTE PARA EL FINAL.
 
-## Dudas que aún tengo
+## Dudas que aún tengo :monocle_face:
+![10](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/Captura%20de%20pantalla%202024-06-27%20152549.png) 
+ - ¿Cómo se usa este tipo de códigos que son múltiples pestañas?
 
