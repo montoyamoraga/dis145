@@ -274,8 +274,9 @@ y nos pusimos a experimentar añadiendole más luces al circuito para asi poder 
 El corazón del proyecto quedó funcionando dado que logramos crear con un sensor MPU6050 (accelerometro y giroscopio), luces led, una protoboard, cables y una placa arduino un proyecto en donde al girar hacia la derecha varias luces se enciendan por un corto tiempo y luego, al girar hacia la izquierda se enciendan las luces del otro lado.  
 
 Eso tiene como funcion ser un dispositivo señaletico para la gente que no quiera quitar sus manos del manillar al transitar por la calle y que lo puedan hacer con la cabeza.  
+por lo tanto, faltaría la creación del producto en sí en base a la interfaz que hemos creado.
 
-
+aquí adjunto un boceto de lo que podría llegar a ser el susodicho dispositivo.
 
 ![LeyendaCasco](https://github.com/pedrolegarraga1/dis145/assets/164402475/3d74bbf1-feb9-4faf-8b43-519071e42a7d)  
 
@@ -285,3 +286,6 @@ Eso tiene como funcion ser un dispositivo señaletico para la gente que no quier
 ![CascoFrontal](https://github.com/pedrolegarraga1/dis145/assets/164402475/9db4ac2f-a8a7-4f28-ac9d-1a2a2fe951a1)
 
 ![CascoTrasero](https://github.com/pedrolegarraga1/dis145/assets/164402475/20a51a28-fbb7-462c-a683-64ef791706b5)
+
+
+Al ser un prototipo puede llegar a tener diferentes formas 
