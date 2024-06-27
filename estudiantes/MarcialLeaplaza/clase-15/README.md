@@ -10,6 +10,8 @@ Al principio traté de buscar referencias que me puedan ayudar a encaminar mi pr
 
 Fue el que me ayudo a construir el nucleo del proyecto. No hubiera podido construir un plugin sin ayuda de sus clases.
 
+Las clases del profesor Long Nguyen fueron funamentales para 
+
 # BTT Better than Television
 
 Me ayudo mucho para entender mejor cómo comunicarme con el teclado usando diferentes librerias de C# en el codigo.
