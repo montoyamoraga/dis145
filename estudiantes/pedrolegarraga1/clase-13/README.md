@@ -283,7 +283,7 @@ aquí adjunto un boceto de lo que podría llegar a ser el susodicho dispositivo.
 
 ![CascoLateral](https://github.com/pedrolegarraga1/dis145/assets/164402475/c41025a1-6e8f-4d3a-9d56-fac47673b490)
 
-![CascoFrontal](https://github.com/pedrolegarraga1/dis145/assets/164402475/9db4ac2f-a8a7-4f28-ac9d-1a2a2fe951a1)
+![CascoFrontal_V2](https://github.com/pedrolegarraga1/dis145/assets/164402475/73dbe0c3-bb59-4f8a-9a2d-5516f04de63c)
 
 ![CascoTrasero](https://github.com/pedrolegarraga1/dis145/assets/164402475/20a51a28-fbb7-462c-a683-64ef791706b5)
 
