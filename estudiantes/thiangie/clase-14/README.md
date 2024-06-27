@@ -1240,3 +1240,7 @@ void drawEmpty() {
 
 ## Futuras proyecciones
 Ingresar texto para diferenciar las emociones
+
+## Conclusiones
+La idea de este proyecto es ayudar a personas a demostrar cómo se sienten, en especial con emociones negativas.
+Ojala se pueda llevar a algo más grande y que ayude a las personas a gestionar sus emociones, traspasarlo a un espectro más grande.
