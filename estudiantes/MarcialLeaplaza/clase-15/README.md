@@ -1,5 +1,12 @@
 # MIDI controller for grasshopper:
 
+Marcial lea-plaza || dis145 - UAI
+
+- Profesor: Aaron Montoya
+- Ayudante: Janis Sepulveda
+
+# Idea
+
 Un plugin el cual permite conectar tu sintetizador MIDI a Rhino 8, a travez de grasshopper.
 - La idea es tener una experiencia de instalacion buena.
 - Que sea compatible con cualquier dispositivo MIDI conectable al computador.
