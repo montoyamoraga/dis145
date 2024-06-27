@@ -1,4 +1,4 @@
-## Proyecto: SN
+## Proyecto: TOOTI
 ## Definición de la temática de investigación: 
 ⮞¿Qué es el proyecto?
 El proyecto es la unión por parte del usuario sobre la música con una representación visual, lo cual tiene como objetivo principal generar una conexión del espectador hacia lo proyectado. Se busca que el ser experimente el proyecto y logre conectarse no solo con la música generada, sino también con una figura visual compuesta por líneas y puntos creada por los mismos sonidos. Estas líneas pueden variar dependiendo de los diferentes inputs que se vayan agregando, logrando así una representación más variada y completa.
