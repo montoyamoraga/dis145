@@ -1,3 +1,6 @@
+# Sintetizador de emociones
+Este proyecto parte desde una problemática personal, como la gestión de emociones.
+
 # Inicio del proceso del proyecto
 
 ## Semana 10
