@@ -54,6 +54,7 @@ const long interval = 100; // Intervalo de tiempo en milisegundos
 void setup() {
    // Configura los pines del sensor y del motor
      pinMode(2, OUTPUT);
+pinMode(3, OUTPUT);
    pinMode(trigPin, OUTPUT);
    pinMode(echoPin, INPUT);
    pinMode(buzzerPin, OUTPUT);
