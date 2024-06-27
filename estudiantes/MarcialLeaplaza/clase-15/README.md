@@ -17,7 +17,7 @@ Al principio traté de buscar referencias que me puedan ayudar a encaminar mi pr
 
 # Profesor Long Nguyen
 
-Fue el que me ayudo a construir el nucleo del proyecto. No hubiera podido construir un plugin sin ayuda de sus clases.
+Me ayudo a construir el nucleo del proyecto. No hubiera podido construir un plugin sin ayuda de sus clases.
 
 Las clases del profesor Long Nguyen fueron funamentales para empezar a entender la estructra que debia tener mi codigo para luego transformarlo en un plugin. Tambien fue vital para poder soltarme y manejarme con mas confianza en Visual Studio, que es donde escribí todo el codigo de mi proyecto. Lo recomiendo muchisimo para cualquiera que quiera experimentar haciendo sus propios componentes en Grasshopper.
 
