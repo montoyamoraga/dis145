@@ -3,8 +3,7 @@
 **AC/DC - You Shook Me All Night Long**
 
 
-Presentación de la iteraciones del codigo para el proyecto del ramo. Todas los codigos fueron realizados mediante una placa arduino unoR3 V 2.3.2. 
-
+Presentación de las iteraciones del código para el proyecto del ramo. Todas los códigos fueron realizados mediante una placa arduino uno R3 V 2.3.2.
 
 Codigo para el sensor dht22
 ```cpp
