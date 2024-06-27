@@ -138,6 +138,44 @@ https://github.com/supernave1/dis145/assets/164402810/81e4d9fd-df02-41b1-af67-a4
 
 Estuvo muy cerca de lanzar la carta, le falta mas rotacion, voy a intentar hacer que gire mas de 180°, ya que ahi si alcanzaria, algo bueno del servo, es que vuelve a la posicion inicial, lo cual hara que la carta debajo de la lanzada quede en buena posicion y no bote mas de una.
 
+Me consegui un servo capaz de rotar de manera continua, es decir en 360°, lo cual para mi proyecto puede ser util, ya que debiese ser capaz de lanzar las cartas. Vamos a ponerlo a prueba.
+
+
+https://github.com/supernave1/dis145/assets/164402810/5bd0b118-feba-4417-afd1-cc4bb1c0ff3d
+
+Feliz por que si gira en 360°, nos volvimos a ilucionar. Ahora lo pondre en la rueda, y vere si es capaz de lanzar las cartas.
+
+
+https://github.com/supernave1/dis145/assets/164402810/6e1b47dd-81c0-4146-b847-3c7e8a1a1000
+
+Si las lanza, y apoyado sobre su propio peso, cosa que hasta este punto no había logrado! Eso si, antes de que lanze una carta, alcanza a agarrar la que viene, lo que no es bueno. Pensare en formas para evitar esto.
+
+Volviendo atras en mi readme, vi que le habia puesto tiras de silicona, las cuales hacen que no tenga friccion con la carta todo el rato, por lo que probare con ese metodo.
+
+Para esto, provare con 1, 2 y 3 tiras, para ver cual funciona mejor. 
+
+# Prueba con 1 tira
+
+https://github.com/supernave1/dis145/assets/164402810/ff8e8ade-e0ba-4582-9288-469c09595e11
+
+Se puede ver que funciona muy bien, es capaz de lanzar una a una las cartas, nose si es tan eficiente, ya que tiene que dar 4 vueltas para recien lanzar una carta.
+
+# Prueba con 2 tiras
+
+https://github.com/supernave1/dis145/assets/164402810/f0c2167f-9db5-4aa8-be27-4e34c3d7094d
+
+A mi gusto, funciona mejor que con una tira, ya que cumple la misma funcion, pero lo hace el doble de rapido, por ahora me quedo con esta, veremos con 3 tiras como queda.
+
+# Prueba con 3 tiras
+
+https://github.com/supernave1/dis145/assets/164402810/3c85b3f2-5bd1-4f23-b451-111e1fccf3db
+
+Sigue funcinando y con mas velocidad, pero hay mas riesgos que en las otras ya que a veces agarraba dos cartas, lo que para este proyecto no sirve.
+
+En conclusion, la rueda con dos tiras de silicona es la que mejor funciona, en tanto a velocidad como eficacia. 
+
+
+
 
 
 
