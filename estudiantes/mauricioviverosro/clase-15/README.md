@@ -73,7 +73,7 @@ https://www.youtube.com/watch?v=nfhIIkJ-Ze0
 
 Si bien ya tenía el código, todas las conexiones físicas listas, menos una: la batería, material vital para poner a prueba el proyecto.
 
-![IMG_7918](./IMG_7918.HEIC)
+![IMG_7918](./IMG_7918.PNG)
 
 Mientras intentaba conseguir una batería de acuerdo con los requerimientos del Motor (12V y 1.7 Ah), intenté hacerlo con baterías de 9V, dos pilas unidas tipo AA, pero ninguna opción me sirvió, el motor no hacía absolutamente nada.
 
