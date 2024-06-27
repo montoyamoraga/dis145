@@ -39,7 +39,7 @@ Imágenes sacadas de la página "https://circuitjournal.com/arduino-OV7670-to-pc
  - https://www.youtube.com/watch?v=pgSvtymcNq4
  - https://github.com/hpssjellis/my-examples-of-edge-impulse/blob/main/OV7670-Camera/default-ov767x/rawbytes.ino
 
-## Proceso
+## Proceso 🚶
 
 Comencé con el proceso de diseño, intenté hacer la cámara con corte láser de este tipo:
    
@@ -167,7 +167,7 @@ void loop() {
    - Espera un segundo antes de capturar el siguiente fotograma.
   
  
-## Qué errores tuve: 	:warning:
+## Qué errores tuve 🥊
 No logré adaptar el código a mis necesidades y tampoco logré crear un código que funcionara como debía.
 No aproveché las clases previas para avanzar en lo que realmente era más complejo para mi (adaptar el código).
 Dejé todo a última hora y tuve procesos de cosas que ni si quiera usé para el proyecto final. 
