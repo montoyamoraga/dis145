@@ -204,10 +204,8 @@ Aqui podemos ver el codigo de la clase n13 limpio y con los cambios mencionados 
 
 MPU6050 mpu;
 int16_t ax, ay, az;
-int16_t gx, gy, gz;
 
 struct MyData {
-  byte X;
   byte Y;
 };
 
