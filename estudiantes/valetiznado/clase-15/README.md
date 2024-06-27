@@ -1,3 +1,5 @@
+## Entrega final - Smart Parking Lot System
+
 * Definición de la temática de investigación:
 
 Reducción del tiempo de búsqueda de estacionamiento mediante un sistema inteligente con Arduino. Este sistema recopilará información en tiempo real sobre la disponibilidad de espacios de estacionamiento a través de sensores de movimiento. La información captada se transmitirá a través de un sistema de comunicación que puede ser Wifi o Bluetooth, facilitando a los conductores la localización de espacios libres de manera rápida y eficiente.
