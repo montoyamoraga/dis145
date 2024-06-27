@@ -141,4 +141,5 @@ https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico
 https://mecabot-ula.org/tutoriales/arduino/practica-30-encender-y-apagar-varios-led-dependiendo-de-la-distancia-que-mida-un-sensor-de-ultrasonido-hc-sr04/
 ## Conclusiones de la investigación
 
-En conclusión el trabajo 
+De este trabajo aprendí cosas aparte de lo estudiado para mi futuro en la carrera , mi proceso fue cambiando por causa de variable como faltas de materiales, fallas en ellos y eso me hizo enfocarme  más en la base para construir mejor lo físico, también que si me falta algo puedo reemplazarlo con algo que tenga a la mano como lo fue el buzzer por el motor, también aprendí la importancia que es establecerse metas en cada sesión de trabajo e ir documentándolas para poder volver al pasado y poder ocuparlas distinto después, también algo que vi del trabajo es la disposición de los demás para poder ayudar en caso de falta de materiales y de tiempo para ayudar al otro también, hice bien en escuchar al profesor en sus recomendaciones, en la constancia y en preguntar sobre cómo podía mejorar mi proyecto, hice mal en no buscar los materiales a tiempo y no pedir ayuda cuando la necesitaba, a su vez siento que mi proyecto no fue ambicioso y me fui por lo simple. 
+
