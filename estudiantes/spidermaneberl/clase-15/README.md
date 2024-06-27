@@ -36,6 +36,11 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/26df726b-6049-45d5-bba
 
 - (semana 13) Acá ya existía y se veía un proyecto un poco más formado pero con el problema que buscaba una música mía y entonces saber exportar desde Spotify no era mi solución al parecer.
 
+https://github.com/Spidermaneberl/dis145/assets/164402625/46d1a27d-f9da-42c4-b30e-fd7e4dba7c40
+(video de mi avance hasta ese momento)
+
+Mediante Suno, IA dedicada a crear musica, salieron las primeras canciones, pero no de mi agrado.
+
 
 
 - (semana 14)
