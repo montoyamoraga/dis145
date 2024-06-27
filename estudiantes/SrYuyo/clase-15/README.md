@@ -14,6 +14,11 @@ Una solución prometedora es un sistema inteligente de monitoreo del estado de l
 En base a lo planteado el objetivo principal es desarrollar un dispositivo que sea eficiente en términos de código y funcionalidad. Además, se busca asegurar el funcionamiento simultáneo de ambas aplicaciones (compartir alimentos y compostaje), las cuales no se concretaron previamente en el proyecto
 
 
+
+https://github.com/SrYuyo/dis145/assets/103392227/66b00bed-44f9-4917-a6fd-fdb03505ed17 
+
+
+
 # **COMPONENTES UTILIZADOS**
 
 1. -Sensor MQ2 (Sensor de Gas): Este sensor detecta la presencia de gases nocivos como amoníaco, metano y compuestos orgánicos volátiles, que pueden ser liberados por alimentos en descomposición. Detectando estos gases, el sistema puede discernir si los alimentos no son seguros para el consumo. Sin embargo, es importante señalar que algunos alimentos que requieren fermentación deben ser almacenados por separado o bien sellados.
