@@ -38,6 +38,14 @@ Imágenes y Videos de los engranajes
 
 https://github.com/MartinGonzalezUAI/dis145/assets/164402523/3774dbff-2dc2-4174-b46e-383c2dbd6b6a
 
+Video motor paso a paso con potenciómetro
+
+
+
+https://github.com/MartinGonzalezUAI/dis145/assets/164402523/3d45b0b7-1673-47f2-80ca-99d3943ae25f
+
+
+
 ## Línea Temporal
 
 Semana 8 (25 de abril)
