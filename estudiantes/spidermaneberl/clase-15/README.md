@@ -13,6 +13,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/4170bbd0-6877-4307-931
 
 ## Proceso:
 ⮞Si hacemos un viaje al pasado, llegamos al inicio del proyecto en el cual existían dudas de por dónde empezar, como hacer y lo más importante para mí lo cual era que me llama la atención hacer.
+
 ⮞Referentes
 
 Mi linea temporal:
