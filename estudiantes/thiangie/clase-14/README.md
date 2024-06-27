@@ -130,6 +130,359 @@ void mouseMoved() {
 ```
 https://github.com/thiangie/dis145/assets/100184098/9f90d314-0ce1-4aac-ba13-41356fedb5ea
 
+## Semana 11
+Se comenzó a trabajar en la transmisión de datos de Arduino a Processing, ya que se decidió controlar parámetros de processing con parámetros
+### Códigos en Arduino para comenzar a emitir lectura de valores de un potenciometro
+
+```C++
+// variable donde se almacenarán los datos del potenciometro
+int valor;
+
+// variable de conversion de la variable numerica a un string
+String valorString;
+ 
+void setup() {
+  //Inicializamos la comunicación serial
+  Serial.begin(9600);
+  
+  //Escribimos por el monitor serie mensaje de inicio
+  Serial.println("Valores del potenciometro");
+ 
+}
+ 
+void loop() {
+  // leemos del pin A0 valor
+  valor = analogRead(A0);
+
+  // conversion de valor numerico a string
+  valorString = String(valor);
+  Serial.println(valorString);
+
+  // delay de tiempo para no emitir el mensaje muy rapido
+  delay(1000);
+}
+```
+### Código en processing para lectura en monitor serial
+```C++
+import processing.serial.*;
+
+Serial myPort;
+String val;
+
+void setup() {
+  String portName = Serial.list() [1];
+  myPort = new Serial(this, portName, 9600);
+}
+
+void draw() {
+  if (myPort.available() > 0) {
+    val = myPort.readStringUntil('\n');
+  }
+  
+  println(val);
+}
+```
+Este código dio pie a buscar cómo lograr que en Arduino se ingresaran dos valores para que entren como uno en Processing y Processng los pudiese separar posteriormente.
+
+## Semana 12
+Se llevó lo que se pretendía a hacer en Processing a formato físico por frustraciones personales
+Este proyecto permite cambiar los colores de un led RGB y que imprima el valor del potenciometro.
+
+```C++
+/* 30 de mayo, 2024
+clase 12
+thiare gonzalez
+versión 1
+conectar led rgb a un arduino uno
+*/
+
+// definir los leds asociado a cada pin en el arduino
+#define ledRojo 11
+#define ledVerde 10
+#define ledAzul 9
+
+// patita del potenciometro
+int pinPot = A0;
+// valor de lectura el potenciómetro
+long valorPot;
+
+int valorMin = 0;
+int valorMax = 1023;
+
+int divisiones = 6;
+int tamanoDivision;
+
+int estadoActual;
+int estadoAnterior;
+
+int tiempoPausa = 500;
+
+
+void setup() {
+  // registrar los leds del led rgb como salida
+  pinMode(ledRojo, OUTPUT);
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledAzul, OUTPUT);
+  // registrar el potenciómetor como entrada
+  pinMode(valorPot, INPUT);
+  Serial.begin(9600);
+
+  // revisar map(valor, 0, 1023, 0, 5);
+  tamanoDivision = 1023 / (divisiones - 1);
+}
+
+void loop() {
+
+  // leer y refrescar valor actual
+  valorPot = analogRead(pinPot);
+
+  // antes de refrescar el estadoActual
+  // tomamos su valor y lo almacenamos
+  // en estadoAnterior
+  estadoAnterior = estadoActual;
+
+  if (valorPot < 1 * valorMax / divisiones) {
+    // color rojo
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 0;
+  } else if (valorPot < 2 * valorMax / divisiones) {
+    // color amarillo
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 1;
+  } else if (valorPot < 3 * valorMax / divisiones) {
+    // color verde
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 2;
+  } else if (valorPot < 4 * valorMax / divisiones) {
+    // color cyan
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 3;
+  } else if (valorPot < 5 * valorMax / divisiones) {
+    // color azul
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 4;
+  } else {
+    // color magenta
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 5;
+  }
+
+  // ahora podemos comparar estadoActual y estadoAnterior
+
+  if (estadoAnterior != estadoActual) {
+    Serial.print("nuevo estado: ");
+    Serial.println(estadoActual);
+  }
+}
+```
+### Video de cómo se ve
+https://github.com/thiangie/dis145/assets/100184098/35074195-5898-4d95-8c18-4512b9b27ddb
+
+### Semana 13
+Se agregó un segundo potenciómetro conectado a un buzzer para ver cómo se podría llevar hacer que los valores de un potenciometro dependiesen de uno principal.
+```C++
+
+
+/* 06 de junio, 2024
+clase 12
+thiare gonzalez
+versión 1
+conectar led rgb a un arduino uno
+*/
+
+
+
+// definir los leds asociado a cada pin en el arduino
+#define ledRojo 11
+#define ledVerde 10
+#define ledAzul 9
+
+// patita del potenciometro de LED
+int pinPotLED = A0;
+// valor de lectura el potenciómetro
+long valorPotLED;
+
+// valores maximos y minimos de potenciometro LED
+int valorMin = 0;
+int valorMax = 1023;
+
+int divisiones = 6;
+int tamanoDivision;
+
+int estadoActual;
+int estadoAnterior;
+
+int tiempoPausa = 500;
+
+
+// definir el pin del buzzer en el arduino
+//#define pinBuzzer 2
+const int pinBuzzer=2;
+
+// patita potenciometro buzzer
+int pinPotBUZ = A1;
+// valor lectura potenciometro buzzer
+int valorPotBUZ;
+
+// intervalos de valores para cada color
+// color rojo
+int valorMinROJO = 400;
+int valorMaxROJO = 484;
+// color amarillo
+int valorMinAMA = 508;
+int valorMaxAMA = 526;
+// color verde
+int valorMinVER = 527;
+int valorMaxVER = 606;
+// color cyan
+int valorMinCYAN = 607;
+int valorMaxCYAN = 630;
+// color azul
+int valorMinAZUL = 631;
+int valorMaxAZUL = 668;
+// color magenta
+int valorMinMAG = 669;
+int valorMaxMAG = 789;
+
+
+void setup() {
+  // registrar los leds del led rgb como salida
+  pinMode(ledRojo, OUTPUT);
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledAzul, OUTPUT);
+  // registrar el buzz como salida
+  pinMode(pinBuzzer, OUTPUT);
+  // registrar los potenciometros como entrada
+  pinMode(valorPotLED, INPUT);
+  pinMode(valorPotBUZ, INPUT);
+  Serial.begin(9600);
+
+  // revisar map(valor, 0, 1023, 0, 5);
+  tamanoDivision = 1023 / (divisiones - 1);
+}
+
+void loop() {
+
+  // leer y refrescar valor actual
+  valorPotLED = analogRead(pinPotLED);
+  // leer los valores del potenciometro del buzzer
+  valorPotBUZ = analogRead(pinPotBUZ);
+
+  // antes de refrescar el estadoActual
+  // tomamos su valor y lo almacenamos
+  // en estadoAnterior
+  estadoAnterior = estadoActual;
+
+  if (valorPotLED < 1 * valorMax / divisiones) {
+    // color rojo
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 0;
+  } else if (valorPotLED < 2 * valorMax / divisiones) {
+    // color amarillo
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 1;
+  } else if (valorPotLED < 3 * valorMax / divisiones) {
+    // color verde
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, LOW);
+    delay(tiempoPausa);
+    estadoActual = 2;
+  } else if (valorPotLED < 4 * valorMax / divisiones) {
+    // color cyan
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 3;
+  } else if (valorPotLED < 5 * valorMax / divisiones) {
+    // color azul
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 4;
+  } else {
+    // color magenta
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAzul, HIGH);
+    delay(tiempoPausa);
+    estadoActual = 5;
+  }
+
+  // ahora podemos comparar estadoActual y estadoAnterior
+
+  if (estadoAnterior != estadoActual) {
+    Serial.print("nuevo estado: ");
+    Serial.println(estadoActual);
+  }
+
+  // lectura de los valores de potenciometro
+  if (estadoActual == 0) {
+    //int frecuencia = map(valorPotBUZ, 0, 1023, valorMinROJO, valorMaxROJO);
+    tone(pinBuzzer, 1000);
+    delay(500);
+  }
+
+  if (estadoActual == 1) {
+    //int frecuencia = map(valorPotBUZ, 0, 1023, valorMinAMA, valorMaxAMA);
+    tone(pinBuzzer, 1500);
+    delay(500);
+  }
+
+  if (estadoActual == 2) {
+    //int frecuencia = map(valorPotBUZ, 0, 1023, valorMinVER, valorMaxVER);
+    digitalWrite(pinBuzzer, HIGH);
+    tone(pinBuzzer, 2000);
+    delay(500);
+  }
+
+  if (estadoActual == 3) {
+    long frecuencia = map(valorPotBUZ, 0, 1023, valorMinCYAN, valorMaxCYAN);
+    tone(pinBuzzer, frecuencia);
+    delay(500);
+  }
+
+  if (estadoActual == 4) {
+    long frecuencia = map(valorPotBUZ, 0, 1023, valorMinAZUL, valorMaxAZUL);
+    tone(pinBuzzer, frecuencia);
+    delay(500);
+  }
+
+  if (estadoActual == 5) {
+    long frecuencia = map(valorPotBUZ, 0, 1023, valorMinMAG, valorMaxMAG);
+    tone(pinBuzzer, frecuencia);
+    delay(500);
+  }
+  
+
+}
+```
 
 
 # Traspaso del código de Arduino a Processing
