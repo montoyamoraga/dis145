@@ -1,5 +1,7 @@
 # **PROYECTO FINAL DIS145**
 
+Free - All Right Now
+
 # **ABSTRACT**
 
 El desperdicio de alimentos es un problema global con consecuencias ambientales y económicas significativas. Según la FAO, un tercio de los alimentos producidos para el consumo humano se pierden o desperdician cada año, mayoritariamente en los hogares. Para abordar este problema, se propone un sistema inteligente de monitoreo de alimentos utilizando sensores que detectan su estado y urgencia de consumo. Este dispositivo, que emplea sensores de gas (MQ2) y de humedad y temperatura (DHT11), proporciona información en tiempo real para reducir el desperdicio alimentario, fomentar la economía circular y estimular el compostaje. Además, puede integrarse con aplicaciones móviles para compartir alimentos y gestionar residuos orgánicos.
@@ -15,8 +17,7 @@ En base a lo planteado el objetivo principal es desarrollar un dispositivo que s
 
 
 
-https://github.com/SrYuyo/dis145/assets/103392227/66b00bed-44f9-4917-a6fd-fdb03505ed17 
-
+https://github.com/SrYuyo/dis145/blob/main/estudiantes/SrYuyo/clase-15/Video%20publicitario.mp4
 
 
 # **COMPONENTES UTILIZADOS**
@@ -70,6 +71,12 @@ A pesar de dificultades técnicas, se exploraron técnicas de filtrado de datos 
 #### Semana 11: Conexión y Diseño de Interfaz
 
 Se avanzó en la conexión entre Arduino y Processing, crucial para la transmisión de datos desde los sensores al entorno de visualización en la computadora. Se enfatizó la importancia de definir correctamente las variables de los sensores y aplicar filtros para facilitar la manipulación y visualización de los datos. Se planteó la necesidad de establecer un modelo 3D para el dispositivo y distribuir eficazmente los componentes.
+
+![Imagen de WhatsApp 2024-06-27 a las 15 32 02_d4063b22](https://github.com/SrYuyo/dis145/assets/103392227/d7b6daa9-7ddc-438b-9d3f-6d584a5db07d)
+
+![Imagen de WhatsApp 2024-06-27 a las 15 32 09_2e8c8c91](https://github.com/SrYuyo/dis145/assets/103392227/c37dcbde-d676-47e2-ab1c-d5c14bac7fa4)
+
+
 
 #### Semana 12: Iteraciones del Código
 
