@@ -1,3 +1,4 @@
+```cpp
 
 //Codigo creado por Martin Gonzalez Marin
 //24/06/2024
@@ -34,3 +35,5 @@ void loop() {
     motor.step(pasoRev / 100);
   }
 }
+
+```
