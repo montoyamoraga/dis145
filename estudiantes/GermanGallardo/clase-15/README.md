@@ -117,7 +117,9 @@ void loop() {
 ## Linea temporal 
 1. En la clase 8 comenzamos el proyecto definiendo que seria nuestro proyecto, definiendo en una frase este, cual sería nuestros materiales a conseguir y viendo referentes para nuestra idea en mi caso me faltaba un motor vibrador y el sensor. 
 1. las clases 9 y 10 no asistí (o no anote) a clases sin embargo esos días me logre conseguir el sensor y el motor
-1. En la clase 11 ya con mis materiales empecé a conocer el sensor y a jugar con el en tinkercad ya que descubrí que mi Arduino dejo de funcionar (yo pensaba que era mi computador  lo logre hacer funcionar pero no como yo quería, cabe destacar que en este punto mi proyecto era otro sin embargo muy similar a este ya que seria un wearable que iría pegado en la espalda 
+1. En la clase 11 ya con mis materiales empecé a conocer el sensor y a jugar con el en tinkercad ya que descubrí que mi Arduino dejo de funcionar (yo pensaba que era mi computador  lo logre hacer funcionar pero no como yo quería, cabe destacar que en este punto mi proyecto era otro sin embargo muy similar a este ya que seria un wearable que iría pegado en la espalda
+   ![image](https://github.com/GermanGallardo/dis145/assets/164402341/5a68614d-e178-4cdb-bde3-389847606c88)
+
   1. Clase 12  en esta clase pense en pedir un arduino al fablab pero lamentablemnte no tenian  asi que decidi avanzar con el codigo aprendi más como fuuncionaba el sensor como calculaba la distancia este y viendo videos de como poder entenderlo mejor esto me ayudo bastante a que la clase siguiente pudiera avanzar muy bien.
 En esta clase le comente al profesor mi situación y me hizo trabajar con josefina, en su proyecto donde compartimos ideas y soluciones a ciertos problemas.
 . Aparte en esta clase empecé a pensar que tal si esto era un dispositivo que se ocupaba en una silla.
@@ -125,6 +127,11 @@ En esta clase le comente al profesor mi situación y me hizo trabajar con josefi
 
 1. Clase 13 Finalmente con todos mis materiales opte por cambiar la finalidad de mi proyecto 
 Cambie el motor vibrador por el buzzer y empezar a probar en físico lo trabajado en clases anteriores y empezando a jugar con la distancia de sensor y el buzzer el código funciono bien, quería añadir algo final así que me decidí por led(si bien en el proyecto no resaltan mi idea es que en el proyecto final estas fueran luces más potentes cosa de que pudieran ver la luz en la pared) en esta clase estuve ayudando a Thiare con el buzzer también y empiece a imaginar como seria) haciendo un modelo 3d básico
+![WhatsApp Image 2024-06-06 at 17 35 10](https://github.com/GermanGallardo/dis145/assets/164402341/64591e15-2407-41aa-bb6d-80dedf9a6e24)
+
+
+https://github.com/GermanGallardo/dis145/assets/164402341/c06b9d2a-a6b4-40f9-9904-192416104a07
+
 
 
 
