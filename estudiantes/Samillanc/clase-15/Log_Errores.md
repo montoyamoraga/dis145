@@ -1,7 +1,7 @@
  ## Log de Errores y Soluciones
 
 ### Errores en la Impresión
-
+```markdown
 1. **Soportes de árbol en vez de lineal, con mucha densidad de relleno**
    - **Problema:** Los soportes de árbol tenían demasiada densidad de relleno, lo que los hacía difíciles de quitar.
    - **Solución:** Cambiar los soportes a lineales y reducir la densidad del relleno para facilitar su remoción.
