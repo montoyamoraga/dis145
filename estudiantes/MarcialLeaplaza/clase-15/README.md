@@ -19,7 +19,9 @@ Me ayudo mucho para entender mejor cómo comunicarme con el teclado usando difer
 # @montoyamoraga
 
 Me presto su teclado keystep :)
+
 Además, me enseño a controlarlo y a ver como transmite informacion a travez del software MIDI Control Center.
+
 <img width="1279" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/a8955830-2237-4d11-8685-8b9a2052c008">
 
 Lo mas importante es que siempre me ayudo a mantener la cabeza fría y e ayudo a ser prudente con los avances y las referencias que iba encontrando.
@@ -27,6 +29,8 @@ Lo mas importante es que siempre me ayudo a mantener la cabeza fría y e ayudo a
 # NAudio: 
 
 Es la [libreria](< https://github.com/naudio/NAudio>) que termine usando para conectarme al teclado.
+
+Esta librería no tiene mucha documentación especifica para MIDI en grasshopper, pero hay una comunidad pequeña (pero muy entuciasta) de gente en foros de stackoverflow cuyos hilos de discusion fueron muy útiles para entender de donde venían los problemas que estaba teniendo.
 
 # Codigo
 
