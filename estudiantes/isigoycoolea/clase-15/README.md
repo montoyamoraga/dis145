@@ -19,7 +19,7 @@ _Ayudante: Janis Sepulveda_
 > [!NOTE]
 > Terminé desarrollando la cámara web.
 
-## CÁMARA WEB :video_camera:
+# Cámara Web :video_camera:
 Decidí hacer una cámara de video que se conecta a una computadora a través de un puerto USB, para transmitir imágenes en tiempo real.
 Inicialmente, el proyecto se centró en explorar el funcionamiento de una cámara estenopeica. Sin embargo, debido a las dificultades para implementarlo con conexiones y Arduino, me surgió la necesidad de cambiar de enfoque. La transición hacia la creación de una cámara web utilizando el módulo OV7670 y Arduino Nano 33 BLE implicó resolver varios desafíos técnicos, como configurar correctamente las conexiones físicas y la comunicación entre la cámara y la computadora. Esto incluyó el uso del complemento "ArduImageCapture" de Arduino IDE para capturar imágenes en la computadora desde el módulo de cámara.
 
