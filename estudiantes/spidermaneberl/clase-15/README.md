@@ -16,6 +16,8 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/4170bbd0-6877-4307-931
 
 ⮞Referentes..
 
+⮞Orden por semanas
+
 
 - (semana 11) En primer lugar me dedique a buscar información, es ahí donde se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
 
