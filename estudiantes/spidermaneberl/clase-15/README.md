@@ -1,4 +1,4 @@
-## Proyecto: aa
+## Proyecto: SN
 ## Definición de la temática de investigación: 
 ⮞¿Qué es el proyecto?
 El proyecto es la unión por parte del usuario sobre la música con una representación visual, lo cual tiene como objetivo principal generar una conexión del espectador hacia lo proyectado. Se busca que el ser experimente el proyecto y logre conectarse no solo con la música generada, sino también con una figura visual compuesta por líneas y puntos creada por los mismos sonidos. Estas líneas pueden variar dependiendo de los diferentes inputs que se vayan agregando, logrando así una representación más variada y completa.
@@ -46,15 +46,19 @@ Mediante Suno, IA dedicada a crear musica, salieron las primeras canciones, pero
 
 https://github.com/Spidermaneberl/dis145/assets/164402625/b1a24264-0926-4188-aa2f-afe69c87a235
 
-
 https://github.com/Spidermaneberl/dis145/assets/164402625/5b24b840-b608-4f19-a4b6-ae3b070ce80c
 
-
-
-
-- (semana 14)
-- (semana 15)
+- (semana 14) Si bien el avance no fue el ideal, en esta semana logré encontrar una canción, mediante Suno, que me gustara y mucho. Logré ordenar más los bloques del trabajo y entender mas su funcionalidad. 
+- (semana 15) Ya la semana de la presentación me dedique a crear el Github y a limpiar partes del trabajo, agregando colores y pensar en la presentación del proyecto.
+(demostracion trabajo)
 
 ## fuentes y citas
+⮞ Youtube: 
+- Bileam tschepe @elekktronaut
+- Acrylicode @acrylicode
+- Pao Olea @pao_olea
+⮞Paginas web:
+-Info: TOUCHDESIGNER BY DERIVATIVE
+-Musica: Suno
 
 ## conclusion 
