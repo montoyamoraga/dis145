@@ -1,6 +1,7 @@
-# Lista de Materiales (BOM)
+## Lista de Materiales (BOM)
 
-## Materiales
+```markdown
+# Materiales
 
 - Filamento PLA+ (aproximadamente 400 gramos).
 - Tornillo M3 x 8mm (14x).
@@ -9,7 +10,7 @@
 - Super pegamento de contacto.
 - Tyraps (20x).
 
-## Eléctrico
+# Eléctrico
 
 - Arduino Uno R3 (1x)
 - Motor paso a paso S28BYJ-48 5v (1x)
@@ -24,7 +25,7 @@
 - Cable de energía para Arduino de 5V.
 - Cable de conexión USB-B a USB-A.
 
-### Software
+# Software
 
 - Arduino IDE (para cargar el código)
 - Autodesk Photo Recap, Agisoft Metashape o Meshroom (para crear el modelo 3D a partir del modelo escaneado)
