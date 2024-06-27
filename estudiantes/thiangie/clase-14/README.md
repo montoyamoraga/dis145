@@ -37,9 +37,9 @@ void loop() {
   valorPotDos = analogRead(pinPotDos);
 
   // imprimir valores en el comunicador serial de forma que se ingrese como "uno"
-  Serial.print(valorPotLED);
+  Serial.print(valorPotUno);
   Serial.print(",");
-  Serial.println(valorPotBUZ);
+  Serial.println(valorPotDos);
 
   delay(100); // tiempo de espera
 }
