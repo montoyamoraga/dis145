@@ -288,4 +288,4 @@ aquí adjunto un boceto de lo que podría llegar a ser el susodicho dispositivo.
 ![CascoTrasero](https://github.com/pedrolegarraga1/dis145/assets/164402475/20a51a28-fbb7-462c-a683-64ef791706b5)
 
 
-Al ser un prototipo puede llegar a tener diferentes formas 
+Al ser un prototipo puede llegar a tener diferentes formas e interacciones. Por esto mismo los dejo invitados a utilizar esta base e información y así crear un dispositivo señalético práctico y eficiente para ciclistas, mejorando la seguridad y visibilidad en las calles.
