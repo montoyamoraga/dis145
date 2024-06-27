@@ -1,5 +1,7 @@
 # clase-09
 
+Heroes-David Bowie
+
 # Filtrado de Datos Obtenidos de Sensores con Arduino
 
 El filtrado de datos obtenidos de sensores conectados a una placa Arduino es un proceso crucial para mejorar la precisión y confiabilidad de las mediciones. Los sensores suelen captar ruido y variaciones indeseadas que pueden afectar la calidad de los datos. Implementar técnicas de filtrado ayuda a mitigar estos problemas y obtener lecturas más precisas.
