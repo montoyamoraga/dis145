@@ -70,7 +70,7 @@ Semana 13 (6 de junio)
 
 ## Fuentes y Citas
 
-El desarrollo de todo el proyecto es de trabajo personal. 
+Referente para la electronica y código: https://www.youtube.com/watch?v=O2LWTBfQ26s&t=201s
 
 ## Conclusiones de investigación
 
