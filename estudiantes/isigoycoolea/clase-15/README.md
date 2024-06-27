@@ -83,10 +83,15 @@ Cambié demasiado de idea, me costó demasiado decidirme.
 > [!TIP]
 > NO DEJEN LO MÁS IMPORTANTE PARA EL FINAL.
 ### Como quedo finalmente :scream:
-![1](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/1.jpeg
-) 
+![1](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/1.jpeg) 
 
 ![3](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/3.jpeg) 
+
+![8](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/8.jpeg) 
+
+![9](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/9.jpeg) 
+
+![10](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/10.jpeg) 
 
 
 aspectos formales
