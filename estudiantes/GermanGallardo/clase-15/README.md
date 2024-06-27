@@ -129,7 +129,9 @@ Cambie el motor vibrador por el buzzer y empezar a probar en físico lo trabajad
 
 
 ## Fuentes Y citas
-
+https://github.com/naylampmechatronics/Examples_HC-SR04/tree/master
+https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html
+https://mecabot-ula.org/tutoriales/arduino/practica-30-encender-y-apagar-varios-led-dependiendo-de-la-distancia-que-mida-un-sensor-de-ultrasonido-hc-sr04/
 ## Conclusiones de la investigación
 
 En conclusión el trabajo 
