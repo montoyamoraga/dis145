@@ -32,7 +32,7 @@ https://github.com/Spidermaneberl/dis145/assets/164402625/964e59b4-125f-48fd-917
 ⮞Orden por semanas
 
 
-- (semana 11) En primer lugar me dedique a buscar información, es ahí donde se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
+- (semana 11) En primer lugar me dedique a buscar información y crear un proyecto que logre controlar imagenes por el cambio mio de la musica , despues de buscar la informacion adecuada se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
 
 ![image](https://github.com/Spidermaneberl/dis145/assets/164402625/dfbf3d96-b347-48bb-b6aa-142d5ab6e663)
 (Primera imagen de la figura)
