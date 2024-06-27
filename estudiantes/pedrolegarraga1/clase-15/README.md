@@ -1,4 +1,4 @@
-# clase 14
+# clase Final
 
 dado el problema que tuvimos la clase n13 retomamos el codigo y comenzamos a analizarlo para poder lograr nuestro objetivo prender dos luces led con diferentes anngulos de inclinación.  
 
