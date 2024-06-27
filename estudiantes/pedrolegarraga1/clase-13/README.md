@@ -268,7 +268,20 @@ Ya con el codigo funcionando le añadimos algunos extras como un delay a las luc
 ```
 y nos pusimos a experimentar añadiendole más luces al circuito para asi poder lograr formar una flecha o algo parecido. Nos dimos cuenta de que no era necesario seguir editando el codigo sino que crear una cadena con columnas de leds y las mismas conectarlas como si fuera una sola.
 
-el 
+![FlechaLed](https://github.com/pedrolegarraga1/dis145/assets/164402475/87df5afb-15fd-4c77-bdfc-a1c754a766a1)
+
+# conclusión
+El corazón del proyecto quedó funcionando dado que logramos crear con un sensor MPU6050 (accelerometro y giroscopio), luces led, una protoboard, cables y una placa arduino un proyecto en donde al girar hacia la derecha varias luces se enciendan por un corto tiempo y luego, al girar hacia la izquierda se enciendan las luces del otro lado.  
+
+Eso tiene como funcion ser un dispositivo señaletico para la gente que no quiera quitar sus manos del manillar al transitar por la calle y que lo puedan hacer con la cabeza.  
 
 
 
+![LeyendaCasco](https://github.com/pedrolegarraga1/dis145/assets/164402475/3d74bbf1-feb9-4faf-8b43-519071e42a7d)  
+
+
+![CascoLateral](https://github.com/pedrolegarraga1/dis145/assets/164402475/c41025a1-6e8f-4d3a-9d56-fac47673b490)
+
+![CascoFrontal](https://github.com/pedrolegarraga1/dis145/assets/164402475/9db4ac2f-a8a7-4f28-ac9d-1a2a2fe951a1)
+
+![CascoTrasero](https://github.com/pedrolegarraga1/dis145/assets/164402475/20a51a28-fbb7-462c-a683-64ef791706b5)
