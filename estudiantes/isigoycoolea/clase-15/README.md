@@ -45,21 +45,28 @@ Imágenes sacadas de la página "https://circuitjournal.com/arduino-OV7670-to-pc
 
 
 
-2. Comencé con el proceso de diseño, intenté hacer la cámara con corte láser de este estilo
+2. Comencé con el proceso de diseño, intenté hacer la cámara con corte láser de este tipo:
+   
 ![cámara woodsum](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/c%C3%A1mara%20woodsum.jpg) 
-![Proceso en MDF](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-12/proceso%20en%20mdf%201.jpeg)
-
-pero me dí cuenta que como no iba a usar una pantalla sino que la imágen se visualizara al computador era más lógico diseñarlo al estilo de cámara web y con impresión 3D
-
-![foto computador impresión 3D](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/camara%201.jpeg) 
 
 
-pero hice mal las medidas y no cabían los componentes, así que cambié el diseño.
-
-![cámara 2](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/camara%202.jpeg) 
-![cámara 2.1](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/camara%202.1.jpeg) 
+![Proceso en MDF](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/2.jpeg)
 
 
+Pero me dí cuenta que como no iba a usar una pantalla sino que la imágen se visualizara al computador era más lógico diseñarlo al estilo de cámara web y con impresión 3D
+
+![foto computador impresión 3D](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/5.jpeg) 
+
+
+Pero no me gustó el diseño porque era el típico de las webcam.
+Así que busqué inspiración e hice otro diseño un poco más distitno.
+
+
+![6](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/6.jpeg) 
+
+![7](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/7.jpeg) 
+
+![4](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/4.jpeg) 
 
 
 3. Dejé muy para el final el código porque pensaba lo tenía listo para llegar y usar, pero me dí cuenta que como cambie el arduíno a arduíno nano el código me mando muchos errores que aún sigo sin entenderlos.
@@ -76,6 +83,10 @@ Cambié demasiado de idea, me costó demasiado decidirme.
 > [!TIP]
 > NO DEJEN LO MÁS IMPORTANTE PARA EL FINAL.
 ### Como quedo finalmente :scream:
+![1](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/1.jpeg
+) 
+
+![3](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/3.jpeg) 
 
 
 aspectos formales
