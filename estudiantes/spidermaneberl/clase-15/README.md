@@ -1,4 +1,5 @@
-## Proyecto: T🌐TI
+27.06.2024
+
 DISEÑO Y CONSTRUCCIÓN DE INTERFACES 
 
 UNIVERSIDAD ADOLFO IBAÑEZ
@@ -7,7 +8,7 @@ PROFESOR: AARON MONTOYA
 
 AYUDANTE: JANIS SEPULVEDA
 
-27.06.2024
+## Proyecto: T🌐TI
 
 ## Definición de la temática de investigación: 
 ⮞¿Qué es el proyecto?
