@@ -1,3 +1,4 @@
+## Ajustes Impresión 3D
 ```markdown
 ### Cuerpo
 - Altura de capa: 0.3mm
