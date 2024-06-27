@@ -1,7 +1,7 @@
- ## Log de Errores y Soluciones
+### Log de Errores y Soluciones
 
-### Errores/Soluciones en la Impresión
-```markdown
+## Errores/Soluciones en la Impresión
+
 1. **Soportes de árbol en vez de lineal, con mucha densidad de relleno**
    - **Problema:** Los soportes de árbol tenían demasiada densidad de relleno, lo que los hacía difíciles de quitar.
    - **Solución:** Cambiar los soportes a lineales y reducir la densidad del relleno para facilitar su remoción.
@@ -22,7 +22,7 @@
    - **Problema:** Los soportes impedían hacer los agujeros para los tornillos M2 de los componentes.
    - **Solución:** Utilizar silicona caliente y superpegamento para fijar los componentes en lugar de los tornillos.
 
-### Errores/Soluciones en el Hardware
+## Errores/Soluciones en el hardware
 
 1. **Botón de Bluetooth no funcionaba**
    - **Problema:** La distancia entre el servo y el control era excesiva, y el primer control estaba defectuoso y no capturaba fotos.
