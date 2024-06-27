@@ -38,4 +38,12 @@
 - Relleno: 20%
 - Número de capas inferior y superior: 4
 - Velocidad: 70mm/s
-- Tiempo de impresión: +/- 1.5 horas
+- Tiempo de impresión: +/- 1,5 horas
+
+### Disco
+- Altura de capa: 0.3mm
+- Número de líneas: 4
+- Relleno: 20%
+- Número de capas inferior y superior: 4
+- Velocidad: 50mm/s
+- Tiempo de impresión: +/- 1,5 horas
