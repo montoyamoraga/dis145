@@ -1,6 +1,4 @@
-# **Entrega Final**
-
-## CÁMARA WEB :video_camera:
+# **Entrega Final** 	:electric_plug:
 
 _Exámen Diseño y construcción de Interfaces_
 
@@ -12,8 +10,16 @@ _Docente: Aaron Montoya_
 
 _Ayudante: Janis Sepulveda_
 
+## Elección del tema:
+1. Definición de la idea: Me costó demasiado definir la idea y llevarla a cabo.
+ - Idea A: chaqueta de tela lisa, pero que mediante arduino y materiales eléctricos se genera textura arrugándose creando una superficie.
+ - Idea B: hacer una cámara estenopeica 
+ - Idea C: cámara digital
+ - Idea D: cámara web
+> [!NOTE]
+> Terminé desarrollando la cámara web.
 
-## Presentación :wave:
+## CÁMARA WEB :video_camera:
 Decidí hacer una cámara de video que se conecta a una computadora a través de un puerto USB, para transmitir imágenes en tiempo real.
 Inicialmente, el proyecto se centró en explorar el funcionamiento de una cámara estenopeica. Sin embargo, debido a las dificultades para implementarlo con conexiones y Arduino, me surgió la necesidad de cambiar de enfoque. La transición hacia la creación de una cámara web utilizando el módulo OV7670 y Arduino Nano 33 BLE implicó resolver varios desafíos técnicos, como configurar correctamente las conexiones físicas y la comunicación entre la cámara y la computadora. Esto incluyó el uso del complemento "ArduImageCapture" de Arduino IDE para capturar imágenes en la computadora desde el módulo de cámara.
 
@@ -33,19 +39,9 @@ Imágenes sacadas de la página "https://circuitjournal.com/arduino-OV7670-to-pc
  - https://www.youtube.com/watch?v=pgSvtymcNq4
  - https://github.com/hpssjellis/my-examples-of-edge-impulse/blob/main/OV7670-Camera/default-ov767x/rawbytes.ino
 
-## Documentación
-1. Definición de la idea: Me costó demasiado definir la idea y llevarla a cabo.
- - Idea A: chaqueta de tela lisa, pero que mediante arduino y materiales eléctricos se genera textura arrugándose creando una superficie.
- - Idea B: hacer una cámara estenopeica 
- - Idea C: cámara digital
- - Idea D: cámara web
-> [!NOTE]
-> Terminé desarrollando la cámara web.
+## Proceso
 
-
-
-
-2. Comencé con el proceso de diseño, intenté hacer la cámara con corte láser de este tipo:
+Comencé con el proceso de diseño, intenté hacer la cámara con corte láser de este tipo:
    
 ![cámara woodsum](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/c%C3%A1mara%20woodsum.jpg) 
 
@@ -68,7 +64,7 @@ Pero no me gustó el diseño porque era el típico de las webcam comerciales. As
 ![4](https://github.com/isigoycoolea/dis145/blob/main/estudiantes/isigoycoolea/clase-15/4.jpeg) 
 
 
-3. Dejé muy para el final el código porque pensaba lo tenía listo para llegar y usar, pero me dí cuenta que como cambie el arduíno a arduíno nano el código me mando muchos errores que aún sigo sin entender por qué no funciona.
+Dejé muy para el final el código porque pensaba lo tenía listo para llegar y usar, pero me dí cuenta que como cambie el arduíno a arduíno nano el código me mando muchos errores que aún sigo sin entender por qué no funciona.
 
 ## Código y descripción
 ### Código:
