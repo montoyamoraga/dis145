@@ -188,5 +188,87 @@ por lo mismo este será el desafío de la siguiente clase!
 
 Clase n14!
 
+# clase 14
+
+dado el problema que tuvimos la clase n13 retomamos el codigo y comenzamos a analizarlo para poder lograr nuestro objetivo prender dos luces led con diferentes anngulos de inclinación.  
+
+Para esto cambiamos un poco el codigo, lo limpiamos y lo adaptamos a nuestra manera de trabajar por ejemplo, eliminamos todas las lineas que nos sobraban acordes a los ejes X y Z dado que trabajamos con el eje Y. Ya con el codigo limpio le añadimos algunos ajustes como pueden ser el cambio de delay para trabajar mas acorde con el monitor serial y poder configurar el grado de angulacion necesario.  
+
+Ya con esto comenzamos a intervenir aún más, añadimos una led en el puerto 12 para luego asignarle un grado de inclinación y que se encienda hacia el lado contrario de la otra led. Esto tambien lo hicimos la clase n13 y fue donde tuvimos problemas por lo que en esta instancia cambiamos las lineas asociadas a Void Loop que es donde ocurría el problema. Pasamos de tener una dinamica simple (si el grado es x, se enciende la luz) a una dinamica un poco más compleja (si el grado de inclinación es x, luz 1 se enciende y luz 2 se apaga, luego, lo mismo del otro lado y finalizamos con una linea neutral donde las dos luces se apagan).
+
+Aqui podemos ver el codigo de la clase n13 limpio y con los cambios mencionados anteriormente.  
+```cpp
+#include "Wire.h"       
+#include "I2Cdev.h"     
+#include "MPU6050.h"    
+
+MPU6050 mpu;
+int16_t ax, ay, az;
+int16_t gx, gy, gz;
+
+struct MyData {
+  byte X;
+  byte Y;
+};
+
+MyData data;
+
+void setup()
+{
+  Serial.begin(115200);
+  Wire.begin();
+  mpu.initialize();
+
+  pinMode(13, OUTPUT);
+  //añadimos una nueva LED
+  pinMode(12, OUTPUT);
+}
+
+void loop()
+{
+  mpu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
+
+  data.Y = map(ay, -17000, 17000, 0, 255);  // Y axis data
+  delay(250);
+
+  Serial.print("Axis Y = ");
+  Serial.println(data.Y);
+
+    if (data.Y > 180) {
+    // Inclinación hacia la derecha
+    digitalWrite(12, HIGH);
+    digitalWrite(13, LOW);
+
+     } else if (data.Y < 40) {
+    // Inclinación hacia la izquierda
+    digitalWrite(13, HIGH);
+    digitalWrite(12, LOW);
+  } else {
+    // No hay inclinación significativa
+    digitalWrite(13, LOW);
+    digitalWrite(12, LOW);
+  }
+  }
+
+```
+Con esto listo, conectamos la protoboard, luces led, el sensor y la placa arduino para verificar como estaba funcionando.
+
+
+
+https://github.com/pedrolegarraga1/dis145/assets/164402475/7c4e099b-2054-4a5e-8ab3-fcbb60acabcd
+
+
+
+Ya con el codigo funcionando le añadimos algunos extras como un delay a las luces para que estas no se apaguen al instante
+```cpp
+    //delay para que la luz se quede encendida un cierto tiempo
+  digitalWrite(12, HIGH);
+    delay(2000);
+   digitalWrite(13, LOW);
+```
+y nos pusimos a experimentar añadiendole más luces al circuito para asi poder lograr formar una flecha o algo parecido. Nos dimos cuenta de que no era necesario seguir editando el codigo sino que crear una cadena con columnas de leds y las mismas conectarlas como si fuera una sola.
+
+el 
+
 
 
