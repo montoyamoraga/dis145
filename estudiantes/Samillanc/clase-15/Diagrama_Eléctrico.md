@@ -1,5 +1,9 @@
 ## Referencia Gráfica Diagrama 
+![Diagrama](https://github.com/Samillanc/dis145/blob/main/estudiantes/Samillanc/clase-15/Diagrama.jpg)
 
+Para la realización del esquema eléctrico se tomo en consideración el diagrama original publicado por el referente; obviando el potencionemtro y regulador de voltaje step down DC-DC Lm2596 que fueron eliminados en este esquema de conexión de cables para el escaner 3D de fotogrametria del proyecto final.
+
+**_Gráfico extraido y citado en Mayo del 2024 desde bbprojects, por el autor de las referencias Bribro12._**
 ## Diagrama Eléctrico
 
 ```markdown
@@ -32,5 +36,3 @@
 # Conexiones del PCB (Placa de Circuito Impreso):
 - Fuente de 5V del PCB -> 5V del Arduino.
 - GND del PCB -> GND del Arduino.
-
-Para la realización del esquema eléctrico se tomo en consideración el diagrama original publicado por el referente; obviando el potencionemtro y regulador de voltaje step down DC-DC Lm2596 que fueron eliminados en este esquema de conexión de cables para el escaner 3D de fotogrametria del proyecto final.
