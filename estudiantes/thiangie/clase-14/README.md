@@ -43,7 +43,7 @@ void loop() {
   Serial.print(",");
   Serial.println(valorPotDos);
 
-  delay(100); // tiempo de espera
+  delay(100); // tiempo de espera para lectura
 }
 ```
 ### Código en Processing
@@ -161,3 +161,47 @@ void serialEvent(Serial myPort) {
 
 https://github.com/thiangie/dis145/assets/100184098/23438ae9-6347-4688-9dce-5e453d1c521d
 
+## Segunda instancia, agregar animaciones para cada emocion
+En esta instancia, debido a que no se pudieron encontrar sonidos más melódicos para las emociones más suaves, como la felicidad, tranquilidad y amor, se pensaron en qué emociones proyectaba cada frecuencia, terminado siendo negativas.
+
+El código de arduino se mantiene, ya que ahora lo que hay que editar es cómo se proyecta en processing.
+
+### Nuevo código en processing
+Nuevos parámetros para cada animación
+
+```C++
+// importar las bibliotecas para que se comunique el arduino con processing a través del monitor serial
+import processing.serial.*;
+
+// biblioteca para crear sonidos a través de ondas
+import ddf.minim.*;
+import ddf.minim.ugens.*;
+
+// puerto que se utilizará 
+Serial myPort;
+
+// variables que darán los resultados de las variables en arduino
+int val1, val2;
+Minim minim;
+AudioOutput out;
+
+// variable para la creación de ondas con el comando de minim
+Oscil osc1, osc2;
+
+// parámetros para el gradiente para hacer el display de la emoción RABIA
+float amplitude = 70;
+float fillGap = 50;
+
+// parámetros para crear la geometría de ANSIEDAD
+int x;
+int y;
+float outsideRadius = 175;
+float insideRadius = 100;
+
+// parámetros para los círculos de DISOCIACIÓN
+float diameter;
+float angle = 0;
+
+// parámetros para la sensación de VACÍO
+float yoff = 0.0;
+```
