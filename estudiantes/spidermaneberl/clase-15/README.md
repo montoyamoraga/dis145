@@ -11,12 +11,12 @@ El proyecto es la unión por parte del usuario sobre la música con una represen
 
 https://github.com/Spidermaneberl/dis145/assets/164402625/4170bbd0-6877-4307-9314-fc1e244c2227
 
-## Proceso:
+## Proceso/Mi linea temporal 
 ⮞Si hacemos un viaje al pasado, llegamos al inicio del proyecto en el cual existían dudas de por dónde empezar, como hacer y lo más importante para mí lo cual era que me llama la atención hacer.
 
-⮞Referentes
+⮞Referentes..
 
-Mi linea temporal:
+
 - (semana 11) En primer lugar me dedique a buscar información, es ahí donde se logró entender mas el funcionamiento de TouchDesigner, me surgieron también dudas de donde importar un sonido principal y una figura central.
 
 ![image](https://github.com/Spidermaneberl/dis145/assets/164402625/dfbf3d96-b347-48bb-b6aa-142d5ab6e663)
