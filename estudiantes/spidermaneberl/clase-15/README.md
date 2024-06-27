@@ -79,13 +79,13 @@ Cerrar un proyecto que me tenia muy entusiasmado, lograr entender de forma basta
 Gran error principal es no tener la constancia de subir procesos a pesar de si tener avances.
 Querer lograr varios objetivos. Me costó aterrizar la idea a algo concreto.
 
--¿Qué cosas funcionaron y que no?
+- ¿Qué cosas funcionaron y que no?
 Funcionamiento que la música mueva y genera figuras.
 No funcionó el ejercicio de yo mover los niveles de la música y que esto genere figuras.
 
--¿Qué dudas tengo?
+- ¿Qué dudas tengo?
 La gran duda que me quedó y que espero resolver es si puedo, con instrumentos externos poder generar la música y que dependiendo de los sonidos se generen imágenes relacionadas a esto. 
 
--¿Cómo este proyecto influye mi practica en diseño?
+- ¿Cómo este proyecto influye mi practica en diseño?
 A mi parecer el proyecto se destaca en varios puntos, sin embargo, lo que más destaco es el trabajo individual y el lograr tener un avance regular y tener la satisfacción de lograr un objetivo, creo que influye en mi practica en diseño por el desempeño propio y el uso de herramientas nuevas ya sea GitHub y TouchDesigner.
 
