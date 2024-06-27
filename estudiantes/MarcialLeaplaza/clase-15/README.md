@@ -199,3 +199,16 @@ namespace Test1
 - Solo funciona con Rhino 8.
 - De momento solo se ha probado en windows.
 - Aún no esta 100% funcional.
+
+# Alcances
+
+- A futuro me encantaria poder hacer el plugin compatible con Rhino 7
+- Hacer que el codigo sea mas comprensible y que la gente pueda agregar sus propias funciones al teclado.
+- Mac.
+
+# Estadisticas de proyecto:
+
+- 4 Iteraciones
+- 4 documentaciones
+- 7 clases
+- 999999999999999 litros de cafe.
