@@ -1,6 +1,6 @@
 ## Entrega final - Smart Parking Lot System
 
-* Definición de la temática de investigación:
+*** Definición de la temática de investigación:**
 
 Reducción del tiempo de búsqueda de estacionamiento mediante un sistema inteligente con Arduino. Este sistema recopilará información en tiempo real sobre la disponibilidad de espacios de estacionamiento a través de sensores de movimiento. La información captada se transmitirá a través de un sistema de comunicación que puede ser Wifi o Bluetooth, facilitando a los conductores la localización de espacios libres de manera rápida y eficiente.
 
@@ -13,38 +13,34 @@ En este sistema:
 * El cliente es cualquier dispositivo que se conecta al servidor para ver los datos: Por ejemplo, un teléfono, una tablet o una computadora que accede a la página web alojada por el servidor. Actúa como cliente porque solicita y recibe información del servidor.
 
 
+*** Linea del tiempo:
 
-* Linea del tiempo:
-
-
-Semana 8 (25 de abril)
+- Semana 8 (25 de abril)
 Se eligió el proyecto "Smart Parking Lot System". Se investigaron y definieron materiales disponibles y viables. Se exploraron posibles sistemas como Raspberry Pi y Arduino Nano 33 IoT. Se establecieron los objetivos del proyecto. Idea inicial era que la informacion en tiempo real pasara a una aplicacion, para que los usuarios pudieran usarlo de manera remota cuando buscaban estacionamiento.
 
-Semana 9 (2 de mayo)
+- Semana 9 (2 de mayo)
 No hubo avances significativos (semana de pausa)
 
-Semana 10 (16 de mayo)
+- Semana 10 (16 de mayo)
 Se compraron una tarjeta de desarrollo ESP32 y dos sensores HC-SR04. Se decidió usar Arduino UNO R4 mínima por su potencia y tolerancia de voltaje. Se investigo que para este tipo de proyectos se debia establecer un dispositivo como sensro y otro como servidor, y revise en distintas partes como se podia compartir en tiempo real esta información.
 
-Semana 11 (23 de mayo)
+- Semana 11 (23 de mayo)
 Se descargaron controladores y se configuró Arduino IDE para ESP32. Se instaló el gestor de placas y se visualizó el código en Arduino.
 
-Semana 12 (30 de mayo)
+- Semana 12 (30 de mayo)
 Se entendió la comunicación servidor-cliente con ESP32. Se avanzó en los códigos para conectar el sensor a Arduino y procesar los datos en ESP32.
 
-Semana 13 (6 de junio)
+- Semana 13 (6 de junio)
 Se revisaron trabajos de compañeros y se investigó la transmisión inalámbrica al computador. Se finalizó el código del sensor y se cambió ESP32 por Arduino Nano 33 IoT, y por primera vez se pudo ver como el sensor compartia la información de manera inalambrica a otro dispositiv0.
 
-Semana 14 (13 de junio)
+- Semana 14 (13 de junio)
 Por ultimo, en esta semana lo que se hizo fue corregir errores que tenia codigo como; que cuando se configuro el codigo primeramente con el dispositivo ESP32, este arrojaba una direccion IP, pero cuando se programo el nuevo codigo para Arduino Nano 33 IOT este nuevo codigo no arrojaba la dirección IP por lo que tuve que hacer algunos ajustes en esta parte.
 
 ![IMG_9688](./IMG_9688.MOV)
 
 
 Componentes:
-
-
-
+![Sensor_ultrasonico_HCSR04_1](https://github.com/valetiznado/dis145/assets/164402604/e53b6f71-e754-4e22-b022-9bcd0b7dd59a)
 
 
 * Fuentes y citas:
