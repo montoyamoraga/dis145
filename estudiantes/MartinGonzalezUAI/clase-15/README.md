@@ -38,6 +38,12 @@ Imágenes y Videos de los engranajes
 
 https://github.com/MartinGonzalezUAI/dis145/assets/164402523/3774dbff-2dc2-4174-b46e-383c2dbd6b6a
 
+![nuevoEngranaje](nuevoEngranaje.png)
+
+Video motor paso a paso con potenciómetro
+
+https://github.com/MartinGonzalezUAI/dis145/assets/164402523/3d45b0b7-1673-47f2-80ca-99d3943ae25f
+
 ## Línea Temporal
 
 Semana 8 (25 de abril)
@@ -70,7 +76,7 @@ Semana 13 (6 de junio)
 
 ## Fuentes y Citas
 
-El desarrollo de todo el proyecto es de trabajo personal. 
+Referente para la electronica y código: https://www.youtube.com/watch?v=O2LWTBfQ26s&t=201s
 
 ## Conclusiones de investigación
 
