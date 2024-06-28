@@ -11,7 +11,7 @@ Stay With Me - Miki Matsubara
   
   -Proponer un modelo en cierta forma compacto que contenga el objeto.
   
-  -Revisar la impresión de deste modelo 3d.
+  -Revisar la impresión de este modelo 3d.
 
 2. Bloque 3
 
