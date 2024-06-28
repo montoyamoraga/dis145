@@ -1253,6 +1253,8 @@ void drawEmpty() {
   
 }
 ```
+# Link video final de resultado
+https://youtu.be/Z7cs1x-Pwvo
 
 ### Citas y videos utilizados
 1. Manipular texto, video de referencia utilizado:
