@@ -1,11 +1,12 @@
 **Proyecto Final**
 (Editando)
 
+
 **Idea Inicial y Diagramas**
+![diagrama](https://github.com/nicolebech/dis145/assets/164402586/354a550e-12eb-4c06-b019-e0f1716bfde5)
 
 
-**Código**![IMG_0637](https://github.com/nicolebech/dis145/assets/164402586/4d5a00c6-6d25-4b36-b![diagrama](https://github.com/nicolebech/dis145/assets/164402586/29866ce2-05b9-40ad-80c4-9369b870cbcd)
-b94-20344506331f)
+**Código**
 
 
 ```cpp
