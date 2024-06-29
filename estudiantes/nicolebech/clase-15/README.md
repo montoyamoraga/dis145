@@ -2,6 +2,11 @@
 
 <sub> Entrega Final
 
+
+
+
+
+
 <sub> Diseño y Construcción de Interfaces
 
 <sub> Fecha: Jueves 27/06/2024
@@ -65,6 +70,13 @@ Página: https://www.tinkercad.com/
 
 
 Comencé probando el nuevo lector, ya que nunca había trabajado con él. Aquí noté que cada tarjeta tenía su identificación, por lo que al probar con ejemplos de internet no me iba a funcionar. Logré probarla y que funcionara. Al principio no la detectaba.
+
+https://github.com/nicolebech/dis145/assets/164402586/dd791d23-9d54-425e-8327-07d02abe5251
+
+Adecué los valores para que detectara la tarjeta:
+
+https://github.com/nicolebech/dis145/assets/164402586/4e9f865c-3928-4b85-a5aa-134c4c65282e
+
 
 
 Después hice lo mismo con el servomotor, que si bien alguna vez lo había utilizado no recordaba tan bien. Probé que estuviera funcionando y luego jugué con la configuración de tiempos y grados de apertura. Todo iba bien :)
@@ -156,12 +168,12 @@ void loop() {
 *¿Qué hice bien?*
 - Logré programar correctamente el Arduino para que el lector RFID detectara la tarjeta autorizada y enviara la señal al servomotor. La lógica del código funcionó perfectamente, permitiendo que el servomotor se moviera en la dirección y tiempo estipulados. 
 - Realicé múltiples pruebas para asegurarme de que el sistema respondiera adecuadamente a la detección de la tarjeta RFID.
-- Utilicé comentarios detallados y claros en el código, facilitando su comprensión y mantenimiento.
- Documenté el proceso de desarrollo e incluí esquemas de conexión, explicaciones del código y la lógica detrás de cada paso.
+- Utilicé comentarios claros en el código, facilitando su comprensión y mantenimiento.
+ Documenté el proceso de desarrollo e incluí esquemas de conexión, explicaciones del código y la lógica detrás de los pasos.
 
 *¿Qué hice mal?*
-- No asigné suficiente tiempo para la construcción y ensamblaje de la parte física del alimentador, lo que resultó en la incompletitud de esta etapa del proyecto. Primero quería que fuera en impresión 3D, pero no me convenció el resultado. Finalmente con cartón no pude darle la forma que quería :( 
-Subestimé la cantidad de materiales y herramientas necesarias para la construcción física del alimentador
+- No asigné suficiente tiempo para la construcción y ensamblaje de la parte física del alimentador, lo que resultó en la incompletitud de esta etapa del proyecto. Primero quería que fuera en impresión 3D, pero no me convenció el resultado. Finalmente con cartón no pude darle la forma que quería y por temas de manejo de tiempo no logré lo que quería :(
+Subestimé la cantidad de materiales y herramientas necesarias para la construcción física del alimentador ...
 
 *¿Qué cosas funcionaron?*
 - La comunicación entre el lector RFID, el Arduino y el servomotor fue exitosa y sin interrupciones.
@@ -181,6 +193,9 @@ Creo que quizás podría incorporarle un mecanismo extra para cuando la comida s
 En resumen, aunque no pude completar la parte física del alimentador, el proyecto me proporcionó lecciones sobre la integración de componentes electrónicos, la importancia de una planificación adecuada (sobretodo de la anticipación, ya que nunca hay certeza de lo que puede ocurrir a último momento que quizás no te permita continuar adecuadamente o como lo deseabas). Además destaco la relevancia de necesidad de una buena documentación en el diseño y construcción de interfaces, algo que debo mantener y mejorar en el tiempo en mis proyectos personales porque me cuesta mantener una secuencia histórica o documentación.
 
 ##5. Referentes de la investigación:
-https://blog.adafruit.com/2020/11/30/build-an-automatic-pet-feeder/
-https://all3dp.com/2/arduino-pet-feeder-cat-dog/
-https://circuitdigest.com/microcontroller-projects/automatic-pet-feeder-using-arduino
+- https://blog.adafruit.com/2020/11/30/build-an-automatic-pet-feeder/
+- https://all3dp.com/2/arduino-pet-feeder-cat-dog/
+- https://circuitdigest.com/microcontroller-projects/automatic-pet-feeder-using-arduino
+- https://www.youtube.com/watch?v=5mKtiEf3aRk&ab_channel=Beinspiredtodiscover%28ErickR%29
+- https://www.youtube.com/watch?v=dtejkL8RKRQ&ab_channel=LJElectronicsAndCreations
+  
