@@ -4,8 +4,7 @@
 
 
 **Idea Inicial y Diagramas**
-![Fotomontaje](https://github.com/nicolebech/dis145/assets/164402586/972b91f7-9f08-4003-b08d-c2838c71e709)
-![IMG_0637](https://github.com/nicolebech/dis145/assets/164402586/b7678ddc-6116-4320-a7e0-05b3c5692cac)
+![representacion_idea](https://github.com/nicolebech/dis145/assets/164402586/dcf4d5dc-48e6-423c-bf9c-c50aef22cecd)
 
 
 
