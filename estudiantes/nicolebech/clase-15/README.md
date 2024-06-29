@@ -1,14 +1,36 @@
 **Proyecto Final**
-(Editando)
+
+(EDITANDO)
+
+
+El proyecto consiste en la creación de un mecanismo de alimentación para mascotas que sea controlable por ellos mismos. 
+
+
+_¿Cómo funcionará?_
+
+El sistema usará un lector RFID de tipo llavero, este se encargará de detectar cuando la mascota se acerque a su plato de comida. Luego se comunicará con un servomotor, el cual girará únicamente cuando detecte la presencia de la tarjeta. Se deberá configurar ángulo de giro y tiempos.
+
+_Motivación del proyecto_
+
+Mis gatos (2) son mañosos y solo toman agua directamente de la llave, no en bebedor ni en su pote.
 
 
 
-**Idea Inicial y Diagramas**
+**Idea Inicial y Bosquejos**
 ![representacion_idea](https://github.com/nicolebech/dis145/assets/164402586/dcf4d5dc-48e6-423c-bf9c-c50aef22cecd)
+_Fotomontaje hecho en Adobe Firefly_
 
 
+**Materiales**
+![materialess](https://github.com/nicolebech/dis145/assets/164402586/b85b6444-01fc-4cc0-aa6a-38d4d6ed3dc6)
+_De: https://mcielectronics.cl/_
 
-**Código**
+
+**Diagrama**
+![diagrama](https://github.com/nicolebech/dis145/assets/164402586/6cd452dd-6450-4236-b570-c07b9348d507)
+
+
+**Código y comentarios**
 
 
 ```cpp
