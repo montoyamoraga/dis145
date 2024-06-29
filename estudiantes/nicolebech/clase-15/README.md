@@ -2,8 +2,11 @@
 (Editando)
 
 
+
 **Idea Inicial y Diagramas**
-![diagrama](https://github.com/nicolebech/dis145/assets/164402586/354a550e-12eb-4c06-b019-e0f1716bfde5)
+![Fotomontaje](https://github.com/nicolebech/dis145/assets/164402586/972b91f7-9f08-4003-b08d-c2838c71e709)
+![IMG_0637](https://github.com/nicolebech/dis145/assets/164402586/b7678ddc-6116-4320-a7e0-05b3c5692cac)
+
 
 
 **Código**
