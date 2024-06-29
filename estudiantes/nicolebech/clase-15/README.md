@@ -1,3 +1,13 @@
+**Proyecto Final**
+(Editando)
+
+**Idea Inicial y Diagramas**
+
+
+**Código**![IMG_0637](https://github.com/nicolebech/dis145/assets/164402586/4d5a00c6-6d25-4b36-b![diagrama](https://github.com/nicolebech/dis145/assets/164402586/29866ce2-05b9-40ad-80c4-9369b870cbcd)
+b94-20344506331f)
+
+
 ```cpp
 #include <Servo.h>
 #include <SPI.h>
