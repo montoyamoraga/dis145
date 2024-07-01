@@ -14,7 +14,7 @@ Para ello descarguè una extensiºn en Visual Studio 2022 llamada Grasshopper As
 
 Lamentablemente tengo que irme antes ya que tengo kinesiólogo.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Cambiar a clase 14
 
@@ -34,4 +34,10 @@ Aprovechando, también creo que será importante recordar que los plugins que ha
 
 Luego de todo este lío, finalmente cree mi primer componente en Rhino 8, el cual no hace absolutamente nada, solo existe, igual que yo.
 
-![captura de pantalla de rhino 8](./imagenRhino8.png)
+<img width="605" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/b7b83210-8028-4235-8080-25a13fefeb91">
+
+Luego de estudiar mucho las clases del profesor Long Nguyeng, y con la ayuda de [estas clases](https://youtu.be/wKEyzLfvJH8?si=5JRqHogyNRlKOacH) del canal de youtube [BTT Better than television](https://www.youtube.com/@audio_programming101), logre un avance significativo, ya que por primera vez he detectado el dispositivo MIDI en grasshopper.
+
+<img width="868" alt="image" src="https://github.com/MarcialLeaplaza/dis145/assets/165319963/2ad72225-7cf1-45ef-a11a-c927c2f79a92">
+
+Este es un paso enorme, ya que es la primera vez que logro comunicarr directamente el dispositivo MIDI con grashopper, en este caso solo está detectando y leyendo el nombre del dispositivo, pero finalmente el hielo ya esta roto.
